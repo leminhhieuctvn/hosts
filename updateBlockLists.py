@@ -10,11 +10,14 @@ def download_list(url):
 def parse_list(raw_list):
     lines = raw_list.splitlines()
     filtered_lines = set()
+    
+    # Regex to match lines starting with "!" followed by one or more spaces
+    comment_pattern = re.compile(r'^!\s+')
 
     # Filter out comments and empty lines
     for line in lines:
         stripped_line = line.strip()
-        if stripped_line and not stripped_line.startswith(('#', '!', '[', ']', '/*', '*', '*/')):
+        if stripped_line and not comment_pattern.match(stripped_line):
             filtered_lines.add(stripped_line)
     
     return filtered_lines
@@ -40,14 +43,21 @@ blocklist_urls = [
     ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/privacy.min.txt'),
     ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/quick-fixes.min.txt'),
     ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/unbreak.min.txt'),
-    ('https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/platforms/extension/ublock/filters/2_without_easylist.txt')
+    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/annoyances-cookies.txt'),
+    ('https://easylist.to/easylist/easylist.txt'),
+    ('https://easylist.to/easylist/easyprivacy.txt'),
+    ('https://secure.fanboy.co.nz/fanboy-cookiemonster.txt'),
+    ('https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/platforms/extension/ublock/filters/2_without_easylist.txt'),
+    ('https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/platforms/extension/ublock/filters/3_optimized.txt'),
+    ('https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/platforms/extension/ublock/filters/17_optimized.txt'),
+    ('https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/platforms/extension/ublock/filters/18_optimized.txt')
 ]
 
-whitelist_urls = [
-    ('https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/banks.txt'),
-    ('https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/allowlist.txt'),
-    ('https://raw.githubusercontent.com/leminhhieuctvn/hosts/master/whitelist_custom')
-]
+# whitelist_urls = [
+#     ('https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/banks.txt'),
+#     ('https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/allowlist.txt'),
+#     ('https://raw.githubusercontent.com/leminhhieuctvn/hosts/master/whitelist_custom')
+# ]
 
 # Download blocklists
 blocklists = [download_list(url) for url in blocklist_urls]
@@ -56,13 +66,14 @@ for blocklist in blocklists:
     blocklist_set.update(parse_list(blocklist))
 
 # Download whitelists
-whitelists = [download_list(url) for url in whitelist_urls]
-whitelist_set = set()
-for whitelist in whitelists:
-    whitelist_set.update(parse_list(whitelist))
+# whitelists = [download_list(url) for url in whitelist_urls]
+# whitelist_set = set()
+# for whitelist in whitelists:
+#     whitelist_set.update(parse_list(whitelist))
 
 # Remove whitelisted items from blocklist
-filtered_blocklist_set = blocklist_set - whitelist_set
+# filtered_blocklist_set = blocklist_set - whitelist_set
+filtered_blocklist_set = blocklist_set
 
 # Save filtered blocklist to a single file
 filtered_combined_filename = 'filtered_combined_blocklist.txt'
