@@ -13,7 +13,20 @@ def download_file(url):
         return None
 
 def merge_blocklists(urls, output_file):
-    with open(output_file, 'w', encoding="utf-8") as outfile:
+    with open(output_file, 'w') as outfile:
+        # Add the header lines
+        current_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
+        header_lines = [
+            "[Adblock Plus 2.0]",
+            "! Title: leminhhieuctvn combined list",
+            f"! Last modified: {current_time} UTC",
+            "! Expires: 4 hours (update frequency)",
+            "!"
+        ]
+        for line in header_lines:
+            outfile.write(line + '\n')
+        
+        # Download and append content from each URL
         for url in urls:
             content = download_file(url)
             if content:
