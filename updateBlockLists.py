@@ -39,7 +39,10 @@ blocklist_urls = [
     ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/badware.txt'),
     ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/privacy.min.txt'),
     ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/quick-fixes.txt'),
-    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/unbreak.txt')
+    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/unbreak.txt'),
+    ('https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt'),
+    ('https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt'),
+    ('https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt')
 ]
 
 whitelist_urls = [
