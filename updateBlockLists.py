@@ -1,7 +1,6 @@
 import requests
 import subprocess
-import re
-import os
+from datetime import datetime
 
 def download_file(url):
     try:
