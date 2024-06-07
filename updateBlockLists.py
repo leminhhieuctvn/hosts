@@ -36,16 +36,18 @@ def run_fanboy_sorter(perl_script, input_file):
 blocklist_urls = [
     ('https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_ublock.txt'),
     ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/filters.min.txt'),
-    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/badware.txt'),
+    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/badware.min.txt'),
     ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/privacy.min.txt'),
-    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/quick-fixes.txt'),
-    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/unbreak.txt'),
-    # ('https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt'),
-    ('https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt'),
-
-    # ('https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt'),
-    ('https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.medium.txt'),
-    ('https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt')
+    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/quick-fixes.min.txt'),
+    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/unbreak.min.txt'),
+    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/annoyances-cookies.txt'),
+    ('https://easylist.to/easylist/easylist.txt'),
+    ('https://easylist.to/easylist/easyprivacy.txt'),
+    ('https://easylist.to/easylist/fanboy-cookiemonster.txt'),
+    ('https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/platforms/extension/ublock/filters/2_without_easylist.txt'),
+    ('https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/platforms/extension/ublock/filters/3_optimized.txt'),
+    ('https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/platforms/extension/ublock/filters/17_optimized.txt'),
+    ('https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/platforms/extension/ublock/filters/18_optimized.txt')
 ]
 
 whitelist_urls = [
