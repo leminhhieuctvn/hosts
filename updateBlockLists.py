@@ -34,18 +34,18 @@ def run_fanboy_sorter(perl_script, input_file):
 
 # URLs to download blocklists and whitelists
 blocklist_urls = [
-    'https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_ublock.txt',
-    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt',
-    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt',
-    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt',
-    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/quick-fixes.txt',
-    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt'
+    ('https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_ublock.txt'),
+    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/filters.min.txt'),
+    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/badware.txt'),
+    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/privacy.min.txt'),
+    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/quick-fixes.txt'),
+    ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/unbreak.txt')
 ]
 
 whitelist_urls = [
-    'https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/banks.txt',
-    'https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/allowlist.txt',
-    'https://raw.githubusercontent.com/leminhhieuctvn/hosts/master/whitelist_custom',
+    ('https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/banks.txt'),
+    ('https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/allowlist.txt'),
+    ('https://raw.githubusercontent.com/leminhhieuctvn/hosts/master/whitelist_custom')
 ]
 
 # Download blocklists
