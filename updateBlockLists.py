@@ -1,28 +1,23 @@
 import requests
 import subprocess
 import re
+import os
 
-def download_list(url):
-    response = requests.get(url)
-    response.raise_for_status()
-    return response.text
+def download_file(url):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()  # Check for HTTP errors
+        return response.text
+    except requests.RequestException as e:
+        print(f"Error downloading {url}: {e}")
+        return None
 
-def parse_list(raw_list):
-    lines = raw_list.splitlines()
-    filtered_lines = set()
-
-    # Filter out comments and empty lines
-    for line in lines:
-        stripped_line = line.strip()
-        if stripped_line:
-            filtered_lines.add(stripped_line)
-    
-    return filtered_lines
-
-def save_list(list_set, filename):
-    with open(filename, 'w', encoding='utf-8') as f:
-        for item in sorted(list_set):
-            f.write(item + '\n')
+def merge_blocklists(urls, output_file):
+    with open(output_file, 'w', encoding="utf-8") as outfile:
+        for url in urls:
+            content = download_file(url)
+            if content:
+                outfile.write(content + '\n')
 
 def run_fanboy_sorter(perl_script, input_file):
     command = ['perl', perl_script, input_file]
@@ -32,44 +27,21 @@ def run_fanboy_sorter(perl_script, input_file):
     else:
         print(f"Sorter output: {result.stdout}")
 
-# URLs to download blocklists and whitelists
+# URLs to download blocklists
 blocklist_urls = [
-    ('https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_ublock.txt'),
-    ('https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/filters.min.txt'),
-    ('https://ublockorigin.github.io/uAssetsCDN/filters/badware.min.txt'),
-    ('https://ublockorigin.github.io/uAssetsCDN/filters/privacy.min.txt'),
-    ('https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/quick-fixes.min.txt'),
-    ('https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/unbreak.min.txt'),
-    ('https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easylist.txt'),
-    ('https://filters.adtidy.org/extension/ublock/filters/2_without_easylist.txt'),
-    ('https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easyprivacy.txt')
+    'https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_ublock.txt',
+    'https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/filters.min.txt',
+    'https://ublockorigin.github.io/uAssetsCDN/filters/badware.min.txt',
+    'https://ublockorigin.github.io/uAssetsCDN/filters/privacy.min.txt',
+    'https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/quick-fixes.min.txt',
+    'https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/unbreak.min.txt',
+    'https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easylist.txt',
+    'https://filters.adtidy.org/extension/ublock/filters/2_without_easylist.txt',
+    'https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easyprivacy.txt'
 ]
 
-# whitelist_urls = [
-#     ('https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/banks.txt'),
-#     ('https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/allowlist.txt'),
-#     ('https://raw.githubusercontent.com/leminhhieuctvn/hosts/master/whitelist_custom')
-# ]
-
-# Download blocklists
-blocklists = [download_list(url) for url in blocklist_urls]
-blocklist_set = set()
-for blocklist in blocklists:
-    blocklist_set.update(parse_list(blocklist))
-
-# Download whitelists
-# whitelists = [download_list(url) for url in whitelist_urls]
-# whitelist_set = set()
-# for whitelist in whitelists:
-#     whitelist_set.update(parse_list(whitelist))
-
-# Remove whitelisted items from blocklist
-# filtered_blocklist_set = blocklist_set - whitelist_set
-filtered_blocklist_set = blocklist_set
-
-# Save filtered blocklist to a single file
 filtered_combined_filename = 'filtered_combined_blocklist.txt'
-save_list(filtered_blocklist_set, filtered_combined_filename)
+merge_blocklists(blocklist_urls, filtered_combined_filename)
 
 perl_script = 'sorter.pl'
 run_fanboy_sorter(perl_script, filtered_combined_filename)
