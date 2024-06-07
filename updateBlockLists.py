@@ -41,7 +41,7 @@ blocklist_urls = [
     ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/quick-fixes.min.txt'),
     ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/unbreak.min.txt'),
     ('https://raw.githubusercontent.com/uBlockOrigin/uAssets/gh-pages/filters/annoyances-cookies.txt'),
-    ('https://easylist.to/easylist/easylist.txt'),
+    # ('https://easylist.to/easylist/easylist.txt'),
     ('https://easylist.to/easylist/easyprivacy.txt'),
     ('https://secure.fanboy.co.nz/fanboy-cookiemonster.txt'),
     ('https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/platforms/extension/ublock/filters/2_without_easylist.txt'),
