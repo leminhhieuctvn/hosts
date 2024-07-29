@@ -11,6 +11,11 @@ def download_file(url):
         print(f"Error downloading {url}: {e}")
         return None
 
+def filter_lines(content):
+    lines = content.splitlines()
+    filtered_lines = [line for line in lines if not (line.startswith("[Adblock Plus 2.0]") or line.startswith("!"))]
+    return '\n'.join(filtered_lines)
+
 def merge_blocklists(urls, output_file):
     with open(output_file, 'w') as outfile:
         # Add the header lines
@@ -18,9 +23,10 @@ def merge_blocklists(urls, output_file):
         header_lines = [
             "[Adblock Plus 2.0]",
             "! Title: leminhhieuctvn combined list",
+            "! Version: lastest",
             f"! Last modified: {current_time} UTC",
             "! Expires: 4 hours (update frequency)",
-            "!"
+            "!"           
         ]
         for line in header_lines:
             outfile.write(line + '\n')
@@ -29,7 +35,8 @@ def merge_blocklists(urls, output_file):
         for url in urls:
             content = download_file(url)
             if content:
-                outfile.write(content + '\n')
+                filtered_lines = filter_lines(content)
+                outfile.write(filtered_lines + '\n')
 
 def run_fanboy_sorter(perl_script, input_file):
     command = ['perl', perl_script, input_file]
