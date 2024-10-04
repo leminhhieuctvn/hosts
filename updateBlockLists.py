@@ -57,7 +57,7 @@ blocklist_urls = [
     'https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easylist.txt',
     'https://filters.adtidy.org/extension/ublock/filters/2_without_easylist.txt',
     'https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easyprivacy.txt',
-    'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts',
+    'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts',
     'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.mini.txt',
     'https://badmojr.github.io/1Hosts/Pro/adblock.txt'
 ]
