@@ -45,7 +45,7 @@ jobs:
         with:
           add: |
             hosts
-            leminhhieuctvn_ublock.txt
+            ublock-leminhhieuctvn.txt
           author_name: ${{ github.actor }}
           author_email: "${{ github.actor }}@users.noreply.github.com"
           message: 'Cập nhật bộ lọc: ${{ env.DATE }}'
