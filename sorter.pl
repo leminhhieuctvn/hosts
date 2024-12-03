@@ -34,6 +34,6 @@ output $current, $fhOut;
 close $fhOut;
 close $fh;
 
-my $ublockFn = "leminhhieuctvn_ublock.txt";
+my $ublockFn = "ublock-leminhhieuctvn.txt";
 copy($outFn, $ublockFn) or die "Copy failed: $!";
 print "File successfully copied to $ublockFn\n";
