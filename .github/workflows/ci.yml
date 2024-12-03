@@ -6,35 +6,47 @@ on:
       - master
       - "!dependabot/**"
   schedule:
-    - cron: "0 */4 * * *"
-  workflow_dispatch:
+    - cron: "0 */4 * * *"  # Run every 4 hours
+  workflow_dispatch:  # Manual trigger
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
+      # Step 1: Clone the repository
       - name: Clone repository
         uses: actions/checkout@v4
 
+      # Step 2: Install Python dependencies
       - name: Install Python dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
+      # Step 3: Install Perl and required modules
       - uses: shogo82148/actions-setup-perl@v1
         with:
           perl-version: '5.38'
           install-modules: |
             Path::Tiny
 
+      # Step 4: Run updateBlockLists script
       - name: Run updateBlockLists
         run: python updateBlockLists.py
-        
+
+      # Step 5: Generate date and time for commit message
       - name: Generate date and time
-        run: echo "DATE=$(date '+%F %T')" >> $GITHUB_ENV
-        
+        run: echo "DATE=$(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+
+      # Step 6: Commit and push updates
       - name: Commit filters
         uses: EndBug/add-and-commit@v9.1.4
         with:
-          add: 'hosts'
-          default_author: github_actor 
+          add: |
+            hosts
+            leminhhieuctvn-ublock.txt
+          author_name: ${{ github.actor }}
+          author_email: "${{ github.actor }}@users.noreply.github.com"
           message: 'Cập nhật bộ lọc: ${{ env.DATE }}'
           push: true
