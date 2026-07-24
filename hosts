@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-07-24 10:15:47 UTC
+! Last modified: 2026-07-24 13:43:56 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -41113,7 +41113,7 @@ dts24.pl##:is(.elementor-size-small, .elementor-size-default):contains(/^Reklama
 dts24.pl##a.gofollow[data-track]
 dualeotruyenvt.com##+js(acs, document.addEventListener, popunder)
 dualeotruyenvt.com##[id$="bnr"]
-dualeotruyenvt.com,phimsex365.net,cliphot69.click,doctruyen3qhub3.com,qmanga.art,hentaivkl.pro,buomtv.baby,truyenvn.sbs,javtiful.com,quatvn.asia,phimsexhayvne.com,phim18hd.site,sexviet88.org.uk,sexmupxinh.net,demo.14412882.com,hhtq5.vip,xvideos.xemvl.xxx,umetruyenz.org,damconuong.store,truyenqqko.com,phimsexsuong3x.net,sayhentai.cx,lxmanga.space,phimlongtieng.net,www.sieutamphim.pro,vevocloud.com,xinh3x.it.com,viet69.be,viet69vn.at,misskon.com,luottruyen13.com##+js(acs, WebAssembly, instantiate)
+dualeotruyenvt.com,xphim69.net,cliphot69.click,doctruyen3qhub3.com,qmanga.art,hentaivkl.pro,buomtv.baby,truyenvn.sbs,javtiful.com,quatvn.asia,phimsexhayvne.com,phim18hd.site,sexviet88.org.uk,sexmupxinh.net,demo.14412882.com,hhtq5.vip,xvideos.xemvl.xxx,umetruyenz.org,damconuong.store,truyenqqko.com,phimsexsuong3x.net,sayhentai.cx,lxmanga.space,phimlongtieng.net,www.sieutamphim.pro,vevocloud.com,xinh3x.it.com,viet69.be,viet69vn.at,misskon.com,luottruyen13.com##+js(acs, WebAssembly, instantiate)
 dubaotiente.net##.ad-pin-right-bottom
 dublaj.az###sidebar > .row > .col-sm-12 > .sidebar-widget:has(> .widget-head > h4.title:contains(Reklam))
 dublaj.az##.bn-lg-sidebar:has(> .row > div[id^="yandex_rtb"])
@@ -65478,7 +65478,6 @@ phimmoichillz.top###preload
 phimnhe.net###pc-ballon-left
 phimnhe.net###pc-catfix
 phimnhe.net##+js(abort-current-script, createCookie, popurl)
-phimsex365.net,sexmupxinh.net,xemsexhihi.xyz##.xx-ads
 phimsexjavhd.com##+js(acs, window.addEventListener, Ads)
 phimsexsuong3x.net,xemsexhihi.xyz,javhdz.video,laalmirchitakeaway.co.uk##.catfish-bottom
 phimtho.cc#%#//scriptlet("abort-current-inline-script", "$", "p0pUpRandom")
@@ -85505,6 +85504,7 @@ xpaja.net###advertisement
 xpaja.net##+js(acs, String.fromCharCode, atob)
 xperiablog.net,burningangel.com#@#.header-ad
 xpgamesaves.com##.discussionListItems > li.samListItem:not([id^="thread-"])
+xphim69.net,sexmupxinh.net,xemsexhihi.xyz##.xx-ads
 xpics.me##.frequently
 xpics.me##.future
 xpicse.com##li[style^="width: 320px; height: 250px; text-align: center;"]
@@ -86056,6 +86056,7 @@ yesmovies.*>>,~vvid30c.*##+js(nostif, afterOpen)
 yesmovies.mn,dopebox.to,fmoviesto.cc,movies2watch.tv,myflixer.to###gift-top
 yesnetwork.com###sponsored-takeover-container > .header-stats
 yesporn.org,yesporn.top,yesporn1.cc##.player + div
+yesporn.vip##+js(addEventListener-defuser, /click|mousedown/, openPopunder)
 yesporn.vip##.header-inner > a:not([href^="https://yesporn.vip/"], [href="https://t.me/+xf80qlGHH_9kNWY0"])
 yespornplease.com##div[class^="col-"] > .well:not([class*=" "])
 yespornpleasexxx.com##+js(abort-on-property-write, i7oo)
@@ -143178,8 +143179,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||quokkasgraf.com^
 ||quonsettarish.qpon^
 ||quora.com/ads/
-||quoracdn.net^$image,domain=phimsex365.net|phim18vip.site|pheclip.fit|sexmupxinh.net|xemsexhihi.xyz|phevl.top|fulllivehot.co|haysexvn.shop|chichvn.men|viet69hay.pics
 ||quoracdn.net^$image,domain=www.1phim15.com|phimlongtieng.net
+||quoracdn.net^$image,domain=xphim69.net|phim18vip.site|pheclip.fit|sexmupxinh.net|xemsexhihi.xyz|phevl.top|fulllivehot.co|haysexvn.shop|chichvn.men|viet69hay.pics
 ||quorsukey.cyou^
 ||quorumsfinesse.cfd^
 ||quotationgambling.com^
@@ -332673,8 +332674,6 @@ ff02::3 ip6-allhosts
 ||368d6e05217eb6f61dfe015fe3df070e.com^
 ||36903.cfd^
 ||369232.cfd^
-||369facebook.com^
-||369facebook.online^
 ||36aace64ecc53e16.com^
 ||36b06f0437fb02390348cbfcb9a06742.net^
 ||36crazyfists.net^
@@ -340311,6 +340310,7 @@ ff02::3 ip6-allhosts
 ||amoufoughi.com^
 ||amourplace.jp^
 ||amoviemedia.com^
+||amoxycillin1st.com^
 ||amp-error-issue-bot.uc.r.appspot.com^
 ||amp.vg^
 ||ampcid.google.ca^
@@ -342339,6 +342339,7 @@ ff02::3 ip6-allhosts
 ||api.developer.xiaomi.com^
 ||api.device.xiaomi.net^
 ||api.dewmobile.net^
+||api.didomi.io^
 ||api.distribution.hulu.com^
 ||api.drift.com^
 ||api.e-pfg.ca^
@@ -346391,6 +346392,7 @@ ff02::3 ip6-allhosts
 ||blog.collarity.com^
 ||blog.dciconsult.com^
 ||blog.dcmn.com^
+||blog.didomi.io^
 ||blog.digistorm.com^
 ||blog.diversitynursing.com^
 ||blog.dojomojo.ninja^
@@ -352069,7 +352071,6 @@ ff02::3 ip6-allhosts
 ||com-icloud.in^
 ||com-id321257.help^
 ||com-id839272.com^
-||com-idevices.support^
 ||com-idinfo.com^
 ||com-idlive.com^
 ||com-ifound.us^
@@ -352182,7 +352183,6 @@ ff02::3 ip6-allhosts
 ||com-neuromindpro.com^
 ||com-newsarticle.life^
 ||com-newsarticle.today^
-||com-newsreport.online^
 ||com-nexus-hub.shop^
 ||com-nexus.shop^
 ||com-nnoo.asia^
@@ -352332,7 +352332,6 @@ ff02::3 ip6-allhosts
 ||com-store-shop.ru^
 ||com-storm.biz^
 ||com-storm.shop^
-||com-story.online^
 ||com-stream.shop^
 ||com-super-hub.shop^
 ||com-super.biz^
@@ -354556,6 +354555,7 @@ ff02::3 ip6-allhosts
 ||d682fe4b7ca061b4.com^
 ||d6c855eb27db.top^
 ||d6dc5c0cc1c4.top^
+||d6odox96rf.com^
 ||d6rak4b14t5gp.cloudfront.net^
 ||d6y6etzkk.com^
 ||d6z72aalekwc3.cloudfront.net^
@@ -355569,7 +355569,6 @@ ff02::3 ip6-allhosts
 ||deepseekjinriyucetuijianpaiwu.com.cn^
 ||deepseekweb.com.cn^
 ||deepseekyucezuqiusaishi68.com.cn^
-||deepsnitch.ai^
 ||deepweblinks.live^
 ||deepweblinks.net^
 ||deepwebsiteslinks.com^
@@ -355841,6 +355840,7 @@ ff02::3 ip6-allhosts
 ||developdomicile.com^
 ||developerledger.com^
 ||developermedia.com^
+||developers.didomi.io^
 ||developledger.xyz^
 ||developmasters.com^
 ||deverellsmith.com^
@@ -356096,7 +356096,6 @@ ff02::3 ip6-allhosts
 ||dhlrdj5e.cfd^
 ||dhlripann.icu^
 ||dhlroma.net^
-||dhlrq2mdb3sg3hkjtmdfnleb8m7pkfsa.top^
 ||dhlrqvrr.cfd^
 ||dhlsdh1213jj.homes^
 ||dhlsdh1213jj.qpon^
@@ -356190,7 +356189,6 @@ ff02::3 ip6-allhosts
 ||didledgerapi.xyz^
 ||didna.b-cdn.net^
 ||didna.io^
-||didomi.io^
 ||didspack.com^
 ||didtal.com^
 ||didymlanaz.shop^
@@ -356576,6 +356574,7 @@ ff02::3 ip6-allhosts
 ||djekxa.ru^
 ||djeshwxzsiz.biz^
 ||djgmkfiouqll.com^
+||djname.info^
 ||djnf6e5yyirys.cloudfront.net^
 ||djpcraze.com^
 ||djsalcbhew47.lol^
@@ -357107,6 +357106,7 @@ ff02::3 ip6-allhosts
 ||dpuplet.com^
 ||dpuplet.net^
 ||dpuppers.com^
+||dpvrwzuftfajb.website^
 ||dpvyw6trk.com^
 ||dpzxvnldnfx.com^
 ||dq6la3mb.com^
@@ -370511,7 +370511,6 @@ ff02::3 ip6-allhosts
 ||kejet.net^
 ||kekius-maximus.org^
 ||kektds.com^
-||kelascinta.com^
 ||kelbrant.online^
 ||keld-digitholm-app.com^
 ||keld-digitholm-pl.click^
@@ -370881,7 +370880,6 @@ ff02::3 ip6-allhosts
 ||klik.zeus.fun^
 ||klik4.me^
 ||klikajadeh.com^
-||klikanggaran.com^
 ||klikivabrik.ee^
 ||klimawelts.com^
 ||klinklan.us^
@@ -378858,6 +378856,7 @@ ff02::3 ip6-allhosts
 ||mulismvorpal.cfd^
 ||mullers-modehaus.com^
 ||mullersalzburg.com^
+||mulmsmallen.cfd^
 ||multi-az-ulog.gifshow.com^
 ||multi-az-ulog.ksapisrv.com^
 ||multi-feeds.com^
@@ -380002,6 +380001,7 @@ ff02::3 ip6-allhosts
 ||neuvemarkvere-tech.digital^
 ||neuvemarkveresoft.com^
 ||neuwo.ai^
+||nevalyashka.link^
 ||never2never.com^
 ||neverledger.xyz^
 ||new-analytics-production.threshold360.com^
@@ -380986,6 +380986,7 @@ ff02::3 ip6-allhosts
 ||nulreceptapotheek.com^
 ||numarapaneli.com^
 ||numateepee.shop^
+||numb-definition.pro^
 ||numbate.com^
 ||numbers.md^
 ||numerino.cz^
@@ -381119,6 +381120,7 @@ ff02::3 ip6-allhosts
 ||o2o.api.xiaomi.com^
 ||o2o.to^
 ||o333o.com^
+||o3pkvt1w6283gxm2p72qhvb6g.cfd^
 ||o4uxrk33.com^
 ||o6z2a2kq8fatj3ch0x5ow6v82ha2gja8x8c7w6pc5gx2ls0zia7bx1n28b5d.com^
 ||o7labs.top^
@@ -381441,6 +381443,7 @@ ff02::3 ip6-allhosts
 ||officialplenty.com^
 ||officialrebrand.shop^
 ||officials-kmspico.com^
+||officialvillage.pro^
 ||offie-wps.com.cn^
 ||offline-pkg-api.wshareit.com^
 ||offline.toc.shopeemobile.com^
@@ -385932,6 +385935,7 @@ ff02::3 ip6-allhosts
 ||privacy-pc.com^
 ||privacy-sdk.talent-soft.com^
 ||privacy.advancelocal.com^
+||privacy.didomi.io^
 ||privacy.hi-media.com^
 ||privacy.polskapress.pl^
 ||privacy.travelodge.co.uk^
@@ -388458,7 +388462,6 @@ ff02::3 ip6-allhosts
 ||rechenschieber.transfermarkt.es^
 ||rechenschieber.transfermarkt.it^
 ||rechenschieber.transfermarkt.us^
-||rechnung-27072026.online^
 ||rechnung-abgelehnt.com^
 ||rechnung-abruf.click^
 ||rechnung-abruf.link^
@@ -392828,7 +392831,6 @@ ff02::3 ip6-allhosts
 ||sextracker.com^
 ||sextracker.de^
 ||sextubeweb.com^
-||sexu.com^
 ||sexxdate.net^
 ||sexy-egirls-leaked.com^
 ||sexy-more.com^
@@ -395968,6 +395970,7 @@ ff02::3 ip6-allhosts
 ||spotad.co^
 ||spoteffects.net^
 ||spotify-france.com^
+||spotify-web-player-clone.webflow.io^
 ||spotimax.com^
 ||spotlersearchanalytics.com^
 ||spotlight.accuweather.com^
@@ -397813,6 +397816,7 @@ ff02::3 ip6-allhosts
 ||support-widget.userlocal.jp^
 ||support.a8.net^
 ||support.appsflyer.com^
+||support.didomi.io^
 ||support.panasonic.eu^
 ||support0.bigo.sg^
 ||supportcontactcoinbase.com^
@@ -399192,7 +399196,6 @@ ff02::3 ip6-allhosts
 ||techkou.net^
 ||techktimes.co.uk^
 ||techlab-cdn.com^
-||techledger.app^
 ||techledgeraccounting.net^
 ||techledgerarcs.org^
 ||techlevelbusiness.com^
@@ -402767,6 +402770,7 @@ ff02::3 ip6-allhosts
 ||u566.chron.com^
 ||u578.wlwt.com^
 ||u6.gg^
+||u67qpnaexu.com^
 ||u7u9.com^
 ||u7x.cn^
 ||u88.cn^
@@ -403456,6 +403460,7 @@ ff02::3 ip6-allhosts
 ||unjfhsdntducr.website^
 ||unjustsubmerge.com^
 ||unkemptbirth.com^
+||unkeyedstoped.shop^
 ||unknownidea.com^
 ||unlameostyakcowhorn.cfd^
 ||unlawful-judgment.com^
@@ -411552,6 +411557,7 @@ ff02::3 ip6-allhosts
 ||zenturaaipro.com^
 ||zenturaki-de.live^
 ||zenturaki.live^
+||zenturaki.net^
 ||zenvuedigital.com^
 ||zeonixedge-de.live^
 ||zeonixedge.live^
