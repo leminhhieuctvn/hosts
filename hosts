@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-07-25 09:46:24 UTC
+! Last modified: 2026-07-25 13:24:29 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -15571,7 +15571,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *.gif$domain=visionias.net,image
 *.gif$domain=ytlarge.com
 *.gif$image,3p,domain=madoohd.com
-*.gif$image,domain=cimanow.cc,redirect=1x1.gif
 *.gif$image,domain=hentaifreak.org
 *.gif$image,domain=stream1688.com
 *.gif$image,redirect=1x1.gif,domain=holybooks.com,important
@@ -22696,7 +22695,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||chuppito.fr^$ghide
 @@||chycor.co.uk/cms/advert_search_thumb.php$image,domain=chycor.co.uk
 @@||cibng.ibanking-services.com^$cname
-@@||cimanow.cc^$ghide
 @@||cimanow.cc^$script,1p
 @@||cinehax.com^$ghide
 @@||cinehd.app^$generichide
@@ -36509,18 +36507,17 @@ ciiradio.com,hapskorea.com##[height="300"]
 cima4u.forum##+js(rmnt, script, popup)
 cimanow.*,cnvids.com###ad
 cimanow.cc##+js(aopr, navigator.brave)
-cimanow.cc##+js(aost, document.querySelector, /(?=^(?!.*(cdn-cgi)))/)
 cimanow.cc##+js(no-fetch-if, url:doubleclick.net, war:googletagservices_gpt.js)
 cimanow.cc##+js(no-xhr-if, criteo)
 cimanow.cc##+js(set, HTMLImageElement.prototype.onerror, undefined)
-cimanow.cc##[href*="blockID"]
+cimanow.cc##[href*="blockID"]:style(clip-path: circle(0) !important;)
 cimanow.cc##main > a[id][target="_blank"]
 cimanow.cc##section[aria-label="details"] a[id][target="_blank"]
 cimanow.cc##section[aria-label="details"] a[id][target="_blank"]
 cimanow.cc,freex2line.online##+js(acs, document.createElement, globalThis)
+cimanow.cc,freex2line.online##+js(norafif, ++)
 cimanow.cc,freex2line.online##+js(trusted-suppress-native-method, fetch, '"flashtalking"')
 cimanow.cc,freex2line.onlinex##+js(no-fetch-if, googlesyndication)
-cimanow.online##+js(ra, href, [target="_blank"], stay)
 cinafoniaci.com##.tm-sidebar-b > .uk-panel > center > a[href][target="_blank"] > img
 cinafoniaci.com##.tm-sidebar-b > .uk-panel > center:has(> a[href][target="_blank"] > img)
 cine-calidad.*##+js(aeld, click, allclick_Public)
@@ -45896,13 +45893,16 @@ freewp.io##+js(no-xhr-if, /^/)
 freewsad.com##+js(no-fetch-if, googlesyndication)
 freewsad.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 freewsad.com##+js(set-local-storage-item, email, true)
+freex2line.online##+js(aeld, click, triggered)
+freex2line.online##+js(aeld, popstate)
 freex2line.online##+js(no-fetch-if, url:doubleclick.net, war:googletagservices_gpt.js)
 freex2line.online##+js(no-setInterval-if, =Date[)
 freex2line.online##+js(no-xhr-if, tpc.googlesyndication.com, war:32x32.png)
 freex2line.online##+js(remove-attr, aria-label, main > section[aria-label])
 freex2line.online##+js(remove-node-text, script, /throw new Error\(\);/)
-freex2line.online##a[href*="/jump/next.php?r="]
-freex2line.online##body >a[id][href][target^="_blank"]
+freex2line.online##.adsbygoogle
+freex2line.online##a[href*="/jump/next.php?r="]:style(clip-path: circle(0) !important;)
+freex2line.online##body > a[id][href][target^="_blank"]:style(clip-path: circle(0) !important;)
 freex2line.online,cimanow.cc,cimanow.*##+js(set-constant, zJSYdQ, true)
 freex2line.online,cimanow.cc,cimanow.*##body > a[target="_blank"]
 freexcafe.com###banner
@@ -145430,6 +145430,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||rlusaglqgblxw.website^
 ||rlwttnzdgmirv.site^
 ||rlzxejmnaxkht.website^
+||rm.freex2line.online/*.js|$domain=cimanow.cc
 ||rm358.com^
 ||rm358.com^$document
 ||rm358.com^$popup
@@ -159441,6 +159442,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||viikuhhs.com^$popup
 ||viiokavr.com^
 ||viiqkzqv.com^
+||viiukuhe.com^
 ||viiuwecw.com^
 ||viiwgrhk.com^
 ||viixdjse.com^
