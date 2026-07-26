@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-07-26 09:58:40 UTC
+! Last modified: 2026-07-26 13:21:17 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -53973,7 +53973,7 @@ jejakpiknik.com###footer_sticky
 jellynote.com##+js(nostif, byepopup, 5000)
 jelonka.com##+js(abort-current-script, document.createElement, ad-banner)
 jelonka.com##+js(abort-on-stack-trace, Node.prototype.appendChild, detectAdBlock)
-jelonka.com##+js(rmnt, script, div.offsetHeight)
+jelonka.com##.ad-area
 jelonka.com##.adsbygoogle
 jelonka.com##.kontener-reklam
 jelonka.com##.kontener-reklam
@@ -65477,7 +65477,7 @@ phimmoichillz.top###preload
 phimnhe.net###pc-ballon-left
 phimnhe.net###pc-catfix
 phimnhe.net##+js(abort-current-script, createCookie, popurl)
-phimsexhd69.com##+js(acs, window.addEventListener, Ads)
+phimsexcom.com##+js(acs, window.addEventListener, Ads)
 phimsexsuong3x.net,xemsexhihi.me,javhdz.meme,laalmirchitakeaway.co.uk##.catfish-bottom
 phimtho.cc#%#//scriptlet("abort-current-inline-script", "$", "p0pUpRandom")
 phineypet.com###content > form[id]:has(> center > button):style(display: block !important;)
@@ -75330,7 +75330,10 @@ suntory.co.jp#@##page_ad
 super-ethanol.com##+js(nosiif, visibility, 1000)
 super.cz###adPlachtaStart-1 + div[style]
 super.cz###adSkyscraperStart-1 + div[style]
+super.cz##+js(rmnt, script, /AdTop|customElements/)
 super.cz##+js(set-constant, Object.prototype._advertState, true)
+super.cz##.ogm-branding-advert
+super.cz##.ogm-branding-advert + div:has(.js-ad)
 super.cz#@#+js(acis, String.fromCharCode)
 superbestaudiofriends.org##div.sidebar > div[style^="text-align:"]:has(> a[href^="http://bit.ly/"])
 supercarblondie.com##.h-\[660px\]
@@ -125240,6 +125243,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||jellyfish.therapieplatz-finden.de^
 ||jelonka.com/reklamy/track/impressions/
 ||jelonka.com/static/jelonka/js/news-ad-access-gate.js
+||jelonka.com/static/jelonka/js/news-ad-access-gate.js
 ||jemadebvhndzn.space^
 ||jemi.so/correo-24-ar^$all
 ||jen8hf15cfe82cg12g21nnfiy.cfd^
@@ -139516,8 +139520,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||phimmoichillz.top/pop$image
 ||phimmoichillz.top^*.gif$image
 ||phimmoisz.org/wp-content/uploads/tvc/*.xml
+||phimsexcom.com^*.gif$image
 ||phimsexhayvne.com^*.gif$image
-||phimsexhd69.com^*.gif$image
 ||phimsexsuong3x.net^*.gif$image
 ||phineypet.com/2x.png
 ||phineypet.com/2x.png
