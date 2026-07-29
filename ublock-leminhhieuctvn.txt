@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-07-29 14:08:24 UTC
+! Last modified: 2026-07-29 17:13:42 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -79411,7 +79411,6 @@ trendhunter.com##[data-ev="sidebar-ad-click"]
 trendsales.dk##.top__banner
 trendsderzukunft.de##+js(aopr, onload)
 trendsderzukunft.de,gal-dem.com,lostineu.eu,oggitreviso.it,speisekarte.de,mixed.de##+js(nostif, Delay)
-trendyol.com##+js(remove-cookie, /anonUserId|pid|sid/)
 trendyol.com,trendyol-milla.com##+js(set, process, {})
 trendyol.com,trendyol-milla.com##+js(set, process.env, {})
 trendyporn.com##.container > div.row:has(> div a[href^="//ptosrd.com/"])
