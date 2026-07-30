@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-07-30 13:59:43 UTC
+! Last modified: 2026-07-30 17:26:02 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -32323,6 +32323,7 @@ axios.com##div[data-theme="core"] > div.flex:has(> div.apexAd)
 axn-asia.com,onetvasia.com##.pane-dart-dart-tag-300x250-rectangle
 axsam.az##.adsbymahimeta
 aylink.co##+js(rmnt, script, toast)
+aylink.co##.media-panel
 aylink.co##.sweet-alert
 aylink.co##.sweet-overlay
 aylink.co##[href^="https://aylink.co/smart/click.php"]
@@ -55942,7 +55943,6 @@ learn.javascript.ru#@#img[width="240"][height="400"]
 learnclax.com##+js(acs, $, fetch)
 learngeom.com###adblockbyspider:style(display: none !important;)
 learngeom.com##body:style(overflow: auto !important;)
-learngerman.dw.com,jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"])
 learnpython.org###google-ad-right > iframe
 learnweb.top##+js(no-xhr-if, /(showAds|ads?\.min)\.js/)
 leba24.info##.advertizing-slots
@@ -62936,6 +62936,7 @@ noovo.info##.b-ads-custom
 nopixeljaps.com,preggoporn.tv,tinydicktube.com##.hidePauseAdZone
 nopixeljaps.com,preggoporn.tv,tinydicktube.com##.video-list-ads
 noqreport.com#@#[href^="https://noqreport.com/"] > img
+nordicsemi.com,learngerman.dw.com,jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"]):not(.cell-container)
 nordot.app##.main__ad
 nordschleswiger.dk##.TopAdvertising-Content-Wrapper
 nordstrom.com###sponsored-carousel-sponsored-carousel
