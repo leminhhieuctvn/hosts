@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-07-31 02:46:54 UTC
+! Last modified: 2026-07-31 06:42:55 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -31248,8 +31248,6 @@ aquareader.net##.body-wrap > div.c-sidebar.c-top-sidebar
 aquariumgays.com##+js(acs, eval, replace)
 aquariumgays.com##+js(aopr, _cpp)
 aquarius-horoscopes.com,cancer-horoscopes.com,dubipc.blogspot.com,echoes.gr,engel-horoskop.de,freegames44.com,fuerzasarmadas.eu,gemini-horoscopes.com,jurukunci.net,krebs-horoskop.com,leo-horoscopes.com,maliekrani.com,nklinks.click,ourenseando.es,pisces-horoscopes.com,radio-en-direct.fr,sagittarius-horoscopes.com,scorpio-horoscopes.com,singlehoroskop-loewe.de,skat-karten.de,skorpion-horoskop.com,taurus-horoscopes.com,the1security.com,virgo-horoscopes.com,zonamarela.blogspot.com##+js(nostif, displayMessage, 2000)
-aquilonegiocattoli.com###popup-ad-box
-aquilonegiocattoli.com##.banner-ad
 aquipelis.*##+js(aopw, smrtSB)
 aquipelis.*##+js(aopw, smrtSP)
 aquipelis.net##[class^="adsbutt"]
@@ -36562,6 +36560,8 @@ cimanow.cc,freex2line.online##+js(trusted-suppress-native-method, fetch, '"flash
 cimanow.cc,freex2line.onlinex##+js(no-fetch-if, googlesyndication)
 cinafoniaci.com##.tm-sidebar-b > .uk-panel > center > a[href][target="_blank"] > img
 cinafoniaci.com##.tm-sidebar-b > .uk-panel > center:has(> a[href][target="_blank"] > img)
+cincinnati.com##.page-main-content-container > .primary:style(width: 100% !important; max-width: 100% !important;)
+cincinnati.com##.page-main-content-container > .secondary
 cine-calidad.*##+js(aeld, click, allclick_Public)
 cine-calidad.*##+js(aopw, adcashMacros)
 cine-calidad.*##+js(ra, href, #opfk)
@@ -38058,6 +38058,11 @@ coub.com##.viewer__das
 coub.com##.viewer__sad
 coub.com##div[adfox-featured-banner]
 couchtuner.*##+js(acs, RegExp, 0x)
+coucounews.com##.aceplanet-coupang-banner
+coucounews.com##.post-contents > div.text-left > p > div[style="display: flex; justify-content: center; overflow: hidden;"]
+coucounews.com##div[class$="continue_coupang"] div.mb-4.text-center:has(> img.inline-block[loading="lazy"][alt^="_"][src^="https://cdn.zigcou.com/"])
+coucounews.com##div[class$="continue_coupang"] div.mb-4.text-center:has(> img.inline-block[loading="lazy"][alt^="_"][src^="https://cdn.zigcou.com/"]) + div.cursor-pointer
+coucounews.com##main > div.px-2 > div:not([class]):not([style]) > div.text-left > div.grid > div:has(a[href^="https://blog.naver.com/byolla/"])
 counselheal.com,mobilenapps.com###vplayer_large
 counter.dev,lindaikejisblog.com##.da
 counterpunch.org##.header-center
@@ -38448,7 +38453,6 @@ crypto4yu.com##+js(nostif, _0x)
 crypto4yu.com,manofadan.com##+js(acs, addEventListener, ads)
 cryptobriefing.com##.ad-sticky-banner
 cryptobriefing.com##.na-item.item
-cryptobriefing.com,huskers.com,rule34-videos.com,gifyu.com,topperlearning.com,aap.org,bbcgoodfood.com,gardenersworld.com,historyextra.com,ndtv.com##.ad-banner
 cryptoclicks.net##+js(acs, fetch, adblock)
 cryptocompare.com##.front-page-info-wrapper
 cryptocompare.com##.item-special
@@ -55777,6 +55781,7 @@ latestleaks.co##a[href^="https://k2s.cc/pr/"]
 latestly.com###main_top_ad
 latestly.com##.lhs_adv_970x90_div
 latestly.com##div[style^="min-width: 300px; min-height: 250px;"]
+latestly.com,cryptobriefing.com,huskers.com,rule34-videos.com,gifyu.com,topperlearning.com,aap.org,bbcgoodfood.com,gardenersworld.com,historyextra.com,ndtv.com##.ad-banner
 latestmanga.net##+js(abort-on-property-write, onClickTrigger)
 latestpornvideo.com##iframe[src^="https://willingcease.com/"]
 latimes.com##+js(nostif, f.parentNode.removeChild(f), 100)
@@ -56752,6 +56757,8 @@ litonmods.com##+js(no-fetch-if, googlesyndication)
 litonmods.com##+js(noeval-if, adsbygoogle)
 littlebigsnake.com##+js(set, ADS.isBannersEnabled, false)
 littlebigsnake.com##+js(trusted-set, ADS.STATUS_ERROR, json:"COMPLETE")
+littlehandsservices.com###popup-ad-box
+littlehandsservices.com##.banner-ad
 litv.tv##+js(trusted-json-edit-fetch-response, .result.PlayAds=false, propsToMatch, /api/get-urls)
 livability.com##.full-width-off-white
 livability.com##.wp-block-jci-ad-area-two
@@ -92859,7 +92866,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ads.betfair.com^
 ||ads.betweendigital.com^
 ||ads.bidspotter.co.uk^
-||ads.bizwd.net^$image,domain=aquilonegiocattoli.com
+||ads.bizwd.net^$image,domain=littlehandsservices.com
 ||ads.cavalier-romand.ch^
 ||ads.cc^$third-party
 ||ads.cdn.bndlapi.com^
@@ -105296,6 +105303,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||coucalhidated.com^
 ||couchpigful.qpon^
 ||couchtuner.*/sw.js$script,1p
+||coucounews.com/coupas/
 ||coufndkotctek.space^
 ||cougar.augmentedmindapp.com^
 ||cougar.wzulfikar.com^
