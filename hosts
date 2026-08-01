@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-01 02:47:25 UTC
+! Last modified: 2026-08-01 06:28:16 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -21095,7 +21095,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@/themes/flow/frontend_assets/js/advertisement.js|$~3p
 @@/traffic.megaphone.fm/*.mp3^$media,domain=open.spotify.com
 @@/uploads/ads/*$domain=newauto46.ru
-@@/uxab/ui-core-analytics-bundle.jsdbx
+@@/uxab/ui-core-analytics-bundle.jsdbx$1p
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net
 @@/viewad.$css,script,domain=short.croclix.me
 @@/viewad.$stylesheet,script,domain=adz7short.space|short.croclix.me|short.goldenfaucet.io
@@ -44887,6 +44887,10 @@ fmradiofree.com,internetradio-horen.de,radio-australia.org,radio-danmark.dk,radi
 fmradiofree.com,internetradio-horen.de,radio-australia.org,radio-danmark.dk,radio-hrvatska.com,radio-norge.org,radio-osterreich.at##^script[src*="html-load.com"]
 fnlondon.com##.grid__content_padded_bottom_border:has(> .adWrapper)
 fnlondon.com##.grid__rail_top:has(> .adWrapper)
+fo76db.com###fo-ad-modal
+fo76db.com##+js(trusted-rpnt, script, / ads\.map[\S\s\n]+?join\(''\)/)
+fo76db.com##body.swiper:style(overflow: auto !important; position: static !important;)
+fo76db.com#@#+js(aeld, DOMContentLoaded, /ads|AmazonCarousel/)
 focus.de##.clearfix.branding > .surftipp:has-text(Anzeige)
 focus.de##[href^="https://www.cyberport.de"]
 focus.de,kicker.de##+js(json-prune, enabled, force_disabled)
