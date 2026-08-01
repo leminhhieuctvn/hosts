@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-01 13:19:05 UTC
+! Last modified: 2026-08-01 16:58:33 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -62991,7 +62991,6 @@ noovo.info##.b-ads-custom
 nopixeljaps.com,preggoporn.tv,tinydicktube.com##.hidePauseAdZone
 nopixeljaps.com,preggoporn.tv,tinydicktube.com##.video-list-ads
 noqreport.com#@#[href^="https://noqreport.com/"] > img
-nordicsemi.com,learngerman.dw.com,jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"]):not(.cell-container)
 nordot.app##.main__ad
 nordschleswiger.dk##.TopAdvertising-Content-Wrapper
 nordstrom.com###sponsored-carousel-sponsored-carousel
@@ -74674,6 +74673,7 @@ staples.com#?#.sku-configurator__skuOffsetCarouselNew:has(span:has-text(Sponsore
 star-history.com###app > div.relative > div.relative.justify-end + div.fixed.right-0
 star-history.com##.fixed.right-0
 star-history.com##.mx-auto:has(> div.w-full > a[href][target="_blank"] > img[src^="https://star-history.com/sponsors/"])
+star-history.com##div.lg\:block > div.w-full:has(> a[href*="?utm_source"] img)
 star-history.com#?#.items-start.sidebar-sticky:has-text(Featured Products)
 star-telegram.com,sacbee.com###zerg-target
 star.com.tr##div[style="height:300px;"]:has(.js-gpt-ad)
@@ -84184,6 +84184,7 @@ winaero.com#@#.entry-content > div > div
 winaero.com#@#.windia:not(.thank-you-adguard)
 winaero.com#@#.windia:not(.thank-you-adguard)
 winbuzzer.com##.mfp-figure::before
+windguru.cz,nordicsemi.com,learngerman.dw.com,jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"]):not(.cell-container)
 windowcleaningforums.co.uk###elPostFeed .ipsSpacer_half a[href][target="_blank"][rel="nofollow noopener"] > img
 windowcleaningforums.co.uk###ipsLayout_footer a[href][rel="nofollow noopener"] > img
 windowcleaningforums.co.uk##+js(nostif, show)
