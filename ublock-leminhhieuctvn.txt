@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-02 09:55:45 UTC
+! Last modified: 2026-08-02 13:19:16 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -14647,7 +14647,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$3p,denyallow=google.com|googleapis.com|gstatic.com,domain=uplinkto.*
 *$3p,domain=direct-cloud.*
 *$3p,popup,domain=babesxworld.com
-*$3p,popup,to=~com|~net|~org|~to,from=1cloudfile.com|akirabox.com|akirabox.to|bowfile.com|buzzheavier.com|bzzhr.co|bzzhr.to|cg-gamespc.net|datavaults.co|dodi-repacks.site|file-me.top|file-upload.org|filemirage.com|fuckingfast.*|fuckingfast.co|game-repack.site|gamedrive.*|getfreegames.net|go.zovo.ink|koramaup.com|mirrored.to|multiup.io|ranoz.gg|reloadedsteam.com|rootz.so|steamgg.net|steamunderground.net|swiftuploads.com|uploadrar.*|uploadrar.com|usersdrive.com|vik1ngfile.site|worldofpcgames.com|zeilink.net|zovo2.top|zpaste.net
+*$3p,popup,to=~com|~net|~org|~to|~co,from=1cloudfile.com|akirabox.com|akirabox.to|bowfile.com|buzzheavier.com|bzzhr.co|bzzhr.to|cg-gamespc.net|datavaults.co|dodi-repacks.site|file-me.top|file-upload.org|filemirage.com|fuckingfast.*|fuckingfast.co|game-repack.site|gamedrive.*|getfreegames.net|go.zovo.ink|koramaup.com|mirrored.to|multiup.io|ranoz.gg|reloadedsteam.com|rootz.so|steamgg.net|steamunderground.net|swiftuploads.com|uploadrar.*|uploadrar.com|usersdrive.com|vik1ngfile.site|worldofpcgames.com|zeilink.net|zovo2.top|zpaste.net
 *$3p,script,denyallow=arc.io|cloudflare.com|hcaptcha.com|google.com|gstatic.com|recaptcha.net,domain=cinemakottaga.*
 *$3p,script,denyallow=cloudflare.com|cloudflare.net|hwcdn.net|jquery.com|fontawesome.com,domain=dekhobd.com
 *$3p,script,denyallow=cloudflare.com|jquery.com,domain=dirproxy.com
@@ -18509,7 +18509,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /player/*/vast.js$domain=designparty.sx
 /player/ads/*$~xmlhttprequest
 /player/html.php?aid=*&video_id=*&referer=
-/player/html.php?aid=*&video_id=*&referer=https*xnhau.guru$domain=xnhau.guru
+/player/html.php?aid=*&video_id=*&referer=https*xnhau.tech$domain=xnhau.tech
 /player/html.php?aid=pause_html&*&referer=$frame,1p
 /player/html.php?aid=post_roll_html^$redirect=noopframe,frame,1p
 /player/html.php?aid=pre_roll_html&*&referer=$frame,1p
@@ -41195,7 +41195,7 @@ dts24.pl##:is(.elementor-size-small, .elementor-size-default):contains(/^Reklama
 dts24.pl##a.gofollow[data-track]
 dualeotruyendl.com##+js(acs, document.addEventListener, popunder)
 dualeotruyendl.com##[id$="bnr"]
-dualeotruyendl.com,vndam.net,cliphot69.click,doctruyen3qhub3.com,qmanga.art,hentaivkl.pro,buomtv.baby,truyenvn.sbs,javtiful.com,quatvn.autos,phimsexhayvne.com,phim18hd.site,sexviet88.nl,sexmupxinh.net,demo.14412882.com,hhtq5.vip,xvideos.xemvl.xxx,umetruyenz.org,damconuong.store,truyenqqko.com,phimsexsuong3x.net,sayhentai.cx,lxmanga.space,phimlongtieng.net,www.sieutamphim.pro,vevocloud.com,xinh3x.it.com,viet69.be,viet69vn.at,misskon.com,luottruyen15.com##+js(acs, WebAssembly, instantiate)
+dualeotruyendl.com,sexviet3x.pro,cliphot69.click,doctruyen3qhub3.com,qmanga.art,hentaivkl.pro,buomtv.baby,truyenvn.sbs,javtiful.com,quatvn.autos,phimsexhayvne.com,phim18hd.site,sexviet88.nl,sexmupxinh.net,demo.14412882.com,hhtq5.vip,xvideos.xemvl.xxx,umetruyenz.org,damconuong.store,truyenqqko.com,phimsexsuong3x.net,sayhentai.cx,lxmanga.space,phimlongtieng.net,www.sieutamphim.pro,vevocloud.com,xinh3x.it.com,viet69.be,viet69vn.at,misskon.com,luottruyen15.com##+js(acs, WebAssembly, instantiate)
 dubaotiente.net##.ad-pin-right-bottom
 dublaj.az###sidebar > .row > .col-sm-12 > .sidebar-widget:has(> .widget-head > h4.title:contains(Reklam))
 dublaj.az##.bn-lg-sidebar:has(> .row > div[id^="yandex_rtb"])
@@ -60409,7 +60409,7 @@ motortrend.com,mumsnet.com,stocktwits.com##.min-w-\[300px\]
 motortrend.com,officialcharts.com,republicworld.com,w3docs.com,yaledailynews.com##.min-h-\[90px\]
 motoryzacja.interia.pl,geekweek.interia.pl,styl.interia.pl,zielona.interia.pl,wydarzenia.interia.pl###portal-container > main.page:style(padding-top: 100px !important;)
 mototribe.pl##.widget-bkads:has(> a.bkads-link:not([href*="mototribe.pl/"]))
-motphimchilll.win###catfish_ad_top
+motphimchilll.lat###catfish_ad_top
 motphimr.io##+js(addEventListener-defuser, click, document.createElement)
 motphimr.io##+js(aeld, click, document.createElement)
 motphimr.io##+js(trusted-set-session-storage-item, popup-ads-last-shown, $now$)
@@ -61097,7 +61097,7 @@ muzyka.interia.pl##.adStandardTopContainerWraper
 muzyka.interia.pl##body .inpl-gallery-ad-horizontal:not(#style_important)
 muzzleloadingforum.com##div[data-widget-key="unlistme"]
 mv-voice.com##.ad-break
-mv.phimmoiaz.cc,anime14.site,zpic.st,javgiga.wordpress.com,hoctot.hocmai.vn,freetube.com.mx,truyenfull.live,player.phimapi.com,sachmoi.net,xfast.sbs,anime47.best,x.phimsexvn1.co.uk,qmhsex.best,cdn.codexa.fun##+js(aopr, open)
+mv.phimmoiaz.cc,anime14.site,zpic.st,javgiga.wordpress.com,hoctot.hocmai.vn,freetube.com.mx,truyenfull.live,player.phimapi.com,sachmoi.net,xfast.sbs,anime47.best,x.phimsexvn1.co.uk,qmhsex.click,cdn.codexa.fun##+js(aopr, open)
 mvnrepository.com##.h-ad
 mvnrepository.com##[href="https://dnsgurus.com"]
 mx.dk###wrapper > #leaderboard
@@ -65586,7 +65586,7 @@ phim18hd.site##.top-mobile-banner
 phim18hd.site##.under-player-pc-banner
 phim18vip.site,pheclip.fit###pc-preload-modal
 phim18vip.site,pheclip.fit##.quang-cao
-phim18vip.site,phevl.win###popup
+phim18vip.site,phevl.my###popup
 phim33.com##a[href^="https://c.bong99.com/"]
 phimbet.top###banner
 phimbet.top,hh3dhay.ceo###overlay
@@ -65609,12 +65609,12 @@ phimlongtieng.net##div[class^="catfish-"]
 phimlongtieng.net,www.1phim17.com,vn-motchill.com##.banner-preload
 phimmoi.cash###catfish_wrap
 phimmoi.cash,phim24k.top,jophim.top,rophimz.top,xem20.net##.float-ck-center-lt
+phimmoi.com.mx##.bg-black\/70.justify-center.items-center.flex.z-\[9999\].inset-0.fixed
 phimmoi.in###ads-preload
 phimmoi.in##.mp-adz
 phimmoiaz.cc##+js(aopr, popunder)
 phimmoichillz.top###pm_quangcao
 phimmoichillz.top###preload
-phimmoiw.fm##.bg-black\/70.justify-center.items-center.flex.z-\[9999\].inset-0.fixed
 phimnhe.net###pc-ballon-left
 phimnhe.net###pc-catfix
 phimnhe.net##+js(abort-current-script, createCookie, popurl)
@@ -70449,7 +70449,7 @@ rophim1.vip##a[href="https://colatv99.live"]
 rophim10.pro##.adserver
 rophim10.pro##.mt-3.topics-line.topics-grid.topics-list
 rophims.cx##.sspp-area
-rophims.cx,motphimw.blue,phimmoiw.fm##+js(aeld, click, ads)
+rophims.cx,motphimw.blue,phimmoi.com.mx##+js(aeld, click, ads)
 rophimz.*##+js(set-session-storage-item, ads-clicked-under-last-click, 11)
 rophimz.*##+js(trusted-override-element-method, HTMLAnchorElement.prototype.click, a[target="_blank"][rel*="sponsored"])
 rophimz.*##+js(trusted-set-session-storage-item, shopee-ads-clicked, $now$)
@@ -72089,6 +72089,7 @@ sexvideos.host##+js(nowoif)
 sexvideos.host##.fluid-close[target="_blank"]:remove-attr(target)
 sexvideos.host##.fluid-spots
 sexvideos.host##^script:has-text(/popstate|popMagic/)
+sexviet3x.pro,sexmupxinh.net,vlsexhihi.net##.xx-ads
 sexwebvideo.com##.adblock-spot
 sexwebvideo.com##.footer-content > .uk-container-center
 sexwebvideo.com##.trailer-sidebar
@@ -72723,8 +72724,10 @@ simana.online,fooak.com,joktop.com,evernia.site,falpus.com##+js(rmnt, script, /F
 simana.online,fooak.com,joktop.com,evernia.site,falpus.com##+js(set, blurred, false)
 simana.online,fooak.com,joktop.com,evernia.site,falpus.com##^script:has-text(/FingerprintJS|openPopup/)
 simkl.com##.blockplace
+simkl.com##.blockplace
 simkl.com##.blockplacecente
 simkl.com##.SimklTVDetailEpisodeLinksItemHref
+simkl.com##.SimklTVDetailEpisodeTableWrapTr table > tbody > tr:has(> td[class^="SimklTVDetailEpisodeDescSearch"])
 simkl.com##a[onclick*="AD')"]
 simonwillison.net###sponsored-banner
 simpasian.net##.hideme
@@ -79774,7 +79777,7 @@ truyensextv.com,lxmanga.space##.sticky-footer
 truyensextv.com,yanhh3d.love,z1.chinav.sex##+js(acs, document.addEventListener, opup)
 truyensieuhay.com##.footer-info
 truyensieuhay.com,hhtrungquoc9.com,hhtq13.vip,hhtq3d.net###topbanner
-truyensieuhay.com,xemphim.site,quangcaoyenbai.com,phimchill.life,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,vlsexhihi.net,anime47.best,phimhdc.com,honghotduongpho.vn,chichvn.vip,comong.info,qmhsex.best##+js(aopr, document.cookie)
+truyensieuhay.com,xemphim.site,quangcaoyenbai.com,phimchill.life,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,vlsexhihi.net,anime47.best,phimhdc.com,honghotduongpho.vn,chichvn.vip,comong.info,qmhsex.click##+js(aopr, document.cookie)
 truyentranhfull.net##+js(rmnt, script, ai_adb)
 truyentranhfull.net##^script:has-text(ai_adb)
 trxking.xyz##+js(set, blurred, false)
@@ -80729,6 +80732,7 @@ ugstandard.com###leader-wrap
 ugwire.com##.theiaStickySidebar > section.widget_text
 uhdmovies.*##+js(nowoif)
 uhdpaper.com##.ad_bars
+uhdwalls.com##+js(set, foxizParams.adDetectorMethod, '')
 uhuseries.com##a[target="_blank"][rel*="sponsored"]:not([href^="https://nav.cx/"]) > img
 uii.io##+js(aeld, mouseup, _blank)
 uii.io##+js(noeval)
@@ -82642,7 +82646,6 @@ vlxyz.net##body .xx-ads
 vn-motchill.com##.float-contact
 vn-motchill.com,misseschloe.co.za###vl-header-adx
 vn.trueid.net##+js(prevent-fetch, www3.doubleclick.net)
-vndam.net,sexmupxinh.net,vlsexhihi.net##.xx-ads
 vndb.org#@#img[width="240"][height="400"]
 vndoc.com##+js(set, seconds, 0)
 vndoc.com##.adsbg
@@ -85582,11 +85585,11 @@ xn--tream2watch-i9d.com,lalastreams.me##a[href$="/vpn/vpn"]
 xn--y3cta3b5d6a.net###main > div[style]:not([class]):style(display: none !important;)
 xn--y3cta3b5d6a.net###main-video-container:style(display: block !important;)
 xn--y3cta3b5d6a.net##.top-banner-grid:style(display: none !important;)
-xnhau.guru##+js(acs, document.addEventListener, lastPopunderTime)
-xnhau.guru##+js(aeld, click, /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/)
-xnhau.guru##.fp-ui>div[style]
-xnhau.guru##.sponsor
-xnhau.guru##.spot
+xnhau.tech##+js(acs, document.addEventListener, lastPopunderTime)
+xnhau.tech##+js(aeld, click, /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/)
+xnhau.tech##.fp-ui>div[style]
+xnhau.tech##.sponsor
+xnhau.tech##.spot
 xnostars.com##.promo
 xnotx.com###sidebar > div.box:first-child
 xnotx.com###sidebar > div.box:first-child
@@ -95153,6 +95156,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||anime.freehentaistream.com/content/natheadcontent
 ||anime.freehentaistream.com/content/natundervidcontent
 ||anime.freehentaistream.com/content/pdz.js
+||anime.nexus/video/vast-ad.mov
 ||anime.solutions/public/assets/js/link-converter.js
 ||anime.uniquestream.net/api/v*/config
 ||anime14.site^*.gif
@@ -108095,7 +108099,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||danaidjuicesboaedon.cyou^
 ||danakagetrsm.vercel.app^$all
 ||danbo.org^$third-party
-||dance.bytecdn.cfd^*.gif$image,domain=qmhsex.best
+||dance.bytecdn.cfd^*.gif$image,domain=qmhsex.click
 ||danceryteatswinged.cyou^
 ||dancewave.online/js/dwab.js$script,1p,important
 ||danderpotrero.cyou^
@@ -123683,7 +123687,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||imagebam.com/files/_b*.php
 ||imagebet.ph^$all
 ||imagedelivery.net^$domain=novelfull.com
-||imagedelivery.net^$image,domain=motphimchilll.win
+||imagedelivery.net^$image,domain=motphimchilll.lat
 ||imagefap.com/images/yes.gif$redirect=1x1.gif
 ||imagenest.site^
 ||imagepond.net/sdk/imagepondupload.js$script,domain=forums.socialmediagirls.com
@@ -144990,7 +144994,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||quokkasgraf.com^
 ||quonsettarish.qpon^
 ||quora.com/ads/
-||quoracdn.net^$image,domain=vndam.net|phim18vip.site|pheclip.fit|sexmupxinh.net|vlsexhihi.net|phevl.win|fulllivehot.co|haysexvn.shop|chichvn.vip|viet69hay.autos
+||quoracdn.net^$image,domain=sexviet3x.pro|phim18vip.site|pheclip.fit|sexmupxinh.net|vlsexhihi.net|phevl.my|fulllivehot.co|haysexvn.shop|chichvn.vip|viet69hay.autos
 ||quoracdn.net^$image,domain=www.1phim17.com|phimlongtieng.net
 ||quorsukey.cyou^
 ||quorumsfinesse.cfd^
@@ -166560,7 +166564,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||xneyeaoqjhayv.site^
 ||xnfbhzbvsyepf.online^
 ||xnfjictwvrnuz.site^
-||xnhau.blog^$media,domain=xnhau.guru
+||xnhau.blog^$media,domain=xnhau.tech
 ||xnhhzlkr.com^
 ||xniyaklqxkech.website^
 ||xnjkjowmtijwa.online^
