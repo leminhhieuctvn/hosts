@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-03 17:49:53 UTC
+! Last modified: 2026-08-03 21:00:57 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -38322,6 +38322,7 @@ creepypasta.com##.entry-content > div.code-block:has(> div[id^="pwMobiMedRect"])
 creepypasta.com##center:has(+ #ad-container-1)
 cremz.com##a[href^="https://www.cremz.com/link/"]
 cremz.com,homo.xxx,ok.porn,pornhat.*,okxxx3.com,okxxx2.com,okxxx1.com,ok.xxx,perfektdamen.*,perfectgirls.*,coralxxx.com,analry.com,hard3r.com,bigbigtits.com,maturexy.com,bigbumfun.com,fuqster.com,bigtitbitches.com,w1mp.com,riverporn.pro,sexpester.com,w4nkr.com,pornwhite.com,gaygo.tv,sextaped.com,ratedgross.com,sleazyneasy.com,litecoin-faucet.com,3prn.com,motherporno.com,pornomovies.com,camhub.tv,max.porn,feetporno.com,familyporn.tv,freehardcore.com,moviesand.com,momvids.com,hdzog.com,pornbimbo.com##.spot:not(#style_important)
+cricbuzz.com##.carousal-item.min-w-fit div.items-center:has(> div#taboola-mid-home-carousel-text)
 cricbuzz.com##.cb-ad-unit
 cricbuzz.com##.cbz-leaderboard-banner
 cricbuzz.com##body div.bg-cbLightGrayish:has(> div[id*="leaderboard"])
@@ -55590,6 +55591,8 @@ kuyhaa.me##+js(aeld, DOMContentLoaded, setInterval)
 kveller.com##.header-bottom
 kvraudio.com###kvr300600
 kvraudio.com##.kvrblockdynamic
+kvue.com,cbs8.com,12newsnow.com,kiiitv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__cell[data-columns]:has(> .grid__module:only-child > .grid__module-sizer_name_ad)
+kvue.com,cbs8.com,12newsnow.com,kiiitv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__module:has(> .grid__module-sizer_name_ad)
 kwamkidhen.com##[id*="ScriptRoot"]
 kwamkidhen.com##ins.adsbygoogle
 kwejk.pl##+js(rc, froc-blur, , stay)
@@ -65906,6 +65909,7 @@ pimpbunny.com##.pb-header > div.pb-header-top-left-menu
 pimpbunny.com##.pb-header > div.pb-header-top-right-menu > a[href][rel="noopener"][target="_blank"]
 pimpbunny.com##.row > .col:has(> div[class^="ui-card-root"] > a[rel="noopener noreferrer sponsored"])
 pimpbunny.com##a[class*="includes-header-cake"]
+pimpbunny.com##div.row > div.col:has(> div > a[href^="https://a.pur.agency/"])
 pimpbunny.com##div[class^="includes-header-inner"] > ul
 pimpbunny.com##div[class^="pages-view-video-wrapper"] > .row > .d-lg-block
 pimpbunny.com##div[class^="pb-menu-"] > a[rel="sponsored noopener"][target="_blank"]
@@ -84764,8 +84768,6 @@ wpsimplehacks.com##+js(nostif, show)
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.banner--toplayer
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.topLayer
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.TOPNewsB
-wqad.com,fox43.com,10tv.com,myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__cell[data-columns]:has(> .grid__module:only-child > .grid__module-sizer_name_ad)
-wqad.com,fox43.com,10tv.com,myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__module:has(> .grid__module-sizer_name_ad)
 wral.com###exco
 wral.com##.exco-wrapper
 wral.com##.vw3Klj
