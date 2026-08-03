@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-03 11:22:01 UTC
+! Last modified: 2026-08-03 14:37:07 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -22875,6 +22875,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||concertads-configs.vox-cdn.com/sbn/verge/config.json$domain=theverge.com
 @@||condorsoft.co^$generichide
 @@||condorsoft.co^$ghide
+@@||confidecross.com^$domain=openlua.cloud
 @@||config.anyclip.com/anyclip-widget/config/$domain=zerotackle.com
 @@||config.aps.amazon-adsystem.com/configs/$domain=kitco.com
 @@||config.aps.amazon-adsystem.com^$script,domain=newsweek.com
@@ -25714,7 +25715,13 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||open.video^$script,~third-party
 @@||openfpcdn.io/fingerprintjs$script,redirect=noop.js,domain=linkneverdie.net
 @@||openfpcdn.io/fingerprintjs/$domain=uslugaplus.com
+@@||openlua.cloud/*.gif
 @@||openlua.cloud/*.js?$1p,script
+@@||openlua.cloud/admanager.js
+@@||openlua.cloud/ads-common.js
+@@||openlua.cloud/exitpopup.js
+@@||openlua.cloud/gpt-prebid.js
+@@||openlua.cloud/jquery.popunder.js
 @@||openlua.cloud^$ghide
 @@||openpoint.com.tw^$generichide
 @@||opentracker.net^$domain=jlaforums.com
@@ -25991,7 +25998,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||pagead2.googlesyndication.com^$script,domain=bg-gledai.*|gledaitv.*|bg-gledai.video|gledaitv.fan|gledaitv.live
 @@||pagead2.googlesyndication.com^$script,domain=chromeactions.com|mixesoft.com|mycinema.pro
 @@||pagead2.googlesyndication.com^$script,domain=next-episode.net
-@@||pagead2.googlesyndication.com^$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|letrongdai.vn|traderviet.tv|thelanb.com|lehait.net|nhacsong.pro|kientruc360.info|vnjpclub.com|753x.blogspot.com|ichi.pro|gocmod.com|tromcap.com|dafontvn.com|www.gvnvh18z.com|sesenblog.com|xaydungplus.com|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com|ios.codevn.net|audiotruyenfull.com|minhpc.com|vongquaymayman.com|toilaquantri.com|taisachonthi.com|mifirm.net|anonyviet.com|4g.tintuc247.top|web1s.asia|vanhoatamlinh.com|duan24h.net|www.iosviet.com|hoctoan123.com|yhocdata.com|imail.edu.vn|thitotnghiepthpt.vn|chuyenreview.net|streamc.xyz|dl.thuthuatjb.com|idpvn.com|lumionvietnam.com|thuvienphatquang.com|sign.codevn.net|googleapiscdn.com|laodong.vn|tieulamwc1.com
+@@||pagead2.googlesyndication.com^$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|letrongdai.vn|traderviet.tv|thelanb.com|lehait.net|nhacsong.pro|kientruc360.info|vnjpclub.com|753x.blogspot.com|ichi.pro|gocmod.com|tromcap.com|dafontvn.com|www.gvnvh18z.com|sesenblog.com|xaydungplus.com|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com|ios.codevn.net|audiotruyenfull.com|minhpc.com|vongquaymayman.com|toilaquantri.com|taisachonthi.com|mifirm.net|anonyviet.com|4g.tintuc247.top|web1s.asia|vanhoatamlinh.com|duan24h.net|www.iosviet.com|hoctoan123.com|yhocdata.com|imail.edu.vn|thitotnghiepthpt.vn|chuyenreview.net|streamc.xyz|dl.thuthuatjb.com|idpvn.com|lumionvietnam.com|thuvienphatquang.com|sign.codevn.net|googleapiscdn.com|laodong.vn
 @@||pagead2.googlesyndication.com^$xhr,domain=acorta-enlace.com|finanzasdomesticas.com
 @@||pagead2.googlesyndication.com^$xhr,domain=krunker.io
 @@||pagead2.googlesyndication.com^*/show_ads_impl.js$script,domain=extremereportbot.com
@@ -33567,7 +33574,7 @@ bing.com##+js(href-sanitizer, body a[href^="/rebates/welcome?url=http"], ?url)
 bing.com##+js(json-prune, relatedAds)
 bing.com##+js(no-xhr-if, /fd/ls/lsp.aspx)
 bing.com##+js(nosiif, logQueue, 10000)
-bing.com##+js(rpnt, script, function processEmbImg, `(()=>{if(!location.pathname.startsWith("/search"))return;if(document.querySelector("ol#b_results > li.b_algo > .b_title > h2 > a[id][ads]"))return;window.addEventListener("scroll",(()=>{for(const t of Object.keys(window).sort())if(t.endsWith("_lnk")){if(t.length<4)continue;document.querySelectorAll("ol#b_results > li.b_algo > .b_title > h2 > a#"+t.split("_lnk")[0]).forEach((t=>{t.setAttribute("ads","")}))}}))})();function processEmbImg`, sedCount, 1)
+bing.com##+js(trusted-replace-node-text, script, function processEmbImg, 'location.pathname.startsWith("/search")&&(document.querySelector("ol#b_results > li.b_algo > .b_title > h2 > a[id][ads]")||window.addEventListener("scroll",(()=>{for(const t of Object.keys(window).sort())"function"==typeof window[t]&&/^[a-z]+$/.test(t)&&document.querySelector("ol#b_results > li.b_algo > .b_title > h2 > a#"+t)?.setAttribute?.("ads","")})));function processEmbImg', sedCount, 1)
 bing.com##.ad_sc
 bing.com##.b_ad
 bing.com##.b_ad:style(display: block !important; position: absolute !important; top: -9999px !important;)
@@ -64325,8 +64332,8 @@ openloadmovies.*##+js(aopr, AaDetector)
 openlua.cloud##+js(aeld, error, script-error)
 openlua.cloud##+js(json-prune-fetch-response, sponsor ad_provider, , propsToMatch, api.openlua.cloud)
 openlua.cloud##+js(no-setInterval-if, contentDocument?.body?.querySelector)
-openlua.cloud##+js(prevent-fetch, /confidecross\.com|invoke\.js/)
 openlua.cloud##+js(set, HTMLScriptElement.prototype.onerror, undefined)
+openlua.cloud##a[href^="https://boostmania.gg/"]
 openlua.cloud##div.fixed.backdrop-blur-xl
 openlua.cloud##main > .hidden:has(> .shadow-lg > div[style] > iframe[title="Advertisement"]):style(display: none !important;)
 opensnow.com##.mobile-ad:style(position: absolute!important; left: -4000px!important;)
@@ -65275,7 +65282,6 @@ peachprintable.com##+js(nostif, chkADB)
 peachurbate.com##.video-right-banner
 peachurnet.com##.video-right-banner
 peachurnet.com,scotsman.com,warcraftlogs.com###bottom-banner
-peacocktv.com##+js(json-prune, avails dashAvailabilityStartTime hlsAnchorMediaSequenceNumber nextToken nonLinearAvails)
 peacocktv.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start | //*[name()="Period"][not(.//*[name()="SegmentTimeline"])][not(.//*[name()="ContentProtection"])] | //*[name()="Period"][./*[name()="BaseURL"]][not(.//*[name()="ContentProtection"])]), , /-vod-.+\.mpd/)
 peak.cz##+js(abort-current-script, $, adblock-modal)
 peakpx.com##li[style^="width: 300px; height: 250px;"]
@@ -65619,7 +65625,7 @@ phimmoichillz.top###preload
 phimnhe.net###pc-ballon-left
 phimnhe.net###pc-catfix
 phimnhe.net##+js(abort-current-script, createCookie, popurl)
-phimsex720.com##+js(acs, window.addEventListener, Ads)
+phimsex4k.com##+js(acs, window.addEventListener, Ads)
 phimsexsuong3x.net,vlsexhihi.com,javhdz.fun,laalmirchitakeaway.co.uk##.catfish-bottom
 phimtho.cc#%#//scriptlet("abort-current-inline-script", "$", "p0pUpRandom")
 phineypet.com###content > form[id]:has(> center > button):style(display: block !important;)
@@ -74778,6 +74784,7 @@ starwank.com,faptor.com##.zpot-horizontal-img
 starwarsaddicted.it##+js(set-constant, advanced_ads_check_adblocker, noopFunc)
 starwarsaddicted.it##.ad_unit.ad-unit.text-ad.text_ad.pub_300x250:style(display: block!important;)
 starwarsaddicted.it,wuyong.fun,26g.me,myqqjd.com,poapan.xyz,javboys.com,idevicecentral.com,fcportables.com,codehelppro.com##+js(abort-on-property-read, reqServers)
+starzplay.com,tvnz.co.nz##+js(xml-prune, xpath(//*[name()="Period"][.//*[name()="BaseURL" and contains(text()\,"https:")]]), , .mpd)
 starzunion.com##+js(aopw, checkAdsStatus)
 statecollege.com##div[class^="ad_code_"]
 statecollege.com##div[class^="adapex"]
@@ -78328,10 +78335,6 @@ tierlists.com##+js(nano-stb, /TDELAY|EzoIvent/, *, 0.001)
 tierlists.com##.adbox-template
 tiermaker.com##.desktop-sticky
 tieulam.info##+js(no-fetch-if, adsbygoogle, war:googlesyndication_adsbygoogle.js)
-tieulamwc1.com##.css-d32i5r.MuiBox-root.-translate-x-1\/2.left-1\/2.max-w-\[720px\].w-full.fixed.md\:px-2.px-0
-tieulamwc1.com##.css-nlhufw.MuiStack-root>.whitespace-nowrap.transition.text-xs.text-black.font-medium.rounded-full.py-1\.5.px-4.shrink-0
-tieulamwc1.com##.items-end.justify-between.flex.gap-2.px-4.py-4.w-full>.whitespace-nowrap.transition.text-xs.text-black.font-medium.rounded-full.py-1\.5.px-4.shrink-0
-tieulamwc1.com##.no-underline.font-semibold.items-center.justify-start.flex.text-black.rounded-full.shrink-0.w-fit
 tiger-algebra.com##+js(addEventListener-defuser, DOMContentLoaded, adsbox)
 tiger-algebra.com##.ad-blocker-detector
 tiger-algebra.com##.adt-layout-fade
@@ -80332,7 +80335,6 @@ tvnet.lv,apollo.lv#@#.ad01
 tvnet.lv,apollo.lv#@#.dfp_ad
 tvnz.co.nz##+js(no-fetch-if, method:HEAD url:doubleclick.net)
 tvnz.co.nz##+js(xml-prune, 'xpath(//*[name()="Period"][.//*[name()="BaseURL" and contains(text(),"https:")]])', '', .mpd)
-tvnz.co.nz##+js(xml-prune, xpath(//*[name()="Period"][.//*[name()="BaseURL" and contains(text()\,"https:")]]), , .mpd)
 tvnz.co.nz##.ad-on-pause
 tvnz.co.nz##.AdOnPause
 tvnz.co.nz,world-nuclear-news.org##.Advert
@@ -82275,6 +82277,7 @@ viivilla.no##gen-ad
 vijaysolution.com##+js(no-setTimeout-if, siteAccessPopup())
 vijaysolution.com#@#.adbanner
 vijesti.me##.ads
+vijesti.me##.newsWrap + .v-slider
 vik1ngfile.site##+js(abort-current-script, JSON.parse, atob)
 vik1ngfile.site##+js(acs, atob, self.Math)
 vik1ngfile.site##+js(addEventListener-defuser, click, document.createElement)
@@ -83306,6 +83309,7 @@ watch.shout-tv.com##+js(json-prune, streams.*.adUnits.*)
 watch.shout-tv.com##+js(json-prune-fetch-response, adsConfiguration, , propsToMatch, /vod)
 watch.shout-tv.com##+js(trusted-json-edit-fetch-response, .streams.*.adUnits=[], propsToMatch, /manifest/video)
 watch.shout-tv.com##+js(trusted-replace-xhr-response, /#EXTINF[^\n]+\n[^\n]+?segment[^\n]+/gms, , .m3u8)
+watch.shudder.com,peacocktv.com##+js(json-prune, avails dashAvailabilityStartTime hlsAnchorMediaSequenceNumber nextToken nonLinearAvails)
 watch.sling.com##+js(json-prune, playback_info.ad_info ssai_manifest)
 watch.sling.com##+js(json-prune, ssai_manifest ad_manifest playback_info.ad_info qvt.playback_info.ad_info)
 watch.soccerloverss.live##.featured-post.section
@@ -84758,6 +84762,8 @@ wpsimplehacks.com##+js(nostif, show)
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.banner--toplayer
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.topLayer
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.TOPNewsB
+wqad.com,fox43.com,10tv.com,myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__cell[data-columns]:has(> .grid__module:only-child > .grid__module-sizer_name_ad)
+wqad.com,fox43.com,10tv.com,myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__module:has(> .grid__module-sizer_name_ad)
 wral.com###exco
 wral.com##.exco-wrapper
 wral.com##.vw3Klj
@@ -92633,6 +92639,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||adltserv.com^
 ||adltserv.com^$popup
 ||adlux.com^$third-party
+||adm.shinobi.jp^$script,redirect=noop.js,domain=bus-location.1507t.xyz
 ||adm.shinobi.jp^$third-party
 ||admaaodfwkcuj.store^
 ||admachina.com^
@@ -132809,6 +132816,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||mediasama.com^
 ||mediasama.com^$popup
 ||mediasystems.am^$3p
+||mediatailor.*.amazonaws.com/v1/tracking/*/prod-shudder-mediatailor-config-via-sdk/$domain=watch.shudder.com
 ||mediatarget.com^$third-party
 ||mediative.ca^
 ||mediative.com^
@@ -141028,7 +141036,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||phimmoichillz.top/pop$image
 ||phimmoichillz.top^*.gif$image
 ||phimmoisz.org/wp-content/uploads/tvc/*.xml
-||phimsex720.com^*.gif$image
+||phimsex4k.com^*.gif$image
 ||phimsexhayvne.com^*.gif$image
 ||phimsexsuong3x.net^*.gif$image
 ||phineypet.com/2x.png
@@ -150017,8 +150025,10 @@ zzztube.com,videoporn.tube##.b-random-column
 ||secthatlead.com^
 ||secthatlead.com^$popup
 ||sectiondeduceequation.com^
+||sector.sk/default-*.aspx
 ||sector.sk/default-ad.aspx
 ||sector.sk/default-ad2.aspx
+||sector.sk/scripts/trixam.min.js
 ||sectordashboardjaguar.com^
 ||secure---sso---robinhood---com-cdn.webflow.io^$doc
 ||secure-57v.pages.dev^$all
@@ -150383,6 +150393,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||serv01001.xyz^
 ||serv1for.pro^
 ||servboost.tech^
+||serve.affiliate.heurekashopping.sk^
 ||serve.bdsmstreak.com^
 ||serve.faithlifeads.com^
 ||serve.freeonlinegayporn.com^
@@ -153526,7 +153537,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||static.aqua-adserver.com^
 ||static.arbigo.com^
 ||static.aserve1.net^
-||static.asynccdn.com^*.gif$image,domain=tieulamwc1.com
 ||static.audience.media^
 ||static.barcelona-backlinks.es^
 ||static.bat-ads.com^
