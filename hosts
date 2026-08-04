@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-04 02:28:52 UTC
+! Last modified: 2026-08-04 06:26:42 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -18091,7 +18091,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /hy.js$script,domain=uproxy2.biz
 /hy.js?q22
 /hy.js?q22q2q2
-/i.imgur.com/*.gif$domain=www.1phim17.com|listnhacai88.com|rakhoizc.cc
+/i.imgur.com/*.gif$domain=www.1phim18.com|listnhacai88.com|rakhoizc.cc
 /i/npage/*$script,third-party
 /icloud2022-esp.php^$doc,to=~edu|~gov|~apple.com
 /iframe.php?spotID=
@@ -33572,7 +33572,7 @@ bing.com##+js(href-sanitizer, body a[href^="/rebates/welcome?url=http"], ?url)
 bing.com##+js(json-prune, relatedAds)
 bing.com##+js(no-xhr-if, /fd/ls/lsp.aspx)
 bing.com##+js(nosiif, logQueue, 10000)
-bing.com##+js(rpnt, script, function processEmbImg, `(()=>{if(!location.pathname.startsWith("/search"))return;if(document.querySelector("ol#b_results > li.b_algo > .b_title > h2 > a[id][ads]"))return;window.addEventListener("scroll",(()=>{for(const t of Object.keys(window).sort())if(t.endsWith("_lnk")){if(t.length<4)continue;document.querySelectorAll("ol#b_results > li.b_algo > .b_title > h2 > a#"+t.split("_lnk")[0]).forEach((t=>{t.setAttribute("ads","")}))}}))})();function processEmbImg`, sedCount, 1)
+bing.com##+js(trusted-replace-node-text, script, function processEmbImg, 'location.pathname.startsWith("/search")&&(document.querySelector("ol#b_results > li.b_algo > .b_title > h2 > a[id][ads]")||window.addEventListener("scroll",(()=>{for(const t of Object.keys(window).sort())"function"==typeof window[t]&&/^[a-z]+$/.test(t)&&document.querySelector("ol#b_results > li.b_algo > .b_title > h2 > a#"+t)?.setAttribute?.("ads","")})));function processEmbImg', sedCount, 1)
 bing.com##.ad_sc
 bing.com##.b_ad
 bing.com##.b_ad:style(display: block !important; position: absolute !important; top: -9999px !important;)
@@ -34979,18 +34979,18 @@ bunkr.sk##+js(no-setTimeout-if, ;return!_0x)
 bunkrr.su##+js(set-cookie, zone-cap-taco-loves-ads, 1)
 bunnylust.com##a[href^="http://wcrgl.freeadult.games/hit.php"]
 bunshun.jp##.recommend-articles:has(> div[class^="taboola"])
-buomtv.baby##._1vguhxv.cosll6e._3yp41v.row-3.lgy>._1lbf8q9
-buomtv.baby##._1vguhxv.cwzsl22.czdj0j5.c1skg1w3.c1q1n9rc.c1f8a55r.c2wbcgy.c1qs0lzc.cq980mc.cosll6e.cjq7bud.c10dklm2.c1xtmnwt.dlnefd1
-buomtv.baby##._9xtpcl.c1mnguco.c9pdtme.c1q1n9rc.c1f8a55r.c2wbcgy.c1qs0lzc.cq980mc.cosll6e.cxngf0m.c199xq07.c1xtmnwt
-buomtv.baby##._9xtpcl.c4je67d.c1qs0lzc.c1hrlkpu.cc2icwl.c1i0iccj.cfd18df
-buomtv.baby##._9xtpcl.cxwrp3i.c1skg1w3.cxngf0m.c199xq07.c10dklm2.c1xtmnwt.cvk29a4.w-\[300px\]
-buomtv.baby##._9xtpcl.e1e6v8dt
-buomtv.baby##.blbew80
-buomtv.baby##.llnefd1
-buomtv.baby##.lpp0nsn
-buomtv.baby##.luq51lg.a13wihj
-buomtv.baby##.pointer-events-auto.block
-buomtv.baby##.zbgpvb19.zbgpvb16.zbgpvbj.zbgpvbh.zbgpvbg.zbgpvbf.zbgpvbe.zbgpvb1
+buomtv.love##._1vguhxv.cosll6e._3yp41v.row-3.lgy>._1lbf8q9
+buomtv.love##._1vguhxv.cwzsl22.czdj0j5.c1skg1w3.c1q1n9rc.c1f8a55r.c2wbcgy.c1qs0lzc.cq980mc.cosll6e.cjq7bud.c10dklm2.c1xtmnwt.dlnefd1
+buomtv.love##._9xtpcl.c1mnguco.c9pdtme.c1q1n9rc.c1f8a55r.c2wbcgy.c1qs0lzc.cq980mc.cosll6e.cxngf0m.c199xq07.c1xtmnwt
+buomtv.love##._9xtpcl.c4je67d.c1qs0lzc.c1hrlkpu.cc2icwl.c1i0iccj.cfd18df
+buomtv.love##._9xtpcl.cxwrp3i.c1skg1w3.cxngf0m.c199xq07.c10dklm2.c1xtmnwt.cvk29a4.w-\[300px\]
+buomtv.love##._9xtpcl.e1e6v8dt
+buomtv.love##.blbew80
+buomtv.love##.llnefd1
+buomtv.love##.lpp0nsn
+buomtv.love##.luq51lg.a13wihj
+buomtv.love##.pointer-events-auto.block
+buomtv.love##.zbgpvb19.zbgpvb16.zbgpvbj.zbgpvbh.zbgpvbg.zbgpvbf.zbgpvbe.zbgpvb1
 buondua.com##+js(addEventListener-defuser, click, popurl)
 buondua.com##+js(aeld, click, popurl)
 buondua.com##.b1a05af5ade94f4004a7f9ca27d9eeffb
@@ -41198,7 +41198,7 @@ dts24.pl##:is(.elementor-size-small, .elementor-size-default):contains(/^Reklama
 dts24.pl##a.gofollow[data-track]
 dualeotruyendl.com##+js(acs, document.addEventListener, popunder)
 dualeotruyendl.com##[id$="bnr"]
-dualeotruyendl.com,sexviet3x.pro,cliphot69.loan,doctruyen3qhub3.com,qmanga.art,hentaivkl.pro,buomtv.baby,truyenvn.sbs,javtiful.com,quatvn.autos,phimsexhayvne.com,phim18hd.site,sexviet88z.com,sexmupxinh.net,demo.14412882.com,hhtq5.vip,xvideos.xemvl.xxx,umetruyenz.org,damconuong.store,truyenqqko.com,phimsexsuong3x.net,sayhentai.cx,lxmanga.space,phimlongtieng.net,www.sieutamphim.pro,vevocloud.com,xinh3x.it.com,viet69.be,viet69vn.at,misskon.com,luottruyen15.com##+js(acs, WebAssembly, instantiate)
+dualeotruyendl.com,sexmup69.pro,cliphot69.loan,doctruyen3qhub3.com,qmanga.art,hentaivkl.pro,buomtv.love,truyenvn.sbs,javtiful.com,quatvn.autos,phimsexhayvne.com,phim18hd.site,sexviet88z.com,sexmupxinh.net,demo.14412882.com,hhtq5.vip,xvideos.xemvl.xxx,umetruyenz.org,damconuong.store,truyenqqko.com,phimsexsuong3x.net,sayhentai.cx,lxmanga.space,phimlongtieng.net,www.sieutamphim.pro,vevocloud.com,xinh3x.it.com,viet69.be,viet69vn.at,misskon.com,luottruyen15.com##+js(acs, WebAssembly, instantiate)
 dubaotiente.net##.ad-pin-right-bottom
 dublaj.az###sidebar > .row > .col-sm-12 > .sidebar-widget:has(> .widget-head > h4.title:contains(Reklam))
 dublaj.az##.bn-lg-sidebar:has(> .row > div[id^="yandex_rtb"])
@@ -51957,7 +51957,7 @@ imagexport.com##.top-menu > li > b > a[class]
 imagexport.com##p[style="display: block; text-align:center;"] ~ br + div[class="text-center"]
 imagineforest.com###library_search_content > div.each_story.relative:has(> div.absolute ins.adsbygoogle)
 imail.edu.vn##+js(acs, setTimeout, ad_block)
-imail.edu.vn,www.1phim17.com,trumtruyen.xyz,teamlanhlungday.store,audiotruyenfull.com##+js(acs, setTimeout, Aff)
+imail.edu.vn,www.1phim18.com,trumtruyen.xyz,teamlanhlungday.store,audiotruyenfull.com##+js(acs, setTimeout, Aff)
 imasdk.googleapis.com##+js(no-fetch-if, secure.adnxs.com/ptv, war:noop-vast4.xml)
 imasdk.googleapis.com##+js(no-xhr-if, vod.provider.plex.tv/ad?, war:noop-vast3.xml)
 imasdk.googleapis.com##+js(no-xhr-if, worldsurfleague.com, war:noop-vmap1.0.xml)
@@ -54821,7 +54821,7 @@ keran.co##+js(abort-on-property-read, disableButtonTimer)
 ketqua16.net##.baloon
 ketqua16.net##.col-sm-10.kqcenter
 ketqua16.net##.kqbackground.vien ~ a[target="_blank"]
-ketqua16.net,nghean24h.vn,new.tructiepnba.me,tv.manhvl.com,bongdainfox.tv,www.1phim17.com,thapcam73.live,thapcam73.life,i2pd.website##a[rel="nofollow"]
+ketqua16.net,nghean24h.vn,new.tructiepnba.me,tv.manhvl.com,bongdainfox.tv,www.1phim18.com,thapcam73.live,thapcam73.life,i2pd.website##a[rel="nofollow"]
 ketubanjiwa.com##+js(nostif, blockUI, 2000)
 ketv.com,gulfcoastnewsnow.com##.article-sidelist-wrapper > div[class^="css-"]:has(> div[class^="css-"] > div[data-type] > div.ad-container)
 kewnscans.org###sticky-ad-head
@@ -61105,7 +61105,7 @@ muzyka.interia.pl##.adStandardTopContainerWraper
 muzyka.interia.pl##body .inpl-gallery-ad-horizontal:not(#style_important)
 muzzleloadingforum.com##div[data-widget-key="unlistme"]
 mv-voice.com##.ad-break
-mv.phimmoiaz.cc,anime14.site,zpic.st,javgiga.wordpress.com,hoctot.hocmai.vn,freetube.com.mx,truyenfull.live,player.phimapi.com,sachmoi.net,xfast.sbs,anime47.best,x.phimsexvn1.co.uk,qmhsex.click,cdn.codexa.fun##+js(aopr, open)
+mv.phimmoiaz.cc,anime14.site,zpic.st,javgiga.wordpress.com,hoctot.hocmai.vn,freetube.com.mx,truyenfull.live,player.phimapi.com,sachmoi.net,xfast.sbs,anime47.best,x.phimsexvn1.co.uk,qmhsex.top,cdn.codexa.fun##+js(aopr, open)
 mvnrepository.com##.h-ad
 mvnrepository.com##[href="https://dnsgurus.com"]
 mx.dk###wrapper > #leaderboard
@@ -65615,7 +65615,7 @@ phimlongtieng.net##+js(acs, document.createElement, script)
 phimlongtieng.net##+js(prevent-fetch, pagead2.googlesyndication.com)
 phimlongtieng.net##.banner-preload-container
 phimlongtieng.net##div[class^="catfish-"]
-phimlongtieng.net,www.1phim17.com,vn-motchill.com##.banner-preload
+phimlongtieng.net,www.1phim18.com,vn-motchill.com##.banner-preload
 phimmoi.cash###catfish_wrap
 phimmoi.cash,phim24k.top,jophim.top,rophimz.top,xem20.net##.float-ck-center-lt
 phimmoi.com.mx##.bg-black\/70.justify-center.items-center.flex.z-\[9999\].inset-0.fixed
@@ -71935,6 +71935,7 @@ sexmummy.com###topbar
 sexmummy.com##img[width="468"]
 sexmummy.com##td[height="115"][align="center"]
 sexmummy.com##td[width="330"] table[width="320"][height="100%"]
+sexmup69.pro,sexmupxinh.net,vlsexhihi.com##.xx-ads
 sexmupxinh.net##+js(aopr, Cookies)
 sexmupxinh.net##.catfix
 sexmupxinh.net,vlsexhihi.com,laalmirchitakeaway.co.uk##.catfish-top
@@ -72100,7 +72101,6 @@ sexvideos.host##+js(nowoif)
 sexvideos.host##.fluid-close[target="_blank"]:remove-attr(target)
 sexvideos.host##.fluid-spots
 sexvideos.host##^script:has-text(/popstate|popMagic/)
-sexviet3x.pro,sexmupxinh.net,vlsexhihi.com##.xx-ads
 sexwebvideo.com##.adblock-spot
 sexwebvideo.com##.footer-content > .uk-container-center
 sexwebvideo.com##.trailer-sidebar
@@ -79787,7 +79787,7 @@ truyensextv.com,lxmanga.space##.sticky-footer
 truyensextv.com,yanhh3d.love,z1.chinav.sex##+js(acs, document.addEventListener, opup)
 truyensieuhay.com##.footer-info
 truyensieuhay.com,hhtrungquoc9.com,hhtq13.vip,hhtq3d.net###topbanner
-truyensieuhay.com,xemphim.site,quangcaoyenbai.com,phimchill.life,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,vlsexhihi.com,anime47.best,phimhdc.com,honghotduongpho.vn,chichvn.club,comong.info,qmhsex.click##+js(aopr, document.cookie)
+truyensieuhay.com,xemphim.site,quangcaoyenbai.com,phimchill.life,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,vlsexhihi.com,anime47.best,phimhdc.com,honghotduongpho.vn,chichvn.club,comong.info,qmhsex.top##+js(aopr, document.cookie)
 truyentranhfull.net##+js(rmnt, script, ai_adb)
 truyentranhfull.net##^script:has-text(ai_adb)
 trxking.xyz##+js(set, blurred, false)
@@ -80304,7 +80304,7 @@ tvhay.*##.banner-ads
 tvhay.*##body > #wrapper + center:style(height: 2px !important;)
 tvhay.org##.ad_location
 tvhay.org##.float-ck
-tvhayd.org,www.1phim17.com,misseschloe.co.za,vn-motchill.com##.catfish-bottom
+tvhayd.org,www.1phim18.com,misseschloe.co.za,vn-motchill.com##.catfish-bottom
 tvinsider.com##.inline-promo
 tvline.com##._video_ti56x_1
 tvline.com##.pluto-tv-wrapper
@@ -83639,6 +83639,7 @@ web.de##div[data-service-slot-initialized]
 web.de#@#.ad
 web.facebook.com,www.facebook.com###seo_pivots ~ div > div[style^="max-width"] > div[class] > div[style^="max-width"]:has(a[href^="/ads/about/?"])
 web.facebook.com,www.facebook.com##+js(json-edit, ..data.viewer..nodes.*[?.__typename=="AdsSideFeedUnit"])
+web.facebook.com,www.facebook.com##+js(json-edit, ..edges..node[?.*.__typename=="SponsoredData"])
 web.facebook.com,www.facebook.com##+js(json-edit, ..node[?.__typename=="MarketplaceFeedAdStory"])
 web.facebook.com,www.facebook.com##+js(json-edit, ..nodes.*[?.sponsored_data])
 web.facebook.com,www.facebook.com##+js(json-edit, .require..node[?.*.__typename=="SponsoredData"])
@@ -84932,11 +84933,11 @@ www-pocket--lint-com.cdn.ampproject.org##.content > div.block-inline
 www-thewindowsclub-com.cdn.ampproject.org##amp-anim[height="60"]
 www-y2mate.com##+js(no-window-open-if)
 www-y2mate.com##+js(nowoif)
-www.1phim17.com##.adv-300-right
-www.1phim17.com##.BanerTop100
-www.1phim17.com,amlich.org##.banner-container
-www.1phim17.com,javgiga.wordpress.com##+js(aopr, localStorage)
-www.1phim17.com,misseschloe.co.za##.catfish-top
+www.1phim18.com##.adv-300-right
+www.1phim18.com##.BanerTop100
+www.1phim18.com,amlich.org##.banner-container
+www.1phim18.com,javgiga.wordpress.com##+js(aopr, localStorage)
+www.1phim18.com,misseschloe.co.za##.catfish-top
 www.2banh.vn##.grp-grp.header_wp
 www.2banh.vn##.lb_overlay
 www.7mvn9.com###bottomFixedDiv
@@ -92649,6 +92650,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||adltserv.com^
 ||adltserv.com^$popup
 ||adlux.com^$third-party
+||adm.shinobi.jp^$script,redirect=noop.js,domain=bus-location.1507t.xyz
 ||adm.shinobi.jp^$third-party
 ||admaaodfwkcuj.store^
 ||admachina.com^
@@ -100857,7 +100859,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||buntypuddee.qpon^
 ||bunyancibaria.qpon^
 ||bunyancolob.qpon^
-||buomtv.baby/palivn/ad/$image,~third-party
+||buomtv.love/palivn/ad/$image,~third-party
 ||buondua.com/templatesygfo76jp36enw15_/
 ||buoyant-most.pro^
 ||buoyantspecial.com^
@@ -108212,7 +108214,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||danaidjuicesboaedon.cyou^
 ||danakagetrsm.vercel.app^$all
 ||danbo.org^$third-party
-||dance.bytecdn.cfd^*.gif$image,domain=qmhsex.click
+||dance.bytecdn.cfd^*.gif$image,domain=qmhsex.top
 ||danceryteatswinged.cyou^
 ||dancewave.online/js/dwab.js$script,1p,important
 ||danderpotrero.cyou^
@@ -145340,8 +145342,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||quokkasscelp.qpon^
 ||quonsettarish.qpon^
 ||quora.com/ads/
-||quoracdn.net^$image,domain=sexviet3x.pro|phim18vip.site|pheclip.pet|sexmupxinh.net|vlsexhihi.com|phevl.my|fulllivehot.co|haysexvn.shop|chichvn.club|viet69hay.cyou
-||quoracdn.net^$image,domain=www.1phim17.com|phimlongtieng.net
+||quoracdn.net^$image,domain=sexmup69.pro|phim18vip.site|pheclip.pet|sexmupxinh.net|vlsexhihi.com|phevl.my|fulllivehot.co|haysexvn.shop|chichvn.club|viet69hay.cyou
+||quoracdn.net^$image,domain=www.1phim18.com|phimlongtieng.net
 ||quorsukey.cyou^
 ||quorumsfinesse.cfd^
 ||quotationgambling.com^
@@ -165225,7 +165227,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||www.*.vip^$doc,ipaddress=/^(13\.227\.254\.\d{2}|2600:9000:2(00a|1d1):[a-z0-9]{2}00:1[1c]:(7b7c|2741):(1ac|2d0)0:93a1)$/
 ||www.0ko5s9l5mn93n7pq.xyz^
 ||www.19706903.xyz^
-||www.1phim17.com/3s.m3u8$rewrite=abp-resource:blank-mp3,domain=www.1phim17.com
+||www.1phim18.com/3s.m3u8$rewrite=abp-resource:blank-mp3,domain=www.1phim18.com
 ||www.3243082.notifysrv.com^
 ||www.3328380.notifysrv.com^
 ||www.3328398.notifysrv.com^
