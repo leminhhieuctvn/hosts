@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-06 10:37:31 UTC
+! Last modified: 2026-08-06 14:06:57 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -63899,7 +63899,9 @@ omg.blog,uxwing.com,fontesk.com,iplocation.net,pureinfotech.com,insurance-space.
 omgchrome.com##.menu-banners-container
 omgexploits.com##+js(nosiif, visibility, 1000)
 omglyrics.com###externalinject-gpt-passback-container
+omgubuntu.co.uk##.homepage-layout__bg-container:has(> .u--box > .loop--fw > .html-layout > div[style="display: block; min-height: 250px;"])
 omgubuntu.co.uk##.homepage-layout__bg-container[data-layout="html"]:has(.html-layout > .adsbygoogle)
+omgubuntu.co.uk##div[style="display: block; min-height: 250px;"]
 omio.*##div[id^="LpsContent-AdUnit"]
 omma.top##+js(abort-on-stack-trace, console.log, doSecondPop)
 omma.top##+js(no-window-open-if)
@@ -65279,7 +65281,9 @@ peacocktv.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration
 peak.cz##+js(abort-current-script, $, adblock-modal)
 peakpx.com##li[style^="width: 300px; height: 250px;"]
 peakpx.com,pxfuel.com##.list_ads:style(height: 0px !important;)
+pearos.xyz##+js(abort-on-stack-trace, document.getElementById, mountWall)
 pearos.xyz##+js(prevent-fetch, adblockanalytics.com)
+pearos.xyz##.ad-fixed-side
 pearsonclinical.com##.aligner
 peazip.github.io##td[style="background-color: rgb(255, 255, 255); vertical-align: top; text-align: center;"]
 pecetowicz.pl###ipsLayout_mainArea .ipsList_inline > .ipsResponsive_inlineBlock > a[target="_blank"] > img
@@ -84467,6 +84471,10 @@ wmur.com,ksbw.com,kmbc.com,mynbc5.com,koat.com,ketv.com,gulfcoastnewsnow.com,wap
 wmur.com,ksbw.com,kmbc.com,mynbc5.com,koat.com,ketv.com,gulfcoastnewsnow.com,wapt.com##div[class^="css-"]:has(> div[data-type] > div.ad-container)
 wncv.com##.simple-image
 wnd.com##.leader-board-top
+wnep.com,firstcoastnews.com,wtsp.com,wfaa.com,kgw.com,wcnc.com,wusa9.com,khou.com,ksdk.com,kens5.com,abc10.com,wwltv.com,wfmynews2.com,thv11.com,wzzm13.com,kare11.com,wkyc.com,localmemphis.com,kcentv.com,wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com,wltx.com,wgrz.com,kvue.com,cbs8.com,12newsnow.com,kiiitv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid > div.grid__section_theme_below-article:has(> div.grid__content div.grid__module-sizer_name_ad)
+wnep.com,firstcoastnews.com,wtsp.com,wfaa.com,kgw.com,wcnc.com,wusa9.com,khou.com,ksdk.com,kens5.com,abc10.com,wwltv.com,wfmynews2.com,thv11.com,wzzm13.com,kare11.com,wkyc.com,localmemphis.com,kcentv.com,wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com,wltx.com,wgrz.com,kvue.com,cbs8.com,12newsnow.com,kiiitv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__cell[data-columns]:has(> .grid__module:only-child > .grid__module-sizer_name_ad)
+wnep.com,firstcoastnews.com,wtsp.com,wfaa.com,kgw.com,wcnc.com,wusa9.com,khou.com,ksdk.com,kens5.com,abc10.com,wwltv.com,wfmynews2.com,thv11.com,wzzm13.com,kare11.com,wkyc.com,localmemphis.com,kcentv.com,wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com,wltx.com,wgrz.com,kvue.com,cbs8.com,12newsnow.com,kiiitv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__content > div.grid__sticky-column:has(> div.grid__sticky-content > div.grid__module > div.grid__module-sizer_name_ad)
+wnep.com,firstcoastnews.com,wtsp.com,wfaa.com,kgw.com,wcnc.com,wusa9.com,khou.com,ksdk.com,kens5.com,abc10.com,wwltv.com,wfmynews2.com,thv11.com,wzzm13.com,kare11.com,wkyc.com,localmemphis.com,kcentv.com,wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com,wltx.com,wgrz.com,kvue.com,cbs8.com,12newsnow.com,kiiitv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__module:has(> .grid__module-sizer_name_ad)
 wnp.pl###target-5d
 wnp.pl##body div.ad.block
 wnynewsnow.com##+js(set-attr, ':is(.watch-on-link-logo, li.post) img.ezlazyload[src^="data:image"][data-ezsrc]', src, [data-ezsrc])
@@ -84920,10 +84928,6 @@ wunderground.com##AD-TRIPLE-BOX
 wunderground.com##ad-wx-top-300-small
 wunderground.com##body wu-header:style(margin-top: 0px !important;)
 wupfile.com##[id*=ScriptRoot]
-wusa9.com,khou.com,ksdk.com,kens5.com,abc10.com,wwltv.com,wfmynews2.com,thv11.com,wzzm13.com,kare11.com,wkyc.com,localmemphis.com,kcentv.com,wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com,wltx.com,wgrz.com,kvue.com,cbs8.com,12newsnow.com,kiiitv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid > div.grid__section_theme_below-article:has(> div.grid__content div.grid__module-sizer_name_ad)
-wusa9.com,khou.com,ksdk.com,kens5.com,abc10.com,wwltv.com,wfmynews2.com,thv11.com,wzzm13.com,kare11.com,wkyc.com,localmemphis.com,kcentv.com,wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com,wltx.com,wgrz.com,kvue.com,cbs8.com,12newsnow.com,kiiitv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__cell[data-columns]:has(> .grid__module:only-child > .grid__module-sizer_name_ad)
-wusa9.com,khou.com,ksdk.com,kens5.com,abc10.com,wwltv.com,wfmynews2.com,thv11.com,wzzm13.com,kare11.com,wkyc.com,localmemphis.com,kcentv.com,wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com,wltx.com,wgrz.com,kvue.com,cbs8.com,12newsnow.com,kiiitv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__content > div.grid__sticky-column:has(> div.grid__sticky-content > div.grid__module > div.grid__module-sizer_name_ad)
-wusa9.com,khou.com,ksdk.com,kens5.com,abc10.com,wwltv.com,wfmynews2.com,thv11.com,wzzm13.com,kare11.com,wkyc.com,localmemphis.com,kcentv.com,wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com,wltx.com,wgrz.com,kvue.com,cbs8.com,12newsnow.com,kiiitv.com,wqad.com,fox43.com,10tv.com,myfoxzone.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__module:has(> .grid__module-sizer_name_ad)
 wuxia.click###chapterText + div.mantine-Container-root
 wuxia.click##.mantine-Center-root + br + div[class^="mantine-"]:has(> .adsbygoogle)
 wuxia.click##.mantine-Container-root + .mantine-Container-root + br + br + div[class^="mantine-"]:last-of-type:has([alt~="Ad"])
@@ -141118,6 +141122,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||peanthnakptaw.website^
 ||pearlinproxysmmewl.qpon^
 ||pearlsteems.cyou^
+||pearos.xyz/assets/adblock-detector.js
 ||pearpermitted.com^
 ||peasacknowledged.com^
 ||peasantcurbdeceased.com^
@@ -149808,6 +149813,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||sabergood.com^
 ||sabinpanhas.cyou^
 ||sabito.kamadonezuko.com^$doc
+||sableviolet.com^
 ||saboom.com.pccdn.com^*/banner/
 ||sabotagesophisticatedfragile.com^
 ||sabtecsxmjmnj.website^
@@ -154163,6 +154169,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||static.a1.0network.com^
 ||static.accesstrade.vn/js/atsmarttag.min.js
 ||static.accesstrade.vn/js/v2/floating-ads-icon.min.js$script
+||static.accesstrade.vn^
 ||static.accesstrade.vn^$3p
 ||static.ad-maven.com^
 ||static.ad.libimseti.cz^
