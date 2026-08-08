@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-08 16:31:41 UTC
+! Last modified: 2026-08-08 20:27:59 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -20420,7 +20420,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 6hiidude.gold##+js(acs, document.documentElement, break;case $.)
 6hiidude.gold##+js(href-sanitizer, a[href^="https://cdns.6hiidude.gold/file.php?link=http"], ?link)
 6hiidude.gold##p > a[href*="/4/"][target="_blank"]
-6indianporn.com,amateurebonypics.com,amateuryoungpics.com,amigosporn.top,cinemabg.net,desimmshd.com,everia.club,frauporno.com,givemeaporn.com,hitomi.la,jav-asia.top,javfull.net,javideo.net,javsunday.com,kr18plus.com,luscious.net,missavtv.com,pdftoshokan.com,picbaron.com,pilibook.com,pornborne.com,porngrey.com,pornktube.*,pornx.tube,qqxnxx.com,sexvideos.host,submilf.com,subtaboo.com,watchseries.*,xfrenchies.com##+js(aeld, , popMagic)
+6indianporn.com,amateurebonypics.com,amateuryoungpics.com,amigosporn.top,cinemabg.net,desimmshd.com,everia.club,frauporno.com,givemeaporn.com,hitomi.la,jav-asia.top,javfull.net,javideo.net,javsunday.com,kr18plus.com,luscious.net,missavtv.com,picbaron.com,pilibook.com,pornborne.com,porngrey.com,pornktube.*,pornx.tube,qqxnxx.com,sexvideos.host,submilf.com,subtaboo.com,watchseries.*,xfrenchies.com##+js(aeld, , popMagic)
 6japaneseporn.com##.player-place > .player-place-wide-bn-ob
 6oszwqmr.xyz##+js(abort-on-property-write, getLink)
 720pstream.*##+js(nostif, "admc")
@@ -53541,7 +53541,7 @@ jakbudowac.pl##.pub_300x250.pub_300x250m.text-ad.textAd.text-ads.text-ad-links:s
 jakdorobic.pl##.banner-main-jd-container
 jakdorobic.pl##.sidebar-inner > .widget:has(> figure > a[target="_blank"])
 jakondo.ru##+js(set, HTMLScriptElement.prototype.onerror, undefined)
-jaktsidan.se,janamathaya.lk,japannihon.com,javboys.*,javcock.com,javgay.com,javx357.com,jcutrer.com,jk-market.com,jobsbd.xyz,jobsibe.com,jobslampung.net,josemo.com,jra.jpn.org,jrlinks.in,jungyun.net,juninhoscripts.com.br,juventusfc.hu##+js(noeval-if, /chp_?ad/)
+jaktsidan.se,janamathaya.lk,japannihon.com,javboys.*,javcock.com,javgay.com,javgg.me,javx357.com,jcutrer.com,jk-market.com,jobsbd.xyz,jobsibe.com,jobslampung.net,josemo.com,jra.jpn.org,jrlinks.in,jungyun.net,juninhoscripts.com.br,juventusfc.hu##+js(noeval-if, /chp_?ad/)
 jalantikus.com##.ads
 jalantikus.com##[class^="ad-"][class*="-container"]
 jalantikus.com##div[id*="div-gpt-ad-"]
@@ -65253,6 +65253,8 @@ pdfroom.com##div[class^="my-"][style^="min-width:"][style*="min-height"]
 pdfroom.com##div[style="min-width: 308px; min-height: 250px;"]
 pdfslide.net##div[class*="gg_ads_"]
 pdftoshokan.com##+js(addEventListener-defuser, load, /pop.?Magic|addEvent\("click/)
+pdftoshokan.com##+js(aeld, , /exoJsPop|venor\.php|document\.location\.protocol/)
+pdftoshokan.com##^script:has-text(/adConfig|preparePop|\/popunder1000/)
 pdftoxps.com,ebook2pdf.com,imagetopdf.com,odt2pdf.com,rtftopdf.com,pdf2mobi.com,pdfextractor.com,pdfjoiner.com,html2pdf.com,imagecompressor.com,mobi2epub.com,epub2kindle.com,pdf2kindle.com,epubtopdf.com,pubtopdf.com,svgoptimizer.com,epstopng.com,epstosvg.com,svgtopdf.com,pdftosvg.com,jpg2svg.com,svgtojpg.com,svgtopng.com,png2svg.com,pngtogif.com,giftopng.com,gifcompressor.com,giftomp4.com,pdf2tiff.com,tiff2pdf.com,jpg2tiff.com,tiff2jpg.com,tiff2png.com,pdf2doc.com,doctopdf.com,pdftoimage.com,jpg2pdf.com,pdf2docx.com,pdf2png.com,png2pdf.com,pdfcompressor.com,combinepdf.com,rotatepdf.com,unlockpdf.com,croppdf.com,toepub.com,xpstopdf.com,djvu2pdf.com,pdftotext.com,shrinkpdf.com,compressgif.com,compresspng.com,compressjpeg.com##.ha
 pdftoxps.com,ebook2pdf.com,imagetopdf.com,odt2pdf.com,rtftopdf.com,pdf2mobi.com,pdfextractor.com,pdfjoiner.com,html2pdf.com,imagecompressor.com,mobi2epub.com,epub2kindle.com,pdf2kindle.com,epubtopdf.com,pubtopdf.com,svgoptimizer.com,epstopng.com,epstosvg.com,svgtopdf.com,pdftosvg.com,jpg2svg.com,svgtojpg.com,svgtopng.com,png2svg.com,pngtogif.com,giftopng.com,gifcompressor.com,giftomp4.com,pdf2tiff.com,tiff2pdf.com,jpg2tiff.com,tiff2jpg.com,tiff2png.com,pdf2doc.com,doctopdf.com,pdftoimage.com,jpg2pdf.com,pdf2docx.com,pdf2png.com,png2pdf.com,pdfcompressor.com,combinepdf.com,rotatepdf.com,unlockpdf.com,croppdf.com,toepub.com,xpstopdf.com,djvu2pdf.com,pdftotext.com,shrinkpdf.com,compressgif.com,compresspng.com,compressjpeg.com##.header__right
 pdr.net###ehsBanner
@@ -73738,7 +73740,7 @@ solidfiles.com##.buttons > a[class="btn btn-success btn-sm"]
 solidfiles.com##.promoted-dl
 solidfiles.com##.remove
 solidfiles.com##div[class^="bnr-"]
-solispia.com##+js(trusted-rpnt, script, /document\.addEventListener\('DOMContentLoaded'\, function[\S\s]+?(const novelId\s*=\s*\d+;\s*const targetUrl\s*=.+?\d+";)[\S\s]+?verifying = true;\s*(try \{[\S\s]+?ad_meta:)[\S\s]+?CMの準備中です...'\);\s*.*?\s*(try \{\s*[\S\s]+?catch\s*\(\w*\)\s*\{)[\S\s]*/, document.addEventListener('DOMContentLoaded'\, async function(){$1 const sleep=ms=>new Promise(resolve=>setTimeout(resolve\,ms));$3 return;}await sleep(5000+Math.floor(Math.random()*3000));$2 {"type":"reward"\,"amount": 2}})});if(!res.ok)throw res.status;const j=await res.json().catch(()=>null);if(j&&j.ok){window.location.href=targetUrl;}}catch(e){}}))
+solispia.com##+js(trusted-rpnt, script, /document\.addEventListener\('DOMContentLoaded'\, function[\S\s]+?const novelId\s*=\s*(\d+);\s*const targetUrl\s*=.+?novel\\\/\d+";\s*const backToTitle[\S\s]+?SolispiaRewardedAdGate\.init\(\{\s*cancelUrl: backToTitle[\S\s]+/, !async function(){const e=$1\,t=`https://solispia.com/novel/${e}`\,o=document.querySelector('meta[name="csrf-token"]')?.getAttribute("content")||"";try{const a=await fetch(`/api/ad/rewarded/start/${e}`\,{method:"POST"\,headers:{"Content-Type":"application/json"\,"X-CSRF-TOKEN":o\,"X-Requested-With":"XMLHttpRequest"}\,body:JSON.stringify({})})\,i=await a.json();if(!i?.ok)return;await(n=5e3+Math.floor(1e3*Math.random())+500\,new Promise((e=>setTimeout(e\,n))));const d=await fetch("/api/ad/rewarded/complete"\,{method:"POST"\,headers:{"Content-Type":"application/json"\,"X-CSRF-TOKEN":o\,"X-Requested-With":"XMLHttpRequest"}\,body:JSON.stringify({challenge_id:i.challenge_id\,unlock_token:i.unlock_token\,event_key:i.event_key\,novel_id:e\,ad_meta:{}})})\,s=await d.json();s?.ok&&(window.location.href=t)}catch(e){}var n}();)
 solobari.it##+js(addEventListener-defuser, load, blockAdBlock)
 solobari.it##+js(aeld, load, blockAdBlock)
 solobari.it#@#.adSense
