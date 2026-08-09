@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-09 12:48:13 UTC
+! Last modified: 2026-08-09 16:33:51 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -150300,6 +150300,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||s0.cdn3x.com/jb/js/jb.vast.min.js
 ||s0cool.net^$popup
 ||s0fast.net^$popup,doc
+||s1.hdslb.com/bfs/static/jinkela/video/video.$script,replace=/vd_source:this\.vdSource/vd_source:undefined/,domain=bilibili.com
 ||s1.lk21static.xyz/assets/*-nov.gif$domain=layarkaca21.*
 ||s1.musictarget.com/!_lb.php
 ||s1.rtnews.pro^
