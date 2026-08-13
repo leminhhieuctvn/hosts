@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-13 09:10:29 UTC
+! Last modified: 2026-08-13 13:08:15 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -21587,9 +21587,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||adsmanager.facebook.com^$generichide
 @@||adsninja.ca/ads_$script,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||adsninja.ca/adsninja_client.js$script,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
-@@||adsninja.ca/live_setups$xhr,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|polygon.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||adsninja.ca/urlmap$domain=polygon.com
-@@||adsninja.ca^$script,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|polygon.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
+@@||adsninja.ca^$script,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||adsninja.ca^$stylesheet,xmlhttprequest,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||adspace.pro^$domain=adspace.pro
 @@||adspremium.it/adserver/www/delivery/ajs.php?zoneid=$domain=italiamac.it
@@ -22432,11 +22431,9 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||cdn.adsninja.ca/adsninja_worker_caller.js$domain=makeuseof.com|howtogeek.com
 @@||cdn.adsninja.ca/an_sn.js$domain=polygon.com
 @@||cdn.adsninja.ca/api/$domain=polygon.com
-@@||cdn.adsninja.ca/api/cached/$xhr,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|polygon.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||cdn.adsninja.ca/v*/an.js$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||cdn.adsninja.ca/v*/init.js$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||cdn.adsninja.ca/v*/valstream.js$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
-@@||cdn.adsninja.ca^$css,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|polygon.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||cdn.adspirit.de/banner/_default/160x600.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/300x250.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/468x60.jpg$domain=streetdir.com|roaddir.com
@@ -24153,7 +24150,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||googletagservices.com/tag/js/gpt.js$script,domain=viz.com
 @@||googletagservices.com/tag/js/gpt.js$script,redirect-rule,domain=thedailybeast.com
 @@||googletagservices.com/tag/js/gpt.js?ad_tag=$domain=clipmyhorse.tv
-@@||googletagservices.com/tag/js/gpt.js^$script,redirect-rule,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|polygon.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
+@@||googletagservices.com/tag/js/gpt.js^$script,redirect-rule,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||googletagservices.com/tag/js/gpt_mobile.js$domain=www.vulture.com
 @@||googlevideo.com/videoplayback/*dclk_video_ads$domain=10play.com.au|10.com.au
 @@||gorillanation.com/js/triggertag.js$domain=playstationlifestyle.net
@@ -26206,7 +26203,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||poki-gdn.com^$frame
 @@||politiken.dk/static/$script
 @@||polvod.pl/advertisement.js
-@@||polygon.com^$ghide
 @@||pons.com/p/files/*$image
 @@||ponselharian.com^$ghide
 @@||pool-newskoolmedia.adhese.com/tag/config.js$domain=formule1.nl
@@ -30375,8 +30371,8 @@ androidpolice.com#@#.adsninja-ad-zone
 androidpolice.com#@#.ima-ad-container
 androidpolice.com#@#.w-adsninja-video-player
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,polygon.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##+js(no-fetch-if, googlesyndication)
-androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,polygon.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##+js(set, Object.prototype.ads.nopreroll_, true)
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com###secondary div[id^="sidebar-"]
+androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##+js(set, Object.prototype.ads.nopreroll_, true)
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.ad-zone-container-sidebar-default
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.ad-zone-sidebar-default
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.ad-zone-sidebar-first
@@ -36236,11 +36232,13 @@ chat.tchatche.com##+js(set, ShowAdvertising, {})
 chatboxn.com##a[target="_blank"][rel="nofollow"]
 chatelaine.com##.assmbly-ad-text
 chatelaine.com,fashionmagazine.com##.assmbly-ad-wrapper
+chatgpt.com##+js(json-prune, messages.*.ads messages.*.renderedAdsHtml)
 chatgpt.com##+js(no-fetch-if, method:/post/i url:/\/\/chatgpt\.com\/ces\/v1\/[a-z]$/)
 chatgpt.com##+js(no-fetch-if, method:/post/i url:ab.chatgpt.com/v1/rgstr)
 chatgpt.com##+js(trusted-json-edit, ..suppress_ads=true)
 chatgpt.com##+js(trusted-json-edit, [?.type=="ads"].visibility.status="hidden")
 chatgpt.com##.border-token-border-default.mt-2.border-t:has(button[aria-label="Ad options"])
+chatgpt.com##.wm-app-threadContent aside[aria-label^="Sponsored"]
 chatgpt.com##[class*="_assistantAds"]
 chatgpt.com##[data-testid="bazaar-v2-elevated-box"]
 chatgpt.com##aside[data-assistant-ads-unit]
@@ -36462,20 +36460,13 @@ chip.de###R1C3[role="complementary"]
 chip.de##+js(json-prune, enabled, force_disabled)
 chip.de##.Ad
 chip.de##.Ad-hor-height
-chip.de##.ad-listing
 chip.de##.Ad-Slot
-chip.de##.ad-slot
-chip.de##.ae-banner
-chip.de##.ae-skyscraper
 chip.de##.app_nexus_banners_common
 chip.de##.ButtonAuswahl + div > div[class]:has(> a[class][style="display:flex;"][href^="https://www.chip.de/downloads/"][href$=".html"])
-chip.de##.DownloadPageWidget-Cta > .RUC-DownloadButton-Wrap:has(> div > a.aff-link[href*="&deliver=installer&from=dl_button"])
 chip.de##.FC__Container.min-height-250px-mu:style(max-height: 0.1px !important; height: 0.1px !important; min-height: 0px !important;)
+chip.de##.js_download_button:has(> a.Download-Button--Free[href*="withinstaller"][href*="lastchanged"])
 chip.de##.ob-ad-carousel-layout
-chip.de##.product__top-aside > section.mt-md:has(> h3:empty:first-child + table:last-child img[src*="screen13.com"])
-chip.de##.RUC-DownloadButton-Wrap:has(> span:has-text(/^ANZEIGE$/))
 chip.de##:root:style(--topbanner-height-min:unset!important;--topbanner-height-max:unset!important;)
-chip.de##div[id*="AdSlot"]
 chip.de##tr:has(> td[style][colspan] > a.js-antivirusclick[href])
 chip.pl##.cbad
 chip.pl##.fc-Card14:has(> a[href="https://www.plus.pl/5g"])
@@ -41226,7 +41217,7 @@ dts24.pl##:is(.elementor-size-small, .elementor-size-default):contains(/^Reklama
 dts24.pl##a.gofollow[data-track]
 dualeotruyencw.com##+js(acs, document.addEventListener, popunder)
 dualeotruyencw.com##[id$="bnr"]
-dualeotruyencw.com,phimsexhihi.net,cliphot69.cyou,doctruyen3qhub.vip,qmanga.art,hentaivkl.pro,buomtv.love,truyenvn.sbs,javtiful.com,quatvn.forum,phimsexhayvne.com,phim18hd.site,sexviet88z.com,sexmupxinh.net,demo.14412882.com,hhtq5.vip,xvideos.xemvl.xxx,umetruyenz.org,damconuong.sbs,truyenqqko.com,phimsexsuong3x.net,sayhentai.cx,lxmanga.space,phimlongtieng.net,www.sieutamphim.pro,vevocloud.com,xinh3x.it.com,viet69.be,viet69vn.at,misskon.com,luottruyen16.com##+js(acs, WebAssembly, instantiate)
+dualeotruyencw.com,zphimsex.pro,cliphot69.cyou,doctruyen3qhub.vip,qmanga.art,hentaivkl.pro,buomtv.love,truyenvn.sbs,javtiful.com,quatvn.forum,phimsexhayvne.com,phim18hd.site,sexviet88z.com,sexmupxinh.net,demo.14412882.com,hhtq5.vip,xvideos.xemvl.xxx,umetruyenz.org,damconuong.sbs,truyenqqko.com,phimsexsuong3x.net,sayhentai.cx,lxmanga.space,phimlongtieng.net,www.sieutamphim.pro,vevocloud.com,xinh3x.it.com,viet69.be,viet69vn.at,misskon.com,luottruyen16.com##+js(acs, WebAssembly, instantiate)
 dubaotiente.net##.ad-pin-right-bottom
 dublaj.az###sidebar > .row > .col-sm-12 > .sidebar-widget:has(> .widget-head > h4.title:contains(Reklam))
 dublaj.az##.bn-lg-sidebar:has(> .row > div[id^="yandex_rtb"])
@@ -47048,7 +47039,6 @@ gaminginfos.com##+js(aopr, document.write)
 gaminginfos.com##+js(rmnt, script, /userAgent|adb|htmls/)
 gamingintelligence.com##.col-lg-3 > .main > .mb-3 > div[class$="adsanity-"]:upward(2)
 gamingintelligence.com##div[class$="adsanity-"]
-gamingmode.pl,kociakolyska.pl,metropoliatorunska.pl,spotbox.pl,terazwloclawek.pl,xcook.pl##div[class]:has(> div > a + a[href^="https://adinfo.wp.pl/"])
 gamingsym.in##+js(aost, String.prototype.charCodeAt, ai_)
 gamingtrend.com##.affiliates-img
 gamingtrend.com##.social-sharing-bot + p
@@ -49409,8 +49399,6 @@ hastidl.me##.container > center
 hastidl.me##.main-sidebar > center
 hastidl.me##div[data-adtype]
 hastingsobserver.co.uk##.leaderboard-ad
-hasuike-dc.com###popup-ad-box
-hasuike-dc.com##.banner-ad
 haszon.hu##.bannergroup
 haszon.hu##.pushdownbanner
 hatauzmani.com##.bn-lg
@@ -57910,6 +57898,7 @@ mahitimanch.in##.stickyAdBottomWrapper
 mahitimanch.in##.stickyAdTopWrapper
 mahitimanch.in##.TopSticky
 maid.my.id##.iniiklan
+mail.aol.com###gpt-iframe-top_right-gam-display
 mail.aol.com###slot_LREC
 mail.aol.com##[data-test-id="right-rail-ad"]
 mail.aol.com##[data-test-id^="pencil-ad"]
@@ -57918,6 +57907,7 @@ mail.aol.com##[role="presentation"]:has(> div[data-ad-row-id])
 mail.aol.com##div[data-test-id="mail-app-main-content"] ul[role="list"] > li:has(a[data-test-id="pencil-ad-messageList"])
 mail.aol.com##div[data-test-id="pencil-ad"]
 mail.aol.com##div[data-test-id="virtual-list"] > ul[role="list"][aria-label] > li[style]:has(a[href^="https://api.taboola.com/"][href*="/yahoo-aol-mail/"])
+mail.aol.com##div[style^="padding:"] div[aria-hidden="true"]  div.mb-1.text-xs.font-medium
 mail.aol.com##li:has(a[data-test-id="pencil-ad-messageList"])
 mail.bg###mail_ad
 mail.bg###main-billboard-spacer
@@ -65717,8 +65707,6 @@ phimmoir.ac##.bg-black\/70.justify-center.items-center.flex.z-\[9999\].inset-0.f
 phimnhe.net###pc-ballon-left
 phimnhe.net###pc-catfix
 phimnhe.net##+js(abort-current-script, createCookie, popurl)
-phimsexcom.net##+js(acs, window.addEventListener, Ads)
-phimsexhihi.net,sexmupxinh.net,vsexhihi.com##.xx-ads
 phimsexsuong3x.net,vsexhihi.com,javhdz.wine,laalmirchitakeaway.co.uk##.catfish-bottom
 phimtho.cc#%#//scriptlet("abort-current-inline-script", "$", "p0pUpRandom")
 phineypet.com###content > form[id]:has(> center > button):style(display: block !important;)
@@ -66829,12 +66817,9 @@ polygamia.pl##img[src="https://i.wpimg.pl/O/56x45/i.wp.pl/a/i/stg/pkf/bg.png"]:u
 polygamia.pl,dobreprogramy.pl##div[class*=" "]:has(> div:first-child + img[src*="://v.wpimg.pl/"][alt])
 polygon.com###content > article ~ div[class*=" "]:not([class*="layout"]):has(> div[data-concert^="outbrain_"]:only-child)
 polygon.com##.an-zone-d
-polygon.com##.an-zone-d
-polygon.com##.an-zone-footer-footer
 polygon.com##.an-zone-footer-footer
 polygon.com##.c-related-list__video
 polygon.com##.sin38m2.sin38m4.sin38m7
-polygon.com#@#.video
 polygon.com,insidenu.com,mmamania.com##div[data-concert]
 polygon.com,thegamer.com#@#.w-adsninja-video-player
 polygon.com,thegamer.com,makeuseof.com,howtogeek.com#@#.ad-current
@@ -82996,6 +82981,7 @@ voznovel.com##+js(rmnt, script, shopeeLinks)
 vpforums.org###master1
 vpforums.org##td[align="center"][style="padding: 0px;"]
 vpforums.org#?#.ipsSideBlock.clearfix:has-text(Affiliates)
+vphimsex.com##+js(acs, window.addEventListener, Ads)
 vplink.in##+js(nostif, location.href)
 vplink.in##+js(rpnt, script, /#Intent.*?end/)
 vplink.in##+js(rpnt, script, /(['"])https?:\/\/[^'"]+\1/, $1$1, condition, /addEventListener|adUrl|open/)
@@ -84063,6 +84049,8 @@ weshare.is##+js(prevent-fetch, doubleclick.net)
 weshare.is##+js(rmnt, script, onDevToolOpen)
 weshare.is##^script:has-text(onDevToolOpen)
 weshare.is,skycall.online##+js(prevent-fetch, pagead2.googlesyndication.com)
+western-canoe.com###popup-ad-box
+western-canoe.com##.banner-ad
 westernjournal.com###stnvideo
 westernjournal.com##div:not(.after-article) > div[id$="-ad"].sponsor
 westkentuckystar.com##.adsCategory
@@ -85156,11 +85144,33 @@ www.cc.com##+js(json-prune-fetch-response, imasdk, , propsToMatch, /topaz/api)
 www.cc.com##+js(json-prune-xhr-response, imasdk, , propsToMatch, /topaz/api)
 www.cc.com##+js(no-fetch-if, imasdk.googleapis.com)
 www.cc.com##+js(no-xhr-if, imasdk.googleapis.com)
-www.chip.de##+js(rmnt, script, /\"\,\"clickp\"\:\"[0-9]{1\,2}\"/)
+www.chip.de###CR[class="download-charts"] > #G32 > #M1 > .bg-white > [class="wrapper-safe mt-xl"] > .fb > aside[class="fb-col-md-4 fb-col-lg-4"] > *:has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="download-charts"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="download-listing"] > #G32 > #M1 > [class="wrapper-safe mt-sm"] > .fb > .mt-md:not(.ft-charts-main):has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="download-listing"] > #G32 > #M1 > div:not([class], [id]):has(> div > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-xl"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"]:has(> h3:first-child + table:last-child))
+www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-xl"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"] > h3 + table:has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class]:not(.wrapper-safe) .Downloads-Alternative:has(a img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> div[class][style="min-height: 250px;"] > ul.is-separated a img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > :not([class="wrapper-safe"] + .wrapper-safe.ft-alts) .Downloads-Alternative a[href*="https://www.chip.de/downloads/"]:has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
+www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div[class="wrapper-safe"] > [class="fb mt-xl"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"]:has(table img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
+www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > section > div[class]:has(> div:only-child > ul.is-separated a img)
+www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class^="fb mt-"] > section[class="fb-col-12 fb-col-lg-8"] > [class]:not(.ButtonAuswahl):has(> a[href^="https://www.chip.de/downloads/"])
+www.chip.de###dlcharts-list + div[class]:has(> h2:has-text(/Gesponsert|Bezahlte Empfehlung|Anzeige/) + a[href^="https://www.chip.de/downloads/"])
+www.chip.de###M1[role="main"]:style(margin-top: 0px !important;)
+www.chip.de##+js(rmnt, script, /\"\,\"clickp\"\:\"[0-9]{1\,2}\"\}\;/)
 www.chip.de##+js(rmnt, script, /\'\, [0-9]{3}\)\]\; \}  \}/)
-www.chip.de##.DownloadCharts-List > li:has(> a > article > .RUC-DownloadChartsBlock-AdLabel)
-www.chip.de##^script:has-text(/\"\,\"clickp\"\:\"[0-9]{1,2}\"/)
+www.chip.de##+js(rmnt, script, /pushAdTag|link_click|getAds/)
+www.chip.de##+js(rmnt, script, ?metric=transit.counter&key=fail_redirect&tags=)
+www.chip.de##+js(rpnt, style, ::after{content:" ";display:table;box-sizing:border-box}, {display: none !important;}, condition, text-decoration:none;vertical-align:middle)
+www.chip.de##.fb > .Listing > div:has(> h2:has-text(/Gesponsert|Bezahlte Empfehlung|Anzeige/) + a[href^="https://www.chip.de/downloads/"])
+www.chip.de##.ft-charts-teaser > a:has(> div:first-child > span:first-child:has-text(/Gesponsert|Bezahlte Empfehlung|Anzeige/))
+www.chip.de##^script:has-text(/\"\,\"clickp\"\:\"[0-9]{1,2}\"\}\;/)
 www.chip.de##^script:has-text(/\'\, [0-9]{3}\)\]\; \}  \}/)
+www.chip.de##^script:has-text(/pushAdTag|link_click|getAds/)
+www.chip.de##^script:has-text(?metric=transit.counter&key=fail_redirect&tags=)
 www.clbgamesvn.com##.bannerBox
 www.clbgamesvn.com##.footerBanner
 www.clbgamesvn.com##center>[href*="tlink.vn"]
@@ -87322,6 +87332,7 @@ zpaste.net##center > center > button[class][style]
 zpaste.net##div > center > button[class][style]
 zpaste.net,pixeldrain.com###sponsors
 zpaste.net,zlpaste.net##+js(aeld, DOMContentLoaded, adlinkfly)
+zphimsex.pro,sexmupxinh.net,vsexhihi.com##.xx-ads
 zpic.st##.ad-banner
 zplayer.live##+js(addEventListener-defuser, mousedown, )]){return)
 zplayer.live##+js(no-window-open-if)
@@ -92811,7 +92822,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ads.betfair.com^
 ||ads.betweendigital.com^
 ||ads.bidspotter.co.uk^
-||ads.bizwd.net^$image,domain=hasuike-dc.com
+||ads.bizwd.net^$image,domain=western-canoe.com
 ||ads.cavalier-romand.ch^
 ||ads.cc^$third-party
 ||ads.cdn.bndlapi.com^
@@ -102277,7 +102288,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||chinhphu.*.org^$doc
 ||chiotreroute.cyou^
 ||chioursorspolia.com^
-||chip.de/download-charts/__assets/screen13/
+||chip.de/*&$script,1p
 ||chipleader.com^
 ||chipletfuffy.cfd^
 ||chipmunk.sqltoapi.com^
@@ -121134,7 +121145,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=zygomatic.arkadiumarena.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,from=sport5.co.il
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,from=winfuture.de
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|polygon.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=arkadium.com|zone.msn.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=crunchyroll.com|dailymotion.com|einthusan.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=player.earthtv.com
@@ -136296,7 +136307,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||phimmoichillz.top/pop$image
 ||phimmoichillz.top^*.gif$image
 ||phimmoisz.org/wp-content/uploads/tvc/*.xml
-||phimsexcom.net^*.gif$image
 ||phimsexhayvne.com^*.gif$image
 ||phimsexsuong3x.net^*.gif$image
 ||phineypet.com/2x.png
@@ -140052,8 +140062,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||quokkasgraf.com^
 ||quokkasscelp.qpon^
 ||quora.com/ads/
-||quoracdn.net^$image,domain=phimsexhihi.net|phim18vip.site|pheclip.lol|sexmupxinh.net|vsexhihi.com|phevl.pet|fulllivehot.us|haysexvn.shop|chichvn.my|viet69hay.store
 ||quoracdn.net^$image,domain=www.1phim20.com|phimlongtieng.net
+||quoracdn.net^$image,domain=zphimsex.pro|phim18vip.site|pheclip.lol|sexmupxinh.net|vsexhihi.com|phevl.pet|fulllivehot.us|haysexvn.shop|chichvn.my|viet69hay.store
 ||quorumsfinesse.cfd^
 ||quotationgambling.com^
 ||quote.bloblohub.com^
@@ -145129,7 +145139,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||seznam.cz/html/adform_sync.html$frame,domain=sbazar.cz
 ||seznamzpravy.cz/$frame,1p
 ||sf-ads.io^
-||sf-static.onflixcdn.pics/images/ads/$image
 ||sf.ezoiccdn.com/ezossp/https/neurotray.com/?local_ga_js=$script,3p,domain=neurotray.com,important
 ||sfaazgosczit.in^
 ||sfahuhmlwdjop.store^
@@ -155561,6 +155570,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||vpcjijijkzhjv.space^
 ||vpdehpjxotemz.space^
 ||vphfcftukjmnf.site^
+||vphimsex.com^*.gif$image
 ||vpico.com^
 ||vpipi.com^
 ||vpjzefvydxeuz.site^
