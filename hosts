@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-14 16:51:20 UTC
+! Last modified: 2026-08-14 20:29:45 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -14149,6 +14149,7 @@
 ##body > div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"][style*=";cursor:pointer"]:empty
 ##body ~ div[style^="z-index: 2147483647 !important; position: fixed !important; width:"]
 ##body ~ iframe[id][style^="width: 100% !important; height:"][style*="inset:"]
+##body.user-clicked[style="cursor: auto;"] > #root > .app-container
 ##body[onbeforeunload="return myFunction()"]
 ##bottomadblock
 ##broadstreet-zone-container
@@ -14370,6 +14371,7 @@
 $3p,xhr,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagmanager.com *.google.com *.gstatic.com www.google-analytics.com *.googleapis.com *.disqus.com *.disquscdn.com code.jquery.com *.cloudflare.com cdn.streamroot.io cdn.jsdelivr.net vjs.zencdn.net cache.hollywood.to static.hollywood.to,domain=stream1.me|streamz.cc,badfilter
 $csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',domain=thumbs.pro
+$doc,ipaddress=185.100.85.248
 $doc,ipaddress=185.216.143.121
 $doc,removeparam=s_cid
 $domain=adserver.juicyads.com
@@ -18137,9 +18139,11 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /images/banners/*$domain=free-strip-games.com|buzz50.com|linuxsecurity.com
 /images/banners/*$domain=oggimilazzo.it
 /images/banners_x_cliente/*$domain=vivereurbino.it
+/images/bip.mp3|$media,1p
 /images/bns/*$domain=mangabats.com|mangakakalot.gg|mangakakalove.com|manganato.gg|natomanga.com|nelomanga.net
 /images/bns/*$domain=natomanga.com|nelomanga.net
 /images/gen/etherscan-sm.gif
+/images/script.mp3|$media,1p
 /images/static/github-org-members.min.js
 /images/vpn.gif$domain=torkitty.com|torrentkitty.vip|torrentkitty.tv
 /images2/Ads/*$image
@@ -31480,6 +31484,7 @@ armidaleexpress.com.au##.bg-gray-100[id^="story"][id$="-container"]
 armidaleexpress.com.au##.invisible
 armidaleexpress.com.au##.lg\:max-w-mrec
 armidaleexpress.com.au##.top-0.sticky:style(top: 0 !important;)
+armidaleexpress.com.au##div.viafoura > div.mx-auto > #story-comment-container:has(> div[class] > span:contains(Ad))
 armidaleexpress.com.au##div[id^="mrec-"]
 armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwesterndaily.com.au,crookwellgazette.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,portnews.com.au,thecourier.com.au,thesenior.com.au###billboard-container
 armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwesterndaily.com.au,crookwellgazette.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,portnews.com.au,thecourier.com.au,thesenior.com.au##.lg\:min-w-mrec.lg\:sticky
@@ -37159,6 +37164,7 @@ cnbctv18.com##.right-ad-amp
 cnbctv18.com##[style="min-height:4000px"]
 cnet.com###globalSocialPromoWrap
 cnet.com###leaderTopWrap
+cnet.com##+js(href-sanitizer, a[href^="https://cc.cnet.com/v1/otc/"], ?url)
 cnet.com##+js(set, Object.prototype.updateModifiedCommerceUrl, noopFunc)
 cnet.com##.ad-leader-top
 cnet.com##.ad-nav-ad
@@ -42520,6 +42526,8 @@ erightsoft.com##font[color="#7d7d7d"] >  font[size="1"]
 erightsoft.com##td font[color="#666666"] > font[size="1"]
 erinsakura.com##+js(nostif, disableDeveloperTools)
 erinsakura.com##.herald-fa-grid
+ernax.pro##.fixed.z-\[9980\]
+ernax.pro##.fixed.z-\[9981\]
 ero-labs.com,ero-labs.*###home__banner--mobile
 ero-labs.com,ero-labs.*##+js(json-prune, adList.* adSideList.* pickupList.*)
 ero-labs.com,ero-labs.*,searchencrypt.com##.home__banner
@@ -58598,7 +58606,6 @@ masrawy.com##.monsterDiv
 masrawy.com##.showcaseDiv
 masrawy.com##.waya
 masrawytrend.com###adx-interstitial
-masrawytrend.com##+js(no-window-open-if)
 masrawytrend.com##a[href^="https://reatasesetitoefa.com"]
 masrawytrend.com#@#.ad-unit:not(.textads)
 masrawytrend.com#@#.ad-unit:not(.textads)
@@ -63132,8 +63139,6 @@ northernvirginiamag.com##.website-header__ad--leaderboard
 northjersey.com##body > div[class^="gnt_"][style="--gnt-nwh: calc(100px + var(--gnt-tah));"]:style(--gnt-nwh: 0 !important;)
 northjersey.com##div[class^="gnt_"]:has(> aside[aria-label="advertisement"]:first-child):style(display: none !important;)
 northumberlandgazette.co.uk##div[class^="sc-"]::before
-northumberlandnews.com##div[data-lpos="more-from-northumberlandnews-com-partners"]
-northumberlandnews.com##div[id^="primis"]
 northwalespioneer.co.uk##+js(aopr, _sp_.mms.startMsg)
 norton.com##+js(window-close-if, /protect?)
 nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
@@ -65615,6 +65620,7 @@ petco.com##div[data-widget-type="citrus-banner"]
 petersenshunting.com##.adpos_rightD
 petfinder.com##.AdUnitParagraph-module--adunitContainer--2b7a6
 petfinder.com##.CardGrid-module--breakOut--a18cf
+pethelpful.com##.question-pill.sponsored
 petitchef.*##.akcelo-placeholder
 petitchef.com,station-drivers.com,tennistemple.com##.akcelo-wrapper
 petitiontime.com##.content > center > a[target="_blank"] > img
@@ -77677,6 +77683,8 @@ thehun.net###dyk_right
 thehun.net##.leaderboard
 thehustle.co##.c-layout--trends
 thehustle.co##.sidebar-feed-trends
+theifp.ca,simcoe.com,toronto.com,northumberlandnews.com##div[data-lpos^="more-from-"][data-lpos*="-partners"]
+theifp.ca,simcoe.com,toronto.com,northumberlandnews.com##div[id^="primis"]
 theindex.moe,piracy.moe##div[class^="SupportBanner_"]
 theinertia.com##.asc-ad
 theinertia.com##.below-post-ad
@@ -79298,8 +79306,6 @@ toro.it##body div[id^="adwallpaper"]:not(#style_important):style(display: none !
 toro.it##div[id^="ad_dyn"]
 toronto.citynews.ca##.big-box-ad
 toronto.citynews.ca##div[data-ad-type]
-toronto.com##div[data-lpos="more-from-toronto-com-partners"]
-toronto.com##div[id^="primis"]
 torontosun.com##.mia-outstream
 torontosun.com##section[aria-describedby*="advertisment"]
 toros.co##.trtbl
@@ -82400,6 +82406,7 @@ viduyy.com,primesrc.me,primevid.click##+js(no-window-open-if)
 vidwatch.me###impo_overlay
 vidwatch.me###over_main
 vidyarays.com##body > center:has(> p:contains(Advertisement))
+vidzen.fun,masrawytrend.com##+js(no-window-open-if)
 vidzstore.com,moviesroot.club,kissmanga.*,leechpremium.link###myModal
 vieclam.tv###bnc0
 vieclam.tv###bnc1
@@ -100841,6 +100848,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||carrierzone.com/sharepoint/$doc
 ||carrotsaystopping.com^$all
 ||carryglanced.com^
+||carrymedias.com^$all
 ||carsensor.net/usedcar/modules/clicklog_$xhr,1p,important,redirect=noop.txt
 ||cartedatafter.qpon^
 ||cartining-specute.com^
@@ -119299,6 +119307,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||home-made-videos.com/nameless-cake
 ||home-xxx-videos.com/snowy-
 ||home.throne.ink^
+||homebuying-guide.com^$all
 ||homeeshbecom.org^
 ||homelybottle.com^
 ||homemade.xxx/player/html.php?aid=
@@ -125780,6 +125789,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||lacytrinityhissed.com^
 ||ladbrokesaffiliates.com.au^
 ||ladder05032026.shop^
+||ladesona.com^$all
 ||ladeykyxsaosi.site^
 ||ladiesmatchesfinder.com^
 ||ladnet.co^
@@ -127818,6 +127828,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||luhingamulches.qpon^
 ||luhmdpvtncllt.website^
 ||luhzoywwssycd.online^
+||luiosmardc.ink^$all
 ||lukrqrzkmiwst.online^
 ||lukvmrrxwnxwa.online^
 ||luljmaambnzkd.website^
@@ -142562,6 +142573,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||royalroad.com/dist/sentry.js$script
 ||royalroad.com^$frame,1p
 ||royaltystimulatepen.com^
+||roykuashkimayo.$all
 ||rozamimo9za10.com^$popup
 ||rozup.ir/view/*/728.90.gif
 ||rozzermisshod.qpon^
@@ -151418,6 +151430,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||toolslib.net/assets/custom/img/4d5/mb_square_buy.jpg
 ||toolslib.net/assets/custom/img/4d5/u2s_leaderboard_en.png
 ||toolslib.net/assets/custom/img/placeholders/placeholder_$image
+||toolsmastercracked.$all
 ||toolsorganized.com^
 ||toolxox.com/js/sweet_alert.js
 ||tooniboy.com^
