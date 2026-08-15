@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-14 20:29:45 UTC
+! Last modified: 2026-08-15 01:11:12 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -36269,6 +36269,8 @@ chatgpt.com##div[data-testid] div[class^="max-"] > div[data-testid="image-card-v
 chatgpt.com##div[data-testid] div[class^="relative max-"]:has(> div[data-testid="image-card-v2"] + .pointer-events-none button[aria-label="Sponsored options"])
 chatgpt.com##section:has(> [aria-label="Sponsored"])
 chatgpt.com#?#.opacity-100.transition-opacity.ease-out:has-text(Sponsored options)
+chatgpt.com#@#[class^="border-"]:contains(Ad)
+chatgpt.com#@#[class^="border-"]:contains(Sponsored)
 chatgptfree.ai##.elementor-widget-container > style + p:contains(/^ADS$/)
 chatib.us##.login-container > div[class^="col-"] > center > div.mrg-b-25
 chatta.it##+js(nostif, Adv)
