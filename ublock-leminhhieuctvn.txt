@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-16 01:15:33 UTC
+! Last modified: 2026-08-16 04:34:17 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -35327,6 +35327,8 @@ caliber.az##.left_banner
 caliber.az##.top_banner
 caliber.az##div[style="height:302px;"]
 calibercorner.com##+js(prevent-fetch, pagead2.googlesyndication.com)
+calicutcosmopolitanclub.com###popup-ad-box
+calicutcosmopolitanclub.com##.banner-ad
 call2friends.com##+js(abort-current-script, onload, Adblock)
 call2friends.com##+js(aopr, onload)
 call2friends.com#@#.adWrapper
@@ -36257,6 +36259,7 @@ chatboxn.com##a[target="_blank"][rel="nofollow"]
 chatelaine.com##.assmbly-ad-text
 chatelaine.com,fashionmagazine.com##.assmbly-ad-wrapper
 chatgpt.com##+js(json-prune, messages.*.ads messages.*.renderedAdsHtml)
+chatgpt.com##+js(json-prune, messages.*.ads messages.*.renderedAdsHtml)
 chatgpt.com##+js(no-fetch-if, method:/post/i url:/\/\/chatgpt\.com\/ces\/v1\/[a-z]$/)
 chatgpt.com##+js(no-fetch-if, method:/post/i url:ab.chatgpt.com/v1/rgstr)
 chatgpt.com##+js(trusted-json-edit, ..suppress_ads=true)
@@ -37028,7 +37031,7 @@ cliphot69.cyou###custom_html-42
 cliphotnews.*###vl-underplayer-adx
 cliphotnews.*##.ads-catfish-desktop
 cliphotnews.*##a[href="javascript:x_catfish();"]
-cliphotvn69.com,dynadot.rsocdomains.com,cliphot69.cyou,www.gvnvh18z.com,phimsexhayvne.com,sayhentai.cx,xamvn.beauty##.float-ck-center-lt
+cliphotvn69.com,dynadot.rsocdomains.com,cliphot69.cyou,www.gvnvh18z.com,phimsexhayvne.com,sayhentai.cx,xamvn.living##.float-ck-center-lt
 cliphubs.com,viet69hay.store,clipphot.co##+js(acs, document.addEventListener, pop)
 cliphunter.com###plrAd
 cliphunter.com##.SpacingResetXS
@@ -45889,9 +45892,9 @@ freeplayervideo.com,abysscdn.com,player-cdn.com###player + div[id]
 freeplayervideo.com,abysscdn.com,player-cdn.com##.playover
 freeplayervideo.com,abysscdn.com,player-cdn.com,fdcdn.xyz,anime14.site##.jw-logo
 freeplayervideo.com,abysscdn.com,player-cdn.com,playhydrax.com##+js(acs, document.getElementById, openPop)
-freeplayervideo.com,abysscdn.com,player-cdn.com,www.bachnguyetquang.online,hopphim.online,streamc.xyz,cap3.garden##+js(set, open, noopFunc)
 freeplayervideo.com,nazarickol.com,player-cdn.com,playhydrax.com##+js(ra, style, #over)
 freeplayervideo.com,nazarickol.com,player-cdn.com,playhydrax.com##+js(set, console.clear, undefined)
+freeplayervideo.com,www.sieutamphim.pro,player-cdn.com,www.bachnguyetquang.online,hopphim.online,streamc.xyz,cap3.garden##+js(set, open, noopFunc)
 freeporn.info##.alfa_promo_parent
 freeporn.info##h4[style="text-align: right;margin-bottom: 0.25rem;"]
 freeporn.works##.past
@@ -50382,7 +50385,7 @@ hhkungfu.*##+js(nowoif)
 hhkungfu.tv###bsadsheadline
 hhkungfu.tv###LoadError:style(display: none!important;)
 hhkungfu.tv###myframe:style(display: block!important;)
-hhninja6.mom,hhtq13.vip,hhtq.hair,animehay11.site,hhtq3d.net,hhvsub1.com,phimdacap.tv,hhdragon.top,hh2d.top###catfish
+hhninja7.mom,hhtq13.vip,hhtq.hair,animehay11.site,hhtq3d.net,hhvsub1.com,phimdacap.tv,hhdragon.top,hh2d.top###catfish
 hhtq.hair###top-banner-pc
 hhtq.hair,animehay11.site###sponsor-balloon
 hhtq.sh###overlay
@@ -50989,6 +50992,9 @@ horrortube.fun##+js(abort-current-script, decodeURI, 4zz.)
 hortidaily.com,agf.nl,freshplaza.*##input#block-ad-blockers:remove()
 hortonanderfarom.blogspot.com##+js(nostif, pop)
 horux.cz##.posts-container div[style="float:left; margin-right:10px; width: 300px; height:250px;"]
+hosocongty.vn##.advertTop
+hosocongty.vn##.hsdn>li:has(.adsbygoogle)
+hosocongty.vn##.module_plugins
 host-cdn.net^$image,redirect-rule=32x32.png,domain=maxstream.video
 host4fap.com##.sponsor
 hostelgeeks.com###hostelModal
@@ -51259,9 +51265,6 @@ hrnytube.com###adbd
 hrnytube.com##+js(set-constant, cRAds, true)
 hscans.com,mitsmits.com,csharpprogram.com,grasta.net,pokemonmatome.online,shirurin.com,huntersscan.xyz,freemagazinespdf.com,wabetainfo.com##body > script[id] + div[id][class*=" "]
 hscprojects.com##+js(aost, setTimeout, adsBlocked)
-hsctvn.com##.advertTop
-hsctvn.com##.hsdn>li:has(.adsbygoogle)
-hsctvn.com##.module_plugins
 hsreplay.net##.ads-container > div[class]:first-child:has(> div[style]:only-child > .vm-placement)
 hsreplay.net##.ads-container > div[class]:last-child:has(> div[class]:only-child > div[style] > .vm-placement)
 hsreplay.net##[style^="min-height: 90px;"]
@@ -60523,7 +60526,7 @@ motphimchilll.me###catfish_ad_top
 motphimr.io##+js(addEventListener-defuser, click, document.createElement)
 motphimr.io##+js(aeld, click, document.createElement)
 motphimr.io##+js(trusted-set-session-storage-item, popup-ads-last-shown, $now$)
-motphimw.cx##.bg-black\/70.justify-center.items-center.flex.z-\[9999\].inset-0.fixed
+motphimw.io##.bg-black\/70.justify-center.items-center.flex.z-\[9999\].inset-0.fixed
 motphimzz.net##a[href^="https://bit.ly/"][target="_blank"] > img
 moulik.cz##.Articles-banner > div:only-child
 moulik.cz##.col-xl-fixed-right:has(> div[class]:only-child > .aab-lite:first-child + div[id*="-square-"]:last-child)
@@ -70631,7 +70634,7 @@ rophim1.vip##a[href="https://colatv99.live"]
 rophim10.cv##.adserver
 rophim10.cv##.mt-3.topics-line.topics-grid.topics-list
 rophims.mx##.sspp-area
-rophims.mx,motphimw.cx,phimmoir.ac##+js(aeld, click, ads)
+rophims.mx,motphimw.io,phimmoir.ac##+js(aeld, click, ads)
 rophimz.*##+js(set-session-storage-item, ads-clicked-under-last-click, 11)
 rophimz.*##+js(trusted-override-element-method, HTMLAnchorElement.prototype.click, a[target="_blank"][rel*="sponsored"])
 rophimz.*##+js(trusted-set-session-storage-item, shopee-ads-clicked, $now$)
@@ -78425,8 +78428,6 @@ thizissam.in##+js(abort-current-script, document.createElement, adblock)
 thizissam.in##+js(abort-on-property-read, adsBlocked)
 thlivehub.com#@#.video-ad-container
 thoidai.com.vn,petrotimes.vn##.__ads_click
-thomas-jankowski.com###popup-ad-box
-thomas-jankowski.com##.banner-ad
 thomascook.com#@#img[width="240"][height="400"]
 thomasmaurer.ch##.sidebar > #custom_html-2
 thomasmaurer.ch##.sidebar > #custom_html-4
@@ -85469,13 +85470,13 @@ x2download.com##+js(aopr, GeneratorAds)
 x86.co.kr##+js(rmnt, script, adBlockDetected)
 x86.co.kr##^script:has-text(adBlockDetected)
 xagemode.com##+js(prevent-fetch, adsbygoogle)
-xamvn.beauty##.float-contact
-xamvn.beauty##.float-contact2
-xamvn.beauty##.js-notices
 xamvn.beauty,xamvn.*##.float-ck-center-lt
 xamvn.beauty,xamvn.*##.float-contact
 xamvn.beauty,xamvn.*##.float-contact2
 xamvn.beauty,xamvn.*##.js-notices
+xamvn.living##.float-contact
+xamvn.living##.float-contact2
+xamvn.living##.js-notices
 xanim.az###myrekopen
 xanim.az###rightmenu > a[href="http://mp3sayt.az"]
 xanim.az##body > a[href="http://unvan.az"][target="_blank"]
@@ -92890,7 +92891,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ads.betfair.com^
 ||ads.betweendigital.com^
 ||ads.bidspotter.co.uk^
-||ads.bizwd.net^$image,domain=thomas-jankowski.com
+||ads.bizwd.net^$image,domain=calicutcosmopolitanclub.com
 ||ads.cavalier-romand.ch^
 ||ads.cc^$third-party
 ||ads.cdn.bndlapi.com^
@@ -98907,7 +98908,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||blogger.googleusercontent.com/img/*.gif^$image,domain=idlixku.com
 ||blogger.googleusercontent.com/img/b/$domain=javdesu.tv
 ||blogger.googleusercontent.com^$domain=ainzscans.net|ainzscans01.com
-||blogger.googleusercontent.com^$image,domain=hhninja6.mom|hhtm.net|yanhh3d.pw
+||blogger.googleusercontent.com^$image,domain=hhninja7.mom|hhtm.net|yanhh3d.pw
 ||blogger.googleusercontent.com^$image,domain=tutwuri.id
 ||blogger.googleusercontent.com^*.gif$image,domain=www.gvnvh18z.com
 ||bloggingworld.net/wp-content/plugins^$3p
@@ -119589,6 +119590,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||hoshiyomi-yakata.jp^$doc
 ||hosierypressed.com^
 ||hosierysibling.com^
+||hosocongty.vn/uploads/products/$~third-party,image
 ||hospitable-effort.pro^
 ||hospitabledues.com^
 ||hospitalforgery.com^
@@ -119886,7 +119888,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||hs5nhe45.xyz^
 ||hs5nhe45.xyz^
 ||hsceynquafiri.site^
-||hsctvn.com/uploads/products/$~third-party,image
 ||hsfcuorcijlne.website^
 ||hshhllno.com^
 ||hsiianhrckmyq.space^
@@ -120398,7 +120399,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||i.imgur.com^$image,domain=anhdep24.com|dreamcheeky.com|fidlarmusic.com|kiemlua.com|lucidcam.com|nousdecor.com|publicananker.com
 ||i.imgur.com^$image,domain=myflixer.*
 ||i.imgur.com^$image,domain=nhacdj.vn|banbuondalat.com|new.tructiepnba.me|phimbet.top
-||i.imgur.com^$image,domain=phim18hd.site|xamvn.beauty
+||i.imgur.com^$image,domain=phim18hd.site|xamvn.living
 ||i.imgur.com^$image,domain=vinaurl.*
 ||i.imgur.com^$image,domain=vizcloud.*|vizcloud2.*
 ||i.imgur.com^*.gif$image,domain=ghienphimz.show|mv.dailyphimz.com|mv.phimmoiaz.cc|tv.manhvl.com|rophim.moe|soicau247s.org|phim24k.top|jophim.top|rophimz.top
