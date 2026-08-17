@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-17 12:41:13 UTC
+! Last modified: 2026-08-17 16:25:58 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -10811,6 +10811,7 @@
 ##.html-advertisement
 ##.hyperAd
 ##.iAdserver
+##.ID_live_cam_inner
 ##.idmuvi-topbanner
 ##.idmuvi-topbanner-aftermenu
 ##.iframe-ad
@@ -19349,6 +19350,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /ytrek7.$script,~3p
 /yzfdmoan.js$script,domain=lockr.so,redirect=noopjs
 /zbs.kek.js
+/zbwtUgU$xhr,3p
 /zclkredirect?$document
 /zclkredirect?visitid=$doc
 /zclkvisitor/*$document
@@ -37097,6 +37099,7 @@ cloudgallery.net##+js(aopr, console.clear)
 cloudgallery.net,imgair.net##+js(abort-current-script, document.getElementById, shouldFire)
 cloudgallery.net,imgair.net##+js(no-window-open-if, /tripedrated\.xyz|salaure\.pro|imgair\.net\/vip\//)
 cloudnestra.com##+js(abort-on-stack-trace, atob, _0x)
+cloudorchestranova.com##+js(nowoif, _blank)
 cloudorchestranova.com,yifysubtitles.ch,exposestrat.com,embedsports.top,seir-sanduk.com,daddylive3.com,sterham.net,buffsports.io,soccerstreams7.com,loadvid.com,telewizjada.top,ogladaj.in,istreameast.app,streamingnow.mov,watchug.to,primewire.tf,worldsports.st,filecrypt.cc,veplay.top,colegialasdeverdad.*,crackstreams.cx,anime4i.com,cuttyy.com,puffytr.com,anizle.*,vidlink.pro,knaben.xyz,powstream.*,rojadirectaenvivo.pl,ext.to,capo4play.com,1337x.to,zone-telechargement.*,redecanais.in,freckledine.net,buffstreams.app,sanet.lc,1stream.eu,sportsonline.*##+js(abort-on-stack-trace, Element.prototype.hasAttribute, isActionAllowedOnElement)
 cloudpaten.pro###load-modal:style(display: none !important;)
 cloudpaten.pro##.modal-backdrop:style(display: none !important;)
@@ -37250,8 +37253,8 @@ cnnamador.com##.banner
 cnnamador.com##.cards__item--videos span.flag--banner:upward(.cards__item--videos)
 cnnamador.com##.cards__item:has([href*="loboclick"])
 cnnamador.com##.is-ad-visible
-cnnamador.com,fyxxr.to,watchporn.to##+js(nostif, offsetWidth, 2000)
-cnnamador.com,fyxxr.to,watchporn.to##+js(rpnt, script, adv_, no_adv_, condition, flashvars, sedCount, 10)
+cnnamador.com,fyxxr.to,hentai-moon.com,porn4fans.com,porn4fans.me,watchporn.to,web.epalovo.com##+js(nostif, offsetWidth, 2000)
+cnnamador.com,fyxxr.to,hentai-moon.com,porn4fans.com,porn4fans.me,watchporn.to,web.epalovo.com##+js(rpnt, script, adv_, no_adv_, condition, kt_player.swf, sedCount, 10)
 cnnindonesia.com##.r_content div.mr > p[id^="adv-caption"]:upward(1)
 cnpics.org,cnxx.me##+js(abort-on-property-write, detectAdBlock)
 cntraveller.com,wired.co.uk,wired.com##.ad-height-hold
@@ -68744,6 +68747,7 @@ ptinews.com##div[class^="adddiv"]
 ptonline.com##.adBlock--center-column
 ptonline.com##.adBlock--right-column
 ptonline.com##.large-horizontal-banner
+ptztv.live##+js(nostif, innerHTML.length:0)
 pubhtml5.com##.ph5---banner---container
 pubjav.com###main + div.container > div.row:has(> div[class^="ads-player"])
 pubjav.com##.mvic-ads
@@ -99992,6 +99996,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||bssgnowkrcjpm.online^
 ||bstatic.com^$script,domain=abril.com.br
 ||bstrvqdwuytk.com^
+||bstsrs.in/globin?link=$urlskip=?link -base64
 ||bsuwaczsfertl.site^
 ||bsuzrzbpyviyv.online^
 ||bsvajclq.com^
@@ -128348,6 +128353,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||luhbnpeabgeqf.online^
 ||luhingamulches.qpon^
 ||luhmdpvtncllt.website^
+||luhxepremiumbags.com^$all
 ||luhzoywwssycd.online^
 ||luiosmardc.ink^$all
 ||lukrqrzkmiwst.online^
@@ -139712,6 +139718,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||pubcoderace.com^
 ||pubdirecte.com^$popup
 ||pubdirecte.com^$third-party
+||pubds.bid^
 ||pubds.bid^
 ||pubfeed.linkby.com^
 ||pubfuture-ad.com^
