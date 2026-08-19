@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-19 01:11:48 UTC
+! Last modified: 2026-08-19 04:35:12 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -21107,7 +21107,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@/js/prebid/others.$script,domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|maxisciences.com|ohmymag.com|ohmymag.de
 @@/js/prebid/others/*$script,domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|maxisciences.com|ohmymag.com|ohmymag.de
 @@/js/wp-banners.js$domain=articlerewritertool.com|spinbot.com|free-article-spinner.com
-@@/jsi18n/|$script,1p
 @@/key=$media,domain=ashemaletube.com
 @@/libs/advertisement.js$domain=getfree.co.in|bagi.co.in|aztecafaucet.space|multifaucet.org|dogestar.website|claimbits.io|i-bits.io|gobits.io|faucet.shorterall.com|simplyfaucet.xyz|tv3.lv
 @@/libs/advertisement.js?ad_ids=*&show_ad=$script,1p
@@ -36003,7 +36002,7 @@ cdn.gledaitv.live##+js(noeval-if, String.fromCharCode)
 cdn.htmlgames.com###afgContainer
 cdn.htmlgames.com###afgContainer
 cdn.javpornsite.com##.inplayer-wrapper
-cdn.lfastcdn.com^*.gif$image,domain=jsforcats.com
+cdn.lfastcdn.com^*.gif$image,domain=oceanfilm.net
 cdn.loadvid.com##+js(no-window-open-if, , 1)
 cdn.m-78.jp#@#.ad-panel
 cdn.tiesraides.lv##+js(rpnt, script, vid.vast, //vid.vast)
@@ -37055,7 +37054,6 @@ cliphubs.com,viet69hay.store,clipphot.co##+js(acs, document.addEventListener, po
 cliphunter.com###plrAd
 cliphunter.com##.SpacingResetXS
 clipmass.com###fancybox-wrap
-clipsexhay.pro,sexmupxinh.net,vsexhihi.net##.xx-ads
 clipsexsub3x.net##.catfish-bottom
 clipwatching.*##+js(set-constant, dtGonza.playeradstime, -1)
 clix4btc.com##+js(set, adblock, false)
@@ -41291,7 +41289,7 @@ dts24.pl##:is(.elementor-size-small, .elementor-size-default):contains(/^Reklama
 dts24.pl##a.gofollow[data-track]
 dualeotruyencw.com##+js(acs, document.addEventListener, popunder)
 dualeotruyencw.com##[id$="bnr"]
-dualeotruyencw.com,clipsexhay.pro,cliphot69.rest,doctruyen3qhub.vip,qmanga.art,hentaivkl.pro,buomtv.bet,truyenvn.sbs,javtiful.com,quatvn.study,phimsexhayvne.com,phim18hd.site,sexviet88z.co.uk,sexmupxinh.net,demo.14412882.com,hhtq5.vip,xvideos.xemvl.xxx,umetruyenz.org,damconuong.sbs,truyenqqko.com,phimsexsuong3x.net,sayhentai.cx,lxmanga.space,phimlongtieng.net,www.sieutamphim.pro,vevocloud.com,xinh3x.it.com,viet69.be,viet69vn.at,misskon.com,luottruyen16.com##+js(acs, WebAssembly, instantiate)
+dualeotruyencw.com,tube3x.net,cliphot69.rest,doctruyen3qhub.vip,qmanga.art,hentaivkl.pro,buomtv.bet,truyenvn.sbs,javtiful.com,quatvn.study,phimsexhayvne.com,phim18hd.site,sexviet88z.co.uk,sexmupxinh.net,demo.14412882.com,hhtq5.vip,xvideos.xemvl.xxx,umetruyenz.org,damconuong.sbs,truyenqqko.com,phimsexsuong3x.net,sayhentai.cx,lxmanga.space,phimlongtieng.net,www.sieutamphim.pro,vevocloud.com,xinh3x.it.com,viet69.nz,viet69vn.at,misskon.com,luottruyen16.com##+js(acs, WebAssembly, instantiate)
 dubaotiente.net##.ad-pin-right-bottom
 dublaj.az###sidebar > .row > .col-sm-12 > .sidebar-widget:has(> .widget-head > h4.title:contains(Reklam))
 dublaj.az##.bn-lg-sidebar:has(> .row > div[id^="yandex_rtb"])
@@ -45031,10 +45029,7 @@ fmradiofree.com,internetradio-horen.de,radio-australia.org,radio-danmark.dk,radi
 fmradiofree.com,internetradio-horen.de,radio-australia.org,radio-danmark.dk,radio-hrvatska.com,radio-norge.org,radio-osterreich.at##^script[src*="html-load.com"]
 fnlondon.com##.grid__content_padded_bottom_border:has(> .adWrapper)
 fnlondon.com##.grid__rail_top:has(> .adWrapper)
-fo76db.com###fo-ad-modal
 fo76db.com##+js(trusted-rpnt, script, / ads\.map[\S\s\n]+?join\(''\)/)
-fo76db.com##body.swiper:style(overflow: auto !important; position: static !important;)
-fo76db.com#@#+js(aeld, DOMContentLoaded, /ads|AmazonCarousel/)
 focus.de##.clearfix.branding > .surftipp:has-text(Anzeige)
 focus.de##[href^="https://www.cyberport.de"]
 focus.de,kicker.de##+js(json-prune, enabled, force_disabled)
@@ -53758,32 +53753,9 @@ japantoday.com##.widget--jobs
 japantoday.com##a[href*=".gaijinpot.com/"][href*="&utm_"]
 japgay.com##+js(set, AlobaidiDetectAdBlock, true)
 jappy.com,jpgames.de##+js(nostif, .call(null), 10)
-japscan.*##+js(acs, Array.prototype.join, /^[\S\s]{2000\,6000}$/)
-japscan.*##+js(acs, DOMTokenList.prototype.remove, /^[\S\s]{3000\,4000}$/)
-japscan.*##+js(acs, Node.prototype.appendChild, /cssText'|:'style'/)
-japscan.*##+js(acs, Promise.resolve, /jso\$|\(_0x|(['"`]\s*[-0-9A-Z_a-z]+\s*['"`]\,\s*){50\,}|ByDZ/)
-japscan.*##+js(aost, aclib, /stackDepth:3\s+get injectedScript.+inlineScript/)
-japscan.*##+js(aost, MessageChannel, /stackDepth:2.+inlineScript/)
-japscan.*##+js(aost, setTimeout, /stackDepth:3.+inlineScript:\d{4}:1/)
-japscan.*##+js(norafif, Date)
-japscan.*##+js(norafif, requestAnimationFrame)
-japscan.*##+js(prevent-innerHTML, , /\.(gif|jpe?g|png|webp)/)
-japscan.*##+js(set, aclib.runInterstitial, {}, as, function)
-japscan.*##+js(trusted-replace-argument, Element.prototype.getAttribute, 0, json:"class", condition, d-z)
-japscan.*##+js(trusted-replace-outbound-text, Function.prototype.toString, ( ) => value, 'runInterstitial(e){if(this.#fe.interstitial)return void this.#r.error("interstitial zone already loaded on page");this.#fe.interstitial=!0;const{zoneId:t,sub1:r,isAutoTag:n,collectiveZoneId:i,linkedZoneId:o,aggressivity:s,recordPageView:a,abTest:c,tagVersionSuffix:u}=e;if(!t)throw new Error("mandatory zoneId is not provided!");if(!we(t))throw new Error("zoneId is not a string!");this.#r.debug("loading interstitial on page");const l={zoneId:t,sub1:r,isAutoTag:n,collectiveZoneId:i,linkedZoneId:o,aggressivity:s,recordPageView:a,abTest:c,tagVersionSuffix:u,adcashGlobalName:this.#xe,adserverDomain:this.#v,adblockSettings:this.#s,uniqueFingerprint:this.#C,isLoadedAsPartOfLibrary:!1};if(this.#pe.add(t),this.#Ce.Interstitial)return l.isLoadedAsPartOfLibrary=!0,void new this.#Ce.Interstitial(l);if(window.Interstitial)new Interstitial(l);else{const e=document.createElement("script");e.type="text/javascript",e.src=`${location.protocol}//${this.#he}/script/interstitial.js`,e.setAttribute("a-lib","1"),e.onload=()=>{new Interstitial(l)},e.onerror=()=>{this.#r.error(`failed loading ${e.src}`)},document.head.appendChild(e)}}')
-japscan.*##+js(trusted-set, aclib, 'json:{"isShowingPop":false}')
-japscan.*##+js(trusted-suppress-native-method, Array.from, '"/NodeList/"', prevent, inlineScript)
-japscan.*##+js(trusted-suppress-native-method, Document.prototype.createTreeWalker, '"/.*/"', prevent, inlineScript)
-japscan.*##+js(trusted-suppress-native-method, Document.prototype.evaluate, '"/.*/"', prevent, inlineScript)
-japscan.*##+js(trusted-suppress-native-method, Document.prototype.querySelectorAll, '"/^\[d[a-z]t[a-z]?-[0-9a-z]{2,4}\]$/"')
-japscan.*##+js(trusted-suppress-native-method, Element.prototype.hasAttribute, '"/[\S\s]+/"', prevent, inlineScript)
-japscan.*##+js(trusted-suppress-native-method, HTMLElement.prototype.querySelectorAll, '"/.*\[[^imns].+\].*/"')
-japscan.*##:matches-path(/^\/man(g|h.)a/) div div:matches-attr("/[-0-9A-Za-z]{6,}/"="/.+/"):matches-css(position:fixed)
-japscan.*##div[id]:not(#TogglerNav,#bds,#best-value,#blare-inter,#blir-nter,#block-left,#block-right,#bookmarks,#chapters,#challenge-success-text,#content,#footer-text,#full-reader,#gnt_xmst,#https\:\/\/www\.japscan\.foo,#list_chapters,#main,#mangas,#minimize,#move,#nav_Header,#notice-message,#noticeMessage,#quit,#reader,#report-modal,#report-success,#results,#searchForm,#sidebar,#tns-inner,#toolbar,#verifying-msg,#windowbar,.cb-container,.loading-verifying,.main-content > div, body > div,[id^="collapse-"],[id^="d-img"],[id^="jc-"],[id^="single-reader"],[id^="tab"],[id^="tns1"],[id^="top"])
 japscan.*##html > div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
 japscan.*#@#.navbar-nav > li.nav-item > a.text-truncate.nav-link.font-weight-bold[href*="?"]
 japscan.*#@#body > div.full-container > div.full-container.text-center > div.mt-2[style="margin: 0px auto; display: block;"] > a.Aikoi.donate[target="_blank"][rel][href^="https://www.longosto.shop/?utm_source="] > img.img-fluid
-japscan.*,~japscan.vip##body *:not(a,br,button,canvas,canvas ~ *,cn-vvv,code,div,footer,form,h1,h2,h3,h4,h5,h6,hr,i,iframe,img,input,label,li,meta,nav,noscript,ol,option,p,script,select,small,span,strong,style,ul,[data-x],body > *)
 japscan.lol##+js(nostif, detectImgLoad)
 japteenx.com##div[class^="photo-body-"]
 jardiner-malin.fr##+js(set, wIsAdBlocked, false)
@@ -54482,9 +54454,6 @@ jsfiddle.net##+js(set, _bsa, {})
 jsfiddle.net##+js(set, _carbonads, {})
 jsfiddle.net##+js(set-constant, _bsa, {})
 jsfiddle.net##+js(set-constant, _carbonads, {})
-jsforcats.com##.btn-company
-jsforcats.com##.odds-comp-logo
-jsforcats.com##.xlz-ads-item
 jta.org##.right-rail-container
 juazeiro.ba.gov.br###tie-block_1735
 juazeiro.ba.gov.br###tie-block_3287
@@ -63754,6 +63723,9 @@ obsev.com##+js(aopr, HTMLIFrameElement)
 obutecodanet.ig.com.br##+js(no-xhr-if, googlesyndication)
 ocado.com##.fops-item--advert
 ocado.com##.supplierBanner
+oceanfilm.net##.btn-company
+oceanfilm.net##.odds-comp-logo
+oceanfilm.net##.xlz-ads-item
 oceanof-games.com##+js(aopr, open)
 oceanofgamese.com##.post-content > div[class][style="float: none; margin:10px 0 10px 0; text-align:center;"]
 oceantech.xyz##.banner ~ .blog-item
@@ -80080,6 +80052,7 @@ truyenqqko.com###floating-banner-left
 truyenqqko.com###floating-banner-right
 truyenqqko.com##.text_ads
 truyenqqko.com##div#ad_info
+truyenqqko.com##span[style="display: flex;flex-direction: column;align-items: center; color: white; padding-bottom: 10px"]
 truyenqqko.com,foxtruyen2.com###ad_info_top
 truyensextv.com,lxmanga.space##.sticky-footer
 truyensextv.com,yanhh3d.pw,z1.chinav.sex##+js(acs, document.addEventListener, opup)
@@ -80140,6 +80113,7 @@ tube.shegods.com##+js(nowoif)
 tube.shegods.com##.main-gal > .right-gallery
 tube.shegods.com##.main-gal > .right-gallery
 tube188.com##+js(href-sanitizer, a[href^="/check.php?"][href*="&url=http"], ?url)
+tube3x.net,sexmupxinh.net,vsexhihi.net##.xx-ads
 tube8.*###flvplayer > [style]:has(.js-remove-ads-premium-link)
 tube8.*###flvplayer > div#togglerWrapper ~ div[id][style="display: block;"]
 tube8.*###main-nav > li > a[rel="nofollow noopener"][onclick^="pageTracker"]
@@ -82550,7 +82524,7 @@ viefaucet.com##.offerwall-widget
 viefaucet.com#@#.ad-description
 vieon.vn##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads:style(display: block!important;)
 viet69hay.store###castfish
-viet69vn.at,viet69.be##.footer-fixed-br-container
+viet69vn.at,viet69.nz##.footer-fixed-br-container
 vietcetera.com##.styles_topBanner__NL_gW
 vietcetera.com##div[class^="!items-end"]
 vietcetera.com##div[class^="styles_banner"]
@@ -124828,7 +124802,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||jsfeedadsget.com^
 ||jsfilecdn.com^
 ||jsfilecdn.com^
-||jsforcats.com/wp-content/themes/bongda/dist/images/company/21-1.png$image
 ||jsfuz.com^
 ||jsgvuduhprrzf.space^
 ||jshvwhcznwigo.site^
@@ -134533,6 +134506,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ocdompfa.in^
 ||ocean.gigatron.rs^
 ||oceanarmouroutnumber.com^
+||oceanfilm.net/wp-content/themes/bongda/dist/images/company/21-1.png$image
 ||oceanicdreamcove.com^
 ||oceloidsummits.cfd^
 ||ocelot.anthroquiches.fr^
@@ -141509,7 +141483,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||quokkasgraf.com^
 ||quokkasscelp.qpon^
 ||quora.com/ads/
-||quoracdn.net^$image,domain=clipsexhay.pro|phim18vip.site|pheclip.gay|sexmupxinh.net|vsexhihi.net|phevl.gay|fulllivehot.us|haysexvn.shop|chichvn.mobi|viet69hay.store
+||quoracdn.net^$image,domain=tube3x.net|phim18vip.site|pheclip.gay|sexmupxinh.net|vsexhihi.net|phevl.gay|fulllivehot.us|haysexvn.shop|chichvn.mobi|viet69hay.store
 ||quoracdn.net^$image,domain=www.1phim22.com|phimlongtieng.net
 ||quorumsfinesse.cfd^
 ||quotationgambling.com^
@@ -153826,7 +153800,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||truvidplayer.com^$domain=mangafox.fun
 ||truyen-hentai.com/*.php$script
 ||truyen-hentai.com/nb/
-||truyenconect.com/uploads/*-truyenconect_com-*.
 ||truyensex*/anh/
 ||truyensextv.com/anh/$image
 ||truyensextv.com^*.gif
@@ -160176,6 +160149,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||www.whitemagic.jp^$doc
 ||www.whiteman.goaserv.com^
 ||www.wisej1355.com^
+||www.worldsbiggestwaterslide.com/uploads/*-www.worldsbiggestwaterslide.com-*.
 ||www.xses.goaserv.com^
 ||www.xz8.ru^
 ||www.youtube.com/@melonitysoft/$doc
