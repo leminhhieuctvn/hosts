@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-19 08:35:49 UTC
+! Last modified: 2026-08-19 12:43:48 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -20437,7 +20437,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 665.jp#@##leftad
 665.jp,e-jpccs.jp#@##rightad
 678movie-hd.com##.ad_cen_center
-67movies.net##+js(set-local-storage-item, sitePrefs, false)
 680thefan.com##+js(set-local-storage-item, uuid, $remove$)
 680thefan.com##.sc-ad-block
 69games.xxx###footer
@@ -30468,6 +30467,7 @@ anibatch.me##+js(nostif, nextFunction, 2000)
 anichin.co.id###floatcenter
 anichin.co.id##+js(abort-current-script, $, window.open()
 anichin.top,hlsplayer.top##+js(nowoif)
+anidl.org##iframe[title^="ad-slot-"]
 anigo.to##+js(nowoif)
 anigogo.net,fbgo.*,javplaya.com,sbbrisk.com,sbchill.com,sbchip.*,sbflix.*,sbplay.*,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,streamsb.*##+js(aopr, __Y)
 anigogo.net,fbgo.*,kinoking.cc,sbbrisk.com,sbchill.com,sbchip.*,sbflix.*,sbplay.*,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,streamsb.*##+js(aopr, mm)
@@ -33154,6 +33154,9 @@ beppegrillo.it##div[id^="spazio_google_ads"]
 beppegrillo.it#@#a[href^="https://www.amazon."][href*="tag="]
 berbagi.app###_0xAbModal
 bergwelten.com##+js(nostif, /adblock|Error|getComputedStyle/)
+beritabaru.co##.btn-company
+beritabaru.co##.odds-comp-logo
+beritabaru.co##.xlz-ads-item
 beritasatu.com###primary-content-wrap > .sticky.fixed-sosmed-article
 berklee.edu##+js(aeld, scroll, undefined)
 berliner-kurier.de##div[class^="outbrain_outbrain-outer-container"]
@@ -35358,7 +35361,6 @@ callofwar.com##+js(rmnt, script, Anzeige)
 callofwar.com##img[referrerpolicy]
 calmclinic.com##.sharp-block
 calorieking.com##.jss356
-calyro.biz,movienig.ht,vidmatrixa.com,vidchampions.com,vidavaca.cc,xheti.net,verhentai.io,krx18.com,sht-link.com,viduro.top,vindaz.shop,xca.cymru,uiil.ink,pornwex.tv,manhuarmtl.com,vidara.to,vidara.so,krakenfiles.com,streamix.so,livecamrips.*##+js(addEventListener-defuser, click, window.open)
 calyro.biz,vidmatrixa.com,vidchampions.com,vidavaca.cc,vindaz.shop,xca.cymru,vidara.to,vidara.so##+js(abort-current-script, document.createElement, onerror)
 calyro.biz,vidmatrixa.com,vidchampions.com,vidavaca.cc,vindaz.shop,xca.cymru,vidara.to,vidara.so##+js(no-setTimeout-if, document.getElementsByTagName)
 cam4.*##div[class^="SponsoredAds_"]
@@ -35993,6 +35995,7 @@ cdmediaworld.com,cryptofeeds.news,fxempire.com,gametarget.net,lnkworld.com##[hei
 cdmediaworld.com,flashx.cc,flashx.co,forum.gsmhosting.com,gametarget.net,jeepforum.com,lnkworld.com,themediaonline.co.za,transdict.com##[width="468"]
 cdmediaworld.com,gametarget.net,lnkworld.com##.chk
 cdn.4animo.xyz##+js(rmnt, script, _buildOverlay)
+cdn.4animo.xyz,calyro.biz,movienig.ht,vidmatrixa.com,vidchampions.com,vidavaca.cc,xheti.net,verhentai.io,krx18.com,sht-link.com,viduro.top,vindaz.shop,xca.cymru,uiil.ink,pornwex.tv,manhuarmtl.com,vidara.to,vidara.so,krakenfiles.com,streamix.so,livecamrips.*##+js(addEventListener-defuser, click, window.open)
 cdn.ampproject.org,linguee.com,thesuburban.com###banner_top
 cdn.codexa.fun##+js(acs, $, arrDirectLink)
 cdn.gamemonetize.com###imaContainer
@@ -36004,7 +36007,7 @@ cdn.gledaitv.live##+js(noeval-if, String.fromCharCode)
 cdn.htmlgames.com###afgContainer
 cdn.htmlgames.com###afgContainer
 cdn.javpornsite.com##.inplayer-wrapper
-cdn.lfastcdn.com^*.gif$image,domain=oceanfilm.net
+cdn.lfastcdn.com^*.gif$image,domain=beritabaru.co
 cdn.loadvid.com##+js(no-window-open-if, , 1)
 cdn.m-78.jp#@#.ad-panel
 cdn.tiesraides.lv##+js(rpnt, script, vid.vast, //vid.vast)
@@ -37667,8 +37670,6 @@ comedy.co.uk##.promo-wrapper
 comedycentral.com.au##.pane-vimn-coda-gpt-panes
 comentariodetexto.com##+js(aeld, DOMContentLoaded, adsBlocked)
 comentariodetexto.com##+js(no-xhr-if, googlesyndication)
-comeparanutrirte.com###popup-ad-box
-comeparanutrirte.com##.banner-ad
 cometbird.com##.gg_250x250
 comfig.app#?#.card:has-text(Partnered)
 comic.pixiv.net##iframe.ad-content
@@ -42502,7 +42503,7 @@ epawaweather.com#@#.adrow
 ephoto360.com##+js(abort-current-script, $, Adblock)
 ephoto360.com##+js(acs, $, Adblock)
 ephoto360.com##.line-ads
-ephoto360.com,thiepmung.com,vietsub.help##.ad-container
+ephoto360.com,thiepmung.com,phimchill.life##.ad-container
 ephotozine.com###content > div.hp-slot:has(div[id^="div-gpt-ad-"])
 ephotozine.com###epz-google-explore
 ephotozine.com##.LB-MPU
@@ -54181,6 +54182,8 @@ jcad.tv##.elementor-image > a[href*="&utm_medium=Banner"] > img
 jcad.tv##.elementor-image > a[target="_blank"] > img
 jcinfo.net###content aside:has(.adsbygoogle)
 jdforum.net##td.alt1Active > div > div[style="float:right"]
+jdmperformancechip.com###popup-ad-box
+jdmperformancechip.com##.banner-ad
 jdn.co.il##.fp-playlist-external a[data-item*="Video Ad"]:remove()
 jdn.co.il##iframe[src^="https://advertising.jdn.co.il/"]
 jdpower.com##.jdpAd-placeholder
@@ -63726,9 +63729,6 @@ obsev.com##+js(aopr, HTMLIFrameElement)
 obutecodanet.ig.com.br##+js(no-xhr-if, googlesyndication)
 ocado.com##.fops-item--advert
 ocado.com##.supplierBanner
-oceanfilm.net##.btn-company
-oceanfilm.net##.odds-comp-logo
-oceanfilm.net##.xlz-ads-item
 oceanof-games.com##+js(aopr, open)
 oceanofgamese.com##.post-content > div[class][style="float: none; margin:10px 0 10px 0; text-align:center;"]
 oceantech.xyz##.banner ~ .blog-item
@@ -65735,6 +65735,7 @@ pgatour.com##.css-1t41kwh
 pghk.blogspot.com##+js(acs, addEventListener, google_ad_client)
 pgportal.gov.in#@#.ad_image
 phandroid.com##[href^="https://howl.link/"]
+phantomflix.net,ravenflix.net,shows.st,67movies.nl,67movies.net,67movies.*##+js(set-local-storage-item, sitePrefs, false)
 phapluatplus.baophapluat.vn##div[style="text-align:center;margin-top:0px;margin-bottom:0px;"]
 phaply.net.vn##.no-margin-ads
 pharmaceutical-technology.com##+js(acs, jQuery, click)
@@ -71009,6 +71010,8 @@ saavn.com###aside + #main:style(margin-right:80px;)
 saavn.com###idle-unit-curtain:style(display:none!important;)
 sab.bz##+js(aopr, jsPopunder)
 sabcnews.com##.jeg_topbar
+sabcsport.com##.sabc_ad_web_section:style(visibility: hidden !important;)
+sabcsport.com##.sbac_header_top
 sabcsport.com##.sbac_header_top_ad
 sabervivirtv.com##.ad-item
 sabervivirtv.com##.ad-sidebar
@@ -92871,7 +92874,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ads.betfair.com^
 ||ads.betweendigital.com^
 ||ads.bidspotter.co.uk^
-||ads.bizwd.net^$image,domain=comeparanutrirte.com
+||ads.bizwd.net^$image,domain=jdmperformancechip.com
 ||ads.cavalier-romand.ch^
 ||ads.cc^$third-party
 ||ads.cdn.bndlapi.com^
@@ -97916,6 +97919,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||berendearnfulinfame.qpon^
 ||beringmedia.com^$third-party
 ||beringterm.com^
+||beritabaru.co/wp-content/themes/bongda/dist/images/company/21-1.png$image
 ||berlagu.com^$badfilter
 ||berlipurplin.com^
 ||bernama.com/storage/banner/
@@ -98937,7 +98941,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||blurtsbrerd.com^
 ||blustercartedfulfils.qpon^
 ||blutrk.click^
-||blvtap.com^*.gif$image,domain=vietsub.help
+||blvtap.com^*.gif$image,domain=phimchill.life
 ||blwadijbvbttx.space^
 ||blxjanwclsztb.space^
 ||blyger.hubhubhub.name^
@@ -134699,7 +134703,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ocdompfa.in^
 ||ocean.gigatron.rs^
 ||oceanarmouroutnumber.com^
-||oceanfilm.net/wp-content/themes/bongda/dist/images/company/21-1.png$image
 ||oceanicdreamcove.com^
 ||oceloidsummits.cfd^
 ||ocelot.anthroquiches.fr^
@@ -152599,7 +152602,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||tiymvltgbllto.site^
 ||tiz-cc95ue-309.com^
 ||tizermedias.com^$3p
-||tizihay.com^*.gif$image,domain=vietsub.help|phimchill.life
+||tizihay.com^*.gif$image,domain=phimchill.life|phimchill.life
 ||tiznmykuxnu.in^
 ||tizzywaygang.shop^
 ||tj6x17mykgqw4gh1.vgy56qwppl23h4j2zg1hqxv4.cfd^
