@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-22 01:10:39 UTC
+! Last modified: 2026-08-22 04:31:09 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -36592,6 +36592,8 @@ chomikuj.pl###InboxTable > tbody > tr:has(> td.dataCell > p.spons)
 choose.kaiserpermanente.org##+js(set, _satellite.kpCustomEvent, noopFunc)
 choosefi.com##[data-block-type="credit-card-top-offers"]
 chooyomi.com##+js(no-window-open-if)
+chophim.app##.p-4.bg-black\/65.justify-center.items-center.flex.z-\[90\].inset-0.fixed
+chophim.app##.pointer-events-none.justify-center.flex.z-\[80\].bottom-0.inset-x-0.fixed
 chophimviet.top###scriptDiv:has(.adsbygoogle)
 choralia.net##+js(nano-sib, download)
 choralia.net##+js(rpnt, script, "document.getElementById('choralplayer_reference_script')", "!document.getElementById('choralplayer_reference_script')")
