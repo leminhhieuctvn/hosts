@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-22 12:36:39 UTC
+! Last modified: 2026-08-22 16:22:00 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -22821,6 +22821,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||cjisonline.com^$permissions=browsing-topics=()
 @@||claimbits.io^$ghide
 @@||claimbits.net/static/js/noadblock.js
+@@||claimlite.club/static/js/noadblock.js$domain=claimlite.club
 @@||classic-retro-games.com^$ghide
 @@||claude.ai^$generichide
 @@||cleviationly.com/adServe/aff?*mydealz*&dlink=$popup,domain=mydealz.de
@@ -36931,6 +36932,7 @@ claimcoin.in##+js(prevent-fetch, adoto.net)
 claimfreecoins.io##div[id$="-adspace"]
 claimlite.club##+js(noeval-if, blocker)
 claimlite.club##+js(nostif, _0x)
+claimlite.club,earnbitmoon.club,multiclaim.net,claimbits.net,coinadster.com###wcfloatDiv4
 claimrbx.gg##+js(no-setTimeout-if, Adblocker Detected)
 claimrbx.gg##+js(nostif, swal, 500)
 claimsatoshi.xyz##+js(acs, document.createElement, adsBlocked)
@@ -41592,7 +41594,6 @@ earlygame.com##.ad-slot-widget
 earn.punjabworks.com##+js(rmnt, script, /adbl/i)
 earnbee.xyz###overlay
 earnbee.xyz##+js(aopr, open)
-earnbitmoon.club,multiclaim.net,claimbits.net,coinadster.com###wcfloatDiv4
 earncash.*##+js(aopr, app_vars.force_disable_adblock)
 earncrypto.co.in##+js(no-xhr-if, adx)
 earnhub.net##+js(aeld, load, htmls)
