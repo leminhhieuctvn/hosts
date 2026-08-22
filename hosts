@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-22 16:22:00 UTC
+! Last modified: 2026-08-22 20:20:46 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -32506,7 +32506,7 @@ azscore.com,bescore.com##.bn
 azsoft.*,downfile.site###adb_detected ~ div.text-content
 azsoft.*,downfile.site##div.display ~ h2.text-center
 azsoft.*,downfile.site##div.display ~ p
-azurefd.net,azurestaticapps.net,ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
+azurefd.net,azurestaticapps.net,ondigitalocean.app,web.core.windows.net##body#mycanvas.map[style="cursor:none"]
 azuremagazine.com##.hero__metadata-left-rail
 azuremagazine.com##div[class$="azoa"]
 azuremagazine.com##div[class]:has(> ins[data-revive-zoneid])
@@ -43424,7 +43424,7 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[a
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href="/ads/about/?entry_product=ad_preferences"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##article[data-ft*="\"ei\":\""]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-describedby]:not([aria-posinset]) :is(h3, h4) span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{290,}/"):upward(div[aria-describedby]):style(height: 0 !important; overflow: hidden !important;)
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] > div[data-virtualized][style]:has(div[style^="border-radius:"] a[href^="?__cft__"]:matches-attr(href="/__cft__\[0\]=[-\w]{290,}/"))
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] > div[data-virtualized]:has(div[style^="border-radius:"] a[href^="?__cft__"]:matches-attr(href="/__cft__\[0\]=[-\w]{290,}/"))
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has(a[aria-label="広告"]):style(height: 0 !important; overflow: hidden !important;)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[data-pagelet^="BrowseFeedUpsell_"] div[class][style^="max-width:"] > span
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[data-testid="marketplace_pdp_component"] div[style^="max-height:"] div[style^="max-height:"] > div[class] > div > div:not([class]):has(> div[class] > div[class] > a[href^="/ads/"])
@@ -84043,6 +84043,7 @@ weatherzone.com.au##section[class*=" "]:has(> div[class*="img_"])
 weatherzone.com.au##section[class^="sc-"]:has(> .publift-ad-wrapper)
 web-capture.net,mirror.co.uk,cryptoslate.com##.partner
 web-dev-qa-db-fra.com##.adn-ar
+web.core.windows.net##+js(aeld, beforeunload, workerBomb)
 web.de##+js(rmnt, script, '"Anzeige"')
 web.de##.ad:style(position:absolute !important; left:-10000px !important; display:block !important; pointer-events: none !important;)
 web.de##.iba-acceptable:has-text(/Anzeige|Info/)
@@ -117259,6 +117260,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||github.com/_private/browser/errors
 ||github.com/linarweloper/Blumfarmbot^$doc
 ||github.com/user-attachments/assets/$image,domain=phim24k.top|jophim.top|rophimz.top
+||github.io/*/before.js
+||github.io/*/fullscreen.js
 ||github.io/*/invoke.js$third-party
 ||github.io/*/js/esc.js
 ||github.io/*/js/flscn.js
@@ -125550,7 +125553,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||juncorepurgereaps.qpon^
 ||jundzeaqsodl.in^
 ||juneauempire.com/wp-content/plugins/incognito_dectector/
-||juneworewyjyna.com^
 ||juneworewyjyna.com^
 ||junhaoqipai.goaserv.com^
 ||junhaoqipai.goasrv.com^
@@ -135964,6 +135966,12 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ondigitalocean.app/*/index.php?cezp=$document
 ||ondigitalocean.app/*^phone=+1-$doc
 ||ondigitalocean.app/*^phone=+1-$document
+||ondigitalocean.app/b00p.mp3
+||ondigitalocean.app/esc.js
+||ondigitalocean.app/jupiter.js
+||ondigitalocean.app/noir.js
+||ondigitalocean.app/nvidia.js
+||ondigitalocean.app/webs.mp4
 ||ondigitalocean.app/Win0codejInfouycinfcode/$doc
 ||ondingfoute.com^
 ||one-chan-love.love^$doc
@@ -164396,6 +164404,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||youtubeloop.net/img/banner/*-banner.gif
 ||youtuberevanced.*^$all,domain=~revanced.app
 ||youtubetomp3music.com/static/js/pops-
+||youtubetoolkit.com/js/adblock-
 ||youtubevanced.$all,domain=~revanced.app
 ||youtunbe.com^$all
 ||youutube.com^$all
