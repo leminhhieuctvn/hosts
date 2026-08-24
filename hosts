@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-24 16:35:53 UTC
+! Last modified: 2026-08-24 20:28:36 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -73726,6 +73726,8 @@ sms24.*##.ado-content
 sms24.*##.ado-header
 sms24.*##.placeholder:remove-class(placeholder)
 sms24.*##body > div[style^="position: fixed; z-index: 1000"]
+sms24.me##+js(remove-attr, onerror, script[id][onerror])
+sms24.me##+js(remove-node-text, script, ).join(String.fromCharCode)
 sms24.me##.pub_728x90.text-ad.text_ads.text-ads.text-ad-links:style(display: block!important;)
 sms24.me##div[class^="ado-"]
 sms24.me,sms24.info##+js(abort-on-stack-trace, document.createElement, showAdblock)
