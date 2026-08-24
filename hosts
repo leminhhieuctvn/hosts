@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-24 08:46:28 UTC
+! Last modified: 2026-08-24 12:48:25 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -14555,6 +14555,7 @@ $script,3p,denyallow=tvableon.me|mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|byt
 $script,3p,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 $script,3p,domain=hitomi.la|rule34hentai.net,badfilter
 $script,3p,domain=wecima.show,badfilter
+$script,3p,redirect=noop.js,domain=exeygo.com
 $script,domain=zdnet.fr,3p
 $script,redirect-rule=noop.js,domain=173.249.8.3
 $script,redirect-rule=noop.js,domain=anisearch.*
@@ -37157,7 +37158,7 @@ cloudfam.io##+js(nano-sib, /.?/, *)
 cloudfam.io##+js(no-window-open-if)
 cloudfam.io##+js(nostif, /blocked|null/)
 cloudfam.io##+js(nowoif, _blank)
-cloudfam.io##+js(prevent-fetch, /pagead|adserve|adsbygoogle/)
+cloudfam.io##+js(prevent-fetch, /pagead|adserve|adsbygoogle|doubleclick/)
 cloudfam.io##+js(prevent-fetch, method:HEAD)
 cloudfam.io##.cf-ad-box
 cloudfam.io##.text-center:contains(Advertisement)
@@ -43351,7 +43352,6 @@ f150forum.com##form[method="post"][id="notices"]:has(> div.tbox > div > div.tcel
 f150lightningforum.com##.customizedBox
 f16px.com##+js(acs, EventTarget.prototype.addEventListener, delete window)
 f16px.com##[style^="position: fixed; inset: 0px; z-index: 2147483647; background-color: transparent; pointer-events: auto; cursor: auto; margin: 0px; padding: 0px; display: block;"]
-f1box.me,mlbbox.me,nbabox.*,nbabox.co,nflbox.me,nhlbox.me,tennisonline.me,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,rugbystreams.me,tennisstreams.me,boxingstreams.me,ufcstream.me,nbastream.nu,cricstreams.re##.m-1.fw-bold.btn-danger.btn
 f1gamesetup.com##.supp-footer-banner
 f1gamesetup.com##.supp-header-banner
 f1gamesetup.com##.supp-sense-desk-large
@@ -50830,6 +50830,7 @@ hltv.org###betting
 hltv.org##+js(nowoif)
 hltv.org##+js(remove-attr, data-href, body)
 hltv.org##.centered-placement
+hltv.org##.colCon > div > aside > a[href^="/out2/"]
 hltv.org##.gen-firstcol-box
 hltv.org##.kgN8P9bvyb2EqDJR
 hltv.org##.leftCol div[style*="cta"]
@@ -60015,6 +60016,7 @@ mlbbox.me##+js(nowoif, !/mlbbox\.me|_self/)
 mlbbox.me##+js(rmnt, script, /FingerprintJS|Adcash/)
 mlbbox.me##.m-1.fw-bold.btn-danger.btn
 mlbbox.me##.position-absolute
+mlbbox.me,nbabox.*,nbabox.co,nhlbox.me,tennisonline.me,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,tennisstreams.me,boxingstreams.me,ufcstream.me,nbastream.nu,cricstreams.re##.m-1.fw-bold.btn-danger.btn
 mlbpark.donga.com##+js(nostif, content-loader.com)
 mlbstream.me,olympicstreams.me##.embed-responsive > div[id][style="display: block;"]
 mlbstream.tv,nbastream.tv,nflstream.tv,nhlstream.tv##[href*="allsports4free.online/"]
@@ -60050,7 +60052,6 @@ mma.pl###mma_post1_ad
 mma.pl##.w2g
 mma.pl##div[id^="empty_id"]
 mma.pl##div[id^="mma_hdh"]
-mmabox.me,mmabox.*,nbabox.*,nbabox.co,soccerbox.me,soccerbox.*,worldsports.st,buffsports.io,olympicweb.me,olympicweb.*,www.vipbox.fm,vipbox.*,vipstand.*,viprow.is,viprow.*##button[data-openuri*="https://"][data-open="_blank"]
 mmacore.tv##+js(rmnt, script, /adb/i)
 mmafighting.com##.c-promo-breaker
 mmajunkie.usatoday.com##+js(abort-on-property-write, gnt)
@@ -61939,7 +61940,6 @@ nameberry.com##.htlad-Leaderboard_Flex
 nameberry.com##.LeaderboardAtfAd
 nameberry.com##.Pagination-ad
 namemc.com###skin_wrapper
-namemc.com##+js(abort-current-script, navigator, Object.defineProperties?Object.defineProperty:function)
 namemc.com##+js(acs, setTimeout, runInIframe)
 namemc.com##+js(aopw, deployads)
 namemc.com##.ad-container
@@ -63464,6 +63464,7 @@ npr.org##.ad-config
 nra.lv##.bl-cont-ad
 nrj-play.fr##+js(set, adBlockDetector.isEnabled, falseFunc)
 nrl.com##.card-content__sponsor
+nrl.com##.ladder__item--sportsbet-cell
 nrl.com##.partner-groups
 nrl.com##[id^="publift-ad-"]
 nsfw247.to###network-banner
@@ -64133,7 +64134,7 @@ olympics.com##[data-cy="adv-container"]
 olympics.com##div[class^="indexstyles__AdWrapper-sc-"]
 olympics.com##header.-sticky:style(top: 0 !important;)
 olympicstreams.me,vipleague.mobi##.col-md-4.pull-right[style]
-olympicweb.me,olympicweb.*,www.viprow.is,viprow.*,soccerbox.me,soccerbox.*,www.vipbox.fm,vipbox.*,vipleague.vg,vipleague.*,f1box.me,mlbbox.me,mmabox.me,mmabox.*,nbabox.*,nbabox.co,nflbox.me,nhlbox.me,rugbystreams.me,tennisonline.me,cricstreams.re,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,tennisstreams.me,boxingstreams.me,ufcstream.me,nbastream.nu##div[class*="position-absolute"][class*="bg-opacity-"]
+olympicweb.me,olympicweb.*,www.viprow.is,viprow.*,soccerbox.me,soccerbox.*,www.vipbox.fm,vipbox.*,vipleague.vg,vipleague.*,f1box.cc,f1box.*,mlbbox.me,mmabox.me,mmabox.*,nbabox.*,nbabox.co,nflbox.sx,nflbox.*,nhlbox.me,rugbybox.me,rugbybox.*,tennisonline.me,cricstreams.re,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,tennisstreams.me,boxingstreams.me,ufcstream.me,nbastream.nu##div[class*="position-absolute"][class*="bg-opacity-"]
 olympijskytym.cz##div.bg-texture:has(> div[class^="ad-"])
 olympusbiblioteca.com##div[ad-placement]
 olympustaff.com##+js(no-setTimeout-if, testAd)
@@ -65907,7 +65908,7 @@ phimmoichillz.top###preload
 phimnhe.net###pc-ballon-left
 phimnhe.net###pc-catfix
 phimnhe.net##+js(abort-current-script, createCookie, popurl)
-phimsex18a.com##+js(acs, window.addEventListener, Ads)
+phimsexnhathay.pro##+js(acs, window.addEventListener, Ads)
 phimsexsuong3x.net,isexhihi.net,javhdz.cam,laalmirchitakeaway.co.uk##.catfish-bottom
 phimtho.cc#%#//scriptlet("abort-current-inline-script", "$", "p0pUpRandom")
 phineypet.com###content > form[id]:has(> center > button):style(display: block !important;)
@@ -70944,6 +70945,8 @@ rufiiguta.com##+js(aost, HTMLElement.prototype.click, _0x)
 rufiiguta.com##+js(nowoif, /^/, 1)
 rufiiguta.com##+js(trusted-replace-outbound-text, Array.prototype.shift, /^.+$/s, '', condition, https)
 rugby365.com##.snack-container
+rugbybox.me,rugbybox.*,nflbox.sx,nflbox.*,f1box.cc,f1box.*,mmabox.me,mmabox.*,nbabox.*,nbabox.co,soccerbox.me,soccerbox.*,worldsports.st,buffsports.io,olympicweb.me,olympicweb.*,www.vipbox.fm,vipbox.*,vipstand.*,viprow.is,viprow.*##button[data-openuri*="https://"][data-open="_blank"]
+rugbybox.me,rugbybox.*,nflbox.sx,nflbox.*,f1box.cc,f1box.*,www.viprow.is,viprow.*,ninguno.cc,mmabox.me,mmabox.*,olympicweb.me,olympicweb.*,sportsonlinee.*,sportsonline.*,4k.beer,streamcash.to,anime.uniquestream.net,cine.su,nepu.*,vidzy.cc,fs16.lol,dramavideo.se,porneec.com,asiaflix.in,asiaflix.*,streamtape.com,yts.bz,yts.gg,yts.*,filecrypt.co,strumyk.*,powwideo.*,hornysimp.com,futemax.at,embdmstrplayer.com,pahe.ink,foulembeds.live,smksports.*,fileditchfiles.me,strumyk.cfd,dorawatch.one,streamingworld.xyz,streami.su,streamed.pk,streamed.*,visualnewshub.com,cloudnestra.com,cloudfam.io,thepibay.*,bypass.city,eztvx.to,ext.to,vidsrc.cc,sanet.st,yifysubtitles.ch,yts.bz,vinovo.to,livesporthub.shop,dstelemundo.site,7fractals.icu,epicplayplay.cfd,goalstreamer.shop,streameast7.com,buffztreamz.shop,rippleplay.shop,shd247.click,antenasport.top,gamestrend.net,cloudnestra.com,exposestrat.com,embedsports.top,seir-sanduk.com,embedtv-5.icu,daddylive3.com,sterham.net,animeunity.*,vixcloud.*,buffsports.io,soccerstreams7.com,loadvid.com,telewizjada.top,ogladaj.in,istreameast.app,streamingnow.mov,watchug.to,primewire.tf,worldsports.st,filecrypt.cc,veplay.top,colegialasdeverdad.*,crackstreams.cx,anime4i.com,cuttyy.com,puffytr.com,anizm.*,anizle.*##+js(abort-on-property-read, aclib)
 rugbyonslaught.com##.sticky-add
 rugbypass.com###snack-sticky
 rugbypass.com##.main-header-ad
@@ -74412,14 +74415,14 @@ speedcafe.com##div[class*="advanced_ads_"]
 speedcheck.org##.isg-container
 speedguide.net##body > div[style="position:relative; margin:auto; padding: 0px; width:728px; height:100px; text-align:center;"]
 speedguide.net##body > div[style="position:relative; margin:auto; padding: 0px; width:728px; height:95px; text-align:center;"]
-speedof.me##+js(addEventListener-defuser, visibilitychange, !document.hidden&&)
-speedof.me##+js(no-setTimeout-if, :Math.min)
-speedof.me##.background-container > div > div[class]:has(> a[rel="sponsored noopener nofollow"])
+speedof.me##+js(addEventListener-defuser, visibilitychange, catch)
+speedof.me##+js(no-setTimeout-if, ===t?setTimeout)
 speedof.me##.ftl-zone
 speedof.me##.mezgopv-zone
 speedof.me##.test-ad-container
-speedof.me##body > [class]:has(> a[rel="sponsored noopener nofollow"])
+speedof.me##body > [class]:not(.background-container):has(> div[class] > a[rel~="sponsored"])
 speedof.me##body > div.background-container ~ div.history_tooltip ~ [class]
+speedof.me##ins.adsbygoogle:remove()
 speedostream.*##+js(aost, JSON.parse, computed)
 speedporn.net##.sbox + #uwee
 speedporn.net,bananamovies.org,watchporn4k.com###video-overlay
@@ -75467,6 +75470,7 @@ streameast.*,thestreameast.*##+js(nowebrtc)
 streameast.app###stream-info > .flex > div[target="_blank"]
 streameast.to##.google-auto-placed
 streamed.pk##.py-0 > .border.p-4:has(> button + a[target="_blank"])
+streamed.pk,streamed.st##body > div[style] > div[data-sveltekit-reload] > header + div.w-full
 streamed.pk,streamed.st,streami.su##+js(rpnt, script, :{content:, no:{content:)
 streamed.pk,streamed.st,streami.su##a[href^="https://duel.com/"] img
 streamed.pk,streamed.st,streami.su##a[href^="https://duel.com/"]:has(img) + button.ring-offset-background
@@ -81637,6 +81641,7 @@ uploadrar.*##main > center > a.btn-primary
 uploadrar.com###commonId > a > img
 uploadrar.com###news_last
 uploadrar.com##.card.border-warning
+uploadrar.com##.container > form + .text-center:not(:has(>*))
 uploadrar.com##.my-4 > form[method="POST"] > center
 uploadrar.com##a[href*="?"][target="_blank"]
 uploadrar.com##a[role="button"][href^="http://"]
@@ -82277,7 +82282,8 @@ vevocloud.com##+js(no-window-open-if, , 1)
 vexfile.com##+js(rpnt, script, get_offers();, get_offers(); setTimeout(function(){ $('.offer-link:first').trigger('click'); }\, 100);)
 vexfile.com##+js(rpnt, script, var TIMER_MS = 40000;, var TIMER_MS = 0;)
 vexfile.com##.title-box > [href] > [src]
-vexfile.com##.title-box > a[href^="https://tracker.vexfile.com/"] > img
+vexfile.com##div[id*="_billboard_"]
+vexfile.com##div[id^="double_banner_container_"]
 vexmovies.org##a[href^="http://bit.ly"] > img
 vezess.hu##.article-body > div.article_box_border:has(> div.article_solidheader > p > strong:contains(HIRDETÉS))
 vezess.hu##.banner-container
@@ -85541,7 +85547,6 @@ www.toptruyenzone10.com,doctruyen3qhub.vip##.advertisement
 www.twitch.tv##+js(nowoif, /amazon-adsystem|example\.com/)
 www.uol##.content-lightbox
 www.uol##.overlay-lightbox
-www.viprow.is,viprow.*,ninguno.cc,mmabox.me,mmabox.*,olympicweb.me,olympicweb.*,sportsonlinee.*,sportsonline.*,4k.beer,streamcash.to,anime.uniquestream.net,cine.su,nepu.*,vidzy.cc,fs16.lol,dramavideo.se,porneec.com,asiaflix.in,asiaflix.*,streamtape.com,yts.bz,yts.gg,yts.*,filecrypt.co,strumyk.*,powwideo.*,hornysimp.com,futemax.at,embdmstrplayer.com,pahe.ink,foulembeds.live,smksports.*,fileditchfiles.me,strumyk.cfd,dorawatch.one,streamingworld.xyz,streami.su,streamed.pk,streamed.*,visualnewshub.com,cloudnestra.com,cloudfam.io,thepibay.*,bypass.city,eztvx.to,ext.to,vidsrc.cc,sanet.st,yifysubtitles.ch,yts.bz,vinovo.to,livesporthub.shop,dstelemundo.site,7fractals.icu,epicplayplay.cfd,goalstreamer.shop,streameast7.com,buffztreamz.shop,rippleplay.shop,shd247.click,antenasport.top,gamestrend.net,cloudnestra.com,exposestrat.com,embedsports.top,seir-sanduk.com,embedtv-5.icu,daddylive3.com,sterham.net,animeunity.*,vixcloud.*,buffsports.io,soccerstreams7.com,loadvid.com,telewizjada.top,ogladaj.in,istreameast.app,streamingnow.mov,watchug.to,primewire.tf,worldsports.st,filecrypt.cc,veplay.top,colegialasdeverdad.*,crackstreams.cx,anime4i.com,cuttyy.com,puffytr.com,anizm.*,anizle.*##+js(abort-on-property-read, aclib)
 www.vn2c.my#@#.advertiser
 www.walmart.com##[data-stack-index] > section > div > div [data-item-id] > a[link-identifier][href^="https://wrd.walmart.com"]:upward(section > div > div)
 www.walmart.com##[data-testid="flex-container"] > div > span:has(a[link-identifier][href^="https://wrd.walmart.com"])
@@ -85557,6 +85562,7 @@ www.wp.pl##.relative > :is(div[class^="sc"], .wp-bg-transparent) > div[class^="s
 www.wp.pl##.relative >.relative > .items-center[style]:has(> img[src^="https://v.wpimg.pl/"][alt]:first-child + img[src^="https://v.wpimg.pl/"][alt] + div[class]:last-child)
 www.wp.pl##.wp-live-main > .wp-inner-content > div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"]:first-child + div + script:last-child)
 www.wp.pl##.wp-placeholder
+www.wp.pl##.wp-section-placeholder-container
 www.wp.pl##a[href^="https://direct.money.pl/landing-page/callcenter/"]
 www.wp.pl##aside > div[data-st-area="Pogoda"] + div[class^="sc-"]:has(a[href^="https://koszykrd.wp.pl?product_url="])
 www.wp.pl##body > #root:style(opacity: 1 !important;)
@@ -138885,8 +138891,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||phimmoichillz.top/pop$image
 ||phimmoichillz.top^*.gif$image
 ||phimmoisz.org/wp-content/uploads/tvc/*.xml
-||phimsex18a.com^*.gif$image
 ||phimsexhayvne.com^*.gif$image
+||phimsexnhathay.pro^*.gif$image
 ||phimsexsuong3x.net^*.gif$image
 ||phineypet.com/2x.png
 ||phineypet.com/2x.png
@@ -147407,6 +147413,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||securepubads.shareus.io/scripts/tag/js/gpt.js$script,domain=diskmovies.com,redirect=noopjs
 ||secureserver.net/myswisscom$doc
 ||secureserver.net/ruckstantung907921/$doc
+||securesweep.pro^$all
 ||securetag.run^
 ||securifyguard.com^
 ||security-suggestion.com^
