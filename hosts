@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-25 08:40:26 UTC
+! Last modified: 2026-08-25 12:44:45 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -33328,7 +33328,7 @@ beta.riftkit.net##div[style="height: 300px; width: 400px;"]
 beta.xfreehd.com##.ad-body:remove()
 beta.xfreehd.com##.ad-container
 beta.xfreehd.com##.ad-container
-beta.xfreehd.com##.col-md-12:has(a[href^="https://landing.brazzersnetwork.com/"])
+beta.xfreehd.com##.col-md-12:has(a[href*="//landing.brazzersnetwork.com/"])
 beta.xfreehd.com##.col-md-12:has(a[href^="https://landing.brazzersnetwork.com/"])
 betanews.com##.adbox-header
 betaprofiles.com##.google-adsense
@@ -41360,7 +41360,7 @@ dts24.pl##:is(.elementor-size-small, .elementor-size-default):contains(/^Reklama
 dts24.pl##a.gofollow[data-track]
 dualeotruyencw.com##+js(acs, document.addEventListener, popunder)
 dualeotruyencw.com##[id$="bnr"]
-dualeotruyencw.com,phimsex24h.com,cliphot69.info,doctruyen3qhub.vip,qmanga.art,hentaivkl.pro,buomtv.bet,truyenvn.sbs,javtiful.com,quatvn.homes,phimsexhayvne.com,phim18hd.site,sexviet88z.cc,sexmupxinh.net,demo.14412882.com,hhtq5.vip,xvideos.xemvl.xxx,umetruyenz.org,damconuong.sbs,truyenqqko.com,phimsexsuong3x.net,sayhentai.cx,lxmanga.space,phimlongtieng.net,www.sieutamphim.pro,vevocloud.com,xinh3x.it.com,viet69.be,viet69vn.at,misskon.com,luottruyen16.com##+js(acs, WebAssembly, instantiate)
+dualeotruyencw.com,phimsexmoi.mobi,cliphot69.info,doctruyen3qhub.vip,qmanga.art,hentaivkl.pro,buomtv.bet,truyenvn.sbs,javtiful.com,quatvn.homes,phimsexhayvne.com,phim18hd.site,sexviet88z.cc,sexmupxinh.net,demo.14412882.com,hhtq5.vip,xvideos.xemvl.xxx,umetruyenz.org,damconuong.sbs,truyenqqko.com,phimsexsuong3x.net,sayhentai.cx,lxmanga.space,phimlongtieng.net,www.sieutamphim.pro,vevocloud.com,xinh3x.it.com,viet69.be,viet69vn.at,misskon.com,luottruyen16.com##+js(acs, WebAssembly, instantiate)
 dubaotiente.net##.ad-pin-right-bottom
 dublaj.az###sidebar > .row > .col-sm-12 > .sidebar-widget:has(> .widget-head > h4.title:contains(Reklam))
 dublaj.az##.bn-lg-sidebar:has(> .row > div[id^="yandex_rtb"])
@@ -65092,8 +65092,6 @@ pananimacja.pl##body.td-background-link:style(cursor: auto !important;)
 panarmenian.net##.panner_2
 panarmenian.net##.side_panner
 panarmenian.net#@#.ad_body
-pancazorla.com###popup-ad-box
-pancazorla.com##.banner-ad
 panda-novel.com##+js(set, pandaAdviewValidate, true)
 panda-novel.com##[class^="novel-ins"]
 pandadevelopment.net##+js(no-fetch-if, adsbygoogle)
@@ -65917,8 +65915,8 @@ phimmoichillz.top###preload
 phimnhe.net###pc-ballon-left
 phimnhe.net###pc-catfix
 phimnhe.net##+js(abort-current-script, createCookie, popurl)
-phimsex24h.com,sexmupxinh.net,isexhihi.net##.xx-ads
-phimsexnhathay.pro##+js(acs, window.addEventListener, Ads)
+phimsexhaymoi.com##+js(acs, window.addEventListener, Ads)
+phimsexmoi.mobi,sexmupxinh.net,isexhihi.net##.xx-ads
 phimsexsuong3x.net,isexhihi.net,javhdz.cam,laalmirchitakeaway.co.uk##.catfish-bottom
 phimtho.cc#%#//scriptlet("abort-current-inline-script", "$", "p0pUpRandom")
 phineypet.com###content > form[id]:has(> center > button):style(display: block !important;)
@@ -70147,6 +70145,7 @@ redmondpie.com#@#.advertisment
 redpornblog.com###ads
 redporno.cz##+js(aopr, ExoLoader.serve)
 redporno.cz##.right
+redscores.com##.rs-ad-slot
 redtub.club##h3:contains(/^Advertising$/)
 redtube.*###paid_tabs_list
 redtube.*###paid_tabs_list
@@ -73972,9 +73971,6 @@ softonic-ar.com,softonic-id.com,softonic-th.com,softonic.*##.is-premium-hide
 softonic-ar.com,softonic-id.com,softonic-th.com,softonic.*##div[data-meta="placeholder-slot"]
 softonic.*##+js(set-cookie, softonic-r2d2-view-state, 1)
 softonic.*##.sam-slot
-softonic.*,softonic-ar.com,softonic-id.com,softonic-th.com###pdp-bundle.sponsored
-softonic.*,softonic-ar.com,softonic-id.com,softonic-th.com##.black-friday-ads
-softonic.*,softonic-ar.com,softonic-id.com,softonic-th.com##div[data-meta="placeholder-slot"]
 softonic.*,softonic-ar.com,softonic-id.com,softonic-th.com##section[aria-labelledby="adobe-stock-photos-heading"]
 softonic.*,softonic-ar.com,softonic-id.com,softonic-th.com##section[data-meta="search-results-list"] li.is-mobile-hide
 softonic.com##+js(set-cookie, softonic-r2d2-view-state, 1)
@@ -75873,6 +75869,7 @@ super.cz##.ogm-branding-advert + div:has(.js-ad)
 super.cz#@#+js(acis, String.fromCharCode)
 superbestaudiofriends.org##div.sidebar > div[style^="text-align:"]:has(> a[href^="http://bit.ly/"])
 supercarblondie.com##.h-\[660px\]
+supercarblondie.com##.inarticle-ad
 supercars.com##.footer-promo
 supercheats.com##.cboth_sm
 supercloudsms.com###adb-mask
@@ -80537,6 +80534,8 @@ turkmenportal.com##a[data-content="promotion"]
 turkmmo.com##+js(acs, $, AdBlock)
 turkmmo.com##+js(nostif, samOverlay)
 turkrock.com##+js(acs, $, .show)
+turning15ontheroad.com###popup-ad-box
+turning15ontheroad.com##.banner-ad
 turnoffthelights.com##.castpress:has(> .slideads)
 turnoffthelights.com##.chw-widget-area
 turnoffthelights.com##.slideads
@@ -93061,7 +93060,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ads.betfair.com^
 ||ads.betweendigital.com^
 ||ads.bidspotter.co.uk^
-||ads.bizwd.net^$image,domain=pancazorla.com
+||ads.bizwd.net^$image,domain=turning15ontheroad.com
 ||ads.cavalier-romand.ch^
 ||ads.cc^$third-party
 ||ads.cdn.bndlapi.com^
@@ -114875,6 +114874,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||fltncahdyfesx.online^
 ||fluavildemist.com^
 ||fluctuateallcape.com^
+||fluentcleaner.org^$all
 ||fluentconstruefeet.com^
 ||fluentdifferenceselfemployed.com^
 ||fluentlyfeminineenfold.com^
@@ -138363,8 +138363,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||phimmoichillz.top/pop$image
 ||phimmoichillz.top^*.gif$image
 ||phimmoisz.org/wp-content/uploads/tvc/*.xml
+||phimsexhaymoi.com^*.gif$image
 ||phimsexhayvne.com^*.gif$image
-||phimsexnhathay.pro^*.gif$image
 ||phimsexsuong3x.net^*.gif$image
 ||phineypet.com/2x.png
 ||phineypet.com/2x.png
@@ -142176,7 +142176,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||quokkasgraf.com^
 ||quokkasscelp.qpon^
 ||quora.com/ads/
-||quoracdn.net^$image,domain=phimsex24h.com|phim18vip.site|pheclip.gay|sexmupxinh.net|isexhihi.net|phevl.gay|fulllivehot.us|haysexvn.shop|chichvn.mobi|viet69hay.space
+||quoracdn.net^$image,domain=phimsexmoi.mobi|phim18vip.site|pheclip.gay|sexmupxinh.net|isexhihi.net|phevl.gay|fulllivehot.us|haysexvn.shop|chichvn.mobi|viet69hay.space
 ||quoracdn.net^$image,domain=www.1phim24.com|phimlongtieng.net
 ||quorumsfinesse.cfd^
 ||quotationgambling.com^
@@ -143158,6 +143158,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||redressscarcygliomas.cfd^
 ||redrotou.net^
 ||redrotou.net^$popup
+||redscores.com/images/bns/
+||redscores.com/slot/render/
 ||redsearoblates.com^
 ||redsky.target.com^$xhr,removeparam=include_sponsored
 ||redtram.com^$script,third-party
@@ -145407,6 +145409,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||rutecwsieverf.online^
 ||ruthah9.wixsite.com^$all
 ||ruthclovepuberty.com^
+||ruthcottillionuchylf.github.io^$all
 ||ruthlesssomeoneabattoir.com^
 ||ruthsize.com^
 ||rutseasickmunch.com^
@@ -145415,7 +145418,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ruuzqjaoattkl.site^
 ||ruwcnaoiqkznm.online^
 ||ruxox.ru/js/plears.js
-||rv-assets.softonic*/publishers/
 ||rv400.com^
 ||rvbmvjzymhmai.website^
 ||rvddgeuqhxfvu.website^
@@ -145949,6 +145951,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||safe-device.com^$all
 ||safeageplan.link^$all
 ||safebeta.cn/gg/sefabeta_*js
+||safebooru.com^$all
 ||safebrowsdv.com^
 ||safeglimmerlongitude.com^
 ||safeguardemergency.com^
@@ -157571,7 +157574,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||vidads.gr^$3p
 ||vidapi.expepp.de/files/*$media,domain=moviepilot.de
 ||vidara.to/api/heartbeat
-||vidazoo.com^$domain=demonslayermanga.com
+||vidazoo.com^$domain=demonslayermanga.com|alt-codes.net
 ||vidazoo.com^$domain=readonepiece.com
 ||vidbob.com/player*/vast.js
 ||vidcpm.com^
