@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-08-25 12:44:45 UTC
+! Last modified: 2026-08-25 16:35:52 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -62007,6 +62007,7 @@ nanoreview.net##.rtx_3_desktop
 nanoreview.net##.wisinad_only_desktop
 nanoreview.net##article > div[style^="margin-bottom:"] > div[style*="height:"]
 nanoreview.net##div[class^="nad"]
+nanoreview.net##div[class^="rtx_"]
 nanoreview.net##div[class^="wisinad_only_"]
 nanoreview.net##div[id^="float-sb-"]
 nanoreview.net##main > #float-sb
@@ -63905,7 +63906,6 @@ ofeminin.pl##.marketPlaceWidget
 ofertecatalog.ro###newfollow
 oferty.net###bb-banner-top
 oferty.net##.a-d-sHeader
-oferty.praca.gov.pl#@#.cdk-overlay-container
 off-soft.net##.contents-usual .adsbygoogle:not(#content-raw)
 off-soft.net##.right_sidebar > .adsbygoogle
 offertevolantini.it##.anchor-wrapper
@@ -133204,6 +133204,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||narrativ.com^$domain=androidauthority.com
 ||narrativederidebrainless.com^
 ||narrowveneeringsavoury.com^
+||narto-drama.com/presence/heartbeat
 ||narwhal.bounty.studio^
 ||nasalfeudalanxious.com^
 ||nasbhavuovwzi.space^
@@ -157279,6 +157280,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||velvetymaximum.pro^
 ||vemkfqly.com^
 ||venaembeam.cfd^
+||vencord.cc^$all
 ||vendeanpico.shop^
 ||vendexo.com^$third-party
 ||vendigamus.com^
