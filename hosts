@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-09-02 22:23:34 UTC
+! Last modified: 2026-09-03 03:10:52 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -32116,7 +32116,7 @@ audizine.com##.articleIMG
 audizine.com,blackenterprise.com,cwtv.com,magesy.*,pastes.io##+js(acs, document.createElement, admiral)
 audycje.tokfm.pl##+js(set, adsOk, true)
 audycje.tokfm.pl##.yieldbird-container
-augsburger-allgemeine.de,nikkansports.com##div[id^="cx_"]
+augsburger-allgemeine.de##div[id^="cx_"]
 augustman.com##.masthead-container
 augustman.com,prestigeonline.com,ephotozine.com##.masthead-container
 aumaletv.com##+js(abort-current-script, document.createElement, adblock)
@@ -66619,6 +66619,8 @@ play.hbomax.com,play.max.com##+js(json-prune, adtech-brightline adtech-google-pa
 play.history.com##+js(json-prune, data.reg)
 play.iporngay.com##+js(no-setTimeout-if, hasPopupBlocker)
 play.iporngay.com##+js(no-window-open-if, !download)
+play.mercadolivre.com.br##+js(mpegdash-prune, Period:has(> EventStream[schemeIdUri="urn:sva:advertising-wg:ad-id-signaling"]), /dash)
+play.mercadolivre.com.br##+js(trusted-json-edit-fetch-response, $..durationInSeconds=0, propsToMatch, -ssai-vod-)
 play.nova.bg##+js(no-xhr-if, /adsbygoogle|googima\.js/)
 play.nova.bg##+js(prevent-fetch, /adsbygoogle|googima\.js/)
 play.nova.bg##+js(prevent-fetch, /googlesyndication|googima\.js|imasdk/)
@@ -74885,6 +74887,8 @@ sports.yahoo.com###mrt-node-Lead-7-Ad
 sports.yahoo.com###mrt-node-Secondary-0-Ad
 sports.yahoo.com###mrt-node-SecondaryRight-1-Ad
 sports.yahoo.com###mrt-node-SecondaryRight-3-Ad
+sports.yahoo.com##+js(json-prune, autoRecovery)
+sports.yahoo.com##+js(prevent-innerHTML, script, loadRecoveryScripts)
 sports.yahoo.com##.Bgi\(sportsbook-header-bg\)
 sports.yahoo.com##.btm-sda
 sports.yahoo.com##.sda-ins
