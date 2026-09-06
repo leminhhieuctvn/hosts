@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-09-06 14:59:39 UTC
+! Last modified: 2026-09-06 18:02:40 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -26701,6 +26701,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||salfordonline.com/wp-content/plugins/wp_pro_ad_system/$script
 @@||sammyboy.com/members/*advertisement$xhr
 @@||sammyboy.com/threads/*advertisement$xhr
+@@||samplette.io^$ghide
 @@||sanyonews.jp/files/image/ad/okachoku.jpg$~third-party
 @@||sapixcraft.com/css/exitPopup.css
 @@||sapixcraft.com/js/exitPopup.js
@@ -50904,7 +50905,6 @@ historicaerials.com##+js(abort-current-script, EventTarget.prototype.addEventLis
 historicaerials.com##+js(aeld, load, showFallbackModal)
 historicaerials.com##+js(nostif, /Executed|modal/)
 historicaerials.com##+js(trusted-create-html, #historicaerials_g_728x90_ATF, <div id="google_ads_iframe_/22597447651/historicaerials_g_728x90_ATF_0__container__"><iframe id="google_ads_iframe_/22597447651/historicaerials_g_728x90_ATF_0" width="2" height="2" data-load-complete="true"></iframe></div>)
-historicaerials.com##.border-bottom.container:has(#historicaerials_728x90_ATF)
 historicaerials.com##body:style(overflow: auto !important;)
 historiccity.com##.header-block-1
 history.com##+js(no-xhr-if, time-events)
@@ -164308,6 +164308,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||x.castanet.net^
 ||x.chip.de/linktrack/button/?url=http$doc,urlskip=?url
 ||x.com/*/videoads/
+||x.com/i/api/1.1/flow/timeline.json
 ||x.crazyporn.xxx^
 ||x.ft6i5tfnllq3xuvgm9.cyou^
 ||x.goaserv.com^
