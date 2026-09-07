@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-09-07 17:19:58 UTC
+! Last modified: 2026-09-07 22:31:49 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -16673,8 +16673,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/[0-9a-z-]{4,7}\.(?:com|click|icu|net|shop)\/js\/responsive\.js$/$script,3p,match-case
 /^https:\/\/[0-9a-z-]{5,15}\.(?:com|net|tv|xyz)\/(?:40[01]|50?0?)\/\d{6,8}\??\S*$/$script,xhr,3p
 /^https:\/\/[0-9a-z-]{5,}\.com\/\d{1,2}\/[0-9a-f]{32}\.js$/$script,3p,match-case
-/^https:\/\/[0-9a-z]*\.?[0-9a-z]+\.[cr][ef][ds]t?\/[a-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]+\/[0-9][0-9][0-9][0-9][0-9][0-9]$/$script,xhr,3p,match-case
-/^https:\/\/[0-9a-z]*\.?[0-9a-z]+\.[cr][ef][ds]t?\/[a-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]+\/[A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z]$/$script,xhr,3p,match-case
+/^https:\/\/[0-9a-z]*\.?[0-9a-z]+\.[cr][ef][ds]t?\/[a-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]+\/[0-9][0-9][0-9][0-9][0-9][0-9]$/$script,xhr,3p,match-case,to=cfd|rest
+/^https:\/\/[0-9a-z]*\.?[0-9a-z]+\.[cr][ef][ds]t?\/[a-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]+\/[A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z]$/$script,xhr,3p,match-case,to=cfd|rest
 /^https:\/\/[0-9a-z]*\.?[0-9a-z]+\.cfd\/[a-z][0-9A-Za-z]{10,22}\/(\d{6}|[A-Za-z]{5})$/$script,3p,to=cfd
 /^https:\/\/[0-9a-z]*\.?[0-9a-z]+\.rest\/[a-z][0-9A-Za-z]{10,22}\/(\d{6}|[A-Za-z]{5})$/$script,3p,to=rest
 /^https:\/\/[0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]?[0-9a-z]?[a-z]?[a-z]?[a-z]?[a-z]?\.[ci][on]m?\/[a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?(\/[a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?)?(\/[a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?)?(\?id=[0-9]+)?$/$script,3p,match-case,to=com|in,from=cr|help|tube|dvdgayonline.com|novelcrow.com|simply-hentai.com
@@ -16966,11 +16966,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https?:\/\/[-a-z][-a-z][-a-z][-a-z]+\.gov[-.][-a-z0-9][-a-z0-9]+\.[a-z]+\//$doc,to=bid|cc|cfd|cyou|icu|live|online|shop|top|vip|win|world|xin
 /^https?:\/\/[-a-z][-a-z][-a-z][-a-z]+\.org[-.][-a-z0-9][-a-z0-9]+\.[a-z]+\//$doc,to=bid|cc|cfd|cyou|icu|live|online|shop|top|vip|win|world|xin
 /^https?:\/\/[-a-z][-a-z][-a-z][-a-z][-a-z][-a-z]+\.com\/b[\/A-Z_a-z]3[.A-Za-z]V[.\/A-Z_a-z]0[.\/A-Z_a-z]P[.A-Za-z]3[-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z][-\/0-9A-Z_a-z]$/$doc,popup,match-case,to=com
-/^https?:\/\/[-a-z][-a-z][-a-z][-a-z][-a-z][-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?\.online\/[0-9a-z][0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?\?[0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?=[%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z]+$/$xhr,3p,match-case
-/^https?:\/\/[-a-z][-a-z][-a-z][-a-z][-a-z][-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?\.site\/[0-9a-z][0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?\?[0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?=[%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z]+$/$xhr,3p,match-case
-/^https?:\/\/[-a-z][-a-z][-a-z][-a-z][-a-z][-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?\.space\/[0-9a-z][0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?\?[0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?=[%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z]+$/$xhr,3p,match-case
-/^https?:\/\/[-a-z][-a-z][-a-z][-a-z][-a-z][-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?\.store\/[0-9a-z][0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?\?[0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?=[%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z]+$/$xhr,3p,match-case
-/^https?:\/\/[-a-z][-a-z][-a-z][-a-z][-a-z][-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?\.website\/[0-9a-z][0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?\?[0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?=[%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z]+$/$xhr,3p,match-case
+/^https?:\/\/[-a-z][-a-z][-a-z][-a-z][-a-z][-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?[-a-z]?\.[a-z]+\/[0-9a-z][0-9a-z][0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?\?[0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?=[%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z][%0-9A-Za-z]+$/$xhr,3p,match-case,to=online|site|space|store|website,from=~edu|~gov
 /^https?:\/\/[-a-z]{12,}\.vercel\.app\/[^.]+?=D400e/$doc,match-case,to=vercel.app|~facebook.com
 /^https?:\/\/[-a-z]{12,}\.vercel\.app\/[^.]+?g_ep=?EgoyMDI/$doc,match-case,to=vercel.app|~facebook.com
 /^https?:\/\/[-a-z]{4,}\.(?:com|org)[-.][-a-z]{2,}\.(?:cc|top|vip|world|xin)\/pay\b/$doc,match-case,to=cc|top|vip|world|xin
@@ -66094,6 +66090,8 @@ phim-18.tv##.v3sb-box
 phim.haysex.asia###mp-preload-popup-overlay
 phim.haysex.asia##+js(acs, Promise, break;case)
 phim.haysex.asia##.banner-play
+phim.xxxmeo.com###divExoLayerWrapper
+phim.xxxmeo.com##.ldg-y-x-header
 phim1080.in##+js(m3u-prune, /^\w{11}[1-9]\d+\.ts/, .m3u8)
 phim1080.in##.ff-banner
 phim1080z.com##.turn-off-banner
@@ -66680,6 +66678,7 @@ planningportal.co.uk##.HeaderAdArea__HeaderAdContainer-sc-1lqw6d0-0
 planyourroom.com,nelomanga.net,natomanga.com,coinadster.com,kissasian.*,israel21c.org,veck.io,filmelier.com,ncaa.com,short.croclix.me##.banner-container
 plasticsnews.com##[class*="has-interstitial-ads"]:remove-class(/^has-interstitial-ads/)
 plasticsnews.com##body.has-interstitial-ads .has-interstitial-ads-page, body.has-interstitial-ads .has-interstitial-ads-page *:style(visibility: visible !important;)
+plataformamedia.com##+js(set-constant, advanced_ads_check_adblocker, noopFunc)
 platform.adex.network##+js(no-fetch-if, moonicorn.network)
 platform.autods.com##+js(set, _conv_q, {})
 platform.autods.com##+js(set, _conv_q.push, noopFunc)
@@ -161176,6 +161175,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||vkjiwgmipziva.space^
 ||vkkcpopwaoehpl.com^
 ||vklljvwyybry.top^
+||vklstream.com/ads/$subdocument,domain=phim.xxxmeo.com
 ||vklzhsplergwb.site^
 ||vkofmhfpfjyak.online^
 ||vkoqaquif.com^
