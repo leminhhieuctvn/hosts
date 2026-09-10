@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-09-10 18:58:00 UTC
+! Last modified: 2026-09-10 22:16:41 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -67367,6 +67367,7 @@ pons.com##.ad_topslot:style(height: 0 !important;)
 pons.com##.parallax-container
 pons.com##body div[id^="ad_contentslot"]:not(#style_important)
 pons.com##div[class^="idm_topslot_"]
+pons.com##div[data-slot="mpu"]
 ponselharian.com##+js(no-window-open-if)
 ponselharian.com##+js(nowoif)
 ponselharian.com##ins.adsbygoogle
@@ -76113,6 +76114,7 @@ subtorrents.*,subtorrents1.*##+js(nowebrtc)
 subtorrents.*,subtorrents1.*##+js(popads-dummy)
 subtorrents.*,subtorrents1.*##+js(set, btoa, null)
 subyshare.com##a[href*="&utm_medium=banner"][target="_blank"]
+successcds.net##a[href^="https://superprofile.bio/vp/Class-10-combo-offer"]
 sucha24.pl##.grid__container > div.grid__row > div.grid__col:has(> div.card > div.box > div.box__container > div a[href^="https://intermarche.pl/"])
 sucha24.pl##.grid__container > div.grid__row:has(> div.grid__col > div.card > div.box > div.box__container > div > center a[href]):not(:has(div[id^="calendar_"]))
 sudoku-aktuell.de###ajax
