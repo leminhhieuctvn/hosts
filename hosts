@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-09-15 16:22:39 UTC
+! Last modified: 2026-09-15 22:43:19 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -15586,7 +15586,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *&expire$media,3p,redirect=noopmp3-0.1s,domain=nhl.com
 *&expires$media,redirect=noopmp3-0.1s,domain=prosieben.at|prosieben.de|prosiebenmaxx.de|ran.de
 *&token$media,redirect=noopmp3-0.1s,domain=peekvids.com|playvids.com|pornflip.com|pornoeggs.com
-*,~edu,~edu.cn,~127.0.0.1,~adobe.com,~addtoany.com,~amazon.*,~antiphishing.biz,~apple.com,~archlinux.org,~azure.com,~bsky.app,~bing.com,~bitwarden.com,~canva.com,~captcha-delivery.com,~cbox.ws,~chatango.com,~chatgpt.com,~chess.com,~chrome.com,~claude.ai,~claude.com,~cloudflare.com,~codeberg.org,~costco.com,~dailymotion.com,~disqus.com,~ebay.*,~facebook.com,~fbsbx.com,~flickr.com,~gitea.com,~github.com,~gitlab.com,~google.com,~hcaptcha.com,~huggingface.co,~instagram.com,~kimi.com,~lichess.org,~linkedin.com,~live.com,~localhost,~mega.nz,~microsoft.com,~mistral.ai,~mozilla.org,~netflix.com,~openrouter.ai,~pinterest.com,~powershell.org,~privacy-mgmt.com,~proton.me,~rakuten.co.jp,~rakuten.com,~recaptcha.net,~reddit.com,~spotify.com,~stripe.com,~stripecdn.com,~tiktok.com,~tinypass.com,~tumblr.com,~twitch.tv,~twitchcdn.net,~twitter.com,~virustotal.com,~vscode.dev,~vscode-cdn.net,~whatsapp.com,~wikipedia.org,~x.com,~yahoo.com,~yandex.*,~yandexcloud.net,~youtube.com,~youtube-nocookie.com,~www.digitalocean.com##+js(prevent-clipboard-write, /^mshta |^msiexec |^(bash <<<|curl -kfsSL) \$\(echo .+? base64 -d\b|^cmd \/c .*?\bcurl .+?(\.exe|\.bat)\b|^cmd .*?\bfor \/f .*?\bdelims .*?\bpow |(^|\\)powershell(\.exe)? .*?-w(indowStyle)? h(idden)?\b|(^|\\)powershell(\.exe)? .*?-w[a-z]* m[a-z]* |(^|\\)powershell(\.exe)? .*?-NoP\b|(^|\\)powershell(\.exe)? .*?-e(xecution)?p(olicy)? b(ypass)?\b|(^|\\)powershell(\.exe)? .*?-e(xecution)?p(olicy)? u(nrestricted)?\b|(^|\\)powershell(\.exe)? .*?\biex\(|(^|\\)powershell(\.exe)? .*?Invoke-Expression|(^|\\)powershell.+?Invoke-WebRequest|(^|\\)powershell.+?-UseBasicParsing|^cmd .*?\/c .+? -nop .+? iex\b|^(cmd|powershell)\b.+?recaptcha|^(cmd|powershell)\b.+?#(Verification|     )|^(cmd|powershell)\b.+?     #|^osascript .+?\bcurl http|^curl -s\b.+?\| (bash|sh|zsh)\b|^\/bin\/(bash|sh|zsh) -c\b.+?\bcurl|^bash -c\b.+?\$\(curl|^python3? -c\b.+?\b(exec|urllib|subprocess)\b|^echo .+?base64 .+?\b(bash|osascript|z?sh)\b|openssl base64 -d|^curl\b .+?chmod \+x.+?&&|^(bash|sh|osascript)\b.+?recaptcha|^(bash|sh|osascript)\b.+?#(Verification|     )|^(bash|sh|osascript)\b.+?     #|^wget .+?\| (bash|sh)\b|^curl\b.+?-o\b.+?\/tmp\/.+?&&|^nc .+?-e \/bin\/(bash|sh)\b|^\/tmp\/.+?chmod \+x.+?&&|^wget -q.+?\.(sh|py|bin|elf)\b|^cmd .+?\bcertutil .+?\b(\.exe|\.bat)\b|(^|\\)powershell(\.exe)? .+?\birm .+?\.[a-z]+\/.+?powershell|\bpcalua(\.exe)? .*?\b(curl|powershell|saps|cmd)\b|^cmd .+?\bcmdkey .+?\bschtasks|^Invoke-Command .+?Base64String|^c(onhost|md) .*?--headless |^iex\(i(rm|wr) |^irm .+? iex\b/msi, domAlert, 'Beware, uBlock Origin blocked a potential ClickFix attack: ${text}', excludeMatches, /Maintainer|Contributor|^\{|^http|^(git|import|require|use) /i)
+*,~edu,~edu.cn,~127.0.0.1,~adobe.com,~addtoany.com,~amazon.*,~antiphishing.biz,~apple.com,~archlinux.org,~azure.com,~bsky.app,~bing.com,~bitwarden.com,~canva.com,~captcha-delivery.com,~cbox.ws,~chatango.com,~chatgpt.com,~chess.com,~chrome.com,~claude.ai,~claude.com,~cloudflare.com,~codeberg.org,~consentmanager.net,~costco.com,~dailymotion.com,~disqus.com,~ebay.*,~facebook.com,~fbsbx.com,~flickr.com,~gitea.com,~github.com,~gitlab.com,~google.com,~hcaptcha.com,~huggingface.co,~instagram.com,~kimi.com,~lichess.org,~linkedin.com,~live.com,~localhost,~mega.nz,~microsoft.com,~mistral.ai,~mozilla.org,~netflix.com,~ok.ru,~openrouter.ai,~piano.io,~pinterest.com,~powershell.org,~privacy-mgmt.com,~proton.me,~rakuten.co.jp,~rakuten.com,~recaptcha.net,~reddit.com,~spotify.com,~stripe.com,~stripecdn.com,~tiktok.com,~tinypass.com,~tumblr.com,~twitch.tv,~twitchcdn.net,~twitter.com,~virustotal.com,~vscode.dev,~vscode-cdn.net,~whatsapp.com,~wikipedia.org,~x.com,~yahoo.com,~yandex.*,~yandexcloud.net,~youtube.com,~youtube-nocookie.com,~www.digitalocean.com##+js(prevent-clipboard-write, /^mshta |^msiexec |^(bash <<<|curl -kfsSL) \$\(echo .+? base64 -d\b|^cmd \/c .*?\bcurl .+?(\.exe|\.bat)\b|^cmd .*?\bfor \/f .*?\bdelims .*?\bpow |(^|\\)powershell(\.exe)? .*?-w(indowStyle)? h(idden)?\b|(^|\\)powershell(\.exe)? .*?-w[a-z]* m[a-z]* |(^|\\)powershell(\.exe)? .*?-NoP\b|(^|\\)powershell(\.exe)? .*?-e(xecution)?p(olicy)? b(ypass)?\b|(^|\\)powershell(\.exe)? .*?-e(xecution)?p(olicy)? u(nrestricted)?\b|(^|\\)powershell(\.exe)? .*?\biex\(|(^|\\)powershell(\.exe)? .*?Invoke-Expression|(^|\\)powershell.+?Invoke-WebRequest|(^|\\)powershell.+?-UseBasicParsing|^cmd .*?\/c .+? -nop .+? iex\b|^(cmd|powershell)\b.+?recaptcha|^(cmd|powershell)\b.+?#(Verification|     )|^(cmd|powershell)\b.+?     #|^osascript .+?\bcurl http|^curl -s\b.+?\| (bash|sh|zsh)\b|^\/bin\/(bash|sh|zsh) -c\b.+?\bcurl|^bash -c\b.+?\$\(curl|^python3? -c\b.+?\b(exec|urllib|subprocess)\b|^echo .+?base64 .+?\b(bash|osascript|z?sh)\b|openssl base64 -d|^curl\b .+?chmod \+x.+?&&|^(bash|sh|osascript)\b.+?recaptcha|^(bash|sh|osascript)\b.+?#(Verification|     )|^(bash|sh|osascript)\b.+?     #|^wget .+?\| (bash|sh)\b|^curl\b.+?-o\b.+?\/tmp\/.+?&&|^nc .+?-e \/bin\/(bash|sh)\b|^\/tmp\/.+?chmod \+x.+?&&|^wget -q.+?\.(sh|py|bin|elf)\b|^cmd .+?\bcertutil .+?\b(\.exe|\.bat)\b|(^|\\)powershell(\.exe)? .+?\birm .+?\.[a-z]+\/.+?powershell|\bpcalua(\.exe)? .*?\b(curl|powershell|saps|cmd)\b|^cmd .+?\bcmdkey .+?\bschtasks|^Invoke-Command .+?Base64String|^c(onhost|md) .*?--headless |^iex\(i(rm|wr) |^irm .+? iex\b/msi, domAlert, 'Beware, uBlock Origin blocked a potential ClickFix attack: ${text}', excludeMatches, /Maintainer|Contributor|^\{|^http|^(git|import|require|use) /i)
 *.gif#$image,redirect-rule=1x1.gif
 *.gif$domain=037-hd.com,image
 *.gif$domain=cartoonth12.com,image
@@ -21090,21 +21090,22 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@/\/[js].?[js]\/.*\.js/$script,xhr,domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*|masterenjoyao.*|differenceprimitive85p.*|blewdiffera3j2.*|strangernervousql.*|leadmorning4ivn.*|somehowrockyng.*|currentcolorq2dv.*|determinemousecshe.*|publicspeed5c.*|limiteddollqjc.*
 @@/\/\d{5,7}$/$domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/20\d{4}\/\d{2}\/\d{9}\/(?:original|thumbs_\d{2})\/\d{0,2}(?:\(m=e[0-9A-Za-z]{5,7}(?:aaaa)?\)\(mh=[-_0-9A-Za-z]{16}\))?\d{0,2}\.jpg$/$image,1p,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/20\d{4}\/\d{2}\/\d{9}\/(?:original|thumbs_\d{2})\/\d{0,2}(?:\(m=e[0-9A-Za-z]{5,7}(?:aaaa)?\)\(mh=[-_0-9A-Za-z]{16}\))?\d{0,2}\.jpg$/$image,~3p,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/20\d{4}\/\d{2}\/\d{9}\/(?:original|thumbs_\d{2})\/\d{0,2}(?:\(m=e[0-9A-Za-z]{5,7}(?:aaaa)?\)\(mh=[-_0-9A-Za-z]{16}\))?\d{0,2}\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs169l\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{32}(?:-\d)?\/[0-9a-f]{32}\.\d{1,2}\.jpg$/$image,1p,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs169l\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{32}(?:-\d)?\/[0-9a-f]{32}\.\d{1,2}\.jpg$/$image,~3p,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs169l\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{32}(?:-\d)?\/[0-9a-f]{32}\.\d{1,2}\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs_5\/\d{1,2}(?:\(m=e[0-9A-Za-z]{5,7}aaaa\)\(mh=[-_0-9A-Za-z]{16}\))?\.jpg$/$image,1p,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs_5\/\d{1,2}(?:\(m=e[0-9A-Za-z]{5,7}aaaa\)\(mh=[-_0-9A-Za-z]{16}\))?\.jpg$/$image,~3p,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs_5\/\d{1,2}(?:\(m=e[0-9A-Za-z]{5,7}aaaa\)\(mh=[-_0-9A-Za-z]{16}\))?\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/[a-z]?jz\/(?:[0-9a-f]\/){3,5}[0-9a-f]{42}-?(?:\d{2,3}|(?:(?:\d{3,4}-){3}h264)?\.(?:mp4-\d{1,2}|flv-\d))\.jpg$/$image,1p,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/[a-z]?jz\/(?:[0-9a-f]\/){3,5}[0-9a-f]{42}-?(?:\d{2,3}|(?:(?:\d{3,4}-){3}h264)?\.(?:mp4-\d{1,2}|flv-\d))\.jpg$/$image,~3p,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/[a-z]?jz\/(?:[0-9a-f]\/){3,5}[0-9a-f]{42}-?(?:\d{2,3}|(?:(?:\d{3,4}-){3}h264)?\.(?:mp4-\d{1,2}|flv-\d))\.jpg$/$image,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/sb\/t\/\d{6,8}\/(?:\d|[0-9a-f]{2})\/(?:\d|[0-9a-f]{2})\/w:300\/t\d{1,2}-enh\/(?:[0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/sb\/t\/\d{6,8}\/\d\/\d\/w:300\/t\d{1,2}-enh\/(?:[0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,1p,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/sb\/t\/\d{6,8}\/\d\/\d\/w:300\/t\d{1,2}-enh\/(?:[0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,~3p,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/xv7\/[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}\/\d\/xv_\d{1,2}_t\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/ads\.host-cdn\.net\/\w+\.js\?\w+$/$script,3p,to=ads.host-cdn.net,from=maxstream.video|uprot.net
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,1p,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,~3p,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,1p,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,~3p,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/www\.[a-z]{7,14}\.com\/[a-z]{1,4}\.js/$script,3p,domain=shinden.pl,badfilter
+@@/^https:\/\/www\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,~3p,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/www\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https?.*\..*\.ch\/.*\/(ad|adtech|pubblicita|adverts|ad-random|adSponsors|banner-ad|banman|native-ad|advertise|advert1|bg_ads|adengine|adspot|baseAd|coread)\/.*\/.*=.*&/$xhr,other,script,domain=tio.ch
 @@/_js/pubfig.min.js$~3p,domain=svethardware.cz|relaxuj.cz|svetmobilne.cz|digimanie.cz
 @@/ad-provider.js$xhr,domain=veev.to|doods.to
@@ -27230,54 +27231,29 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||sst.soranews24.com/gtm.js$script,~3p
 @@||st.dynamicyield.com/st$script,3p,domain=thewarehouse.co.nz
 @@||st.pussyspace.com/favicon.ico|
-@@||st.pussyspace.com/favicon.ico|
-@@||st.pussyspace.com/player/playBTN.png|
 @@||st.pussyspace.com/player/playBTN.png|
 @@||st.pussyspace.com/style/03/img/bg.png|
-@@||st.pussyspace.com/style/03/img/bg.png|
-@@||st.pussyspace.com/style/03/img/dropmenudownarrow.png|
 @@||st.pussyspace.com/style/03/img/dropmenudownarrow.png|
 @@||st.pussyspace.com/style/03/img/navbg.hover.png|
-@@||st.pussyspace.com/style/03/img/navbg.hover.png|
-@@||st.pussyspace.com/style/03/img/navbg.png|
 @@||st.pussyspace.com/style/03/img/navbg.png|
 @@||st.pussyspace.com/style/03/img/pinkbg.gif|
-@@||st.pussyspace.com/style/03/img/pinkbg.gif|
-@@||st.pussyspace.com/style/03/img/speed-dials.png|
 @@||st.pussyspace.com/style/03/img/speed-dials.png|
 @@||st.pussyspace.com/style/03/img/x-sprite.png|
-@@||st.pussyspace.com/style/03/img/x-sprite.png|
-@@||st.pussyspace.com/style/05/img/JhsdsSD221.svg|
 @@||st.pussyspace.com/style/05/img/JhsdsSD221.svg|
 @@||st.pussyspace.com/style/10/img/logo.png|
-@@||st.pussyspace.com/style/10/img/logo.png|
-@@||st.pussyspace.com/style/10/img/logo_mobile.png|
 @@||st.pussyspace.com/style/10/img/logo_mobile.png|
 @@||st.pussyspace.com/style/webcam.jpg|
-@@||st.pussyspace.com/style/webcam.jpg|
-@@||st.pussyspace.net/favicon.ico|
 @@||st.pussyspace.net/favicon.ico|
 @@||st.pussyspace.net/player/playBTN.png|
-@@||st.pussyspace.net/player/playBTN.png|
-@@||st.pussyspace.net/style/03/img/bg.png|
 @@||st.pussyspace.net/style/03/img/bg.png|
 @@||st.pussyspace.net/style/03/img/dropmenudownarrow.png|
-@@||st.pussyspace.net/style/03/img/dropmenudownarrow.png|
-@@||st.pussyspace.net/style/03/img/navbg.hover.png|
 @@||st.pussyspace.net/style/03/img/navbg.hover.png|
 @@||st.pussyspace.net/style/03/img/navbg.png|
-@@||st.pussyspace.net/style/03/img/navbg.png|
-@@||st.pussyspace.net/style/03/img/pinkbg.gif|
 @@||st.pussyspace.net/style/03/img/pinkbg.gif|
 @@||st.pussyspace.net/style/03/img/speed-dials.png|
-@@||st.pussyspace.net/style/03/img/speed-dials.png|
-@@||st.pussyspace.net/style/03/img/x-sprite.png|
 @@||st.pussyspace.net/style/03/img/x-sprite.png|
 @@||st.pussyspace.net/style/10/img/logo.png|
-@@||st.pussyspace.net/style/10/img/logo.png|
 @@||st.pussyspace.net/style/10/img/logo_mobile.png|
-@@||st.pussyspace.net/style/10/img/logo_mobile.png|
-@@||st.pussyspace.net/style/webcam.jpg|
 @@||st.pussyspace.net/style/webcam.jpg|
 @@||stackblitz.com^$generichide
 @@||stackpathcdn.com/wp-content/plugins/*/adblock-detector/advertisement.js$domain=phoneswiki.com
@@ -28316,12 +28292,25 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||www.pussyspace.com/class/captcha/captcha.php|
 @@||www.pussyspace.com/favicon.ico|
 @@||www.pussyspace.com/favicon.ico|
+@@||www.pussyspace.com/favicon.ico|
 @@||www.pussyspace.com/player/loading.gif|
 @@||www.pussyspace.com/player/loading.gif|
+@@||www.pussyspace.com/player/playBTN.png|
+@@||www.pussyspace.com/style/03/img/bg.png|
+@@||www.pussyspace.com/style/03/img/dropmenudownarrow.png|
+@@||www.pussyspace.com/style/03/img/navbg.hover.png|
+@@||www.pussyspace.com/style/03/img/navbg.png|
+@@||www.pussyspace.com/style/03/img/pinkbg.gif|
+@@||www.pussyspace.com/style/03/img/speed-dials.png|
+@@||www.pussyspace.com/style/03/img/x-sprite.png|
+@@||www.pussyspace.com/style/05/img/JhsdsSD221.svg|
+@@||www.pussyspace.com/style/10/img/logo.png|
+@@||www.pussyspace.com/style/10/img/logo_mobile.png|
 @@||www.pussyspace.com/style/img/abuse.email.png#|
 @@||www.pussyspace.com/style/img/abuse.email.png#|
 @@||www.pussyspace.com/style/img/navbg.hover.png|
 @@||www.pussyspace.com/style/img/navbg.hover.png|
+@@||www.pussyspace.com/style/webcam.jpg|
 @@||www.pussyspace.com/upload/no_img.jpg|
 @@||www.pussyspace.com/upload/no_img.jpg|
 @@||www.pussyspace.net/ajax/contact/exo-logo.png|
@@ -28332,12 +28321,24 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||www.pussyspace.net/class/captcha/captcha.php|
 @@||www.pussyspace.net/favicon.ico|
 @@||www.pussyspace.net/favicon.ico|
+@@||www.pussyspace.net/favicon.ico|
 @@||www.pussyspace.net/player/loading.gif|
 @@||www.pussyspace.net/player/loading.gif|
+@@||www.pussyspace.net/player/playBTN.png|
+@@||www.pussyspace.net/style/03/img/bg.png|
+@@||www.pussyspace.net/style/03/img/dropmenudownarrow.png|
+@@||www.pussyspace.net/style/03/img/navbg.hover.png|
+@@||www.pussyspace.net/style/03/img/navbg.png|
+@@||www.pussyspace.net/style/03/img/pinkbg.gif|
+@@||www.pussyspace.net/style/03/img/speed-dials.png|
+@@||www.pussyspace.net/style/03/img/x-sprite.png|
+@@||www.pussyspace.net/style/10/img/logo.png|
+@@||www.pussyspace.net/style/10/img/logo_mobile.png|
 @@||www.pussyspace.net/style/img/abuse.email.png#|
 @@||www.pussyspace.net/style/img/abuse.email.png#|
 @@||www.pussyspace.net/style/img/navbg.hover.png|
 @@||www.pussyspace.net/style/img/navbg.hover.png|
+@@||www.pussyspace.net/style/webcam.jpg|
 @@||www.pussyspace.net/upload/no_img.jpg|
 @@||www.pussyspace.net/upload/no_img.jpg|
 @@||www.realclear*/esm/assets/js/analytics/chartbeat.js?v=$xhr,1p,strict1p,method=get,domain=com|org
@@ -32314,6 +32315,8 @@ automap.it#@#.ads1
 automap.it#@#.ads2
 automaton-media.com##html > body:style(background-image: none !important;)
 automaton-media.com,ricedigital.co.uk,vladan.fr##+js(abort-on-property-read, wpsite_clickable_data)
+automesseweb.jp,autosport.com,insideevs.com,motor1.com,motorsport.com,motorsportjobs.com,motorsportstats.com,powerwatch.jp,rideapart.com,webcartop.jp##+js(rmnt, script, html-load.com)
+automesseweb.jp,autosport.com,insideevs.com,motor1.com,motorsport.com,motorsportjobs.com,motorsportstats.com,powerwatch.jp,rideapart.com,webcartop.jp##^script:has-text(html-load.com)
 automobile-catalog.com##.adsbygoogle
 automobile-catalog.com,baseballchannel.jp,forum.mobilism.me,freeairpump.com,gbatemp.net,gentosha-go.com,hoyme.jp,kezdo5.hu,krepsinis.net,motorbikecatalog.com,sharemods.com,wisevoter.com##+js(rmnt, script, error-report.com)
 automobile-catalog.com,car.com,silentera.com##table[height="90"]
@@ -32364,8 +32367,6 @@ autosport.com##.ms-ap-native
 autosport.com##.ms-apb
 autosport.com##.ms-side-items--with-banner
 autosport.com,formel1.de,insideevs.com,motor1.com,motorsport-total.com,motorsport.com,motorsportjobs.com,motorsportstats.com,rideapart.com##+js(rmnt, script, .cmd.unshift, excludes, \,\")
-autosport.com,insideevs.com,motor1.com,motorsport.com,motorsportjobs.com,motorsportstats.com,rideapart.com##+js(rmnt, script, html-load.com)
-autosport.com,insideevs.com,motor1.com,motorsport.com,motorsportjobs.com,motorsportstats.com,rideapart.com##^script:has-text(html-load.com)
 autosport.com,motorsport.com##+js(noeval-if, interactionCount)
 autosport.com,motorsport.com##.ms-hapb
 autosport.com,motorsport.com,motorsport.uol.com.br##+js(trusted-replace-argument, document.querySelector, 0, noopFunc, condition, adblock)
@@ -58394,6 +58395,7 @@ magma.com##+js(set, Object.prototype.hasTopPartnership, falseFunc)
 magma.com##+js(trusted-json-edit-fetch-response, ..data.expectingAds=false, propsToMatch, /profile)
 magma.com##.partnership-content-controls > button
 magma.com##.partnership-content-wrapper
+magma.com##div.ng-star-inserted[style="padding-top: 0px;"]
 magma.com##div[style="width: 728px; height: 90px;"]
 magma.com##partnership-content
 magnetdl.*##+js(nowoif, !magnetdl., 1)
@@ -69398,6 +69400,7 @@ pussyspace.com,pussyspace.net##a:matches-attr(/^on/=/event/)
 pussyspace.com,pussyspace.net##a:matches-attr(/^on/=/event/)
 pussyspace.com,pussyspace.net##a[href$="/live/meet-and-fuck/"]
 pussyspace.com,pussyspace.net##a[href$="/live/meet-and-fuck/"]
+pussyspace.com,pussyspace.net##a[href$="/watch/tiktok/"]
 pussyspace.com,pussyspace.net##img[src^="data:image"]:not(a.cam_img > [id]):not(a.cat_img > span > [data-src*="/upload/"]):not(a.video_img > span > [id])
 pussyspot.net##a[href="https://nudegirlsoncam.com/"]
 pussyspot.net##div[class^="content"] > div[align="center"]
@@ -71920,6 +71923,9 @@ savefrom.net##.tz-quality-link
 savegame.pro##+js(aost, document.getElementsByTagName, adsBlocked)
 savegame.pro##body > div:first-child[id]:has(> div > div > div > div > div + .adblock_title)
 saveinsta.cam#@#.aplvideo
+saveinta.com###dlModal:style(display: none !important;)
+saveinta.com##+js(remove-node-text, script, showAd)
+saveinta.com##body.modal-open:style(overflow: auto !important;)
 savelinks.*##+js(aeld, DOMContentLoaded, window.open)
 savelinks.*##+js(aopr, LieDetector)
 savelinks.*##+js(nowoif)
@@ -82449,6 +82455,9 @@ utahgunexchange.com##[href*="/click.track"]
 utakmice.net###rcorners2bottom
 utakmice.net###rcorners2top
 utakmice.net##+js(nowoif, uzivo)
+utatime.com##.playblocktop
+utatime.com##div[class^="responsive"]
+utatime.com##div[id^="amplified_"]
 utctime.net##[style="min-height:120px"]
 utilitymagazine.com.au,linoxide.com###text-36
 utkarshonlinetest.com,financewada.com##+js(nano-sib, /.?/, *, 0.02)
@@ -95416,6 +95425,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||amplify.madison365.com^
 ||amplifyapp.com/*/js/esc.js
 ||amplifyapp.com/*/js/flscn.js
+||amplifyapp.com/support.js|$1p
 ||amplifyapp.com/Win*/index.html$doc
 ||ampproject.net^*/f.js$badfilter
 ||ampxchange.com^
@@ -96172,6 +96182,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||app.rtnews.pro^
 ||app.s.id/api/adcap
 ||app.s.id/api/sda/request
+||app.suckmongif.com^$all
 ||app.torbobit.net/api/ads/
 ||app.vision6.com/em/message/email/$all
 ||app.wiki.gg/public/CCM_MREC_Ads_
@@ -110349,6 +110360,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||download-wetransfer-*.vercel.app^$doc
 ||download.350.com^$3p
 ||download.cnet.com/revamp.js
+||download.guomeizuo.com^$all
 ||download.megaup.net/*.jpg$~3p,image,redirect=1x1.gif
 ||download.megaup.net/download
 ||download.megaup.net/images/*.gif
@@ -122171,7 +122183,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||html-load.com^$script,xhr,domain=amindfullmom.com|choosingchia.com|creativecanning.com|downshiftology.com|gardeninthekitchen.com|heygrillhey.com|loveinmyoven.com|modernhoney.com|mrmakeithappen.com|plainchicken.com|practicalselfreliance.com|sipandfeast.com|stellanspice.com|thecookierookie.com|thefoodcharlatan.com|tutti-dolci.com
 ||html-load.com^$script,xhr,domain=ampav.com|artforum.com|artnews.com|atxtv.co|bgr.com|billboard.com|deadline.com|dickclark.com|footwearnews.com|goldderby.com|hollywoodreporter.com|indiewire.com|la3c.com|lifeisbeautiful.com|luminatedata.com|robbreport.com|rollingstone.com|shemedia.com|sourcingjournal.com|sportico.com|spy.com|sxsw.com|tvline.com|variety.com|vibe.com|wwd.com
 ||html-load.com^$script,xhr,domain=astrozop.com|criczop.com|feedzop.com|gamezop.com|gamezop.io|quizzop.com|umogames.com
-||html-load.com^$script,xhr,domain=autosport.com|insideevs.com|motor1.com|motorsport.com|motorsportjobs.com|motorsportstats.com|rideapart.com
+||html-load.com^$script,xhr,domain=automesseweb.jp|autosport.com|insideevs.com|motor1.com|motorsport.com|motorsportjobs.com|motorsportstats.com|powerwatch.jp|rideapart.com|webcartop.jp
 ||html-load.com^$script,xhr,domain=babla.cn|babla.co.id|babla.co.th|babla.gr|babla.no|babla.ru|babla.vn|fxstreet.com|fxstreet.com.tr|fxstreet.de.com|fxstreet.es|fxstreet.fr|fxstreet.hk|fxstreet.hu|fxstreet.it|fxstreet.ru.com|gentside.co.uk|gentside.com|gentside.de|ohmymag.co.uk|ohmymag.com|ohmymag.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de|willyweather.co.uk|willyweather.com|willyweather.com.au|woxikon.bg|woxikon.co|woxikon.co.uk|woxikon.com|woxikon.com.br|woxikon.cl|woxikon.dk|woxikon.de|woxikon.fr|woxikon.es|woxikon.it|woxikon.mx|woxikon.nl|woxikon.pl|woxikon.pt|woxikon.ru|woxikon.se
 ||html-load.com^$script,xhr,domain=bike-news.jp|egolf.jp|kuruma-news.jp|lasisa.net|magmix.jp|merkmal-biz.jp|otonanswer.jp|trafficnews.jp|vague.style
 ||html-load.com^$script,xhr,domain=bikerumor.com|explorersweb.com|gearjunkie.com|irunfar.com|packhacker.com|switchbacktravel.com|theinertia.com|wildsnow.com
@@ -142848,6 +142860,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||pussyspace.*/js/all.js?v=gitcache_gulp_
 ||pussyspace.*/lazyload.im
 ||pussyspace.*/lazyload.im
+||pussyspace.*/lazyload.io?ads=
 ||pussyspace.*/live/meet-and-fuck/$all
 ||pussyspace.*/live/meet-and-fuck/$all
 ||pussyspace.com/fub
@@ -151299,6 +151312,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||spotidownloader.com/ad-test.html
 ||spotify*.ct.ws^$doc
 ||spotify.com/ad-logic/
+||spotify.com/ad-logic/$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
 ||spotify.com/gabo-receiver-service/public/v3/events
 ||spotify.com/gabo-receiver-service/v3/events
 ||spotifycdn.com/audio/$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
