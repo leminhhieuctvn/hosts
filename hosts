@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-09-16 09:06:25 UTC
+! Last modified: 2026-09-16 16:14:11 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -15741,6 +15741,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 -ez-pass.com^$doc
 -google-analytics/$3p,domain=~wordpress.org|~brookson.co.uk
 -google-analytics/$domain=~wordpress.org,badfilter
+-id-*/?_*=*&data=eyJpZCI6$document
 -ledger.live^$doc
 -load.com/script/$xhr,domain=smsonline.cloud
 -ndax-*.webflow.io^$doc
@@ -26116,6 +26117,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=searchftps.net
 @@||pagead2.googlesyndication.com/pub-config/ca-pub-$script,domain=onlinemschool.com
 @@||pagead2.googlesyndication.com/tag/js/gpt.js$script,domain=wunderground.com
+@@||pagead2.googlesyndication.com/tag/js/gpt.js$script,redirect-rule,domain=kick.com
 @@||pagead2.googlesyndication.com^$domain=gaingon3d.com|cap3.nl|qmh.garden
 @@||pagead2.googlesyndication.com^$domain=ytlarge.com
 @@||pagead2.googlesyndication.com^$script,domain=bg-gledai.*|gledaitv.*|bg-gledai.video|gledaitv.fan|gledaitv.live
@@ -29549,7 +29551,7 @@ akinator.com,and-more.co,astro-seek.com,autofrage.net,bab.la,babla.*,boardingare
 akinator.com,and-more.co,astro-seek.com,autofrage.net,bab.la,babla.*,boardingarea.com,collinsdictionary.com,conselhosetruques.com,computerfrage.net,dictionary.cambridge.org,dictionnaire.lerobert.com,dnevnik.hr,egitim.net.tr,exceljet.net,finanzfrage.net,freemcserver.net,gesundheitsfrage.net,gezondnu.nl,gutefrage.net,happyinshape.com,houseandgarden.co,infinityfree.com,ldoceonline.com,liveandletsfly.com,mamastar.jp,motorradfrage.net,neoseeker.com,newatlas.com,oxfordlearnersdictionaries.com,pinterpoin.com,pons.com,reisefrage.net,sinemalar.com,sportlerfrage.net,torontosun.com,toyokeizai.net,travelingformiles.com,usaudiomart.com,welt.de##+js(rmnt, script, await eval)
 akirabox.*##+js(remove-node-text, script, /var lw=\(\[\]\+!\[\]\)/)
 akirabox.com##+js(addEventListener-defuser, click, Ads)
-akirabox.com##+js(addEventListener-defuser, DOMContentLoaded, ?pub=)
+akirabox.com,akirabox.to##+js(abort-on-stack-trace, atob, <anonymous>)
 akirabox.com,akirabox.to##+js(acs, setTimeout, decodeURIComponent(escape)
 akirabox.com,akirabox.to##+js(aeld, click, .href)
 akirabox.com,akirabox.to##+js(aeld, DOMContentLoaded, open)
@@ -29557,7 +29559,6 @@ akirabox.com,akirabox.to##+js(nowoif, _blank)
 akirabox.com,akirabox.to##+js(rmnt, script, (function(, excludes, document)
 akirabox.com,akirabox.to##[href*="nordvpn.net"]
 akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,datavaults.co,fuckingfast.*,multiup.io,rootz.so,usersdrive.com,vik1ngfile.site,zpaste.net#@#+js(set, Document.prototype.createElement.call, noopFunc)
-akirabox.to##+js(abort-current-script, Document.prototype.createElement, *)
 akirabox.to,bittorrent.com,whatismybrowser.com,primewire.li##a[href^="https://go.nordvpn.net/aff_c?"]
 akoam.*##+js(nowoif)
 aktuality.sk##+js(abort-on-stack-trace, JSON.parse, showBanner)
@@ -35314,6 +35315,7 @@ businessinsider.com.pl##.adSlotWidget
 businessinsider.com.pl##.gratka-widget-placeholder
 businessinsider.com.pl##.onet-ad
 businessinsider.com.pl##[class*="placeholder"][data-configuration*="slotName"][data-run-module$="Ad"]
+businessinsider.com.pl##ad-default
 businessinsider.de##.adup-wrap
 businessinsider.de##.bi-injected-ad
 businessinsider.de##.bi-min-height--inpage
@@ -36622,6 +36624,11 @@ cherrynudes.com##+js(acs, loadTool, popping)
 cherrynudes.com##[href^="http://links.verotel.com/"]
 cherrynudes.com##[href^="http://wcrgl.freeadult.games/hit.php"]
 cherrynudes.com##[href^="http://www.g4mz.com/"]
+cheshire-live.co.uk##div[class*="BoxStyles_commercial_"]
+cheshire-live.co.uk##div[data-testid="commercial-label-gpt"]
+cheshire-live.co.uk##div[data-testid^="ncu-"]
+cheshire-live.co.uk##div[data-tmdatatrack-type="commercial"]:style(display: none !important;)
+cheshire-live.co.uk##header[data-testid="header"]:style(top: 0 !important;)
 chess-results.com##.fedAdv
 chess.com###leaderboard-atf-ad
 chess.com###medium-rectangle-atf-ad
@@ -39445,6 +39452,8 @@ dailyporn.club###fixedban
 dailyporn.club##.bottom-blocks
 dailypost.co.uk,dailystar.co.uk,mirror.co.uk##+js(nano-stb, (null), 5000, 0.001)
 dailypost.co.uk,dailystar.co.uk,mirror.co.uk##+js(nano-stb, native code, 15000, 0.001)
+dailypost.ng##.dp-global-leaderboard
+dailypost.ng,timesofkarachi.pk,faqwiki.us,grammarhow.com,geeksdigit.com,transfernewslive.com,coincentral.com,wizgenerator.com,powerpyx.com,vivamaxstream.com,gizmochina.com,droidwin.com,simsvip.com,vice.com,iseekgirls.com,creditshui.com,pornxnow.me,softfully.com,cricfy.net,otakuporn.com,aitoolsfree.org,isekaitube.com,nexusgames.to,coachesdatabase.com,rockstarintel.com,sampledrive.org,vistanet.it,nudemasta.com,mangaread.org,boxingnewsonline.net,lewdgames.to,pokemongohub.net,romslab.com,lokkio.it,sharetheurls.com,opfanpage.com,canonrumors.com,flamecomics.me,repacklab.com,proserialkey.com,fullmatch.info,torrentmac.net,game-repack.site,ispreview.co.uk,nxbrew.net,news.fidelityhouse.eu,poscigi.pl,environmentenergyleader.com,econostrum.info,repack-games.com,cryptopolitan.com,asuratoon.com,chatgbt.one,njbeachcams.com,nokiapoweruser.com,tricksndtips.com,naijaremix.com,rockandrollgarage.com,firstcuriosity.com,bigbrothernetwork.com,flamescans.org,tech-latest.com,nintendoeverything.com,game-2u.com,ps4pkg.com,asurascans.com,anime7.download,netchimp.co.uk,howifx.com,digitbin.com,coffeenerd.blog,nsw2u.*,thegeekpage.com,watchseinfeld.cc,dandadanmanga.org,vgkami.com,tvtonight.com.au,warsawnow.pl,silverspoon.site,asura.gg,getdroidtips.com,crackshere.com,watchasian.ac,qzlyrics.com,marugujarat.in,linuxcapable.com,apkmb.com,techgeekbuzz.com,designcorral.com,otakukan.com,monsterspost.com,policeresults.com,browserhow.com,chromeunboxed.com,journeybytes.com,tutcourse.com,opportunitydesk.info,freecoursesites.net,tektutorialshub.com,fossbytes.com,borncity.com,profitableventure.com,guru99.com,whatisthemeaningofname.com,techpp.com,troypoint.com,bakabuzz.com,conservativebrief.com,xyzcomics.com,jujmanga.com,myhealthgazette.com,cryptodirectories.com,secondlifetranslations.com,thewincentral.com,firmwarefile.com,bicfic.com##body .code-block
 dailypress.com##section.trb_outfit[data-role="adloader"] > section.trb_outfit_sections > div[data-frame-height="100%"][data-frame-class="trb_em_b_if"]
 dailyprogress.com##.card-img-md > div.card-panel:has(> div.panel-body > article.clearfix > div.card-container span.label-flag-promotion)
 dailyprogress.com##.tncms-region:has(> div.panel-body > section.block > div.clearfix > div.block-title > div.block-title-inner > h3:contains(Recommended for you))
@@ -39472,15 +39481,6 @@ dailystar.co.uk##amp-iframe[height="40"]
 dailystar.co.uk##div[class^="NCU_ncu"]:has(div[id^="div-gpt-ad"])
 dailystar.co.uk##div[class^="NCU_ncu"][data-testid^="ncu-within-group"]:has(> div.ncu)
 dailystar.co.uk,abcnews.go.com,manchestereveningnews.co.uk,euronews.com,wgrz.com,newatlas.com,plymouthherald.co.uk,chroniclelive.co.uk,hulldailymail.co.uk,foreignpolicy.com##.taboola
-dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,liverpoolecho.co.uk##div[class*="BoxStyles_commercial"]
-dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,liverpoolecho.co.uk##div[class^="Article_below-article-commercial-box"]
-dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,manchestereveningnews.co.uk,liverpoolecho.co.uk##.commercial-box-style
-dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,manchestereveningnews.co.uk,liverpoolecho.co.uk##aside > div[class^="sc-"]:has(> span > span.react-loading-skeleton)
-dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,manchestereveningnews.co.uk,liverpoolecho.co.uk##aside span > span.react-loading-skeleton
-dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,manchestereveningnews.co.uk,liverpoolecho.co.uk##div[data-testid^="commercial-"]
-dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,manchestereveningnews.co.uk,liverpoolecho.co.uk##div[data-testid^="commercial-above-header-box-"]:style(display: none !important;)
-dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,manchestereveningnews.co.uk,liverpoolecho.co.uk##header[data-testid="header"]:style(top: 0 !important;)
-dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,manchestereveningnews.co.uk,liverpoolecho.co.uk##section[data-testid^="commercial-"]
 dailystar.co.uk,mirror.co.uk##+js(no-xhr-if, cmp.inmobi.com/geoip)
 dailystar.co.uk,mirror.co.uk,themirror.com##[data-tmdatatrack-type="commercial"]
 dailytech-news.eu##+js(noeval-if, ads)
@@ -48359,10 +48359,7 @@ gledaitv.*##+js(set, scriptBlocked, false)
 gledaitv.*##+js(set, testUrls, [])
 gledaitv.*##+js(trusted-replace-argument, document.getElementById, 0, json:"body", condition, ad-detection-bait)
 gledaitv.*##+js(trusted-replace-argument, document.querySelector, 0, json:"body", condition, -id-)
-gledaitv.live###abDetectorModal
-gledaitv.live##+js(no-setTimeout-if, advertisement)
-gledaitv.live##+js(set-constant, ABDetector, noopFunc)
-gledaitv.live##div[id^="anti-adblock-"]
+gledaitv.live###abort-overlay
 gledajcrtace.xyz###header-wrap-reklama
 gledajcrtace.xyz###header-wrap-reklama
 gledajcrtace.xyz###HTML8
@@ -48485,6 +48482,16 @@ gloswielkopolski.pl##.componentsPromotionsPromoted__list
 gloswielkopolski.pl##.linkiSponsorowane
 gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 gloucestershirelive.co.uk##+js(set-constant, chameleonVideo.adDisabledRequested, true)
+gloucestershirelive.co.uk,dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,manchestereveningnews.co.uk,liverpoolecho.co.uk##section[data-testid^="commercial-"]
+gloucestershirelive.co.uk,lancs.live,dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,manchestereveningnews.co.uk,liverpoolecho.co.uk##aside > div[class^="sc-"]:has(> span > span.react-loading-skeleton)
+gloucestershirelive.co.uk,rsvplive.ie,dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,manchestereveningnews.co.uk,liverpoolecho.co.uk##div[data-testid^="commercial-above-header-box-"]:style(display: none !important;)
+gloucestershirelive.co.uk,rsvplive.ie,dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,manchestereveningnews.co.uk,liverpoolecho.co.uk##header[data-testid="header"]:style(top: 0 !important;)
+gloucestershirelive.co.uk,rsvplive.ie,lancs.live##aside[class^="RHRBlock_right-aside-wrapper"]
+gloucestershirelive.co.uk,rsvplive.ie,lancs.live,dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,liverpoolecho.co.uk##div[class*="BoxStyles_commercial"]
+gloucestershirelive.co.uk,rsvplive.ie,lancs.live,dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,liverpoolecho.co.uk##div[class^="Article_below-article-commercial-box"]
+gloucestershirelive.co.uk,rsvplive.ie,lancs.live,dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,manchestereveningnews.co.uk,liverpoolecho.co.uk##.commercial-box-style
+gloucestershirelive.co.uk,rsvplive.ie,lancs.live,dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,manchestereveningnews.co.uk,liverpoolecho.co.uk##aside span > span.react-loading-skeleton
+gloucestershirelive.co.uk,rsvplive.ie,lancs.live,dailystar.co.uk,birminghammail.co.uk,mirror.co.uk,manchestereveningnews.co.uk,liverpoolecho.co.uk##div[data-testid^="commercial-"]
 glowing.com##.adsWrapper-0-0-136
 gmanetwork.com###leaderboard
 gmanetwork.com###mrec-container
@@ -52211,7 +52218,7 @@ igorslab.de##.herald-main-content > .row > .herald-module:not([data-col]):has(> 
 igorslab.de##.herald-sidebar
 igorslab.de##.herald-sidebar-right > .widget:not([id*="widget"])
 igorslab.de##.herald-sticky
-igorslab.de##.ilgha-scale-frame:has(.ilgha-related-similar)
+igorslab.de##.ilgha-scale-frame:has(h4:has-text(/Similar products|Ähnliche Artikel|相似产品/))
 igorslab.de##[aria-label="Advertisement" i]
 igorslab.de##[aria-label="Werbung" i]
 igorslab.de##[aria-label="广告"]
@@ -52223,6 +52230,7 @@ igorslab.de##a[aria-label*="Banner"]
 igorslab.de##a[href^="https://www.igorslab.de/"][style][rel]:matches-attr(href="/^https:\/\/www\.igorslab\.de\/(?:[0-9a-z-]{7,32}\/)+$/")
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
 igorslab.de##div[class]:matches-css-before(content: /^\s*\"(Advertise۞nt|Werbung|广告)\"\s*$/)
+igorslab.de##div[style^="position:relative;display:block;width:100%;max-width:980px"]
 igorslab.de##img:remove-attr(/data-.+/)
 igorslab.de##img[src^="blob:http"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"]
@@ -56240,6 +56248,8 @@ lamontagne.fr###cf-digiteka-player
 lamontagne.fr##.w-full.mb-7.relative
 lampungway.com##+js(aopw, adBlockDetected)
 lanazione.it,ilgiorno.it,ilrestodelcarlino.it,quotidiano.net##div[class*=" amp__watermark"]
+lancs.live##.topbox-cls-placeholder
+lancs.live##div[data-tmdatatrack-id="placeholder"]
 landian.news##+js(href-sanitizer, body a[href^="https://www.landian.news/go?url=http"], ?url)
 landline.media##.ads-sec
 landyzone.co.uk##.p-body-header > div.p-description:has(> b > a[href^="https://www.adrianflux.co.uk/"])
@@ -64590,6 +64600,7 @@ ondigitalocean.app##+js(aeld, mousemove, loadSecret)
 one.com.mt###popup-root
 onebitco.com##div[style^="height: 250px; width: 300px; position: fixed;"]
 onecompiler.com##a[href^="https://www.datawars.io"]
+onedio.co###mansetAlti-container
 onedio.co###masthead-background
 onedio.co###masthead-container
 onedio.co##.article__oads
@@ -64662,6 +64673,7 @@ onionplay.io###fakeplayer
 onionplay.io##+js(set-attr, #dooplay_player_content .source-box iframe.metaframe[data-src]:not([src]), src, [data-src])
 onionplay.st,onionplay.*##+js(remove-attr, href, #clickfakeplayer)
 onionplay.st,onionplay.*##+js(set-constant, scds, 0)
+onionplay.st,onionplay.*,techbixby.com,ssdhostting.com,zflix.me,xporn.mom,moviesapi.to,watchluna.to,flixcdn.cyou,iqsmartgames.com,pornbusy.com,av.seeks.cloud,pns.pro,4meplayer.pro,seekplays.com,dlsrv.online,vidnest.fun,yeptube.*,vids.st,area.waffi.cloud,nutripulse.one,vercel.app,zdrive.to,1moviesz.to,apksum.com,xvideos-full.com,freemanga.me,funlove.info,javsubidn.tv,streamvid.dev,vidnest.live,vidnest.io,familyporn.tv,5play.app,bingespree.net,spencerdevs.xyz,easyvidplayer.com,cloudhostingz.com,sharedwebs.com,fitnessplanss.com,porn4days.blue,embedplayer.site,animahd.com,exposestrat.com,embedsports.top,vidplayer.live,vik1ngfile.site,fbol.top,sterham.net,embed4me.com,megatukmax.xyz,primewire.pw,primewire.*,primewire.tf,ytapi.cc,mygomp3.com,imagebam.com,ezplayer.me,datavaults.co,clickapi.net,y2down.cc,themezon.net,serverguidez.com,streamup.ws,vidlink.pro,cdn.hentaianimezone.com,themezon.net,galaxyporn.net,teknoasian.com,downloadyoutubesubtitles.com,alex71.com,kecapku.com,vidfast.vc,pornharlot.net,meong.club,hianimez.*,travelironguide.com,kreditexperte.online,shortnest.com,vikingf1le.us.to,mixzdrive.com,get.linkbulks.com,play.upns.live,dropzy.io,dayuploads.com,filespayouts.com,ranoz.gg,zovo.ink,manhwahentai.me,1movielinkbd.com,ytmp3.la,swiftuploads.com,techbloogs.com,oii.la,englismovies.pro,tpi.li,go.cloutgist.com,brbeast.com,vidsrc2.*,tutwuri.id,lokerwfh.net,insmyst.com,iir.la,tvi.la,cosplay18.pics,hianime.*,mobiletvshows.site,movies4u.*,x-x-x.tube,pornx.to,4khd.com,dlhd.*,kissanime.*,vidsrc.*,pahe.*##+js(no-window-open-if)
 onle.co##+js(nano-sib)
 onle.co##.adsbygoogle:style(max-height: 1px !important;)
 onle.co##[id^="aswift"]
@@ -73667,6 +73679,8 @@ skai.gr##.mobile-banner-sticky-container:remove()
 skai.gr##.taboola
 skapiec.pl###content > .content-wrapper > h2.before-popularshops:has(> .advertisement)
 skapiec.pl###content > .content-wrapper > h2.before-popularshops:has(> .advertisement) + div[class="slider-module-container slim no-background"]
+skapiec.pl###financing
+skapiec.pl##.product-tab__list > a[href="#financing"]
 skarbiec.biz##.side-right > .widget:has(> .ad)
 skardu.pk,iumkit.net,latinluchas.com,zegtrends.com,sysguides.com##body > .wrapper + div[id][class*=" "]
 skateboarding.com##.header-ad-slot
@@ -77020,7 +77034,6 @@ techadvisor.com,techadvisor.co.uk##+js(abort-on-property-read, Object.prototype.
 techbeacon.com##a[href="https://events.vertica.com/unify"]
 techbixby.com,holyscans.com.tr,ketubanjiwa.com,liddread.com,gkbooks.in,sayphotobooth.com,headlinerpost.com,dinheirocursosdownload.com,santhoshrcf.com,tnstudycorner.in,trucosonline.com,seriu.jp,notesformsc.org,viewmyknowledge.com,starxinvestor.com,postazap.com,lovendal.ro,rabo.no,edivaldobrito.com.br,nsfwr34.com,kits4beats.com##body > .site-footer + div[id][class*=" "]
 techbixby.com,ssdhostting.com,tob.news,fitpractise.com,techdirectarchive.com,secnews.gr,magcourse.site,supjav.ru,umatechnology.org,3dvf.com,aimhaven.com,comicsuniverse.it,macmagazine.com.br,ubunlog.com,thesportsgrail.com,downtownbellevue.com,androidsis.com,voiceofmotown.com,thethaiger.com,unseki.co.jp,wikibio.us,nexus-games.net,freecoursesite.com,formu1a.uno,toolsai.net,rightrasta.com,kaystls.site,gamertweak.com,mrinformatico.it,pianetacellulare.it,inwepo.co,updoc.site,oliveoiltimes.com,cgmagonline.com,happymag.tv,cpophome.com##.code-block
-techbixby.com,ssdhostting.com,zflix.me,xporn.mom,moviesapi.to,watchluna.to,flixcdn.cyou,iqsmartgames.com,pornbusy.com,av.seeks.cloud,pns.pro,4meplayer.pro,seekplays.com,dlsrv.online,vidnest.fun,yeptube.*,vids.st,area.waffi.cloud,nutripulse.one,vercel.app,zdrive.to,1moviesz.to,apksum.com,xvideos-full.com,freemanga.me,funlove.info,javsubidn.tv,streamvid.dev,vidnest.live,vidnest.io,familyporn.tv,5play.app,bingespree.net,spencerdevs.xyz,easyvidplayer.com,cloudhostingz.com,sharedwebs.com,fitnessplanss.com,porn4days.blue,embedplayer.site,animahd.com,exposestrat.com,embedsports.top,vidplayer.live,vik1ngfile.site,fbol.top,sterham.net,embed4me.com,megatukmax.xyz,primewire.pw,primewire.*,primewire.tf,ytapi.cc,mygomp3.com,imagebam.com,ezplayer.me,datavaults.co,clickapi.net,y2down.cc,themezon.net,serverguidez.com,streamup.ws,vidlink.pro,cdn.hentaianimezone.com,themezon.net,galaxyporn.net,teknoasian.com,downloadyoutubesubtitles.com,alex71.com,kecapku.com,vidfast.vc,pornharlot.net,meong.club,hianimez.*,travelironguide.com,kreditexperte.online,shortnest.com,vikingf1le.us.to,mixzdrive.com,get.linkbulks.com,play.upns.live,dropzy.io,dayuploads.com,filespayouts.com,ranoz.gg,zovo.ink,manhwahentai.me,1movielinkbd.com,ytmp3.la,swiftuploads.com,techbloogs.com,oii.la,englismovies.pro,tpi.li,go.cloutgist.com,brbeast.com,vidsrc2.*,tutwuri.id,lokerwfh.net,insmyst.com,iir.la,tvi.la,cosplay18.pics,hianime.*,mobiletvshows.site,movies4u.*,x-x-x.tube,pornx.to,4khd.com,dlhd.*,kissanime.*,vidsrc.*,pahe.*##+js(no-window-open-if)
 techbloat.com###rk-exit-modal-bg
 techbloat.com###rk-sidebar-cta
 techbloat.com##+js(addEventListener-defuser, DOMContentLoaded, isWindows)
@@ -78399,6 +78412,7 @@ thelines.com##.cta-content
 thelines.com##.cta-row
 thelinuxcode.com##+js(set-cookie, pum-32600, true)
 thelinuxcode.com##+js(set-cookie, pum-44957, true)
+thelist.com##+js(abort-current-script, document.createElement, __adblocker)
 thelist.com##.divider-heading-container
 thelittleslush.com##.snppopup
 thelivenagpur.com##.inner-post-entry > div[id^="media_image-"]
@@ -79390,7 +79404,6 @@ timesofisrael.com##.sellwild-label
 timesofisrael.com##.type-spotlight
 timesofisrael.com,ipvoid.com,mp4compress.com,changenow.io##.banner-wrap
 timesofkarachi.pk##.cs-sidebar__inner > .block-widget
-timesofkarachi.pk,faqwiki.us,grammarhow.com,geeksdigit.com,transfernewslive.com,coincentral.com,wizgenerator.com,powerpyx.com,vivamaxstream.com,gizmochina.com,droidwin.com,simsvip.com,vice.com,iseekgirls.com,creditshui.com,pornxnow.me,softfully.com,cricfy.net,otakuporn.com,aitoolsfree.org,isekaitube.com,nexusgames.to,coachesdatabase.com,rockstarintel.com,sampledrive.org,vistanet.it,nudemasta.com,mangaread.org,boxingnewsonline.net,lewdgames.to,pokemongohub.net,romslab.com,lokkio.it,sharetheurls.com,opfanpage.com,canonrumors.com,flamecomics.me,repacklab.com,proserialkey.com,fullmatch.info,torrentmac.net,game-repack.site,ispreview.co.uk,nxbrew.net,news.fidelityhouse.eu,poscigi.pl,environmentenergyleader.com,econostrum.info,repack-games.com,cryptopolitan.com,asuratoon.com,chatgbt.one,njbeachcams.com,nokiapoweruser.com,tricksndtips.com,naijaremix.com,rockandrollgarage.com,firstcuriosity.com,bigbrothernetwork.com,flamescans.org,tech-latest.com,nintendoeverything.com,game-2u.com,ps4pkg.com,asurascans.com,anime7.download,netchimp.co.uk,howifx.com,digitbin.com,coffeenerd.blog,nsw2u.*,thegeekpage.com,watchseinfeld.cc,dandadanmanga.org,vgkami.com,tvtonight.com.au,warsawnow.pl,silverspoon.site,asura.gg,getdroidtips.com,crackshere.com,watchasian.ac,qzlyrics.com,marugujarat.in,linuxcapable.com,apkmb.com,techgeekbuzz.com,designcorral.com,otakukan.com,monsterspost.com,policeresults.com,browserhow.com,chromeunboxed.com,journeybytes.com,tutcourse.com,opportunitydesk.info,freecoursesites.net,tektutorialshub.com,fossbytes.com,borncity.com,profitableventure.com,guru99.com,whatisthemeaningofname.com,techpp.com,troypoint.com,bakabuzz.com,conservativebrief.com,xyzcomics.com,jujmanga.com,myhealthgazette.com,cryptodirectories.com,secondlifetranslations.com,thewincentral.com,firmwarefile.com,bicfic.com##body .code-block
 timesofmalta.com###article-sponsored
 timesofmalta.com###inscroll-banner
 timesofmalta.com##.sw-Top
@@ -161350,6 +161363,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||warfareventfabled.qpon^
 ||warfulbutt.shop^
 ||wargaming-aff.com^$popup
+||wargamings.net^$3p,script
 ||warhealthy.com^
 ||warilyclickframes.com^
 ||warkedmalie.com^
