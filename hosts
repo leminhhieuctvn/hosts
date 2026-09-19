@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-09-19 15:26:58 UTC
+! Last modified: 2026-09-19 18:26:00 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -16904,7 +16904,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/www\.gayxnow\.com\/[a-z][a-z][a-z][a-z][a-z][a-z]?\.js$/$script
 /^https:\/\/www\.gayxnow\.com\/[a-z][a-z][a-z][a-z][a-z][a-z]?\.js$/$script
 /^https:\/\/www\.igorslab\.de\/[0-9a-z]{7,}\/A[\/0-9A-Z_a-z-]{100,}$/$image,1p,match-case,redirect=2x2.png
-/^https:\/\/www\.igorslab\.de\/wp-content\/uploads\/202\d\/\d{2}\/(?=[a-z]*\d)(?=\d*[a-z])[0-9a-z]{7,15}\.(?:pn|jp)g(?:\?[0-9_a-z-]{7,}=[0-9_a-z-]{7,})?$/$image,1p,match-case,redirect=2x2.png
+/^https:\/\/www\.igorslab\.de\/wp-content\/uploads\/202\d\/\d{2}\/(?=[a-z]*\d)(?=\d*[a-z])[0-9a-z]{7,15}\.(?:pn|jp)g(?:\?[0-9A-Z_a-z-]{7,}=[0-9A-Z_a-z-]{7,})?$/$image,1p,match-case,redirect=2x2.png
 /^https:\/\/www\.locopelis\.com\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 /^https:\/\/www\.locopelis\.com\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 /^https:\/\/www\.natomanga\.com\/js\/[a-f0-9]{32}\.js$/$script,domain=natomanga.com
@@ -39656,6 +39656,7 @@ darntough.com##+js(set-session-storage-item, /^ph_phc/, $remove$)
 darts-scoring.com##+js(no-fetch-if, googlesyndication)
 dartsnews.com,tennisuptodate.com##.raw-html-component
 darujizaodvoz.cz#@#.adslist
+darumasushiantofagasta.cl##+js(aost, Function, /bxslider|wow/)
 darwintube.com##.spots
 dash.hyzen-cloud.com##+js(abort-on-property-write, adScript)
 dashfight.com##.BannerPlayware_block__up1Ra
@@ -52221,8 +52222,9 @@ igorslab.de##^script[id^="advanced-ads"]
 igorslab.de##a[aria-label*="Banner"]
 igorslab.de##a[href^="/"][href$="/"][style][rel][target]
 igorslab.de##a[href^="/"][href*="#"][style][rel][target]
+igorslab.de##a[href^="/"][href*="?"][style][rel][target]
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
-igorslab.de##div[class]:matches-attr("/^[a-z]-[0-9a-z]+-[0-9a-z]+$/")
+igorslab.de##div[class]:matches-attr("/^(?!data|aria)[0-9a-z]+-[0-9a-z]+$/")
 igorslab.de##div[class]:matches-css-before(content: /^\s*\"(Advertise۞nt|Werbung|广告)\"\s*$/)
 igorslab.de##div[style*="width:100%;max-width:980px"]
 igorslab.de##img:remove-attr(/data-.+/)
@@ -52231,6 +52233,7 @@ igorslab.de##span[aria-label][role="img"][style*="data:image"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"] + a
 igorslab.de##span[style]:has(svg path)
 igorslab.de##svg image[href^="data:image/"]
+igorslab.de##svg:has(~ [aria-label])
 igorslab.de/community/#@#img:remove-attr(/data-.+/)
 igraal.com##[data-ig-ga-cat="Ad"]
 igram.im##.mcon
@@ -60879,6 +60882,8 @@ motchill.biz##.popUpBannerBox
 motchillb.fm##+js(aeld, click, sessionStorage)
 motchillb.fm##.bg-black\/70.justify-center.items-center.flex.z-\[9999\].inset-0.fixed
 motchillb.fm,fcloud.live##+js(aeld, click, links)
+motchille.ws##+js(set-constant, HTMLAnchorElement.prototype.click, noopFunc)
+motchille.ws##div.fixed.inset-0
 motchilltvphim.com##+js(acs, jQuery, click_time)
 motchilltvphim.com,phimtho.cc,subnhanh.plus###popup_banner_beta
 motchilltvphim.com,subnhanh.plus##.sda-catfish
@@ -104685,6 +104690,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||cloudfam.io/api/$ping,1p
 ||cloudfenceai.com^$all
 ||cloudflare-analiytics.pages.dev^
+||cloudflare-check.net^$all
 ||cloudflare.com/ajax/libs/*/popper.min.js$domain=voe.sx
 ||cloudflare.com/ajax/libs/fingerprintjs2/$script,redirect=fingerprint2.js,important,domain=gamebox.gesoten.com
 ||cloudflare.com/ajax/libs/postscribe/$script,domain=vumoo.vip
