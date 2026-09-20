@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-09-19 22:08:22 UTC
+! Last modified: 2026-09-20 03:39:35 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -16904,7 +16904,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/www\.gayxnow\.com\/[a-z][a-z][a-z][a-z][a-z][a-z]?\.js$/$script
 /^https:\/\/www\.gayxnow\.com\/[a-z][a-z][a-z][a-z][a-z][a-z]?\.js$/$script
 /^https:\/\/www\.igorslab\.de\/[0-9a-z]{7,}\/A[\/0-9A-Z_a-z-]{100,}$/$image,1p,match-case,redirect=2x2.png
-/^https:\/\/www\.igorslab\.de\/wp-content\/uploads\/202\d\/\d{2}\/(?=[a-z]*\d)(?=\d*[a-z])[0-9a-z]{7,15}\.(?:pn|jp)g(?:\?[0-9_a-z-]{7,}=[0-9_a-z-]{7,})?$/$image,1p,match-case,redirect=2x2.png
+/^https:\/\/www\.igorslab\.de\/wp-content\/uploads\/202\d\/\d{2}\/(?=[a-z]*\d)(?=\d*[a-z])[0-9a-z]{7,15}\.(?:pn|jp)g(?:\?[0-9A-Z_a-z-]{7,}=[0-9A-Z_a-z-]{7,})?$/$image,1p,match-case,redirect=2x2.png
 /^https:\/\/www\.locopelis\.com\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 /^https:\/\/www\.locopelis\.com\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 /^https:\/\/www\.natomanga\.com\/js\/[a-f0-9]{32}\.js$/$script,domain=natomanga.com
@@ -52222,8 +52222,9 @@ igorslab.de##^script[id^="advanced-ads"]
 igorslab.de##a[aria-label*="Banner"]
 igorslab.de##a[href^="/"][href$="/"][style][rel][target]
 igorslab.de##a[href^="/"][href*="#"][style][rel][target]
+igorslab.de##a[href^="/"][href*="?"][style][rel][target]
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
-igorslab.de##div[class]:matches-attr("/^[a-z]-[0-9a-z]+-[0-9a-z]+$/")
+igorslab.de##div[class]:matches-attr("/^(?!data|aria)[0-9a-z]+-[0-9a-z]+$/")
 igorslab.de##div[class]:matches-css-before(content: /^\s*\"(Advertise۞nt|Werbung|广告)\"\s*$/)
 igorslab.de##div[style*="width:100%;max-width:980px"]
 igorslab.de##img:remove-attr(/data-.+/)
@@ -52232,6 +52233,7 @@ igorslab.de##span[aria-label][role="img"][style*="data:image"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"] + a
 igorslab.de##span[style]:has(svg path)
 igorslab.de##svg image[href^="data:image/"]
+igorslab.de##svg:has(~ [aria-label])
 igorslab.de/community/#@#img:remove-attr(/data-.+/)
 igraal.com##[data-ig-ga-cat="Ad"]
 igram.im##.mcon
@@ -57991,6 +57993,7 @@ luisterradio.fm##div.max-w-full:has(> .uppercase)
 lulacloud.com##+js(aost, Object.defineProperty, https)
 lulu.st,lulustream.com,lulustream.live,luluvdo.com,luluvid.com##+js(acs, document.write, unescape)
 lulu.st,lulustream.com,lulustream.live,luluvdo.com,luluvid.com##+js(acs, WebAssembly, Promise)
+lulu.st,lulustream.com,lulustream.live,luluvdo.com,luluvid.com##+js(rmnt, script, /detect/i)
 lulu0.ovh,goodstream.one##+js(remove-node-text, script, showADBOverlay)
 lulustream.com##+js(abort-current-script, String.prototype.concat, popup)
 lulustream.com,lulustream.live,luluvdo.com##+js(aeld, click, popunder)
@@ -65920,7 +65923,7 @@ peacemakeronline.com###front_mid_right > center
 peacemakeronline.com###latest_news > center
 peacemakeronline.com###middle_banner_section
 peachify.top##+js(addEventListener-defuser, click, _blank)
-peachify.top##+js(aeld, click, atob)
+peachify.top##+js(aeld, click, atob, protect, 1)
 peachprintable.com###popID
 peachprintable.com##+js(nostif, chkADB)
 peachurbate.com##.video-right-banner
@@ -66811,6 +66814,7 @@ planetminecraft.com###box_300btf
 planetminecraft.com###box_pmc_300btf
 planetminecraft.com###leaderboard_atf
 planetminecraft.com###ultra_wide
+planetminecraft.com##+js(nano-sib, countdown)
 planetminecraft.com##.responsive728-wrap
 planetminecraft.com##[data-type="advert"]
 planetminecraft.com##li.resource[data-type="advert"]
@@ -71541,7 +71545,7 @@ sabishares.com##p > a[href*="/4/"][target="_blank"]
 sabishiidesu.com,saekita.com,samovies.net,samrudhiglobal.com,samurai.rzword.xyz,samurai.wordoco.com,sanblo.com,sanmiguellive.com,santhoshrcf.com,sararun.net,sarkariresult.social,satcesc.com,satoshifaucet.io,savegame.pro,sawwiz.com,scansatlanticos.com,schadeck.eu,sezia.com,schildempire.com,scholarshiplist.org,sciencebe21.in,scontianastro.com,scrap-blog.com,scripcheck.great-site.net,scriptsomg.com,searchmovie.wp.xdomain.jp,searchnsucceed.in,seasons-dlove.net,seirsanduk.com,seogroup.bookmarking.info,seoworld.in,seriu.jp,setsuyakutoushi.com,serieshdpormega.com,server-tutorials.net,serverbd247.com,sezia.com,shadagetech.com,shanurdu.com,sharphindi.in,sheikhmovies.*,shipseducation.com,shimauma-log.com,shittokuadult.net,shlly.com,shogaisha-shuro.com,shogaisha-techo.com,shopkensaku.com,shorttrick.in,showflix.*,showrovblog.com,shrinklinker.com,shrinkus.tk,shrivardhantech.in,sieradmu.com,siimanga.cyou,siirtolayhaber.com,sim-kichi.monster,sivackidrum.net,sk8therapy.fr,skardu.pk,skidrowreloaded.com,slawoslaw.pl,slowianietworza.pl,smallseotools.ai,smartinhome.pl,snowman-information.com,socebd.com,sociallyindian.com,softcobra.com,softrop.com,sohohindi.com,sosuroda.pl,sourds.net,south-park-tv.biz,soziologie-politik.de,sp500-up.com,space-faucet.com,spacestation-online.com,spardhanews.com,speculationis.com,spinoff.link,spiritparting.com,sport-97.com,sportsblend.net,ssdownloader.online,stablediffusionxl.com,stadelahly.net,stahnivideo.cz,starsgtech.in,start-to-run.be,startupjobsportal.com,ster-blog.xyz,stimotion.pl,stireazilei.eu,stock-rom.com,streamseeds24.com,strefa.biz,studybullet.com,sukuyou.com,sullacollina.it,sumirekeiba.com,sundberg.ws,suneelkevat.com,super-ethanol.com,superpackpormega.com,surgicaltechie.com,suvvehicle.com,swietaslowianskie.pl,sylverkat.com,symboleslowianskie.pl,sysguides.com,swordalada.org,system32.ink,sztucznainteligencjablog.pl##+js(noeval-if, /chp_?ad/)
 sabornutritivo.com###player:style(display: block !important;)
 sabornutritivo.com##+js(no-fetch-if, googlesyndication)
-sabrinacurrie.com,sailorbailey.com,saintlad.com,salesforcefaqs.com,sallysbakingaddiction.com,salongeek.com,saltandbaker.com,saltandwind.com,saltbuttersmoke.com,saltedplains.com,saltinmycoffee.com,saltnpepperhere.com,saltnsprinkles.com,saltypearlcrochet.com,salu-salo.com,salvagedinspirations.com,samdoesherbest.com,sammibrondo.com,samoaobserver.ws,sandandsisal.com,sandbetweenmypiggies.com,sandhyahariharan.co.uk,sandytoesandpopsicles.com,sarahfit.com,sarahjoyblog.com,sarahremmer.com,sarahsfitfood.com,sarahsvegankitchen.com,sarahtitus.com,sarcasticmommy.com,sasstrology.com,saunahelper.com,savage.ventures,savedbylovecreations.com,saving.org,savingadvice.com,savingdessert.com,savingdollarsandsense.com,savingslifestyle.com,savingtoinvest.com,savorandsavvy.com,savoredeats.com,savoringitaly.com,savoringthegood.com,savortheflavour.com,savorybitesrecipes.com,savoryexperiments.com,savorylotus.com,savorysimple.net,savoryspin.com,savorysweetspoon.com,savorytooth.com,savvybudgetboss.com,savvygardening.com,savvyhomebody.com,savvyhomemade.com,savvyhoney.com,savvymamalifestyle.com,savvysavingcouple.net,sawdust2stitches.com,sawdustgirl.com,sawsonskates.com,sayyes.com,scalemodeladdict.com,scam-detector.com,scantechy.com,scarlatifamilykitchen.com,scatteredthoughtsofacraftymom.com,scentchasers.com,scentselective.com,scheckeats.com,schisandraandbergamot.com,schoolwix.com,science-sparks.com,sciencefacts.net,scienceofpeople.com,scientificallysweet.com,scotchandscones.com,scrapfabriclove.com,scrappygeek.com,scratchandstitch.com,scratchmommy.com,screendynamite.com,screenidle.app,scrollsguided.com,scrumptiously.com,scubadiverlife.com,sdvoyager.com,seahawks.net,seaofknowledge.org,seasonalcravings.com,seasonedandsalted.com,seasonedhomemaker.com,seasonedskilletblog.com,seasonsandsuppers.ca,sedecordle.com,seededatthetable.com,seedscientific.com,seekatesew.com,seekinggoodeats.com,seekingscripture.com,seevanessacraft.com,selfdecode.com,selfhacked.com,selfproclaimedfoodie.com,selfsufficientkids.com,selftattoo.com,semidelicatebalance.com,semihomemadekitchen.com,semihomemaderecipes.com,seniorcatwellness.com,seniorgolfsource.com,seniorskillet.com,seniorsmobility.org,seniortailwaggers.com,senseandedibility.com,sensibledigs.com,seonkyounglongest.com,septle.com,serenetrail.com,seriesgraph.com,servsafepracticetest.com,setforset.com,settingforfour.com,setup.gg,sew4home.com,sewcanshe.com,sewguide.com,sewingiscool.com,sewingmachinetalk.com,sewmuchado.com,sewnikki.com,sewrella.com,sewsomestuff.com,sewwhatalicia.com,sfat4582testa.com,shabbyfufu.com,shadesofblueinteriors.com,shadesofsummr.com,shadowverse.gg,shakedrinkrepeat.com,shakentogetherlife.com,shaneandsimple.com,shanty-2-chic.com,shapeandjoy.com,shapinguptobeamom.com,sharepointdiary.com,sharingkindergarten.com,sharksider.com,sharksinfo.com,sharktankblog.com,sharktankrecap.com,sheaffertoldmeto.com,sheepandstitch.com,sheetaki.com,shelfcooking.com,shelikesmilk.com,shetriedwhat.com,shinesheets.com,shiplapandshells.com,shoforum.com,shooting.org,shoppingtelly.com,shoppingwithdave.com,shorebeat.com,shortgirltallorder.com,shortstackkitchen.com,shotkit.com,shottalk.com,shouldwewatch.com,shoutoutarizona.com,shoutoutatlanta.com,shoutoutcolorado.com,shoutoutdfw.com,shoutouthtx.com,shoutoutla.com,shoutoutmiami.com,shoutoutsocal.com,shoutoutsouthcarolina.com,showstarnews.com,shuangyskitchensink.com,shuttermuse.com,shwetainthekitchen.com,siepracticeexam.com,siftandsimmer.com,siftwithkima.com,sightandsoundreading.com,sightwordsgame.com,silkroadrecipes.com,silodrome.com,silverhomestead.com,silverrecyclers.com,simguided.com,simmerandsage.com,simple-nourished-living.com,simple-veganista.com,simple.money,simpleandfraiche.com,simpleasthatblog.com,simplebakingwithjolene.com,simplecarguides.com,simplecopycatrecipes.com,simpledesserts.com,simpleediy.com,simpleeverydaymom.com,simplefunforkids.com,simplegreenmoms.com,simplegreensmoothies.com,simplehealthykitchen.com,simplejoy.com,simplemadepretty.com,simpleshowing.com,simplesidedishes.com,simplesimonandco.com,simpleveganbites.com,simpleveganblog.com,simplicityandastarter.com,simplifyplants.com,simplisticallyliving.com,simply-delicious-food.com,simplybakings.com,simplybeyondherbs.com,simplycanning.com,simplyceecee.co,simplycollectiblecrochet.com,simplyhappenings.com,simplyhappyfoodie.com,simplyhealthyfamily.org,simplyhomeandhealth.com,simplyhomecooked.com,simplyhookedbyjanet.com,simplyjillicious.com,simplykinder.com,simplylakita.com,simplylovecoloring.com,simplylowcal.com,simplymacros.com,simplymadeeats.com,simplymaggie.com,simplyquinoa.com,simplyrebekah.com,simplyscratch.com,simplyscratchmade.com,simplystacie.net,simplytaralynn.com,simplywhisked.com,simscommunity.info,simshomekitchen.com,sincerelysarad.com,sinfulkitchen.com,sinfullyspicy.com,singaporeanmalaysianrecipes.com,singingcarrots.com,sipandfeast.com,sipbitego.com,sixdollarfamily.com,sixfiguresunder.com,sixhungryfeet.com,sixmanfootball.com,sixtyandme.com,sixvegansisters.com,sizzlingeats.com,sketchok.com,skidsteerforum.com,skilledgolf.com,skillscouter.com,skincarehero.com,skinnyfitalicious.com,skinnykitchen.com,skinnyms.com,skinnysouthernrecipes.com,skinnytaste.com,skiptomylou.org,skoolie.net,skoolielivin.com,skytough.com,slapdashmom.com,slashfilm.com,slashgear.com,slateauto.forum,sleepbubble.com,sleeping.guide,slenderkitchen.com,slippertalk.com,slopitchcentral.com,slowcookedeats.com,slowcookerclub.com,slowcookerfoodie.com,slowcookerliving.com,slowcookermeals.com,slowcookingperfected.com,slowlivingkitchen.com,slowthecookdown.com,smallfootprintfamily.com,smalltownwoman.com,smartbikegames.com,smartcanucks.ca,smartcentsmom.com,smartdoglover.com,smartdrivinggames.com,smartfundiy.com,smartgardenguide.com,smartmoneysimplelife.com,smartnutrition.ca,smartringnews.com,smartschoolhouse.com,smarttereachday.com,smellylunchbox.com,smilingcolors.com,smitefire.com,smithspestmanagement.com,smokedbbqsource.com,smokinandgrillinwitab.com,smoking-meat.com,smokingmeatforums.com,smoothdraw.com,sn95forums.com,snackhistory.com,snacknation.com,snailpacetransformations.com,snap.fan,snaphappytravel.com,snappygourmet.com,sneakerfiles.com,sneakerfortress.com,snippetsofparis.com,snootysims.com,snowboardhow.com,snowbreak.gg,snowest.com,snowmobilehow.com,soapcentral.com,soapdelinews.com,soapmakingforum.com,soapoperadigest.com,soapoperamagazine.com,soapoperanetwork.com,soapoperaspy.com,soapsindepth.com,soberjulie.com,socalhiker.net,socaltrailriders.org,soccerballworld.com,socialadventures.net,socialjunkie.com,societyofrock.com,softballace.com,soho.com.au,sokoskitchen.com,soletshangout.com,solveyourtech.com,somebodyfeedseb.com,somethingaboutsandwiches.com,somethingborrowedpdx.com,somethingnutritiousblog.com,somewhatsimple.com,somewhatsimpleliving.com,somewhereworthwhile.com,somuchbetterwithage.com,somuchfoodblog.com,somuchlife.com,sonatahomedesign.com,songbirdblog.com,songmeaningsandfacts.com,soreyfitness.com,soulcysters.net,soulfoodcooking101.com,soulfullymade.com,soulsisterstravel.com,soundgearnerd.com,soundproofcentral.com,soupaddict.com,sourceofthespring.com,sourdoughbrandon.com,sourdoughjesha.com,sourdoughtalk.com,southcarolinavoyager.com,southernbite.com,southerncastiron.com,southerncrushathome.com,southerndakotamama.com,southerndiscourse.com,southernhomemagazine.com,southernhospitalityblog.com,southernladymagazine.com,southernmadesimple.com,southernplate.com,southgeorgiastyle.com,southhousedesigns.com,souvlakiforthesoul.com,soxmachine.com,spacechatter.com,spacequotations.com,spanishmama.com,spanishsabores.com,sparklesofsunshine.com,spatuladesserts.com,speedyrecipe.com,spellmana.com,spendwithpennies.com,spguides.com,spiceandlife.com,spicebangla.com,spicecravings.com,spicedblog.com,spiceography.com,spiceupthecurry.com,spicysouthernkitchen.com,spideridentifications.com,spidersworlds.com,spinachandbacon.com,spiritanimaldreams.com,spiritanimalsandsymbolism.com,spiritanimaltest.org,spiritualhack.com,spiritualmeanings.org,spoonforkbacon.com,spoonfulofflavor.com,spoonfulofsi.com,sporked.com,sportscardforum.com,sportsfeelgoodstories.com,sportsfoundation.org,sportsgamersonline.com,sportsmansparadiseonline.com,sportsmobileforum.com,sportsmomsurvivalguide.com,sportstalkatl.com,sporttrac.org,spotebi.com,spotifystats.com,spottedhorsedesignco.com,spreadsheetpage.com,spreadsheetpoint.com,sprinklebakes.com,sprinkleofthis.com,sprinklesandsprouts.com,sprinklesomesugar.com,sproutedkitchen.com,sqlserverguides.com,squeaksandnibbles.com,squirrelsatthefeeder.com,stacylynharris.com,stadiumrant.com,stageagent.com,stageberry.com,stagnes.net,star-facts.com,starbucks-calorie-calculator.com,starbuckssecretmenu.net,stardewguide.com,starlinkinsider.com,starlust.org,startdesigngroup.com,starterstory.com,startup101.com,starwarsforum.co.uk,starwarsunlimited.gg,stateofdinner.com,static.com,statisticsglobe.com,statsalt.com,statscrew.com,status.net,statz.gg,stayfitmom.com,stayglam.com,steamandbake.com,steampoweredfamily.com,steelersdepot.com,steelersreport.com,steerplanet.com,stellanspice.com,stemandspoon.com,stepbystepbusiness.com,stephaniessweets.com,stephiecooks.com,stephreallife.com,stephsocial.com,stephsunshine.com,stepstomagic.com,stereogum.com,stetted.com,sticktothemodel.com,stillbeingmolly.com,stillrealtous.com,stitch11.com,stitchbyfay.com,stitching-together.com,stockcharts.com,stockpilingmoms.com,stocktitan.net,stocktrades.ca,stonegableblog.com,storyberries.com,storylandamis.blog,storyofmathematics.com,strandsgame.me,strategiesforparents.com,streamersplaybook.com,streamscheme.com,streetsmartnutrition.com,streetstylis.com,streetsweepingschedule.com,strengthandsunshine.com,stressfreemommies.com,stretchandfolds.com,strictlyweddings.com,stripedspatula.com,strongpasswordgenerator.org,strongsounds.com,stuckonsweet.com,studentdevos.com,studentofguitar.com,studio73designsnb.com,studyfinds.com,studyrocket.co.uk,stuffparentsneed.com,stylebyemilyhenderson.com,stylegirlfriend.com,stylinbyaylin.com,stylinbysarita.com,stylishcelebrations.com,stylishcurves.com,sublimereflection.com,suburbansimplicity.com,succulentcity.com,suebeehomemaker.com,sueseaqpi.com,sufficientself.com,sugarandcharm.com,sugarandsnappeas.com,sugarandsoul.co,sugarandsparrow.com,sugarapron.com,sugarbeecrafts.com,sugarfreelondoner.com,sugargeekshow.com,sugarhero.com,sugarlesscrystals.com,sugarmaplefarmhouse.com,sugarologie.com,sugarsaltmagic.com,sugarspunrun.com,sugaryums.com,suitsexpert.com,sulaandspice.com,summeryule.com,summle.net,sundayschoolzone.com,sundaysuppermovement.com,sungrownkitchen.com,sunheron.com,sunkissedkitchen.com,sunlineclub.com,sunnydayfamily.com,sunrisespecialty.com,sunshineandhurricanes.com,superage.com,supercarnostalgia.com,supercars.net,supercheats.com,superdutydiesel.com,supereslresources.com,supergoldenbakes.com,superhealthykids.com,superherojacked.com,supermanhomepage.com,superwestsports.com,supplyme.com,sureketo.com,surf-reports.com,surfacetip.com,surfhungry.com,surveychris.com,survivalsullivan.com,survivedivorce.com,survivingateacherssalary.com,survivingthestores.com,sustainablecooks.com,sustainablereview.com,sustainlifejournal.com,sustainmycookinghabit.com,sustainmycrafthabit.com,suzyssitcom.com,svadore.com,svg.com,svgandme.com,svgnation.com,swaddlesnbottles.com,swankyrecipes.com,sweetandsavorybyshinee.com,sweetandsavorymeals.com,sweetandsimpleliving.com,sweetashoney.co,sweetcaramelsunday.com,sweetcreekpatterns.com,sweetcsdesigns.com,sweetestmenu.com,sweetkitchencravings.com,sweetlittlebluebird.com,sweetlycakes.com,sweetlysplendid.com,sweetopia.net,sweetpealifestyle.com,sweetpeasandsaffron.com,sweetpeaskitchen.com,sweetphi.com,sweetpotato3.com,sweetpotatosoul.com,sweetsandthankyou.com,sweetscienceoffighting.com,sweetsimplevegan.com,sweetsofties.com,sweetsugarbelle.com,sweetteaandthyme.com,sweettheorydesigns.com,sweettoothsweetlife.com,swgoh.gg,switzerlanding.com,swoonhub.com,swtorista.com,syllablecounter.io,symbolsage.com,symbolsandsynchronicity.com,syzygist.com##+js(remove-node-text, script, /"__adblocker"|"data-sdk"/)
+sabrinacurrie.com,sailorbailey.com,saintlad.com,salesforcefaqs.com,sallysbakingaddiction.com,salongeek.com,saltandbaker.com,saltandwind.com,saltbuttersmoke.com,saltedplains.com,saltinmycoffee.com,saltnpepperhere.com,saltnsprinkles.com,saltypearlcrochet.com,salu-salo.com,salvagedinspirations.com,samdoesherbest.com,sammibrondo.com,samoaobserver.ws,sandandsisal.com,sandbetweenmypiggies.com,sandhyahariharan.co.uk,sandytoesandpopsicles.com,sarahfit.com,sarahjoyblog.com,sarahremmer.com,sarahsfitfood.com,sarahsvegankitchen.com,sarahtitus.com,sarcasticmommy.com,sasstrology.com,saunahelper.com,savage.ventures,savedbylovecreations.com,saving.org,savingadvice.com,savingdessert.com,savingdollarsandsense.com,savingslifestyle.com,savingtoinvest.com,savorandsavvy.com,savoredeats.com,savoringitaly.com,savoringthegood.com,savortheflavour.com,savorybitesrecipes.com,savoryexperiments.com,savorylotus.com,savorysimple.net,savoryspin.com,savorysweetspoon.com,savorytooth.com,savvybudgetboss.com,savvygardening.com,savvyhomebody.com,savvyhomemade.com,savvyhoney.com,savvymamalifestyle.com,savvysavingcouple.net,sawdust2stitches.com,sawdustgirl.com,sawsonskates.com,sayyes.com,scalemodeladdict.com,scam-detector.com,scantechy.com,scarlatifamilykitchen.com,scatteredthoughtsofacraftymom.com,scentchasers.com,scentselective.com,scheckeats.com,schisandraandbergamot.com,schoolwix.com,science-sparks.com,sciencefacts.net,scienceofpeople.com,scientificallysweet.com,scotchandscones.com,scrapfabriclove.com,scrappygeek.com,scratchandstitch.com,scratchmommy.com,screendynamite.com,screenidle.app,scrollsguided.com,scrumptiously.com,scubadiverlife.com,sdvoyager.com,seahawks.net,seaofknowledge.org,seasonalcravings.com,seasonedandsalted.com,seasonedhomemaker.com,seasonedskilletblog.com,seasonsandsuppers.ca,sedecordle.com,seededatthetable.com,seedscientific.com,seekatesew.com,seekinggoodeats.com,seekingscripture.com,seevanessacraft.com,selfdecode.com,selfhacked.com,selfproclaimedfoodie.com,selfsufficientkids.com,selftattoo.com,semidelicatebalance.com,semihomemadekitchen.com,semihomemaderecipes.com,seniorcatwellness.com,seniorgolfsource.com,seniorskillet.com,seniorsmobility.org,seniortailwaggers.com,senseandedibility.com,sensibledigs.com,seonkyounglongest.com,septle.com,serenetrail.com,seriesgraph.com,servsafepracticetest.com,setforset.com,settingforfour.com,setup.gg,sew4home.com,sewcanshe.com,sewguide.com,sewingiscool.com,sewingmachinetalk.com,sewmuchado.com,sewnikki.com,sewrella.com,sewsomestuff.com,sewwhatalicia.com,sfat4582testa.com,shabbyfufu.com,shadesofblueinteriors.com,shadesofsummr.com,shadowverse.gg,shakedrinkrepeat.com,shakentogetherlife.com,shaneandsimple.com,shanty-2-chic.com,shapeandjoy.com,shapinguptobeamom.com,sharepointdiary.com,sharingkindergarten.com,sharksider.com,sharksinfo.com,sharktankblog.com,sharktankrecap.com,sheaffertoldmeto.com,sheepandstitch.com,sheetaki.com,shelfcooking.com,shelikesmilk.com,shetriedwhat.com,shinesheets.com,shiplapandshells.com,shoforum.com,shooting.org,shoppingtelly.com,shoppingwithdave.com,shorebeat.com,shortgirltallorder.com,shortstackkitchen.com,shotkit.com,shottalk.com,shouldwewatch.com,shoutoutarizona.com,shoutoutatlanta.com,shoutoutcolorado.com,shoutoutdfw.com,shoutouthtx.com,shoutoutla.com,shoutoutmiami.com,shoutoutsocal.com,shoutoutsouthcarolina.com,showstarnews.com,shuangyskitchensink.com,shuttermuse.com,shwetainthekitchen.com,siepracticeexam.com,siftandsimmer.com,siftwithkima.com,sightandsoundreading.com,sightwordsgame.com,silkroadrecipes.com,silodrome.com,silverhomestead.com,silverrecyclers.com,simguided.com,simmerandsage.com,simple-nourished-living.com,simple-veganista.com,simple.money,simpleandfraiche.com,simpleasthatblog.com,simplebakingwithjolene.com,simplecarguides.com,simplecopycatrecipes.com,simpledesserts.com,simpleediy.com,simpleeverydaymom.com,simplefunforkids.com,simplegreenmoms.com,simplegreensmoothies.com,simplehealthykitchen.com,simplejoy.com,simplemadepretty.com,simpleshowing.com,simplesidedishes.com,simplesimonandco.com,simpleveganbites.com,simpleveganblog.com,simplicityandastarter.com,simplifyplants.com,simplisticallyliving.com,simply-delicious-food.com,simplybakings.com,simplybeyondherbs.com,simplycanning.com,simplyceecee.co,simplycollectiblecrochet.com,simplyhappenings.com,simplyhappyfoodie.com,simplyhealthyfamily.org,simplyhomeandhealth.com,simplyhomecooked.com,simplyhookedbyjanet.com,simplyjillicious.com,simplykinder.com,simplylakita.com,simplylovecoloring.com,simplylowcal.com,simplymacros.com,simplymadeeats.com,simplymaggie.com,simplyquinoa.com,simplyrebekah.com,simplyscratch.com,simplyscratchmade.com,simplystacie.net,simplytaralynn.com,simplywhisked.com,simscommunity.info,simshomekitchen.com,sincerelysarad.com,sinfulkitchen.com,sinfullyspicy.com,singaporeanmalaysianrecipes.com,singingcarrots.com,sipandfeast.com,sipbitego.com,sixdollarfamily.com,sixfiguresunder.com,sixhungryfeet.com,sixmanfootball.com,sixtyandme.com,sixvegansisters.com,sizzlingeats.com,sketchok.com,skidsteerforum.com,skilledgolf.com,skillscouter.com,skincarehero.com,skinnyfitalicious.com,skinnykitchen.com,skinnyms.com,skinnysouthernrecipes.com,skinnytaste.com,skiptomylou.org,skoolie.net,skoolielivin.com,skytough.com,slapdashmom.com,slashfilm.com,slashgear.com,slateauto.forum,sleepbubble.com,sleeping.guide,slenderkitchen.com,slippertalk.com,slopitchcentral.com,slowcookedeats.com,slowcookerclub.com,slowcookerfoodie.com,slowcookerliving.com,slowcookermeals.com,slowcookingperfected.com,slowlivingkitchen.com,slowthecookdown.com,smallfootprintfamily.com,smalltownwoman.com,smartbikegames.com,smartcanucks.ca,smartcentsmom.com,smartdoglover.com,smartdrivinggames.com,smartfundiy.com,smartgardenguide.com,smartmoneysimplelife.com,smartnutrition.ca,smartringnews.com,smartschoolhouse.com,smarttereachday.com,smellylunchbox.com,smilingcolors.com,smitefire.com,smithspestmanagement.com,smokedbbqsource.com,smokinandgrillinwitab.com,smoking-meat.com,smokingmeatforums.com,smoothdraw.com,sn95forums.com,snackhistory.com,snacknation.com,snailpacetransformations.com,snap.fan,snaphappytravel.com,snappygourmet.com,sneakerfiles.com,sneakerfortress.com,snippetsofparis.com,snootysims.com,snowboardhow.com,snowbreak.gg,snowest.com,snowmobilehow.com,soapcentral.com,soapdelinews.com,soapmakingforum.com,soapoperadigest.com,soapoperamagazine.com,soapoperanetwork.com,soapoperaspy.com,soapsindepth.com,soberjulie.com,socalhiker.net,socaltrailriders.org,soccerballworld.com,socialadventures.net,socialjunkie.com,societyofrock.com,softballace.com,soho.com.au,sokoskitchen.com,soletshangout.com,solveyourtech.com,somebodyfeedseb.com,somethingaboutsandwiches.com,somethingborrowedpdx.com,somethingnutritiousblog.com,somewhatsimple.com,somewhatsimpleliving.com,somewhereworthwhile.com,somuchbetterwithage.com,somuchfoodblog.com,somuchlife.com,sonatahomedesign.com,songbirdblog.com,songmeaningsandfacts.com,soreyfitness.com,soulcysters.net,soulfoodcooking101.com,soulfullymade.com,soulsisterstravel.com,soundgearnerd.com,soundproofcentral.com,soupaddict.com,sourceofthespring.com,sourdoughbrandon.com,sourdoughjesha.com,sourdoughtalk.com,southcarolinavoyager.com,southernbite.com,southerncastiron.com,southerncrushathome.com,southerndakotamama.com,southerndiscourse.com,southernhomemagazine.com,southernhospitalityblog.com,southernladymagazine.com,southernmadesimple.com,southernplate.com,southgeorgiastyle.com,southhousedesigns.com,souvlakiforthesoul.com,soxmachine.com,spacechatter.com,spacequotations.com,spanishmama.com,spanishsabores.com,sparklesofsunshine.com,spatuladesserts.com,speedyrecipe.com,spellmana.com,spendwithpennies.com,spguides.com,spiceandlife.com,spicebangla.com,spicecravings.com,spicedblog.com,spiceography.com,spiceupthecurry.com,spicysouthernkitchen.com,spideridentifications.com,spidersworlds.com,spinachandbacon.com,spiritanimaldreams.com,spiritanimalsandsymbolism.com,spiritanimaltest.org,spiritualhack.com,spiritualmeanings.org,spoonforkbacon.com,spoonfulofflavor.com,spoonfulofsi.com,sporked.com,sportscardforum.com,sportsfeelgoodstories.com,sportsfoundation.org,sportsgamersonline.com,sportsmansparadiseonline.com,sportsmobileforum.com,sportsmomsurvivalguide.com,sportstalkatl.com,sporttrac.org,spotebi.com,spotifystats.com,spottedhorsedesignco.com,spreadsheetpage.com,spreadsheetpoint.com,sprinklebakes.com,sprinkleofthis.com,sprinklesandsprouts.com,sprinklesomesugar.com,sproutedkitchen.com,sqlserverguides.com,squeaksandnibbles.com,squirrelsatthefeeder.com,stacylynharris.com,stadiumrant.com,stageagent.com,stageberry.com,stagnes.net,star-facts.com,starbucks-calorie-calculator.com,starbuckssecretmenu.net,stardewguide.com,starlinkinsider.com,starlust.org,startdesigngroup.com,starterstory.com,startup101.com,starwarsforum.co.uk,starwarsunlimited.gg,stateofdinner.com,static.com,statisticsglobe.com,statsalt.com,statscrew.com,status.net,statz.gg,stayfitmom.com,stayglam.com,steamandbake.com,steampoweredfamily.com,steelersdepot.com,steelersreport.com,steerplanet.com,stellanspice.com,stemandspoon.com,stepbystepbusiness.com,stephaniessweets.com,stephiecooks.com,stephreallife.com,stephsocial.com,stephsunshine.com,stepstomagic.com,stereogum.com,stetted.com,sticktothemodel.com,stillbeingmolly.com,stillrealtous.com,stitch11.com,stitchbyfay.com,stitching-together.com,stockcharts.com,stockpilingmoms.com,stocktitan.net,stocktrades.ca,stonegableblog.com,storyberries.com,storylandamis.blog,storyofmathematics.com,strandsgame.me,strategiesforparents.com,streamersplaybook.com,streamscheme.com,streetsmartnutrition.com,streetstylis.com,streetsweepingschedule.com,strengthandsunshine.com,stressfreemommies.com,stretchandfolds.com,strictlyweddings.com,stripedspatula.com,strongpasswordgenerator.org,strongsounds.com,stuckonsweet.com,studentdevos.com,studentofguitar.com,studio73designsnb.com,studyfinds.com,studyrocket.co.uk,stuffparentsneed.com,stylebyemilyhenderson.com,stylegirlfriend.com,stylinbyaylin.com,stylinbysarita.com,stylishcelebrations.com,stylishcurves.com,sublimereflection.com,suburbansimplicity.com,succulentcity.com,suebeehomemaker.com,sueseaqpi.com,sufficientself.com,sugarandcharm.com,sugarandsnappeas.com,sugarandsoul.co,sugarandsparrow.com,sugarapron.com,sugarbeecrafts.com,sugarfreelondoner.com,sugargeekshow.com,sugarhero.com,sugarlesscrystals.com,sugarmaplefarmhouse.com,sugarologie.com,sugarsaltmagic.com,sugarspunrun.com,sugaryums.com,suitsexpert.com,sulaandspice.com,summeryule.com,summle.net,sundayschoolzone.com,sundaysuppermovement.com,sungrownkitchen.com,sunheron.com,sunkissedkitchen.com,sunlineclub.com,sunnydayfamily.com,sunrisespecialty.com,sunshineandhurricanes.com,superage.com,supercarnostalgia.com,supercars.net,supercheats.com,superdutydiesel.com,supereslresources.com,supergoldenbakes.com,superhealthykids.com,superherojacked.com,supermanhomepage.com,superwestsports.com,supplyme.com,sureketo.com,surf-reports.com,surfacetip.com,surfhungry.com,surveychris.com,survivalsullivan.com,survivedivorce.com,survivingateacherssalary.com,survivingthestores.com,sustainablecooks.com,sustainablereview.com,sustainlifejournal.com,sustainmycookinghabit.com,sustainmycrafthabit.com,suzyssitcom.com,svadore.com,svg.com,svgandme.com,svgnation.com,swaddlesnbottles.com,swankyrecipes.com,sweetandsavorybyshinee.com,sweetandsavorymeals.com,sweetandsimpleliving.com,sweetashoney.co,sweetcaramelsunday.com,sweetcreekpatterns.com,sweetcsdesigns.com,sweetestmenu.com,sweetkitchencravings.com,sweetlittlebluebird.com,sweetlycakes.com,sweetlysplendid.com,sweetopia.net,sweetpealifestyle.com,sweetpeasandsaffron.com,sweetpeaskitchen.com,sweetphi.com,sweetpotato3.com,sweetpotatosoul.com,sweetsandthankyou.com,sweetscienceoffighting.com,sweetsimplevegan.com,sweetsofties.com,sweetsugarbelle.com,sweetteaandthyme.com,sweettheorydesigns.com,sweettoothsweetlife.com,swgoh.gg,switzerlanding.com,swoonhub.com,swtorista.com,syllablecounter.io,symbolsage.com,symbolsandsynchronicity.com,syzygist.com##+js(rmnt, script, /__adblocker|html-load/, excludes, self.__next)
 sachmoi.net##.boxzilla-bottom-right-container
 sachmoi.net##[href^="https://gotrackecom.info"]
 sacurrent.com###pw-ATF-rectangle
@@ -180421,6 +180425,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||api.narrativ.com/favicon.ico
 ||api.nettix.fi/counter/$image
 ||api.nexx.cloud/*/session/
+||api.oaistatsig.com/v1/sdk_exception^$xmlhttprequest,domain=chatgpt.com
 ||api.odysee.com/locale/get
 ||api.ouedkniss.com^*&xTrackId=
 ||api.patienten.helios-gesundheit.de/api/unleash/client/metrics
@@ -180474,6 +180479,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||aplus.qwen.ai/aplus.monitor.load_cna_success?
 ||aplus.qwen.ai/aplus.monitor.log_arrival_rate
 ||apm-engine.meteor.com^$third-party,xmlhttprequest
+||apm-rum.inf.miui.com^
 ||apm.qwant.com^
 ||apm.tnet.nl^
 ||apollofind.com^$third-party
@@ -184039,8 +184045,11 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||chat.groq.com/global_stats
 ||chat.vica.gov.sg/api/v1/unleash/proxy/client/metrics
 ||chatfuel.com/cf-analytics/
+||chatgpt.com/awe/api/v2/rum^$ping,xmlhttprequest
+||chatgpt.com/backend-api/codex/app-download-signal^$xmlhttprequest
 ||chatgpt.com/backend-api/sentinel/ping
-||chatgpt.com/ces/v1/telemetry/
+||chatgpt.com/ces/v1/telemetry/intake^$ping,xmlhttprequest
+||chatgpt.com/unauth-mweb/events/$ping,xmlhttprequest
 ||chatroll.com/t.gif
 ||check.ddos-guard.net^$third-party
 ||check.frbservices.org^
@@ -184268,6 +184277,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||click.glamsquad.com^
 ||click.instacartemail.com^
 ||click.kataweb.it^
+||click.lenovo.com^
 ||click.lmbcustomersupport.com^
 ||click.mail.carousell.com^
 ||click.mail.thecarousell.com^
@@ -186252,6 +186262,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||danielsmoving.actonservice.com^
 ||danorenius.com^$third-party
 ||danv01ao0kdr2.cloudfront.net^
+||dap-cn.c.hihonor.com/dap/jssdk.js
 ||dap.digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||dap.hindustantimes.com^
 ||dap.rri.go.id/tracker/
@@ -187736,6 +187747,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||dmp.citynews.ovh^
 ||dmpcdn.el-mundo.net^
 ||dmpcounter.com^$third-party
+||dmplog.qq.com^
 ||dmpmetrics.rcsmetrics.it^
 ||dmpprof.com^$third-party
 ||dmpxs.com^
@@ -196670,7 +196682,9 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||legenhit.com^$third-party
 ||leggo.it/index.php?$image
 ||legitscript.com/seals/$script
+||lego-tech.zhuanzhuan.com^
 ||lego.com/api/dl-event-ingest
+||lego.zhuanzhuan.com^
 ||legolas-media.com^$third-party
 ||legolas.monotote.com^
 ||leguide.com/js/lgtrk-*.js
@@ -197994,6 +198008,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||logs.chatboost-cv.algoage.co.jp^
 ||logs.datadoghq.com^$third-party
 ||logs.dynamicauth.com^
+||logs.game.qq.com^
 ||logs.hotstar.com^
 ||logs.kaya.delfi.ee^
 ||logs.mezmo.com^
@@ -198442,6 +198457,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||m.vpc.ca^
 ||m.wishmindr.com^
 ||m0mentum.net^$third-party
+||m1.lefile.cn/le_sdk/le-shop-track-sdk.js
 ||m1.stadiumgoods.com^
 ||m2.washmen.com^
 ||m2t.actonservice.com^
@@ -202270,6 +202286,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||mi.miliboo.lu^
 ||miadates.com^$third-party
 ||mialbj6.com^$third-party
+||miao.baidu.com/abdr?
 ||miao.baidu.com/abdr?$image
 ||miaozhen.com^$third-party
 ||mibatech.com/track/
@@ -203996,6 +204013,9 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||omgcreative.actonservice.com^
 ||omgthink.com^
 ||omguk.com^$third-party
+||omgup.didiglobal.com^
+||omgup.xiaojukeji.com^
+||omgup1.xiaojukeji.com^
 ||omiki.com^$third-party
 ||omine.org^$third-party
 ||omjtca.emlakjet.com^
@@ -204963,6 +204983,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||pc.personalcreations.com^
 ||pc161021.com/scripts/noui/eventlogger.js
 ||pc161021.com/scripts/noui/StatProvider.js
+||pcapredict.com/js/sensor.js
 ||pcci.pccinnovation.org^
 ||pccipieces.actonservice.com^
 ||pccomponentes.*/api/users/tracking/
@@ -207269,6 +207290,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||resultspage.com/js/sli-spark.js
 ||retag.xyz^$third-party
 ||retail-client-events-service.internal.salsify.com/events
+||retail.hihonor.com/survey/base/analysis/
 ||retailads.net^$third-party
 ||retailrocket.ru/content/javascript/tracking.js
 ||retarget.gites-de-france.com^
@@ -213874,6 +213896,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||spec-sensors.actonservice.com^
 ||special.janbari.com/a/js/a.js
 ||specialevent.informaengage.com^
+||specialreview.net^
 ||specialscissors.com^
 ||specialstat.com^$third-party
 ||specialtypin.com^
@@ -214659,6 +214682,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||st-a.cdp.asia^
 ||st-a8.tscubic.com^
 ||st-nlyss1.plala.or.jp^
+||st-sentinel.vivo.com.cn^
 ||st.anastasija.lt^
 ||st.azcardinals.com^
 ||st.bahn.de^
@@ -216043,6 +216067,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||stormwind.actonservice.com^
 ||stormyflower.com^
 ||storygize.net^$third-party
+||stpc.vivo.com.cn^
 ||str.foodnetwork.ca^
 ||str.globalnews.ca^
 ||str1kee.com^
@@ -218209,6 +218234,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||tk.bullebleue.fr^
 ||tk.cadeaux.com^
 ||tk.conforama.fr^
+||tk.d.mi.com^
 ||tk.dietbon.fr^
 ||tk.domitys.fr^
 ||tk.dossier.co^
@@ -219862,6 +219888,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||track.kyoads.com^
 ||track.laredoute.fr^$image
 ||track.leady.cz^
+||track.lenovo.com.cn^
 ||track.lesmills.com^
 ||track.list-finder.jp^
 ||track.livasoft.com.tr^
@@ -220000,6 +220027,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||tracker.ethicalcorp.com^
 ||tracker.euroweb.net^
 ||tracker.eyeforpharma.com^
+||tracker.fengkongcloud.com^
 ||tracker.financialcontent.com^
 ||tracker.gamedock.io^
 ||tracker.gamemonkey.org^
@@ -224944,6 +224972,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||xp.allianz.de^
 ||xp.apple.com/config/*/report/
 ||xp.apple.com/report/
+||xp.atlassian.com^
 ||xp.audience.io/sdk.js$third-party
 ||xp2023-pix.s3.amazonaws.com^
 ||xpcpmr.gsm55.com^
