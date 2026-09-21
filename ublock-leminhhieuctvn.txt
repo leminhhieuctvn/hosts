@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-09-21 17:55:06 UTC
+! Last modified: 2026-09-21 23:01:34 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -16752,7 +16752,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/[a-z][0-9][0-9][0-9]\.[a-z]+\.com\/script\.js$/$script,1p,match-case,domain=com,redirect=noopjs
 /^https:\/\/[a-z][a-z][a-z]+\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z]+\.com\/[a-z][a-z][a-z]+\/[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]\.js$/$script,3p,match-case,domain=ampav.com|artforum.com|artnews.com|atxtv.co|bgr.com|billboard.com|deadline.com|dickclark.com|footwearnews.com|goldderby.com|hollywoodreporter.com|indiewire.com|la3c.com|lifeisbeautiful.com|luminatedata.com|robbreport.com|rollingstone.com|shemedia.com|sourcingjournal.com|sportico.com|spy.com|sxsw.com|tvline.com|variety.com|vibe.com|wwd.com
 /^https:\/\/[a-z][a-z][a-z]+\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z]+\.com\/[a-z][a-z][a-z]+\/[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]\.js$/$script,3p,match-case,domain=calgaryherald.com|calgarysun.com|canada.com|canoe.com|driving.ca|edmontonjournal.com|edmontonsun.com|financialpost.com|intelligencer.ca|leaderpost.com|lfpress.com|montrealgazette.com|nationalpost.com|ontariofarmer.com|ottawacitizen.com|ottawasun.com|pembrokeobserver.com|standard-freeholder.com|thegrowthop.com|theprovince.com|thestarphoenix.com|thewhig.com|tj.news|torontosun.com|vancouversun.com|windsorstar.com|winnipegsun.com
-/^https:\/\/[a-z][a-z][a-z]+\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z]+\.com\/[a-z][a-z][a-z]+\/[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]\.js$/$script,3p,match-case,domain=fandom.com|index.hr
+/^https:\/\/[a-z][a-z][a-z]+\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z]+\.com\/[a-z][a-z][a-z]+\/[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]\.js$/$script,3p,match-case,domain=euronews.com|fandom.com|index.hr
 /^https:\/\/[a-z][a-z][a-z][a-z]?[a-z]?\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?\.top\/[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?\/[a-z][a-z][a-z][a-z][a-z][a-z]?\?d=[0-9]$/$script,xhr,3p,match-case
 /^https:\/\/[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]+\.com\/en\/([a-z][a-z]+\/)?([a-z][a-z]+\/)?[a-z][a-z]+\?([a-z]+=[^&=? ]*&)*id=[12][0-9][0-9][0-9][0-9][0-9][0-9]/$script,third-party,match-case
 /^https:\/\/[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?\.com\/script\/[a-zA-Z0-9]+_[a-zA-Z0-9]+\.js$/$script,3p,match-case,domain=ampav.com|artforum.com|artnews.com|atxtv.co|bgr.com|billboard.com|deadline.com|dickclark.com|footwearnews.com|goldderby.com|hollywoodreporter.com|indiewire.com|la3c.com|lifeisbeautiful.com|luminatedata.com|robbreport.com|rollingstone.com|shemedia.com|sourcingjournal.com|sportico.com|spy.com|sxsw.com|tvline.com|variety.com|vibe.com|wwd.com
@@ -16781,11 +16781,11 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$script,3p,match-case
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$script,xhr,3p,match-case,to=top
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[A-Za-z]{10,16}\/[A-Za-z]{5,6}$/$popup,3p,to=top
-/^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,3p,match-case,domain=calgaryherald.com|calgarysun.com|canada.com|canoe.com|driving.ca|edmontonjournal.com|edmontonsun.com|financialpost.com|leaderpost.com|lfpress.com|montrealgazette.com|nationalpost.com|ontariofarmer.com|ottawacitizen.com|ottawasun.com|pembrokeobserver.com|thegrowthop.com|theprovince.com|thestarphoenix.com|tj.news|torontosun.com|vancouversun.com|windsorstar.com|winnipegsun.com|intelligencer.ca|owensoundsuntimes.com|thewhig.com
+/^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,3p,match-case,domain=calgaryherald.com|calgarysun.com|canada.com|canoe.com|driving.ca|edmontonjournal.com|edmontonsun.com|financialpost.com|leaderpost.com|lfpress.com|montrealgazette.com|nationalpost.com|ontariofarmer.com|ottawacitizen.com|ottawasun.com|pembrokeobserver.com|thegrowthop.com|theprovince.com|thestarphoenix.com|tj.news|torontosun.com|vancouversun.com|windsorstar.com|winnipegsun.com|intelligencer.ca|owensoundsuntimes.com|thewhig.com|mavericktruckclub.com|f150gen14.com|4runner6g.com|f150lightningforum.com
 /^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,3p,match-case,domain=fandom.com
 /^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,3p,match-case,to=com,domain=calgaryherald.com|calgarysun.com|canada.com|canoe.com|driving.ca|edmontonjournal.com|edmontonsun.com|financialpost.com|intelligencer.ca|leaderpost.com|lfpress.com|montrealgazette.com|nationalpost.com|ontariofarmer.com|ottawacitizen.com|ottawasun.com|pembrokeobserver.com|standard-freeholder.com|thegrowthop.com|theprovince.com|thestarphoenix.com|thewhig.com|tj.news|torontosun.com|vancouversun.com|windsorstar.com|winnipegsun.com
 /^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,3p,match-case,to=com,from=ampav.com|artforum.com|artnews.com|atxtv.co|bgr.com|billboard.com|deadline.com|dickclark.com|footwearnews.com|goldderby.com|hollywoodreporter.com|indiewire.com|la3c.com|lifeisbeautiful.com|luminatedata.com|robbreport.com|rollingstone.com|shemedia.com|sourcingjournal.com|sportico.com|spy.com|sxsw.com|tvline.com|variety.com|vibe.com|wwd.com
-/^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,3p,match-case,to=com,from=fandom.com|index.hr
+/^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,3p,match-case,to=com,from=euronews.com|fandom.com|index.hr
 /^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,3p,match-case,to=com,header=etag:w/"*-17*"
 /^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,3p,match-case,to=com,header=location:https://stg.*
 /^https:\/\/[a-z]{3,}\.com\/$/$xmlhttprequest,third-party
@@ -21127,11 +21127,11 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/sb\/t\/\d{6,8}\/(?:\d|[0-9a-f]{2})\/(?:\d|[0-9a-f]{2})\/w:300\/t\d{1,2}-enh\/(?:[0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/xv7\/[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}\/\d\/xv_\d{1,2}_t\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/xv7\/[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}\/\d\/xv_\d{1,2}_t\.jpg$/$image,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/[a-z]\.pussyspace\.(com|net)\/(yip?|xvs)\/videos\/20\d{4}\/\d{2}\/\d+\/(original|thumbs_\d{2})\/\d{0,2}(\(m=e[0-9A-Za-z]+(?:aaaa)?\)\(mh=[-_0-9A-Za-z]+\))?\d{0,2}\.jpg$/$image,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/[a-z]\.pussyspace\.(com|net)\/(yip?|xvs)\/videos\/20\d{4}\/\d{2}\/\d+\/(original|thumbs_\d{2})\/\d{0,2}(\(m=e[0-9A-Za-z]+(aaaa)?\)\(mh=[-_0-9A-Za-z]+\))?\d{0,2}\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(com|net)\/(yip?|xvs)\/videos\/thumbs169l\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]+(-\d)?\/[0-9a-f]+\.\d{1,2}\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(com|net)\/(yip?|xvs)\/videos\/thumbs_5\/\d{1,2}(\(m=e[0-9A-Za-z]{5,7}aaaa\)\(mh=[-_0-9A-Za-z]+\))?\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(com|net)\/[a-z]?jz\/([0-9a-f]\/){3,5}[0-9a-f]+-?(\d{1,3}|((\d{3,4}-){3}h264)?\.(mp4-\d{1,2}|flv-\d))\.jpg$/$image,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/[a-z]\.pussyspace\.(com|net)\/sb\/t\/\d+\/(\d|[0-9a-f]{2})\/(?:\d|[0-9a-f]{2})\/w:300\/t\d{1,2}-enh\/([0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/[a-z]\.pussyspace\.(com|net)\/sb\/t\/\d+\/(\d|[0-9a-f]{2})\/(\d|[0-9a-f]{2})\/w:300\/t\d{1,2}-enh\/([0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(com|net)\/xv7\/[0-9a-f]+-([0-9a-f]+-){3}[0-9a-f]{12}\/\d\/xv_\d{1,2}_t\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.[cn][oe][mt]\/[a-z]?jz\/[0-9a-f]\/[0-9a-f]\/[0-9a-f]\/[0-9a-f]?\/?[0-9a-f]?\/?[0-9a-f]+-?[0-9][0-9][0-9]*-?[0-9]*-?[0-9]*-?h?2?6?4?\.?[mf]?[pl]?[4v]?-?[0-9]*\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.[cn][oe][mt]\/[yx][iv][ps]?\/videos\/20[0-9][0-9][0-9][0-9]\/[0-9][0-9]\/[0-9]+\/[ot][rh][iu][gm][ib][ns][a_][l0-9][0-9]?\/[0-9]?[0-9]?\(?m?=?e?[0-9A-Za-z]*a?a?a?a?\)?\(?m?h?=?[-_0-9A-Za-z]*\)?[0-9]?[0-9]?\.jpg$/$image,domain=pussyspace.com|pussyspace.net
@@ -29846,7 +29846,6 @@ alloldpics.com,sexygirlspics.com##.custom-spot
 alloldpics.com,sexygirlspics.com##.live-spot
 allosurf.net##+js(nostif, detectAdblock)
 allotech-dz.com##+js(acs, eval, replace)
-allout-gaming.com,belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,cheshire-live.co.uk,chroniclelive.co.uk,cornwalllive.com,dailypost.co.uk,dailyrecord.co.uk,dailystar.co.uk,derbytelegraph.co.uk,devonlive.com,essexlive.news,examinerlive.co.uk,football.london,galwaybeo.ie,gazettelive.co.uk,getsurrey.co.uk,gloucestershirelive.co.uk,hulldailymail.co.uk,kentlive.news,lancs.live,leeds-live.co.uk,leicestermercury.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,nottinghampost.com,ok.co.uk,plymouthherald.co.uk,rsvplive.ie,stokesentinel.co.uk,themirror.com##body[data-publication] header[data-testid="header"]:style(top: 0 !important;)
 allpcworld.com##body > div[id][class][style*="z-index: 9999"]
 allpcworld.com##body > div[id][class][style*="z-index: 9999"] + div[class][style*="z-index: 9999"]
 allporncomic.com##+js(aopr, exoJsPop101)
@@ -43530,6 +43529,7 @@ f-typeclub.com,f150ecoboost.net,f150forumz.com,f650.co.uk,f6cforum.com,f800rider
 f150forum.com##.page.column > div.tbox:has(> div.trow > div.tcell > div.flexitem > div.forum_sponsor_add)
 f150forum.com##form[method="post"][id="notices"]:has(> div.tbox > div > div.tcell:contains(Topic Sponsor))
 f150lightningforum.com##.customizedBox
+f150lightningforum.com,4runner6g.com,f150gen14.com,mavericktruckclub.com##.p-sidebarWrapper
 f16px.com##+js(acs, EventTarget.prototype.addEventListener, delete window)
 f16px.com##[style^="position: fixed; inset: 0px; z-index: 2147483647; background-color: transparent; pointer-events: auto; cursor: auto; margin: 0px; padding: 0px; display: block;"]
 f1gamesetup.com##.supp-footer-banner
@@ -43583,7 +43583,7 @@ f95zone.to##ul > li:has(> div > a[href^="https://f95zone.to/link-forums/"]) ~ li
 f95zone.to,imagetwist.com##a[href^="https://candy.ai/"]
 f95zone.to,pornhub.com,pornhubpremium.com,redtube.com##a[href^="https://ads.trafficjunky.net/"]
 f95zone.to.it##.ad-download
-faaduindia.com,fapfapgames.com,fastcars1.com,faqwiki.us,fattelodasolo.it,fchopin.net,felicetommasino.com,ferdroid.net,feyorra.top,ffcv.es,fhedits.in,fhmemorial.com,fibwatch.store,filmypoints.in,finalnews24.com,financeandinsurance.xyz,financeehelp.com,financeguidz.com,financeyogi.net,financid.com,finclub.in,findheman.com,findnewjobz.com,fine-wings.com,firescans.xyz,fitnesshealtharticles.com,fitnessscenz.com,fitpractise.com,fleamerica.com,flexamens.com,flixhub.*,flordeloto.site,flowsnet.com,folkmord.se,foodgustoso.it,foodiesjoy.com,footeuses.com,footyload.com,footymercato.com,forex-yours.com,forexcracked.com,forexrw7.com,former-railroad-worker.com,foxaholic.com,francaisfacile.net,free.7hd.club,free-3dtextureshd.com,free-wargamer.com,freebiesmockup.com,freedom3d.art,freefiremaxofficial.com,freefireupdate.com,freegetcoins.com,freelancerartistry.com,freemedicalbooks.org,freemockups.org,freemovies-download.com,freeoseocheck.com,freepasses.org,freescorespiano.com,freetarotonline.com,freetubetv.net,freevstplugins.*,freewoodworking.ca,freshersgold.com,friedrichshainblog.de,frpgods.com,ftuapps.*,fumettologica.it,funeral-memorial.com,funeralmemorialnews.com,funztv.com,futbolenlatelevision.com,fx-22.com##+js(noeval-if, /chp_?ad/)
+faaduindia.com,fapfapgames.com,fastcars1.com,faqwiki.us,fattelodasolo.it,fchopin.net,fcportables.com,felicetommasino.com,ferdroid.net,feyorra.top,ffcv.es,fhedits.in,fhmemorial.com,fibwatch.store,filmypoints.in,finalnews24.com,financeandinsurance.xyz,financeehelp.com,financeguidz.com,financeyogi.net,financid.com,finclub.in,findheman.com,findnewjobz.com,fine-wings.com,firescans.xyz,fitnesshealtharticles.com,fitnessscenz.com,fitpractise.com,fleamerica.com,flexamens.com,flixhub.*,flordeloto.site,flowsnet.com,folkmord.se,foodgustoso.it,foodiesjoy.com,footeuses.com,footyload.com,footymercato.com,forex-yours.com,forexcracked.com,forexrw7.com,former-railroad-worker.com,foxaholic.com,francaisfacile.net,free.7hd.club,free-3dtextureshd.com,free-wargamer.com,freebiesmockup.com,freedom3d.art,freefiremaxofficial.com,freefireupdate.com,freegetcoins.com,freelancerartistry.com,freemedicalbooks.org,freemockups.org,freemovies-download.com,freeoseocheck.com,freepasses.org,freescorespiano.com,freetarotonline.com,freetubetv.net,freevstplugins.*,freewoodworking.ca,freshersgold.com,friedrichshainblog.de,frpgods.com,ftuapps.*,fumettologica.it,funeral-memorial.com,funeralmemorialnews.com,funztv.com,futbolenlatelevision.com,fx-22.com##+js(noeval-if, /chp_?ad/)
 faanproj.com##.gmr-bannerpopup
 faapy.com##.footer > .container > .textlink
 faapy.com##a[href="https://faapy.com/cs/mylf/"]
@@ -61848,7 +61848,6 @@ mydorpie.com##.rbancont
 mydownloadtube.*##.movie-box > .vert-add
 mydownloadtube.*##.movie-box > .vert-add
 mydramalist.com##.ad-removal-info
-mydramalist.com##.ad-removal-info:has-text(ads):upward([class])
 mydramalist.com##.app-body > div:has(> div[class*="is-desktop-ads-"])
 mydramalist.com##.app-body > div[class] > .is-desktop > .mdl-gpt-tag:upward(1)
 mydramalist.com##.app-body > div[class] > div[class*="is-"]:has(> .htlad-header_top:only-child)
@@ -61866,6 +61865,7 @@ mydramalist.com##.spnsr
 mydramalist.com##[style="min-height: 600px;"]
 mydramalist.com##[style="min-height:327px;"]
 mydramalist.com##[style="min-height:600px;"]
+mydramalist.com##div.fqmr_right_2639:has(.ad-removal-info)
 mydramalist.com##div[class*="_right_"]:has(> .ad-removal-info)
 mydramalist.com##div[class*="is-desktop-ads-"]
 mydramalist.com##div[class="sticky"][style^="min-height"]
@@ -68013,6 +68013,7 @@ pornhub-sexfilme.net,pornojenny.net,pornoleon.com##aside[id]:has(> div > ins.ads
 pornhub-sexfilme.net,pornojenny.net,pornoleon.com##aside[id^="wa_"]
 pornhub-sexfilme.net,pornojenny.net,pornoleon.com##aside[id^="wa_"]:style(display: none !important;)
 pornhub-sexfilme.net,pornojenny.net,pornoleon.com,herzporno.net##+js(no-setTimeout-if, /loadMomoVip|loadExo|includeSpecial/)
+pornhub.*###mobileContainer > div:not([id]):has(> .watchpageAd)
 pornhub.*###pb_block
 pornhub.*###relatedVideosCenter > .wrapVideoBlock
 pornhub.*##+js(acs, Object.defineProperty, trafficjunky)
@@ -74186,6 +74187,7 @@ smoothpre.com###adbd
 sms-anonyme.net##+js(nowebrtc)
 sms-anonyme.net##ins.adsbygoogle
 sms-ol.com###fuck_ad_blocker:remove()
+sms-ol.com##+js(rmnt, script, .showModal())
 sms-receive-online.com##+js(abort-current-script, document.getElementById, adb-mask)
 sms-receive.net##+js(abort-current-script, $, AdBlock)
 sms-receive.net##+js(acs, $, adblock)
@@ -74542,6 +74544,8 @@ some.porn##.skeleton
 some.porn##.w-full > div[class]:has(> div[class] > div[data-spot])
 some.porn##div[class]:has(> div > div[data-spot-new^="ntv-"])
 someecards.com##div[class^="BaseAdSlot_adContainer_"]
+somersetlive.co.uk,business-live.co.uk,cambridge-news.co.uk,belfastlive.co.uk,edinburghlive.co.uk,glasgowlive.co.uk,walesonline.co.uk,allout-gaming.com,belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,cheshire-live.co.uk,chroniclelive.co.uk,cornwalllive.com,dailypost.co.uk,dailyrecord.co.uk,dailystar.co.uk,derbytelegraph.co.uk,devonlive.com,essexlive.news,examinerlive.co.uk,football.london,galwaybeo.ie,gazettelive.co.uk,getsurrey.co.uk,gloucestershirelive.co.uk,hulldailymail.co.uk,kentlive.news,lancs.live,leeds-live.co.uk,leicestermercury.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,nottinghampost.com,ok.co.uk,plymouthherald.co.uk,rsvplive.ie,stokesentinel.co.uk,themirror.com##body[data-publication] header[data-testid="header"]:style(top: 0 !important;)
+somersetlive.co.uk,business-live.co.uk,cambridge-news.co.uk,belfastlive.co.uk,edinburghlive.co.uk,glasgowlive.co.uk,walesonline.co.uk,allout-gaming.com,belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,cheshire-live.co.uk,chroniclelive.co.uk,cornwalllive.com,dailypost.co.uk,dailyrecord.co.uk,dailystar.co.uk,derbytelegraph.co.uk,devonlive.com,essexlive.news,examinerlive.co.uk,football.london,galwaybeo.ie,gazettelive.co.uk,getsurrey.co.uk,gloucestershirelive.co.uk,hulldailymail.co.uk,kentlive.news,lancs.live,leeds-live.co.uk,leicestermercury.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,nottinghampost.com,ok.co.uk,plymouthherald.co.uk,rsvplive.ie,stokesentinel.co.uk,themirror.com##body[data-publication] section[data-testid="topbox-container"]
 somoynews.tv###adslotPop
 somoynews.tv##.parallax-main
 songbpm.com##.mb-6:has(> section > div[id^="ad--searches"])
@@ -79207,7 +79211,9 @@ thuysanvietnam.com.vn##.hd-cate-wrap
 thuysanvietnam.com.vn##.home-qc-wrap
 thuysanvietnam.com.vn##.home-sec-right .widget_media_image
 thuysanvietnam.com.vn##.noname-left
+tibiopedia.pl###rightUserBar > .ad_panel_right
 tibiopedia.pl##+js(set-constant, adBlockEnabled, false)
+tibiopedia.pl##.com_leaderboard
 ticketmaster##.kOwduY
 ticketmaster.*##div[aria-hidden="true"] > div[id^="ad-slot-"]:first-child + div[class]:last-child
 ticketmaster.*##div[aria-hidden="true"] > div[id^="ad-slot-"]:first-child + div[class]:last-child:upward(1)
@@ -107062,6 +107068,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||curioushingefast.com^
 ||curiouslyplanning.com^
 ||curiouspatch.com/static/rsoc.js
+||curl.springinure.com^$3p
 ||curledkexesdenver.qpon^
 ||curledpastpatty.com^
 ||curlsseizuregolan.com^
