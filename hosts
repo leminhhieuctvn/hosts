@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-09-20 22:12:42 UTC
+! Last modified: 2026-09-21 03:34:46 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -16004,7 +16004,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 .gif$image,domain=javhd168.com
 .gif$image,domain=otakudesu.*|otakudesu.best|otakudesu.org
 .gif$image,domain=sadisflix.*
-.gif$xmlhttprequest,domain=animehay12.site
+.gif$xmlhttprequest,domain=animehay13.site
 .gif^$domain=xn--y3cta3b5d6a.net
 .gif^$image,domain=dooporn24.com
 .gif^$image,domain=filmvitrini.net
@@ -16776,7 +16776,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$script,3p,match-case
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$script,xhr,3p,match-case,to=top
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[A-Za-z]{10,16}\/[A-Za-z]{5,6}$/$popup,3p,to=top
-/^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,3p,match-case,domain=calgaryherald.com|calgarysun.com|canada.com|canoe.com|driving.ca|edmontonjournal.com|edmontonsun.com|financialpost.com|leaderpost.com|lfpress.com|montrealgazette.com|nationalpost.com|ontariofarmer.com|ottawacitizen.com|ottawasun.com|pembrokeobserver.com|thegrowthop.com|theprovince.com|thestarphoenix.com|tj.news|torontosun.com|vancouversun.com|windsorstar.com|winnipegsun.com|intelligencer.ca|owensoundsuntimes.com
+/^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,3p,match-case,domain=calgaryherald.com|calgarysun.com|canada.com|canoe.com|driving.ca|edmontonjournal.com|edmontonsun.com|financialpost.com|leaderpost.com|lfpress.com|montrealgazette.com|nationalpost.com|ontariofarmer.com|ottawacitizen.com|ottawasun.com|pembrokeobserver.com|thegrowthop.com|theprovince.com|thestarphoenix.com|tj.news|torontosun.com|vancouversun.com|windsorstar.com|winnipegsun.com|intelligencer.ca|owensoundsuntimes.com|thewhig.com
 /^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,3p,match-case,domain=fandom.com
 /^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,3p,match-case,to=com,domain=calgaryherald.com|calgarysun.com|canada.com|canoe.com|driving.ca|edmontonjournal.com|edmontonsun.com|financialpost.com|intelligencer.ca|leaderpost.com|lfpress.com|montrealgazette.com|nationalpost.com|ontariofarmer.com|ottawacitizen.com|ottawasun.com|pembrokeobserver.com|standard-freeholder.com|thegrowthop.com|theprovince.com|thestarphoenix.com|tj.news|torontosun.com|vancouversun.com|windsorstar.com|winnipegsun.com
 /^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,3p,match-case,to=com,from=ampav.com|artforum.com|artnews.com|atxtv.co|bgr.com|billboard.com|deadline.com|dickclark.com|footwearnews.com|goldderby.com|hollywoodreporter.com|indiewire.com|la3c.com|lifeisbeautiful.com|luminatedata.com|robbreport.com|rollingstone.com|shemedia.com|sourcingjournal.com|sportico.com|spy.com|sxsw.com|tvline.com|variety.com|vibe.com|wwd.com
@@ -30722,14 +30722,14 @@ animehay.*##body > div[style^="position: fixed; bottom: 0px; z-index:"]
 animehay01.site##+js(no-window-open-if)
 animehay01.site##div[style^="position: absolute; bottom: 100%; right: 0px;"][style*="cursor: pointer;"]
 animehay01.site##img[src^="/ad_banner/"]
-animehay12.site###header-ads + center
-animehay12.site###top-banner
-animehay12.site##+js(aopr, popUp)
-animehay12.site##+js(rmnt, script, popup)
-animehay12.site##.under_player.flex-hozi-center.flex-column.flex
-animehay12.site##[src*=".gif"]
-animehay12.site##body>div[style^="position: fixed"]
-animehay12.site##div[style="position: fixed; bottom: 0px; z-index: 98; width: 100%; text-align: center; box-sizing: border-box;"]
+animehay13.site###header-ads + center
+animehay13.site###top-banner
+animehay13.site##+js(aopr, popUp)
+animehay13.site##+js(rmnt, script, popup)
+animehay13.site##.under_player.flex-hozi-center.flex-column.flex
+animehay13.site##[src*=".gif"]
+animehay13.site##body>div[style^="position: fixed"]
+animehay13.site##div[style="position: fixed; bottom: 0px; z-index: 98; width: 100%; text-align: center; box-sizing: border-box;"]
 animeheaven.*##+js(no-xhr-if, method:HEAD)
 animeheaven.pro,animepahe.*##+js(abort-on-property-write, __C)
 animehentaivideos.xxx##.lini:has(> div[id] > iframe[src*="/api/spots/"])
@@ -50751,7 +50751,7 @@ hhkungfu.*##+js(nowoif)
 hhkungfu.tv###bsadsheadline
 hhkungfu.tv###LoadError:style(display: none!important;)
 hhkungfu.tv###myframe:style(display: block!important;)
-hhninja11.mom,hhtq13.vip,hhtqvietsub.art,animehay12.site,hhtq3d.net,hhvsub1.com,phimdacap.tv,hhdragon.blog,hh2d.top###catfish
+hhninja11.mom,hhtq13.vip,hhtqvietsub.art,animehay13.site,hhtq3d.net,hhvsub1.com,phimdacap.tv,hhdragon.blog,hh2d.top###catfish
 hhtq.sh###overlay
 hhtq.sh###xs-addd0
 hhtq.sh##.btn-fanpage.btn-default.btn-block.btn
@@ -50759,7 +50759,7 @@ hhtq.sh##.underplayer_btn
 hhtq.sh,hh3dhay.ceo,subnhanh.plus###footer_fixed_ads
 hhtq.sh,phimchautinhtri.net##html:style(overflow: auto !important)
 hhtqvietsub.art###top-banner-pc
-hhtqvietsub.art,animehay12.site###sponsor-balloon
+hhtqvietsub.art,animehay13.site###sponsor-balloon
 hi.ru#@#div[id^="crt-"][style]
 hi0ti780.fun,a-b-f-dd-aa-bb-ccyh5my.fun,fle-5r8dchma-moo.com,oimsmosy.fun##+js(acs, Math, localStorage['\x)
 hi0ti780.fun,a-b-f-dd-aa-bb-ccyh5my.fun,fle-5r8dchma-moo.com,oimsmosy.fun##+js(nowoif)
@@ -66305,8 +66305,8 @@ phimmoihd.it.com##.pt-3.pb-1.px-2.z-\[60\].bottom-0.inset-x-0.fixed
 phimnhe.net###pc-ballon-left
 phimnhe.net###pc-catfix
 phimnhe.net##+js(abort-current-script, createCookie, popurl)
-phimsex365.tv##+js(acs, window.addEventListener, Ads)
-phimsexsuong3x.net,sexhihi9x.pro,javhdz.ac,laalmirchitakeaway.co.uk##.catfish-bottom
+phimsexmoingay.com##+js(acs, window.addEventListener, Ads)
+phimsexsuong3x.net,sexhihi9x.pro,javhdz.bz,laalmirchitakeaway.co.uk##.catfish-bottom
 phimtho.cc#%#//scriptlet("abort-current-inline-script", "$", "p0pUpRandom")
 phineypet.com###content > form[id]:has(> center > button):style(display: block !important;)
 phineypet.com#@##adsiframe
@@ -95798,7 +95798,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||animeflv.*/api/pop.php
 ||animefrenzy.net/static/jquery.js?v=
 ||animehay01.site/ad_banner/
-||animehay12.site/sw.js$script,~third-party
+||animehay13.site/sw.js$script,~third-party
 ||animeheaven.*/api/pop.php$xhr,1p
 ||animehub.ac/api/pop.php
 ||animehub.ac/api/pop.php
@@ -122486,6 +122486,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||hoodentangle.com^
 ||hoodingluster.com^
 ||hooenysbjhunb.online^
+||hoof.absentwhack.com^
 ||hoofermooed.shop^
 ||hoofitchy.cfd^
 ||hookerafrits.cfd^
@@ -126452,7 +126453,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||javhd.icu/ads/
 ||javhd.icu/ads/
 ||javhdmovies.com/ads
-||javhdz.ac/js/ads-javhd.js$script,~third-party
+||javhdz.bz/js/ads-javhd.js$script,~third-party
 ||javhiv.com/statics/defaultv2/js/dedect.js
 ||javhub.net/av/img/pbanner*.jpg
 ||javhub.net/av/js/aapp.js
@@ -141193,8 +141194,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||phimmoichillz.top/pop$image
 ||phimmoichillz.top^*.gif$image
 ||phimmoisz.org/wp-content/uploads/tvc/*.xml
-||phimsex365.tv^*.gif$image
 ||phimsexhayvne.com^*.gif$image
+||phimsexmoingay.com^*.gif$image
 ||phimsexsuong3x.net^*.gif$image
 ||phineypet.com/2x.png
 ||phineypet.com/2x.png
@@ -209819,6 +209820,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||seek.intel.com^
 ||seek.uwa.edu.au^
 ||seekingalpha.com/mone_event
+||seekingalpha.com/mone_v2
 ||seekingalpha.com/xgCxM9By/init.js
 ||seekingquest.com^
 ||seekremote.com^
@@ -216802,6 +216804,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||superjob.ru/ws/
 ||superpointlesshamsters.com^
 ||superspeedapp.com^$third-party
+||superstarorganizer.com^
 ||superstat.info^$third-party
 ||superstats.com^$third-party
 ||superstats.observepoint.com^
