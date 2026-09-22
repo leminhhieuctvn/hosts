@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-09-21 23:01:34 UTC
+! Last modified: 2026-09-22 03:33:28 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -18612,7 +18612,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /player/*/vast.js$domain=designparty.sx
 /player/ads/*$~xmlhttprequest
 /player/html.php?aid=*&video_id=*&referer=
-/player/html.php?aid=*&video_id=*&referer=https*xnhau.limo$domain=xnhau.limo
+/player/html.php?aid=*&video_id=*&referer=https*xnhau.free$domain=xnhau.free
 /player/html.php?aid=pause_html&*&referer=$frame,1p
 /player/html.php?aid=post_roll_html^$redirect=noopframe,frame,1p
 /player/html.php?aid=pre_roll_html&*&referer=$frame,1p
@@ -37280,7 +37280,7 @@ cliphotnews.*###vl-underplayer-adx
 cliphotnews.*##.ads-catfish-desktop
 cliphotnews.*##a[href="javascript:x_catfish();"]
 cliphotvn69.com,dynadot.rsocdomains.com,cliphot69.makeup,www.gvnvh18z.com,phimsexhayvne.com,sayhentai.cx,xamvn.asia,sexviet69.cc##.float-ck-center-lt
-cliphubs.com,viet69hay.homes,clipphot.co##+js(acs, document.addEventListener, pop)
+cliphubs.com,viet69hay.quest,clipphot.co##+js(acs, document.addEventListener, pop)
 cliphunter.com###plrAd
 cliphunter.com##.SpacingResetXS
 clipmass.com###fancybox-wrap
@@ -44061,8 +44061,6 @@ farsondigitalwatercams.com##.advert
 faselhd-embed.scdns.io,faselhd.*###popup
 faselhd.*###popup
 faselhd.*##.alert-danger.alert
-fasermedia.com,mamphim.space##.sspp-area
-fasermedia.com,motphimc.pw,phimmoic.mx##+js(aeld, click, ads)
 fashionbiznes.pl##.cmpgn_adslot.slot_art_half > *
 fashionbiznes.pl##.cmpgn_adslot.slot_art_half:style(height: 0 !important;)
 fashionbiznes.pl##.cmpgn_adslot:not(.slot_art_half)
@@ -49857,7 +49855,7 @@ haydenjames.io##div[id^="hayden"]
 haysexvn.shop###vl-header-adx
 haysexvn.shop##+js(acs, document.addEventListener, adx)
 haysexvn.shop##.castfish-wrappe
-haysexvn.shop,viet69hay.homes##.popup
+haysexvn.shop,viet69hay.quest##.popup
 hazipatika.com###box-humanmeteorologia
 hazipatika.com###panel > noindex
 hblinks.pro,hubcdn.vip,hubdrive.*,~hubdrive.com,~hubdrive.de##+js(aeld, , history.go)
@@ -61705,7 +61703,7 @@ muzyka.interia.pl##.adStandardTopContainerWraper
 muzyka.interia.pl##body .inpl-gallery-ad-horizontal:not(#style_important)
 muzzleloadingforum.com##div[data-widget-key="unlistme"]
 mv-voice.com##.ad-break
-mv.phimmoiaz.cc,animesub.site,zpic.io,javgiga.wordpress.com,hoctot.hocmai.vn,freetube.com.mx,truyenfull.live,player.phimapi.com,sachmoi.net,xfast.sbs,anime47.best,x.phimsexvn1.co.uk,q1.qmhsexz.blog,cdn.codexa.fun##+js(aopr, open)
+mv.phimmoiaz.cc,animesub.site,zpic.org,javgiga.wordpress.com,hoctot.hocmai.vn,freetube.com.mx,truyenfull.live,player.phimapi.com,sachmoi.net,xfast.sbs,anime47.best,x.phimsexvn1.co.uk,q1.qmhsexz.blog,cdn.codexa.fun##+js(aopr, open)
 mvnrepository.com##.h-ad
 mvnrepository.com##[href="https://dnsgurus.com"]
 mx.dk###wrapper > #leaderboard
@@ -66307,7 +66305,7 @@ phimmoihd.it.com##.pt-3.pb-1.px-2.z-\[60\].bottom-0.inset-x-0.fixed
 phimnhe.net###pc-ballon-left
 phimnhe.net###pc-catfix
 phimnhe.net##+js(abort-current-script, createCookie, popurl)
-phimsexmoingay.com##+js(acs, window.addEventListener, Ads)
+phimsexgaiviet.com##+js(acs, window.addEventListener, Ads)
 phimsexsuong3x.net,sexhihi9x.pro,javhdz.bz,laalmirchitakeaway.co.uk##.catfish-bottom
 phimtho.cc#%#//scriptlet("abort-current-inline-script", "$", "p0pUpRandom")
 phineypet.com###content > form[id]:has(> center > button):style(display: block !important;)
@@ -71236,6 +71234,8 @@ rophim.moe##+js(acs, addEvent, popu)
 rophim1.vip##a[href="https://colatv99.live"]
 rophim10.tel##.adserver
 rophim10.tel##.mt-3.topics-line.topics-grid.topics-list
+rophimss.id,mamphim.space##.sspp-area
+rophimss.id,motphimc.pw,phimmoic.mx##+js(aeld, click, ads)
 rophimz.*##+js(set-session-storage-item, ads-clicked-under-last-click, 11)
 rophimz.*##+js(trusted-override-element-method, HTMLAnchorElement.prototype.click, a[target="_blank"][rel*="sponsored"])
 rophimz.*##+js(trusted-set-session-storage-item, shopee-ads-clicked, $now$)
@@ -83221,7 +83221,7 @@ viefaucet.com##.ads:style(position: absolute; opacity: 0; pointer-events: none;)
 viefaucet.com##.offerwall-widget
 viefaucet.com#@#.ad-description
 vieon.vn##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads:style(display: block!important;)
-viet69hay.homes###castfish
+viet69hay.quest###castfish
 viet69vn.at,viet69.be##.footer-fixed-br-container
 vietcetera.com##.styles_topBanner__NL_gW
 vietcetera.com##div[class^="!items-end"]
@@ -86658,11 +86658,11 @@ xn--tream2watch-i9d.com,lalastreams.me##a[href$="/vpn/vpn"]
 xn--y3cta3b5d6a.net###main > div[style]:not([class]):style(display: none !important;)
 xn--y3cta3b5d6a.net###main-video-container:style(display: block !important;)
 xn--y3cta3b5d6a.net##.top-banner-grid:style(display: none !important;)
-xnhau.limo##+js(acs, document.addEventListener, lastPopunderTime)
-xnhau.limo##+js(aeld, click, /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/)
-xnhau.limo##.fp-ui>div[style]
-xnhau.limo##.sponsor
-xnhau.limo##.spot
+xnhau.free##+js(acs, document.addEventListener, lastPopunderTime)
+xnhau.free##+js(aeld, click, /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/)
+xnhau.free##.fp-ui>div[style]
+xnhau.free##.sponsor
+xnhau.free##.spot
 xnhau.pics,xnhau.*##.spot
 xnostars.com##.promo
 xnotx.com###sidebar > div.box:first-child
@@ -88209,7 +88209,7 @@ zpaste.net##center > center > button[class][style]
 zpaste.net##div > center > button[class][style]
 zpaste.net,pixeldrain.com###sponsors
 zpaste.net,zlpaste.net##+js(aeld, DOMContentLoaded, adlinkfly)
-zpic.io##.ad-banner
+zpic.org##.ad-banner
 zplayer.live##+js(addEventListener-defuser, mousedown, )]){return)
 zplayer.live##+js(no-window-open-if)
 zpserver.com,devsoftwr.com,dredyson.com###bloghash-scroll-top + div[id][class*=" "]
@@ -103723,7 +103723,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||chatchu.jp^$doc
 ||chateaurecalled.com^
 ||chateaurestrictedbriefly.com^
-||chatgpt.com/backend-api/bazaar/conversation/*/ads|$xhr
 ||chatinator.com^$third-party
 ||chatintr.com^$3p
 ||chatotapiocoupled.cyou^
@@ -115077,7 +115076,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||fascismmuchly.shop^
 ||fascjusltedhecco.qpon^
 ||faselhd.center/v.mp4
-||fasermedia.com^*.gif,~third-party
 ||fashionedstrengthen.com^
 ||fashorthal.cfd^
 ||fasolabegulf.cyou^
@@ -141373,8 +141371,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||phimmoichillz.top/pop$image
 ||phimmoichillz.top^*.gif$image
 ||phimmoisz.org/wp-content/uploads/tvc/*.xml
+||phimsexgaiviet.com^*.gif$image
 ||phimsexhayvne.com^*.gif$image
-||phimsexmoingay.com^*.gif$image
 ||phimsexsuong3x.net^*.gif$image
 ||phineypet.com/2x.png
 ||phineypet.com/2x.png
@@ -145414,7 +145412,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||quokkasscelp.qpon^
 ||quora.com/ads/
 ||quoracdn.net^$image,domain=www.1phim32.com|phimlongtieng.net
-||quoracdn.net^$image,domain=xxxhay.tv|sexmupxinh.net|sexhihi9x.pro|fulllivehot.us|haysexvn.shop|viet69hay.homes
+||quoracdn.net^$image,domain=xxxhay.tv|sexmupxinh.net|sexhihi9x.pro|fulllivehot.us|haysexvn.shop|viet69hay.quest
 ||quorumsfinesse.cfd^
 ||quotationgambling.com^
 ||quote.bloblohub.com^
@@ -147741,6 +147739,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ropemeneyas.shop^
 ||ropeshippingcatchy.com^
 ||ropesscrapeboutique.com^
+||rophimss.id^*.gif,~third-party
 ||ropiersazerac.cfd^
 ||ropilyunfitsenate.qpon^
 ||roppsipage.cfd^
@@ -165190,7 +165189,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||www.amazon.*/page/$doc,removeparam=lp_context_asin
 ||www.amazon.*/page/$doc,removeparam=ref_
 ||www.amt.goasrv.com^
-||www.angelwingsmemorygowns.org/uploads/*-www.worldsbiggestwaterslide.com-*.
 ||www.apph.goasrv.com^
 ||www.archivesdirect.go-static.info^
 ||www.archiviostorico.goaserv.com^
@@ -165317,6 +165315,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||www.o-selnica.mb.goasrv.com^
 ||www.obras.goasrv.com^
 ||www.offres.goaserv.com^
+||www.onewayind.com/uploads/*-www.worldsbiggestwaterslide.com-*.
 ||www.online-adnetwork.com^
 ||www.onmyo.jp^$doc
 ||www.pa.ktr.goaserv.com^
@@ -167232,7 +167231,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||xneyeaoqjhayv.site^
 ||xnfbhzbvsyepf.online^
 ||xnfjictwvrnuz.site^
-||xnhau.blog^$media,domain=xnhau.limo
+||xnhau.blog^$media,domain=xnhau.free
 ||xniyaklqxkech.website^
 ||xnjkjowmtijwa.online^
 ||xnkldnhifcdmr.site^
@@ -173617,7 +173616,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /~shared/do/api/plausible/?id=$xmlhttprequest
 /~shared/do/~/click/?$image
 /~shared/do/~/count/?$image
-10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,al.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,edmontonjournal.com,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,futbin.com,goldderby.com,golfdigest.com,gulflive.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,nj.com,oregonlive.com,ottawacitizen.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,syracuse.com,tasteofhome.com,techcrunch.com,thehealthy.com,thv11.com,torontosun.com,twinfinite.net,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com##+js(acs, document.getElementsByTagName, .pubads)
+10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,al.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,edmontonjournal.com,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,futbin.com,goldderby.com,golfdigest.com,gulflive.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,nj.com,oregonlive.com,ottawacitizen.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,syracuse.com,tasteofhome.com,techcrunch.com,thehealthy.com,thv11.com,torontosun.com,twinfinite.net,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,weather.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com##+js(acs, document.getElementsByTagName, .pubads)
 247sports.com,al.com,arstechnica.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,crooksandliars.com,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,mlive.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,oregonlive.com,pcwelt.de,pennlive.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,theprovince.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
 247sports.com,cbsnews.com,cbssports.com,indiewire.com,nypost.com,pagesix.com,pennlive.com##+js(rmnt, script, '"data-adm-url"')
 ://2ip.*/member_photo/$third-party
@@ -174711,6 +174710,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||1ctc.sfr.fr^
 ||1dmp.io^$third-party
 ||1e90.pandasuite.io^
+||1epc8o1tg9zz.com^
 ||1eusy6.boxoffice.adventuretix.com^
 ||1freecounter.com^$third-party
 ||1gr.cz/log/
@@ -174837,6 +174837,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||4shared.com/js/d1VisitsCounter.4min.js
 ||4stats.de^$third-party
 ||4taps.me/analytics/
+||4tm4ezb2lqlx.com^
 ||50bang.org^$third-party
 ||5173.pandasuite.io^
 ||51network.com^$third-party
@@ -176604,6 +176605,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||a39744.actonservice.com^
 ||a39780.actonservice.com^
 ||a39804.actonservice.com^
+||a3kvau184uea.com^
 ||a40194.actonservice.com^
 ||a40248.actonservice.com^
 ||a40452.actonservice.com^
@@ -184641,6 +184643,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||cdn.ravm.tv^
 ||cdn.reverso.net/rumjs/
 ||cdn.seonintelligence.com^
+||cdn.signalfx.com/o11y-gdi-rum/
 ||cdn.skypack.dev/uuid
 ||cdn.sourcesync.io/open-pixel/source-pixel.js
 ||cdn.sphlabs.com/suid/
@@ -184787,6 +184790,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||chat.vica.gov.sg/api/v1/unleash/proxy/client/metrics
 ||chatfuel.com/cf-analytics/
 ||chatgpt.com/awe/api/v2/rum^$ping,xmlhttprequest
+||chatgpt.com/backend-api/beacons/
 ||chatgpt.com/backend-api/codex/app-download-signal^$xmlhttprequest
 ||chatgpt.com/backend-api/sentinel/ping
 ||chatgpt.com/ces/v1/telemetry/intake^$ping,xmlhttprequest
@@ -184922,6 +184926,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||cjulor.marimekko.jp^
 ||ck.connatix.com^
 ||ck123.io^
+||ck4hkyq3myt6.com^
 ||ckies.net^
 ||ckpxtt.justfly.com^
 ||cksfgh.jaycar.com.au^
@@ -198487,6 +198492,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||litix.io^$third-party
 ||littlebigsnake.com/event?
 ||littlegeese.com^
+||littlestastronaut.com^
 ||littlesun.net^
 ||live-tv.top/js/k.min.js
 ||live.alljobs.co.il^
@@ -203895,6 +203901,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||neosllc.actonservice.com^
 ||neowin.net/ws/$websocket
 ||neowiv.brumbrum.it^
+||nerdworldcon.com^
 ||nerldv.ullapopken.pl^
 ||nero.live^$third-party
 ||nerohut.com^$third-party
@@ -205376,6 +205383,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||oyoxyc.josefsteiner.at^
 ||oyssqe.easyvoyage.com^
 ||oyyqan.hejoscar.dk^
+||oz70ba58w25c.com^
 ||ozdoir.meundies.com^
 ||ozkkuy.fabianafilippi.com^
 ||oznlro.sanity.com.au^
@@ -206075,6 +206083,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||pixeledhub.com^
 ||pixeleze.com^$third-party
 ||pixelinteractivemedia.com^$third-party
+||pixelmoonstudio.com^
 ||pixelpop.co^$third-party
 ||pixelrevenue.com^$third-party
 ||pixels.afcdn.com^
@@ -208222,6 +208231,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||roedwy.imidapeptide.com^
 ||roeye.com^$third-party
 ||roeyecdn.com^$third-party
+||roguephilosopher.com^
 ||roi-pro.com^$third-party
 ||roi-rocket.net^$third-party
 ||roibest-report-sdk.qiliangjia.com^
@@ -208253,6 +208263,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||router28.net.anwalt.de^
 ||routes.navibration.com^
 ||rovememoirs.com^
+||rovering.net^
 ||rowsrm.atasunoptik.com.tr^
 ||roxtec.actonservice.com^
 ||royalcams.com/tools/track.php?
@@ -208909,6 +208920,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||safe-iplay.com/logger
 ||safeanalytics.net^$third-party
 ||safepass.citizen.com^
+||safercarsearch.com^
 ||safetravelsapp.progressive.com^
 ||safety.west.com^
 ||safevisit.online^$third-party
@@ -210668,7 +210680,6 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||sig.igmarkets.com^
 ||sig.nadex.com^
 ||sign.use-neo.com^
-||signalfx.com^$third-party
 ||signalszone.com^
 ||signaturepod.com^
 ||signifyd.com^$third-party
@@ -217255,7 +217266,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||swarm.video/stats/
 ||swarm.video/track/
 ||swasc.homedepot.ca^
-||swasc.homedepot.com^
+||swasc.homedepot.com^$ping
 ||swasc.kaufland.bg^
 ||swasc.kaufland.com^
 ||swasc.kaufland.cz^
@@ -225793,6 +225804,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||y.topya.com^
 ||y1.arte.tv^
 ||y4e04gql5o1b.www.nookgaming.com^
+||y5kvsuy8wr7c.com^
 ||y738.nhregister.com^
 ||y820.darientimes.com^
 ||y8hxgv9m.kobetsu.co.jp^
