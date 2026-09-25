@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-09-24 23:01:29 UTC
+! Last modified: 2026-09-25 03:41:09 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -15357,6 +15357,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 *$script,xhr,3p,denyallow=bootstrapcdn.com|cloudflare.com|cloudflare.net|fastly.net|fontawesome.com|googleapis.com|htstreaming.com|jquery.com|jsdelivr.net|jwpcdn.com|rawgit.com|unpkg.com,domain=bentomanga.top|brmangas.top|cmoa1.top|janime.top|jpraw.xyz|kakuyomu.in|kkraw.com|lectormanga.top|lermanga.top|manga1000.top|manga1001.win|manga1001.xyz|mangajp.top|mangakl.su|mangaraw.bid|mangavy.com|mangaz.win|scanita.top|shinigami-id.top|sushiscan.top|syosetu.gs
 *$script,xhr,3p,denyallow=bootstrapcdn.com|cloudflare.com|cloudflare.net|fastly.net|hdtvcloud.com|jquery.com|jsdelivr.net|zencdn.net,domain=hakunamatata5.org|overtakefans.com
 *$script,xhr,3p,denyallow=challenges.cloudflare.com,domain=huoqwk.com
+*$script,xhr,3p,denyallow=google.com,domain=igorslab.de
 *$script,xhr,3p,domain=lovelynudez.com
 *$script,xhr,domain=hatecoin.me,redirect-rule=noopjs
 *$script,xhr,domain=intibia.com,redirect-rule=noopjs
@@ -16921,8 +16922,8 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/www\.air-?up-?[a-z]{2,}\.com\//$doc,to=com|~air-up.com
 /^https:\/\/www\.gayxnow\.com\/[a-z][a-z][a-z][a-z][a-z][a-z]?\.js$/$script
 /^https:\/\/www\.gayxnow\.com\/[a-z][a-z][a-z][a-z][a-z][a-z]?\.js$/$script
-/^https:\/\/www\.igorslab\.de\/[0-9a-z]{7,}\/A[\/0-9A-Z_a-z-]{100,}$/$image,1p,match-case,redirect=2x2.png
-/^https:\/\/www\.igorslab\.de\/wp-content\/uploads\/202\d\/\d{2}\/(?=[a-z]*\d)(?=\d*[a-z])[0-9a-z]{7,15}\.(?:pn|jp)g(?:\?[0-9A-Z_a-z-]{7,}=[0-9A-Z_a-z-]{7,})?$/$image,1p,match-case,redirect=2x2.png
+/^https:\/\/www\.igorslab\.de\/(?:[0-9a-z-]{7,}\/)+A[\/0-9A-Z_a-z-]{100,}(?:[0-9a-z-]{7,}\/)*$/$image,1p,match-case
+/^https:\/\/www\.igorslab\.de\/wp-content\/uploads\/202\d\/\d{2}\/(?=[a-z]*\d)(?=\d*[a-z])[0-9a-z]{7,15}\.(?:pn|jp)g(?:\?[0-9A-Z_a-z-]{7,}=[0-9A-Z_a-z-]{7,})?$/$image,1p,match-case
 /^https:\/\/www\.locopelis\.com\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 /^https:\/\/www\.locopelis\.com\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 /^https:\/\/www\.natomanga\.com\/js\/[a-f0-9]{32}\.js$/$script,domain=natomanga.com
@@ -21152,6 +21153,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@/^https:\/\/[a-z]\.pussyspace\.[cn][oe][mt]\/xv7\/[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+\/[0-9]\/xv_[0-9][0-9]?_t\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/ads\.host-cdn\.net\/\w+\.js\?\w+$/$script,3p,to=ads.host-cdn.net,from=maxstream.video|uprot.net
 @@/^https:\/\/www\.[a-z]{7,14}\.com\/[a-z]{1,4}\.js/$script,3p,domain=shinden.pl,badfilter
+@@/^https:\/\/www\.igorslab\.de\/wp-content\/themes\/igor\/js\/jquery-\d\.\d{1,2}\.\d{1,2}\.min\.js\?ver=/$script,1p,match-case
 @@/^https:\/\/www\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/www\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,~3p,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/www\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,domain=pussyspace.com|pussyspace.net
@@ -28304,6 +28306,24 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||www.google.*/search?q=*&oq=*&aqs=chrome.*&sourceid=chrome&$popup,third-party
 @@||www.google.com/ads/preferences/$image,script,subdocument
 @@||www.googletagmanager.com/gtm.js$script,domain=www.petsbest.com
+@@||www.igorslab.de/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js
+@@||www.igorslab.de/community/$script,xhr,1p
+@@||www.igorslab.de/wp-admin/admin-ajax.php$xhr
+@@||www.igorslab.de/wp-content/plugins/ba-plus-before-after-image-slider/assets/s201-bai.js
+@@||www.igorslab.de/wp-content/plugins/igorslab-ai-seo-performance-suite/assets/js/consent.js
+@@||www.igorslab.de/wp-content/plugins/igorslab-geizhals-auto/assets/ilgha-frontend.js
+@@||www.igorslab.de/wp-content/plugins/igorslab-youtube-latest-shortcode/assets/frontend.js
+@@||www.igorslab.de/wp-content/plugins/meks-flexible-shortcodes/js/main.js
+@@||www.igorslab.de/wp-content/plugins/wonderplugin-gallery/engine/wonderplugingallery.js
+@@||www.igorslab.de/wp-content/plugins/wonderplugin-gridgallery/engine/wonderplugingridgallery.js
+@@||www.igorslab.de/wp-content/plugins/wonderplugin-gridgallery/engine/wonderplugingridlightbox.js
+@@||www.igorslab.de/wp-content/plugins/wonderplugin-slider/engine/wonderpluginslider.js
+@@||www.igorslab.de/wp-content/plugins/wonderplugin-slider/engine/wonderpluginsliderskins.js
+@@||www.igorslab.de/wp-content/plugins/wp-google-search/assets/js/google_cse_v2.js
+@@||www.igorslab.de/wp-content/plugins/XFWP/assets/js/xfwp-admin.js
+@@||www.igorslab.de/wp-content/themes/herald/assets/js/min.js
+@@||www.igorslab.de/wp-includes/js/imagesloaded.min.js
+@@||www.igorslab.de/wp-includes/js/utils.min.js
 @@||www.pussyspace.com/ajax/contact/exo-logo.png|
 @@||www.pussyspace.com/ajax/contact/exo-logo.png|
 @@||www.pussyspace.com/class/captcha/arrow.png|
@@ -52262,7 +52282,7 @@ igniteseurope.com###ad-header:style(min-height: 0px !important;)
 igniteseurope.com##+js(no-xhr-if, igniteseurope.com/stats/)
 igorslab.de###content ~ .herald-slide
 igorslab.de###extras > #single-sticky + div[class]:not([id]):has(a[href][target="_blank"] img)
-igorslab.de###extras, #ilab-consent-banner, #ilab-consent-reopen-wrap, .entry-header, .footer-bottom, .herald-entry-content, .herald-header-wraper, .herald-main-content, .herald-module, .widget:others()
+igorslab.de###extras, #ilab-consent-banner, #ilab-consent-reopen-wrap, .entry-header, .footer-bottom, .herald-entry-content, .herald-header-wraper, .herald-main-content, .herald-module, .xfwp-widget:others()
 igorslab.de##+js(no-fetch-if, %22vt%22)
 igorslab.de##.entry-content > #skio-article-bar ~ div[id][class]:not([class*="igorslab"]):has(a[href][target="_blank"] img)
 igorslab.de##.herald-above-footer
@@ -52276,17 +52296,20 @@ igorslab.de##[aria-label="Werbung" i]
 igorslab.de##[aria-label="广告"]
 igorslab.de##[class]:has-text(/^\s*(Advertisement|Werbung|广告)\s*$/)
 igorslab.de##[style*="!important"]
+igorslab.de##[style*="aspect-ratio"]
 igorslab.de##^script[id][data-cfasync]:not([src]):has-text(/^[\S\s]{1000,}$/)
 igorslab.de##^script[id^="advads"]
 igorslab.de##^script[id^="advanced-ads"]
 igorslab.de##a[aria-label*="Banner"]
 igorslab.de##a[href^="/"][rel][target]
+igorslab.de##a[href^="https://www.igorslab.de"][href*="?"][rel]
+igorslab.de##a[rel][target]:not([target$="blank"])
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
-igorslab.de##div[class]:matches-attr("/^(?!data|aria).+$/"="/^[0-9A-Z_a-z]+_/")
-igorslab.de##div[class]:matches-attr("/^(?!data|aria)[0-9a-z]+[-_][0-9a-z]+$/")
+igorslab.de##div[class]:matches-attr("/^(?!data|aria).+$/"="/^[0-9A-Z_a-z-]+~/")
 igorslab.de##div[class]:matches-css-before(content: /^\s*\"(Advertis.+|Werbung|广告)\"\s*$/)
 igorslab.de##div[style*="blob:http"]:style(background: none !important;)
 igorslab.de##div[style*="max-width:980px;"]
+igorslab.de##div[style="height: 90 px; text-align: left;"]
 igorslab.de##div[style^="display:block;position:relative;max-width:"]
 igorslab.de##img:remove-attr(/data-.+/)
 igorslab.de##img[src^="blob:http"]
@@ -52294,7 +52317,7 @@ igorslab.de##span[aria-label][role="img"][style*="data:image"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"] + a
 igorslab.de##span[style]:has(svg path)
 igorslab.de##svg
-igorslab.de/community/#@##extras, #ilab-consent-banner, #ilab-consent-reopen-wrap, .entry-header, .footer-bottom, .herald-entry-content, .herald-header-wraper, .herald-main-content, .herald-module, .widget:others()
+igorslab.de/community/#@##extras, #ilab-consent-banner, #ilab-consent-reopen-wrap, .entry-header, .footer-bottom, .herald-entry-content, .herald-header-wraper, .herald-main-content, .herald-module, .xfwp-widget:others()
 igorslab.de/community/#@#a[href^="/"][rel][target]
 igorslab.de/community/#@#img:remove-attr(/data-.+/)
 igraal.com##[data-ig-ga-cat="Ad"]
@@ -124527,6 +124550,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||igobmxltyvjfv.website^
 ||igorslab.de/?ilgha_jump=$urlskip=/\?ilgha_jump=(ey[^.]+)\..+/ -base64 /"u":"(https?:[^"]+)"/
 ||igorslab.de/wp-content/plugins/igorslab-ads-suite/
+||igorslab.de^$script,xhr,1p
 ||igozxvjvaehwt.site^
 ||igpnpnmbommga.website^
 ||igpwtjptsdthn.space^
@@ -187572,7 +187596,6 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||cspmkl.gruppal.com^
 ||csr.onet.pl^
 ||csr11.net.asambeauty.com^
-||cstaticdun.126.net^
 ||cstats.sankakucomplex.com^
 ||cstm.baidu.com^
 ||csv4.ebs-paris.fr^
@@ -192193,7 +192216,6 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||fishersfinds.com^
 ||fishing.daigostudio.com^
 ||fishingrodsgalore.com^
-||fishingtoolsbox.com^
 ||fishingtoolsbox.com^$redirect=noopjs,script
 ||fishki.net/counter/
 ||fishspies.com^
@@ -193279,6 +193301,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||getkudos.me/a?$image
 ||getl4w.lookout.com^
 ||getlasso.co^$third-party
+||getmail.tech/api/track
 ||getmetrical.com/storagesync
 ||getnodejs.com/add-event/
 ||getnotix.co^$third-party
@@ -200112,6 +200135,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||lumatag.co.uk^$third-party
 ||lumberamount.com^
 ||lumenera.actonservice.com^
+||lumengaming.com^
 ||luminate.com/track/
 ||luminate.com^$third-party
 ||luminati.io^
@@ -206694,6 +206718,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||pappagallu.onefootball.com^
 ||paqqlk.motatos.de^
 ||paradehomeandgarden.com/.api/admiral
+||paradepets.com/.api/admiral
 ||parallax.askmediagroup.com^
 ||parallel6.actonservice.com^
 ||parallelbulb.com^
@@ -215295,6 +215320,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||solarislabyrinth.com^
 ||solarrecharge.net^
 ||solarwinds.com/ra-$script
+||soldoutstubs.com^
 ||soleblinds.com^
 ||solicitud.pacifico.com.pe^
 ||solidcams.com/api/metrics
@@ -218172,6 +218198,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||sunflaggroup.com^
 ||sunios.de^$third-party
 ||sunlightmetrics.b-cdn.net^
+||sunlong.net^
 ||sunnylettings.com^
 ||sunset.com/tia/
 ||sunsetcampfires.com^
@@ -225439,6 +225466,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||websitesdude.com^
 ||websitewelcome.com^$third-party
 ||websolutions.it/statistiche/
+||webspa.net^
 ||webspectator.com^$third-party
 ||webspires.net^
 ||webstat.4music.com^
@@ -225529,6 +225557,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||wee.dk/modules/$third-party
 ||weedmaps.com/pixel?
 ||weekand.com/413gkwMT/init.js
+||weeklycurrents.com^
 ||weglot.com/pageviews?
 ||weibo.cn/h5logs/
 ||weibo.com/aj/log/
