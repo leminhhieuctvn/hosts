@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-09-26 15:53:14 UTC
+! Last modified: 2026-09-26 19:02:52 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -17766,6 +17766,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /cb/cb.ta.js?v=
 /cb/cb.xb.js?v=
 /cb/cb.xb.js?v=
+/cdn-cgi/challenge-platform/scripts/jsd/main.js$script,important,1p,domain=freemcserver.net
 /cdn-cgi/pe/bag2?r[]=*.mgid.com
 /cdn-cgi/pe/bag2?r[]=*.popmajor.com
 /cdn-cgi/pe/bag2?r[]=*.poptm.com
@@ -18579,6 +18580,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /pageear/*$script
 /pagepeel.$~xmlhttprequest
 /pagepeelpro.js?$script
+/panel\.freemcserver\.net\/.{90,}\?v=17/$script,1p,domain=panel.freemcserver.net
 /parsonsmaize/abilene.js$script
 /parsonsmaize/chanute.js$script
 /parsonsmaize/mulvane.js$script
@@ -21093,7 +21095,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@*$xhr,domain=designtagebuch.de
 @@*$xhr,domain=imagereviser.com|upshrink.com
 @@*$xhr,domain=thehouseofportable.com
-@@*$xhr,image,script,frame,1p,domain=intercelestial.com|teknoasian.com
 @@*$xhr,method=head|get,domain=app.axenthost.com,3p
 @@*$xhr,redirect-rule,method=head,domain=starkroboticsfrc.com|sinonimos.de|antonimos.de|quesignifi.ca|tiktokrealtime.com|tiktokcounter.net|tpayr.xyz|blackwoodacademy.org|cryptednews.space
 @@*$xhr,script,3p,from=determinemousecshe.shop|ironwinter6m.shop|limiteddollqjc.shop|mindmotion93y8.shop|publicspeed5c.shop|strangernervousql.shop|studyinghuman6js.shop,to=autos|sbs|shop
@@ -25943,7 +25944,6 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 @@||pagead2.googlesyndication.com/gampad/ads?*laurelberninteriors.com*&iu=%2F18190176%2C22509719621%2FAdThrive_Video_In-Post_ClicktoPlay_$domain=imasdk.googleapis.com
 @@||pagead2.googlesyndication.com/getconfig/sodar$domain=forum.release-apk.com
 @@||pagead2.googlesyndication.com/getconfig/sodar$domain=freemcserver.net
-@@||pagead2.googlesyndication.com/getconfig/sodar$xhr,domain=panel.freemcserver.net
 @@||pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js$script,domain=sbs.com.au
 @@||pagead2.googlesyndication.com/pagead/$domain=free-scores.com,image
 @@||pagead2.googlesyndication.com/pagead/$domain=nationalpost.com
@@ -42355,7 +42355,6 @@ elektroda.pl###WelcomeAdContainer + #overlay
 elektroda.pl##+js(abort-on-property-read, disablePopup)
 elektroda.pl##+js(abort-on-property-read, loadPopup)
 elektroda.pl##+js(abort-on-property-read, welcomeAdContainerElement)
-elektroda.pl##.col-md-12 + section[class]:has(a[href*="dsa_info"])
 elektroda.pl##.col-md-8 div a[href="https://czescidodrukarek.pl"] ~ form[action="https://czescidodrukarek.pl/szukaj"]:upward(1)
 elektroda.pl##.col-md-8 div:has(> form[action^="https://www.tme.eu/pl/katalog/"])
 elektroda.pl##.col-md-8 div[style*="micros"]:has(> div[style] > form[action^="https://www.micros.com.pl/"])
@@ -42364,9 +42363,8 @@ elektroda.pl##.container > div > div[class] > section[class]:has(> div[id^="div-
 elektroda.pl##.container > section > a[class][href]:not([href^="https://www.elektroda.pl/"]):not([href^="https://obrazki.elektroda.pl/"]) > img
 elektroda.pl##.container a[class][href*="&utm_medium=banner"]:not([href^="https://www.elektroda.pl/"]):not([href^="https://obrazki.elektroda.pl/"]) > img
 elektroda.pl##.head ~ ul > li:not(.post):has(> div[class] a:is([href^="https://www.elektroda.pl/"][href*="dsa.php?"], [href^="https://www.elektroda.pl/"][href*="dsaeu.php?"], [href^="https://www.elektroda.pl/"][href*="dsaue.php?"], [href^="https://www.elektroda.pl/"][href*="/n/dsa/"]))
-elektroda.pl##.no-padd:has(> [id]:only-child > div[style^="height: "] > div + form[action][onsubmit])
 elektroda.pl##.position-relative > .sec-b > a[href]:not([href^="https://www.elektroda.pl/"]) > img
-elektroda.pl##.post > [class]:not(.topic-box):has(a[target="_blank"]):has-text(/sponsorowane|sponsorowany/i)
+elektroda.pl##.post > .clearfix + div[class]:not(.clearfix):has(a[target="_blank"]:has-text(/sponsorowane|sponsorowany/i))
 elektroda.pl##.sidebar-wrap .the-list > li[class]:not([class="clearfix"]) > a[href][rel="noopener"]:not([href^="https://www.elektroda.pl/"]):not([href^="https://obrazki.elektroda.pl/"]) > img
 elektroda.pl##.sidebar-wrap > .row > .widgets > .boombox-content > a[href][target="_blank"][onclick*="'Navibox', 'Click', '"]
 elektroda.pl##.text-center > section a[href]:not([href^="https://www.elektroda.pl/"]):not([href^="https://obrazki.elektroda.pl/"]) > img
@@ -42397,11 +42395,11 @@ elektroda.pl##body > #main > .content-wrap > .container > .hidden-cookie-info + 
 elektroda.pl##body div.adBanner.advert.advertisement.adsby:not(#style_important):style(display: block !important;)
 elektroda.pl##div:only-child > a[href]:not([href^="https://www.elektroda.pl/"]):not([href^="https://obrazki.elektroda.pl/"]):only-child > img + img[width="300"]
 elektroda.pl##div:only-child > a[href]:not([href^="https://www.elektroda.pl/"]):not([href^="https://obrazki.elektroda.pl/"]):only-child > img:has(+ img[width="300"])
+elektroda.pl##div[class^="col-lg-4 col-md-12 no-padd"]:has(> [id]:only-child > div[style^="height: "] > div + form[action][method="get"][onsubmit])
 elektroda.pl##div[id^="post-content-"] > .text-wrap[style*="filter: blur"]:style(filter: none !important;)
 elektroda.pl##section[class] > [id]:has(> .text-center:only-child > div[class]:first-child + div[id^="div-gpt-ad-"]:last-child)
 elektroda.pl##section[class] > [id]:has(> div a:is([href^="https://www.elektroda.pl/"][href*="dsa.php?"], [href^="https://www.elektroda.pl/"][href*="dsaeu.php?"], [href^="https://www.elektroda.pl/"][href*="dsaue.php?"], [href^="https://www.elektroda.pl/"][href*="/n/dsa/"]))
-elektroda.pl##ul.clearfix > li[class]:not(.post):has(a[href*="dsa_info"])
-elektroda.pl,elektroda.com,elektroda.de##[class*="col-sm-"] > div[style="position: relative;"]:has(> a[onclick*="sendGAEvent"])
+elektroda.pl,elektroda.com,elektroda.de##.noblock-logo-ti > div[style="position: relative;"]:has(> a[onclick*="sendGAEvent"])
 elektroda.pl,elektroda.com,elektroda.de##div[id]:has(> .text-center > div[id^="div-gpt-ad-"] > script:only-child)
 elektromobilni.pl##.elementor-widget-container > div.elementor-heading-title:contains(/^REKLAMA$/)
 elektromobilni.pl##div[id^="elekt-"] > a[target="_blank"] > img
@@ -46208,6 +46206,7 @@ freemc.host##+js(no-setInterval-if, adsbygoogle, 1000)
 freemcserver.net##+js(abort-on-property-read, pbjs)
 freemcserver.net##+js(abort-on-property-read, stpd)
 freemcserver.net##+js(no-setTimeout-if, , 5000)
+freemcserver.net##+js(nostif, 0x)
 freemcserver.net##+js(rmnt, script, window\,void 0)
 freemcserver.net##+js(set-constant, findCMP, noopFunc)
 freemcserver.net##^script:has-text(window,void 0)
@@ -65595,6 +65594,7 @@ pandaspor.live##[href^="https://go.aff."]
 pandaznetwork.com##+js(set, blurred, false)
 panel.fps.ms##div[class^="ResponsiveAds__"]
 panel.fps.ms#@#.adContent
+panel.freemcserver.net##+js(rpnt, script, 'G-1B4LC0KT6C');, 'G-1B4LC0KT6C'); window.setTimeout(function(){blockPing()}\,200);)
 panel.freemcserver.net##.triple_banner_container
 panel.freemcserver.net##body > #main-wrapper > .page-wrapper > .container-fluid > .row > .col-md-10 > [class] > .row > .col > ul:first-child + [class="row justify-content-center mb-3 billboard_responsive text-center"]
 panel.freemcserver.net##body > #main-wrapper > .page-wrapper > .container-fluid > .row > .col-md-10 > [class] > .row > [class^="col-"] > [style*="min-height"][style*="flex"]:has(> [id^="stpd-"][style^="position:"]:first-child + div + div:last-child)
@@ -92991,7 +92991,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ad-delivery.net/px.gif?$image,redirect-rule=1x1.gif
 ||ad-delivery.net/px.gif?$image,redirect=1x1.gif,domain=explorecams.com,important
 ||ad-delivery.net^
-||ad-delivery.net^$image,redirect=1x1.gif,domain=panel.freemcserver.net
 ||ad-doge.com/Images/b_ads/
 ||ad-doge.com^$3p
 ||ad-flow.com^
@@ -141464,6 +141463,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||panel.adop.co^
 ||panel.adsaro.com^
 ||panel.bcnmonetize.com^
+||panel.freemcserver.net/*YouUblockAnd$script,1p
+||panel.freemcserver.net/bs4/bs4$script,1p
 ||panelghostscontractor.com^$popup
 ||panelook.com/images/ad/
 ||panelsprecant.cyou^
