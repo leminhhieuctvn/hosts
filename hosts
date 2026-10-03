@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-10-02 20:22:26 UTC
+! Last modified: 2026-10-03 04:00:46 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -18631,7 +18631,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /player/*/vast.js$domain=designparty.sx
 /player/ads/*$~xmlhttprequest
 /player/html.php?aid=*&video_id=*&referer=
-/player/html.php?aid=*&video_id=*&referer=https*xnhau.soy$domain=xnhau.soy
+/player/html.php?aid=*&video_id=*&referer=https*xnhau.page$domain=xnhau.page
 /player/html.php?aid=pause_html&*&referer=$frame,1p
 /player/html.php?aid=post_roll_html^$redirect=noopframe,frame,1p
 /player/html.php?aid=pre_roll_html&*&referer=$frame,1p
@@ -54503,7 +54503,7 @@ javmovs.com##a[href^="https://poisonencouragement.com/"]
 javmvp.com##+js(aopr, __Y)
 javneon.tv##.pt-45 > .pb-3.pb-e-lg-40.text-center
 javnew.net##+js(acs, document.querySelectorAll, adConfig)
-javnhat.org,sexmupxinh.net,vlsexhihi.vip##.xx-ads
+javnhat.org,sexmupxinh.net,haysexhihi.com##.xx-ads
 javopen.co##.main-content > h4 > strong:contains(Brave)
 javopen.co##.main-content > h4 > strong:has-text(Brave)
 javplay.me##+js(aopr, popns)
@@ -66433,7 +66433,7 @@ phimnhe.net###pc-ballon-left
 phimnhe.net###pc-catfix
 phimnhe.net##+js(abort-current-script, createCookie, popurl)
 phimsexsinhvien.com##+js(acs, window.addEventListener, Ads)
-phimsexsuong3x.net,vlsexhihi.vip,javhdz.wtf,laalmirchitakeaway.co.uk##.catfish-bottom
+phimsexsuong3x.net,haysexhihi.com,javhdz.wtf,laalmirchitakeaway.co.uk##.catfish-bottom
 phimtho.cc#%#//scriptlet("abort-current-inline-script", "$", "p0pUpRandom")
 phineypet.com###content > form[id]:has(> center > button):style(display: block !important;)
 phineypet.com#@##adsiframe
@@ -68892,8 +68892,6 @@ praxistipps.chip.de#@#a[target][href^="https://x.chip.de/"]:upward(div[id])
 praxistipps.chip.de,praxistipps.focus.de,netmoms.de###G32 {grid-template-rows:unset;}
 praxistipps.chip.de,praxistipps.focus.de,netmoms.de###G32:style(grid-template-rows: unset!important;)
 praxistipps.focus.de###G32:style(grid-template-rows: unset !important;)
-prayasksg.com###popup-ad-box
-prayasksg.com##.banner-ad
 precincttv.com##.mosaic-banner
 precitaj.si##ins.adsbygoogle
 predb.net##.lambo-wrapper
@@ -71072,6 +71070,8 @@ rgb.vn##+js(nostif, siteAccessPopup)
 rgl.vn##+js(set, blurred, false)
 rgmechanicsgames.com*VPN.exe
 rhumbarlv.com##.banlink
+rhusmidoria.com###popup-ad-box
+rhusmidoria.com##.banner-ad
 ricettasprint.it###tca-sticky
 ricettasprint.it##.code-block
 ricettasprint.it##body:style(margin-top: 0 !important;)
@@ -72908,7 +72908,7 @@ sexmummy.com##td[height="115"][align="center"]
 sexmummy.com##td[width="330"] table[width="320"][height="100%"]
 sexmupxinh.net##+js(aopr, Cookies)
 sexmupxinh.net##.catfix
-sexmupxinh.net,vlsexhihi.vip,laalmirchitakeaway.co.uk##.catfish-top
+sexmupxinh.net,haysexhihi.com,laalmirchitakeaway.co.uk##.catfish-top
 sexo5k.com##+js(rmnt, script, ExoLoader)
 sexoasis.com##.detail-side-td:style(visibility: hidden!important;)
 sexodi.com###background-cloud
@@ -80889,7 +80889,7 @@ truyensextv.com,lxmanga.space##.sticky-footer
 truyensextv.com,yanhh3d.kim,z1.chinav.sex##+js(acs, document.addEventListener, opup)
 truyensieuhay.com##.footer-info
 truyensieuhay.com,hhtrungquoc9.com,hhtq13.vip,hhtq3d.net###topbanner
-truyensieuhay.com,xemphim.site,quangcaoyenbai.com,phimchill.life,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,vlsexhihi.vip,anime47.best,phimhdc.com,honghotduongpho.vn,comong.info,qmhsex.fun##+js(aopr, document.cookie)
+truyensieuhay.com,xemphim.site,quangcaoyenbai.com,phimchill.life,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,haysexhihi.com,anime47.best,phimhdc.com,honghotduongpho.vn,comong.info,qmhsex.fun##+js(aopr, document.cookie)
 truyentranhfull.net##+js(rmnt, script, ai_adb)
 truyentranhfull.net##^script:has-text(ai_adb)
 trxking.xyz##+js(set, blurred, false)
@@ -86832,12 +86832,12 @@ xn--tream2watch-i9d.com,lalastreams.me##a[href$="/vpn/vpn"]
 xn--y3cta3b5d6a.net###main > div[style]:not([class]):style(display: none !important;)
 xn--y3cta3b5d6a.net###main-video-container:style(display: block !important;)
 xn--y3cta3b5d6a.net##.top-banner-grid:style(display: none !important;)
+xnhau.page##+js(acs, document.addEventListener, lastPopunderTime)
+xnhau.page##+js(aeld, click, /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/)
+xnhau.page##.fp-ui>div[style]
+xnhau.page##.sponsor
+xnhau.page##.spot
 xnhau.pics,xnhau.*##.spot
-xnhau.soy##+js(acs, document.addEventListener, lastPopunderTime)
-xnhau.soy##+js(aeld, click, /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/)
-xnhau.soy##.fp-ui>div[style]
-xnhau.soy##.sponsor
-xnhau.soy##.spot
 xnotx.com###sidebar > div.box:first-child
 xnotx.com###sidebar > div.box:first-child
 xnotx.com###sidebar > noindex
@@ -93770,7 +93770,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ads.betfair.com^
 ||ads.betweendigital.com^
 ||ads.bidspotter.co.uk^
-||ads.bizwd.net^$image,domain=prayasksg.com
+||ads.bizwd.net^$image,domain=rhusmidoria.com
 ||ads.cavalier-romand.ch^
 ||ads.cc^$third-party
 ||ads.cdn.bndlapi.com^
@@ -142724,7 +142724,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||quokkasgraf.com^
 ||quokkasscelp.qpon^
 ||quora.com/ads/
-||quoracdn.net^$image,domain=javnhat.org|sexmupxinh.net|vlsexhihi.vip|fulllivehot.us|haysexvn.shop|viet69hay.beauty
+||quoracdn.net^$image,domain=javnhat.org|sexmupxinh.net|haysexhihi.com|fulllivehot.us|haysexvn.shop|viet69hay.beauty
 ||quoracdn.net^$image,domain=www.1phim35.com|phimlongtieng.net
 ||quotationgambling.com^
 ||quote.bloblohub.com^
@@ -163364,7 +163364,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||xneyeaoqjhayv.site^
 ||xnfbhzbvsyepf.online^
 ||xnfjictwvrnuz.site^
-||xnhau.blog^$media,domain=xnhau.soy
+||xnhau.blog^$media,domain=xnhau.page
 ||xniyaklqxkech.website^
 ||xnjkjowmtijwa.online^
 ||xnkldnhifcdmr.site^
@@ -170698,8 +170698,8 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 nicovideo.jp##+js(no-fetch-if, stella)
 nicovideo.jp##+js(no-xhr-if, stella)
 omni.soundestlink.com$image
+oregonlive.com,reuters.com##+js(aost, admiral, .js?)
 ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}\./)
-reuters.com##+js(aost, admiral, .js?)
 usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 usatoday.com##+js(set, gnt.x.adm, '')
 visible.com##+js(set-local-storage-item, browser-ids, $remove$)
@@ -175252,7 +175252,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||actuallysheep.com^
 ||actuallysnake.com^
 ||acuris.com/wat/v2/data-event
-||acustomizedgift.com^$domain=masslive.com|oregonlive.com|silive.com
+||acustomizedgift.com^$domain=masslive.com|silive.com
 ||acv.auhikari-norikae.com^
 ||acv.aun-air-wifi.com^
 ||acv.aun-company.com^
@@ -176459,6 +176459,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||analytics.animexx.de^
 ||analytics.api.justeattakeaway.com^
 ||analytics.apnewsregistry.com^
+||analytics.app.funnelish.com^
 ||analytics.archive.org^
 ||analytics.argeton.com^
 ||analytics.arunraghavan.net^
@@ -205491,6 +205492,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||schnaeppchenfuchs.com/js/default-
 ||scholar.google.com^$ping
 ||scholarloop.com^
+||scholarsark.com^
 ||schoolpaws.com^
 ||schottenland.de/na/ajax.php?ax=HiT&
 ||schwacke.autovistagroup.com^
