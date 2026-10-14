@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-10-13 23:36:39 UTC
+! Last modified: 2026-10-14 03:44:36 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -18660,7 +18660,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /player/*/vast.js$domain=designparty.sx
 /player/ads/*$~xmlhttprequest
 /player/html.php?aid=*&video_id=*&referer=
-/player/html.php?aid=*&video_id=*&referer=https*xnhau.foo$domain=xnhau.foo
+/player/html.php?aid=*&video_id=*&referer=https*xnhau.dad$domain=xnhau.dad
 /player/html.php?aid=pause_html&*&referer=$frame,1p
 /player/html.php?aid=post_roll_html^$redirect=noopframe,frame,1p
 /player/html.php?aid=pre_roll_html&*&referer=$frame,1p
@@ -46453,7 +46453,7 @@ freeplayervideo.com,abysscdn.com,player-cdn.com,animesub.site##.jw-logo
 freeplayervideo.com,abysscdn.com,player-cdn.com,playhydrax.com##+js(acs, document.getElementById, openPop)
 freeplayervideo.com,nazarickol.com,player-cdn.com,playhydrax.com##+js(ra, style, #over)
 freeplayervideo.com,nazarickol.com,player-cdn.com,playhydrax.com##+js(set, console.clear, undefined)
-freeplayervideo.com,www.sieutamphim.pro,player-cdn.com,hopphim.online,streamc.xyz,qmhv3.fit,cap3.video,qmh.garden##+js(set, open, noopFunc)
+freeplayervideo.com,www.sieutamphim.pro,player-cdn.com,hopphim.online,streamc.xyz,qmhv3.club,cap3.video,qmh.garden##+js(set, open, noopFunc)
 freeporn.info##.alfa_promo_parent
 freeporn.info##h4[style="text-align: right;margin-bottom: 0.25rem;"]
 freeporn.works##.past
@@ -48124,13 +48124,14 @@ genshin-impact-map.appsample.com###pc-br1-float-gim
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##+js(json-prune, html)
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##+js(no-fetch-if, method:POST)
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##+js(prevent-innerHTML)
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##+js(rmnt, script, adsbygoogle)
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##+js(rmnt, script, /adsby|console|data-ad|modal|requestAnimationFrame|srcdoc|tagName|text\/html|userAgent|visibility|zucks|^[\S\s]{3200\,}$|\\u00|ブロッカ/)
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##+js(trusted-suppress-native-method, DOMParser.prototype.parseFromString, '"/<[Aa]/"')
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##.catalog-content
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[class*="pdx-"]
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="aHR0"]
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[id*="-remote"]
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[id*="-sale"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##^script[id]:not([src], :empty, #wp-emoji-settings)
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##a:has(img[src^="https://m.media-amazon.com" i])
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##a:matches-attr("/^data-/")
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##a:matches-attr("href"="/=[0-9a-f]{32}$/")
@@ -48627,6 +48628,7 @@ gleanster.com###overlay
 glebbahmutov.com###sidebar > div.widget-wrap:has(> div.widget > script[src^="//cdn.carbonads.com/"])
 glebul.com##p:has-text(???????)
 gledaitv.*###ad-overlay:remove()
+gledaitv.*##+js(nostif, adblock)
 gledaitv.*##+js(set, blocked, false)
 gledaitv.*##+js(set, scriptBlocked, false)
 gledaitv.*##+js(set, testUrls, [])
@@ -61424,6 +61426,8 @@ moviehdd2023.com##.player-banner
 moviehdd2023.com##div[class^="ad-"]
 moviehdf.*##+js(aopr, popUp)
 moviehdf.*##+js(nowoif)
+moviehdthai.com,mamphim.space##.sspp-area
+moviehdthai.com,motphimc.pw,phimmoic.nl##+js(aeld, click, ads)
 movieinsider.com##.ad-middle
 movieinsider.com##.sidebar-ad300
 moviejones.de##+js(acs, document.getElementById, overlayBtn)
@@ -69961,13 +69965,13 @@ qmanga.art,khotruyen.ac##.gwd-banner-image
 qmh.*##+js(json-prune-xhr-response, data.header_script data.footer_script data.direct_link_ads data.direct_link_ads_vip_1 data.direct_link_ads_vip_2 data.direct_link_ads_play_vip_2 data.direct_link_ads_zoom_vip_2, , propsToMatch, /config)
 qmh.sex##+js(no-window-open-if)
 qmh.sex##+js(set-constant, Object.prototype.directLinkAdsPlayVip2, '')
-qmhv3.fit##+js(aeld, click, d, elements, .art-control-fullscreen)
-qmhv3.fit##+js(aeld, click, e.target)
-qmhv3.fit##+js(aeld, click, setTimeout)
-qmhv3.fit##+js(aeld, fullscreenchange, e.target)
-qmhv3.fit##.global-sticky-ads
-qmhv3.fit##.header>app-banner
-qmhv3.fit##.p-4.justify-center.items-center.flex.backdrop-blur-sm.bg-black\/80.z-\[9999\].inset-0.fixed
+qmhv3.club##+js(aeld, click, d, elements, .art-control-fullscreen)
+qmhv3.club##+js(aeld, click, e.target)
+qmhv3.club##+js(aeld, click, setTimeout)
+qmhv3.club##+js(aeld, fullscreenchange, e.target)
+qmhv3.club##.global-sticky-ads
+qmhv3.club##.header>app-banner
+qmhv3.club##.p-4.justify-center.items-center.flex.backdrop-blur-sm.bg-black\/80.z-\[9999\].inset-0.fixed
 qol.az##.second > .photo:has(> a[target="_blank"])
 qoshe.com##+js(nostif, adBlock)
 qpython.club###wrapfabtest:style(height: 1px !important;)
@@ -71616,8 +71620,6 @@ rophim.moe##+js(acs, addEvent, popu)
 rophim1.vip##a[href="https://colatv99.live"]
 rophim10.store##.adserver
 rophim10.store##.mt-3.topics-line.topics-grid.topics-list
-rophimss.co.uk,mamphim.space##.sspp-area
-rophimss.co.uk,motphimc.pw,phimmoic.nl##+js(aeld, click, ads)
 rophimz.*##+js(set-session-storage-item, ads-clicked-under-last-click, 11)
 rophimz.*##+js(trusted-override-element-method, HTMLAnchorElement.prototype.click, a[target="_blank"][rel*="sponsored"])
 rophimz.*##+js(trusted-set-session-storage-item, shopee-ads-clicked, $now$)
@@ -76341,18 +76343,19 @@ streamcash.to##+js(rmnt, script, /\${''}|body:JSON\.stringify/)
 streamcash.to##+js(rmnt, script, /\.onerror|offsetHeight|Bait|getComputedStyle|dimCheck|getBoundingClientRect|x69|height===0|width===0|eval|banner-zone|no-store|\'flex\'|String\.fromCharCode|media-slot-bottom|String\.fromCodePoint|join\(''\)|\[decodeURIComponent\(|style\.setProperty|join\('-'\)|cache:|\.then|'\+'|fl\${''}ex|contentWindow\.document|ublock|wall-trigger|abp|adguard|'style'|'setProperty'|document\.currentScript\.previousElementSibling/)
 streamcash.to##+js(rpnt, script, if (gate), player.play();if (false))
 streamcash.to##+js(rpnt, script, player.pause();)
+streamcash.to##+js(set, Element.prototype.attachShadow, noopFunc)
 streamcash.to##+js(set-constant, __gateEl, null)
 streamcash.to##+js(set-constant, __shown, 1)
+streamcash.to##+js(trusted-override-element-method, HTMLAnchorElement.prototype.click, a[target="_blank"])
 streamcash.to##+js(trusted-replace-argument, document.createElement, 0, json:"div", condition, /^a$/)
-streamcash.to##+js(trusted-replace-argument, document.getElementById, 0, '', condition, pv-notice)
 streamcash.to##.media-slot-bottom
 streamcash.to##a[href^="https://jerknut.com"]
+streamcash.to##a[rel*="sp0nsored"]:upward(1)
 streamcash.to##a[rel*="sponsored"]
 streamcash.to##body > div[id][style*="position: fixed; inset: 0px; z-index: 99999;"]
 streamcash.to##div.banner-zone
+streamcash.to##div.video-js:style(z-index:2147483647 !important)
 streamcash.to##div[class^="player-"] > span[id][style^="position: absolute; inset: 0px; z-index:"]
-streamcash.to##div[id][style*="40px"]
-streamcash.to##span[id][style*="z-index: 2147483647;"]
 streamcash.to#@#.Footer_1-ad-holder
 streamcasthub.store##+js(json-prune, playerAds ads)
 streamcasthub.store##.jw-media > a[target="_blank"]
@@ -86606,6 +86609,7 @@ www.yahoo.com##body.font-yahoobeta > div.items-center:has(style)
 www.yahoo.com##div[id]:has(> div[id^="top_center-frontpage_"])
 www.yahoo.com##div[id^="recirc-"] > .grid > .relative.w-full:has(> .inset-0[id^="_r_"])
 www.yahoo.com#?#.uppercase.text-xs:has-text(Advertisement)
+www.youtube.com###toast:has(> #text-container > yt-formatted-string#text.yt-notification-action-renderer)
 www.youtube.com##+js(adjust-setTimeout, [native code], 17000, 0.001)
 www.youtube.com##+js(json-prune, $.playerResponse[?(@.cards&&!@.playabilityStatus.miniplayer)].playerConfig.audioConfig.muteOnStart)
 www.youtube.com##+js(json-prune, contents.twoColumnBrowseResultsRenderer.tabs.[].tabRenderer.content.richGridRenderer.contents.[-].richItemRenderer.content.adSlotRenderer)
@@ -87113,11 +87117,11 @@ xn--tream2watch-i9d.com,lalastreams.me##a[href$="/vpn/vpn"]
 xn--y3cta3b5d6a.net###main > div[style]:not([class]):style(display: none !important;)
 xn--y3cta3b5d6a.net###main-video-container:style(display: block !important;)
 xn--y3cta3b5d6a.net##.top-banner-grid:style(display: none !important;)
-xnhau.foo##+js(acs, document.addEventListener, lastPopunderTime)
-xnhau.foo##+js(aeld, click, /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/)
-xnhau.foo##.fp-ui>div[style]
-xnhau.foo##.sponsor
-xnhau.foo##.spot
+xnhau.dad##+js(acs, document.addEventListener, lastPopunderTime)
+xnhau.dad##+js(aeld, click, /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/)
+xnhau.dad##.fp-ui>div[style]
+xnhau.dad##.sponsor
+xnhau.dad##.spot
 xnhau.pics,xnhau.*##.spot
 xnotx.com###sidebar > div.box:first-child
 xnotx.com###sidebar > div.box:first-child
@@ -106996,7 +107000,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||crumpkunwari.cyou^
 ||crumpywoolded.cfd^
 ||cruncherpatiencestoreroom.com^
-||cruncherpatiencestoreroom.com^$popup,domain=qmhv3.fit
+||cruncherpatiencestoreroom.com^$popup,domain=qmhv3.club
 ||crunchyroll.com/awidget/
 ||crunchyscan.fr/build/assets/module|
 ||crunchyscan.fr/build/assets/sjs_
@@ -134110,6 +134114,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||mjwcsqcajfwhi.online^
 ||mjxzdcpsfvqhl.site^
 ||mjymhibmdwqlk.online^
+||mjzeexubcswjka.com^
 ||mjzvbohugywbg.space^
 ||mjzyhnoiovtki.space^
 ||mk-ads.com^$popup
@@ -134742,6 +134747,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||movieexhibit.com^
 ||moviegalleri.net/wp-content/uploads/2025/09/576799e93c.jpg
 ||moviehaxx.pro^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation
+||moviehdthai.com^*.gif,~third-party
 ||moviekhhd.biz/ads/
 ||moviekhhd.biz/images/188bet
 ||moviekhhd.biz/images/DownloadAds
@@ -144804,8 +144810,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||qmfdurlewpnvz.online^
 ||qmfvewoxvmdld.com^
 ||qmh.*/assets/js/simpleblocker.js
-||qmhv3.fit/api/ads$xmlhttprequest
-||qmhv3.fit/uploads/banners/$image,domain=qmhv3.fit
+||qmhv3.club/api/ads$xmlhttprequest
+||qmhv3.club/uploads/banners/$image,domain=qmhv3.club
 ||qmiorcgacbpzu.space^
 ||qmjgalvrybilh.online^
 ||qmlrmaroklzvo.top^
@@ -147480,7 +147486,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||rootzaffiliates.com^$popup
 ||ropeshippingcatchy.com^
 ||ropesscrapeboutique.com^
-||rophimss.co.uk^*.gif,~third-party
 ||ropiersazerac.cfd^
 ||roppsipage.cfd^
 ||ropsumemu.com^
@@ -159024,6 +159029,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||uii.io^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.google.com *.googletagmanager.com *.recaptcha.net
 ||uiil.ink/js/profiton.js$script,1p
 ||uiizrrfcncovu.site^
+||uijarxbm.com^
 ||uikosfascqisl.space^
 ||uilts.com^
 ||uilts.com^$popup
@@ -161154,7 +161160,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||video.onnetwork.tv^$domain=sciaga.pl
 ||video.pemersatu.org/wp-content/cache/autoptimize/js/autoptimize_single_
 ||video.redwap.cam^$all
-||video.s3viphub.shop/uploads/banners$image,domain=qmhv3.fit
+||video.s3viphub.shop/uploads/banners$image,domain=qmhv3.club
 ||video.sibnet.ru/my/settings/|
 ||video.streamtape.com^
 ||video.vid4u.org^$domain=kitekinto.hu
@@ -166734,7 +166740,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||xneyeaoqjhayv.site^
 ||xnfbhzbvsyepf.online^
 ||xnfjictwvrnuz.site^
-||xnhau.blog^$media,domain=xnhau.foo
+||xnhau.blog^$media,domain=xnhau.dad
 ||xniyaklqxkech.website^
 ||xnjkjowmtijwa.online^
 ||xnjkxgwhgetfz.site^
@@ -180182,6 +180188,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||analytics.fatmedia.io^
 ||analytics.favcy.com^
 ||analytics.ferguson.com^
+||analytics.fibwatch.com^
 ||analytics.firespring.com^
 ||analytics.firstbankcardcenter.com^
 ||analytics.firstbankcardplcc.com^
@@ -185298,6 +185305,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||commercial.davey.com^
 ||commercial.equifax.com^
 ||commercial.inform.equifax.com^
+||commitlogs.com^
 ||commondreams.actonservice.com^
 ||commoninja.com/api/v1/event/report/
 ||comms.adss.com^
@@ -187318,6 +187326,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||dbj.quebecregion.com^
 ||dbl.cadriamarketing.com^
 ||dblarson.com^
+||dblendcoatings.com^
 ||dbmbfe.pegipegi.com^
 ||dbmyvl.apartmentfinder.com^
 ||dbpbyh.americanas.com.br^
@@ -188470,6 +188479,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||dubz.live/analytics/
 ||duckdns.org^$third-party,websocket
 ||duckduckgo.com/t/
+||duetcode.com^
 ||dugout.co/das2.js
 ||dujgiq.trendhim.pl^
 ||dumpster.cam4.com^
@@ -224393,6 +224403,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||win.staticstuff.net^
 ||windbeetle.com^
 ||windflamesky.com^
+||windowspro.de/stats/
 ||windwardhollow.com^
 ||windy.com/sedlina/ga/
 ||windyclaim.com^
