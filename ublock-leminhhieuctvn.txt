@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-10-20 16:24:54 UTC
+! Last modified: 2026-10-20 22:56:17 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -28868,6 +28868,11 @@ aarp.org##.uxdia-hotdeals__container
 aarp.org##.uxdia-leaderboard-js--sticky:remove()
 aasansolution.in##+js(remove-node-text, script, checkAdBlocker)
 aastik.in##.td-g-rec-id-sidebar
+ab.nanacdn.com,abysplayer.xyz,abyssplayer.com,asmrfreeplayer.fun,mov18plus.cloud,jetvid.top,fembedx.top,hihihaha1.xyz,filmespi.online,playembedapi.site,abysscdn.com,playhydrax.com,hydrax.net##+js(set-constant, isClick, true)
+ab.nanacdn.com,abysplayer.xyz,abyssplayer.com,asmrfreeplayer.fun,mov18plus.cloud,jetvid.top,fembedx.top,hihihaha1.xyz,playhydrax.com,hydrax.net,filmespi.online,playembedapi.site,abysscdn.com,player-cdn.com,nazarickol.com##body > #player ~ div[style^="position: fixed;"][style*="z-index:"]
+ab.nanacdn.com,abysplayer.xyz,player.321movies.xyz,abyssplayer.com,asmrfreeplayer.fun,mov18plus.cloud,jetvid.top,fembedx.top,hihihaha1.xyz,playhydrax.com,hydrax.net,filmespi.online,playembedapi.site,abysscdn.com,player-cdn.com,nazarickol.com,redirect-ads.com##+js(abort-on-stack-trace, HTMLElement.prototype.click, _0x)
+ab.nanacdn.com,abysplayer.xyz,player.321movies.xyz,abyssplayer.com,asmrfreeplayer.fun,mov18plus.cloud,jetvid.top,fembedx.top,hihihaha1.xyz,playhydrax.com,hydrax.net,filmespi.online,playembedapi.site,abysscdn.com,player-cdn.com,nazarickol.com,redirect-ads.com##+js(abort-on-stack-trace, String.prototype.charAt, $0)
+ab.nanacdn.com,abysplayer.xyz,player.321movies.xyz,abyssplayer.com,asmrfreeplayer.fun,mov18plus.cloud,jetvid.top,fembedx.top,hihihaha1.xyz,playhydrax.com,hydrax.net,filmespi.online,playembedapi.site,abysscdn.com,player-cdn.com,nazarickol.com,redirect-ads.com##+js(no-window-open-if, !abyss.to, 1)
 abbaspc.net##.buttonPress-116
 abbaspc.net##.entry-content center > button
 abbynews.com,biv.com,kelownacapnews.com,lakelandtoday.ca,orilliamatters.com,reddeeradvocate.com,revelstokereview.com,sootoday.com,surreynowleader.com,theprogress.com,time.com,timescolonist.com,vancouverisawesome.com,vicnews.com###leaderboard-container
@@ -28993,11 +28998,6 @@ abxxx.com##.video__wrapper > div.wrapper > section
 abxxx.com##.video__wrapper > div.wrapper.headline
 abxxx.com,aniporn.com,missav.ai,missav.ws,missav123.com,missav888.com##div[style="width: 300px; height: 250px;"]
 abxxx.com,pornclassic.tube,thegay.com,thegay.tube,vjav.*,hotmovs.*,tubepornclassic.com##.video-page__content > div.left + div[class]:last-child
-abysplayer.xyz,abyssplayer.com,asmrfreeplayer.fun,mov18plus.cloud,jetvid.top,fembedx.top,hihihaha1.xyz,filmespi.online,playembedapi.site,abysscdn.com,playhydrax.com,hydrax.net##+js(set-constant, isClick, true)
-abysplayer.xyz,abyssplayer.com,asmrfreeplayer.fun,mov18plus.cloud,jetvid.top,fembedx.top,hihihaha1.xyz,playhydrax.com,hydrax.net,filmespi.online,playembedapi.site,abysscdn.com,player-cdn.com,nazarickol.com##body > #player ~ div[style^="position: fixed;"][style*="z-index:"]
-abysplayer.xyz,player.321movies.xyz,abyssplayer.com,asmrfreeplayer.fun,mov18plus.cloud,jetvid.top,fembedx.top,hihihaha1.xyz,playhydrax.com,hydrax.net,filmespi.online,playembedapi.site,abysscdn.com,player-cdn.com,nazarickol.com,redirect-ads.com##+js(abort-on-stack-trace, HTMLElement.prototype.click, _0x)
-abysplayer.xyz,player.321movies.xyz,abyssplayer.com,asmrfreeplayer.fun,mov18plus.cloud,jetvid.top,fembedx.top,hihihaha1.xyz,playhydrax.com,hydrax.net,filmespi.online,playembedapi.site,abysscdn.com,player-cdn.com,nazarickol.com,redirect-ads.com##+js(abort-on-stack-trace, String.prototype.charAt, $0)
-abysplayer.xyz,player.321movies.xyz,abyssplayer.com,asmrfreeplayer.fun,mov18plus.cloud,jetvid.top,fembedx.top,hihihaha1.xyz,playhydrax.com,hydrax.net,filmespi.online,playembedapi.site,abysscdn.com,player-cdn.com,nazarickol.com,redirect-ads.com##+js(no-window-open-if, !abyss.to, 1)
 abysscdn.com##.playover
 abysscdn.com##div[style*="z-index:100000"]
 abysscdn.com,abyssplayer.com,fembedx.top,fullfreeimage.com,hydraxcdn.biz,imagelovers.com,playembedapi.site,playermeow.com,playhydrax.com###overlay
@@ -42818,6 +42818,7 @@ embed.listcorp.com##a[href^="https://j.moomoo.com/"]
 embed.nana2play.com##+js(nano-stb, load_ads)
 embed.nana2play.com##+js(nostif, debugger)
 embed.nana2play.com##.click_block
+embed.nana2play.com##.vast-ad-overlay:remove()
 embed.smashystream.com###addiv
 embed.viaplay.com##+js(prevent-fetch, v.fwmrm.net/ad/g/1)
 embed.watchasian.to##+js(no-window-open-if)
@@ -105458,7 +105459,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||click.hooligapps.com^
 ||click.hooligapps.com^$all
 ||click.icptrack.com/icp/relay.php*^destination=http$doc,urlskip=?destination
-||click.infonium.org^$domain=jetvid.top|fembedx.top|hihihaha1.xyz|playhydrax.com|hydrax.net|filmespi.online|playembedapi.site|abysscdn.com|player-cdn.com|nazarickol.com|mov18plus.cloud|asmrfreeplayer.fun|abyssplayer.com|abysplayer.xyz
+||click.infonium.org^$domain=jetvid.top|fembedx.top|hihihaha1.xyz|playhydrax.com|hydrax.net|filmespi.online|playembedapi.site|abysscdn.com|player-cdn.com|nazarickol.com|mov18plus.cloud|asmrfreeplayer.fun|abyssplayer.com|abysplayer.xyz|ab.nanacdn.com
 ||click.junclikrmedi.com^
 ||click.jundclikrmdi.com^
 ||click.junmediadclikrmdi.com^
