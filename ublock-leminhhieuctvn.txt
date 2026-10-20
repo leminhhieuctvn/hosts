@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-10-19 18:23:28 UTC
+! Last modified: 2026-10-19 23:20:24 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -16865,7 +16865,7 @@ $~3p,xhr,script,redirect-rule=noop.txt,domain=zertalious.xyz|digworm.io
 /^https:\/\/amazon[a-z]\d\.com\//$doc,to=com
 /^https:\/\/anime\.uniquestream\.net\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 /^https:\/\/audiocircuit\.dk\/wp-content\/plugins\/[a-z][a-z][a-z][a-z][a-z][a-z][a-z]([a-z][a-z])?\/[a-z][a-z][a-z][a-z][a-z][a-z][a-z]([a-z][a-z])?\.js\?ver=/$domain=audiocircuit.dk
-/^https:\/\/bbs\.[a-z0-9-]+\.[cd][eo][ms]i?\/[a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9]$/$xhr,1p,domain=~pbh-btn.com
+/^https:\/\/bbs\.[a-z0-9-]*xh[a-z0-9-]*\.[cd][eo][ms]i?\/[a-zA-Z0-9-][a-zA-Z0-9-][a-zA-Z0-9-][a-zA-Z0-9-][a-zA-Z0-9-]$/$xhr,1p
 /^https:\/\/blockchecker[0-9]\.pages\.dev\//$doc,to=pages.dev
 /^https:\/\/booking(-[a-z]{3,}){2}\.(?:baby|lat|lol|xyz)\//$doc,to=baby|lat|lol|xyz|~booking.com
 /^https:\/\/booking\.[a-z]{3,}-(?:id)?\d{3,8}\.eu\//$doc,to=eu|~booking.com
@@ -58438,6 +58438,7 @@ luciferdonghua.in###afu-ab
 luciferdonghua.in###overplay
 luciferdonghua.in###sidebar > .widget_text:has(> .custom-html-widget > div[style^="width:350px"])
 luciferdonghua.in###sidebar > div.widget_text:has(> div.releases > h3:contains(Main Ad))
+luciferdonghua.in###w2p5ortzc
 luciferdonghua.in##+js(abort-current-script, document.getElementById, afu)
 luciferdonghua.in##+js(abort-current-script, fetch, /_ab_config|!window\.fetch/)
 luciferdonghua.in##+js(addEventListener-defuser, DOMContentLoaded, /^function\(e\) \{ init\(\); \}$|_ab_config|!window\.fetch/)
@@ -60741,6 +60742,7 @@ missavtv.com##+js(prevent-fetch, www3.doubleclick.net)
 misseschloe.co.za##.catfish-popup
 missflight.net,grandemx.org,bembed.sbs,uqload.*,desicinema.se,dramavideo.se,torupload.com,stellar.rip,streame.center,totalsporteki.st,totalsportekhd.st,cricwatch.io,cricwatch.*,tennisonline.im,tennisonline.*,posamari.me,sportfusion.me,nbabox.*,nbabox.co,dartsstreams.me,soccerbox.me,soccerbox.*,thetvapp.plus,fbstream.is,fbstream.*,dollardescent.net,mappl.tv,lightflix.app,mapple.fun,mapple.*,embed.st,executeandship.com,embedindia.st,strikeout.im,strikeout.*,boxingbox.me,boxingbox.*,dlive.sx,rugbybox.me,rugbybox.*,nflbox.sx,nflbox.*,f1live.me,f1live.*,www.viprow.is,viprow.*,ninguno.cc,mmabox.me,mmabox.*,olympicweb.me,olympicweb.*,sportsonlinee.*,sportsonline.*,4k.beer,streamcash.to,anime.uniquestream.net,cine.su,nepu.*,vidzy.cc,fs16.lol,porneec.com,asiaflix.in,asiaflix.*,streamtape.com,yts.bz,yts.gg,yts.*,filecrypt.co,strumyk.*,powwideo.*,hornysimp.com,futemax.at,embdmstrplayer.com,pahe.ink,foulembeds.live,smksports.*,fileditchfiles.me,strumyk.cfd,dorawatch.one,streamingworld.xyz,streami.su,streamed.pk,streamed.*,visualnewshub.com,cloudnestra.com,cloudfam.io,thepibay.*,bypass.city,eztvx.to,ext.to,vidsrc.cc,sanet.st,yifysubtitles.ch,vinovo.to,livesporthub.shop,dstelemundo.site,7fractals.icu,epicplayplay.cfd,goalstreamer.shop,streameast7.com,buffztreamz.shop,rippleplay.shop,shd247.click,antenasport.top,gamestrend.net,exposestrat.com,embedsports.top,seir-sanduk.com,embedtv-5.icu,daddylive3.com,sterham.net,animeunity.*,vixcloud.*,buffsports.io,soccerstreams7.com,loadvid.com,telewizjada.top,ogladaj.in,istreameast.app,streamingnow.mov,watchug.to,primewire.tf,worldsports.si,filecrypt.cc,veplay.top,colegialasdeverdad.*,anime4i.com,cuttyy.com,puffytr.com,anizm.*,anizle.*##+js(abort-on-property-read, aclib)
 missingremote.com###top-bar
+misterdonghua.in##+js(google-ima)
 misterdonghua.in,yurn.online##+js(nowoif)
 mistressdestiny.com##table[width="775"]
 mistrzowie.org###skyRightWrapper
@@ -97131,6 +97133,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||apozemzebrule.com^
 ||app-aplell.com^$doc
 ||app-atomic.co.com^$all
+||app-changelly.net^$all
 ||app-defituna.github.io^$doc
 ||app-download.kuashouban.com^$all
 ||app-google-zh.hl.cn^$all
@@ -97155,6 +97158,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||app.koah.ai^
 ||app.mps.vsnt.net/fetch/ext/load-rottentomatoes-web.js$domain=rottentomatoes.com
 ||app.noviclick.com^
+||app.phantomlocal.com^$all
 ||app.phimvu.app^
 ||app.phimvu.app^
 ||app.rtnews.pro^
@@ -104470,7 +104474,11 @@ zzztube.com,videoporn.tube##.b-random-column
 ||changedadroitharassment.com^
 ||changelessbleach.com^
 ||changelesschoir.com^
+||changelly-en.at^$all
 ||changelly.casa^$doc
+||changelly.com.$doc
+||changelly.com.lc^$all
+||changelly.com.mx^$all
 ||changelly.cyou^$doc
 ||changely.at^$doc
 ||changenow-exchange.org^$all
@@ -114244,6 +114252,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||emxdgt.com^
 ||emxipsmjhingj.website^
 ||en-ledger.com^$all
+||en-leger.org^$all
 ||en-mu-su-bi.com^$doc
 ||en.elowriderst.com^
 ||en.goaserv.com^
@@ -131112,7 +131121,9 @@ zzztube.com,videoporn.tube##.b-random-column
 ||lectornondeaf.cyou^
 ||lectureolympics.com^
 ||ledger-live*-*.io^$all
+||ledger-nano.com^$all
 ||ledger-wallet.gitlab.io^$all
+||ledger.net.cn^$all
 ||ledgerapp.created.app^$all
 ||ledgersso.created.app^$all
 ||ledgierbossier.shop^
@@ -159392,6 +159403,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||tretsmettles.cfd^
 ||tretsparica.qpon^
 ||trewsweans.shop^
+||trezor-uk.at^$all
 ||trezor.la^$doc
 ||trezordevices.io^$doc
 ||trezorsafety.com^$all
@@ -161464,6 +161476,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||up-4ever.net/detroitchicago/*$script,1p
 ||up-4ever.net/js/dlcheck.js
 ||up-community.wiki^$doc
+||up-ledger.com^$all
 ||up-load.io/ds1/js/nt.js
 ||up-load.io/sw.js$xhr,1p
 ||up-loop.net^$doc
@@ -161759,6 +161772,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||urzdxiiugisad.site^
 ||urzquylbkhmbk.site^
 ||us-aliexpress.com^$doc
+||us-changelly.com.co^$all
 ||us-east-1-cdn-ui-k8s.motorsport.com/629/design/dist/js/3619_fa432529226b845b1b7c.js$domain=autosport.com
 ||us-west-2.compute.goasrv.com^
 ||us.dogm.goasrv.com^
