@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: leminhhieuctvn combined list
 ! Version: lastest
-! Last modified: 2026-11-02 17:51:42 UTC
+! Last modified: 2026-11-03 02:00:31 UTC
 ! Expires: 4 hours (update frequency)
 !
 
@@ -37192,10 +37192,10 @@ chrysler-club.net###obalovydiv:style(display: block!important;)
 chrysler-club.net##+js(abort-on-property-read, gaFailedToLoad)
 chubbyporn.com##.twocolumns > .aside
 chubbyporn.com##.twocolumns > div.aside:has(> div[align="center"] > iframe[src^="//a.realsrv.com/"])
-chuoichientv2.live##.ad-catfish
-chuoichientv2.live##.ad-topbanners
-chuoichientv2.live##.cct-partner-row
-chuoichientv2.live##.cct-sponsor-strip
+chuoichientvplus.com##.ad-catfish
+chuoichientvplus.com##.ad-topbanners
+chuoichientvplus.com##.cct-partner-row
+chuoichientvplus.com##.cct-sponsor-strip
 chyoa.com##+js(aopr, __NA)
 chyoa.com##+js(aopw, ExoLoader)
 chyoa.com##.chyoa-adzone
@@ -69726,6 +69726,8 @@ productreview.com.au##main div#search-results + div > div[class]:has(> div div[s
 productz.com##.productz-ad-container
 produktion.de##+js(set, adblock, false)
 produsat.com##+js(set, adBlockDetected, true)
+profesor-p.com###popup-ad-box
+profesor-p.com##.banner-ad
 proff.no##.MuiBox-root[style="text-align:center;min-height:320px;margin-top:16px"]
 profil.wp.pl###rightLogBox > img.imgRight[src^="/login/"] ~ div[class]
 profil.wp.pl##+js(set-constant, Object.prototype.loadAndRunBunch, noopFunc)
@@ -73958,8 +73960,6 @@ shineads.in###block-88
 shineads.in##+js(abort-on-property-read, Datad1d6cd127)
 shineads.in##a[href^="https://namecheap.pxf.io/"] > img
 shineads.in,javbest.cc,persianhive.com,juegoscocinarpasteleria.org,joyeditor.ru,teknotaci.com,onlinecoursebay.com,scrapywar.com,worldpremiumware.online,nulljungle.com,fikiri.net,cardiagn.com,dr-farfar.com,onlinefreecourse.net,themeslide.com,usb-antivirus.com,freewebcart.com,choq.fm,tehnografi.com,tunovelaligera.com##+js(abort-on-property-read, mdpDeBlocker)
-shintokyo-shika.com###popup-ad-box
-shintokyo-shika.com##.banner-ad
 ship24.com##div:has(> app-ad):not(:has(> .flex.items-center ~ .flex.flex-col .items-start))
 ship24.com##div[style^="max-height:"].flex.justify-center.h-24.w-full.mt-3
 shipin188.com##+js(rmnt, script, _cpv)
@@ -81562,7 +81562,7 @@ truyenqqko.com##div#ad_info
 truyenqqko.com##span[style="display: flex;flex-direction: column;align-items: center; color: white; padding-bottom: 10px"]
 truyenqqko.com,pagerrentablespotlight.com###ad_info_top
 truyensextv.com,lxmanga.top##.sticky-footer
-truyensextv.com,yanhh3d.plus,x.chinav.sex##+js(acs, document.addEventListener, opup)
+truyensextv.com,yanhh3d.de,x.chinav.sex##+js(acs, document.addEventListener, opup)
 truyensieuhay.com##.footer-info
 truyensieuhay.com,animesub.site,quangcaoyenbai.com,phimchill.life,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,vlsexhihi.one,anime47.best,phimhdc.com,honghotduongpho.vn,comong.info,qmhsex.shop##+js(aopr, document.cookie)
 truyensieuhay.com,hhtrungquoc9.com,hhtq13.vip,hhtq3d.net###topbanner
@@ -88127,7 +88127,7 @@ yandex.com##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 yandexcdn.com##+js(nowoif)
 yandexcdn.com##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 yandexcdn.com##a[onclick="openAuc();"]
-yanhh3d.plus,hhtm.club###catfish-ads
+yanhh3d.de,hhtm.club###catfish-ads
 yankeesnews.com,yarnandchai.com,yarnhookneedles.com,yarnutopia.com,yaycoloringpages.com,yayforyarn.com,yellowblissroad.com,yellowbrickhome.com,yetgamer.com,yogabasics.com,yogabytheday.com,yolopooch.com,yomotherboard.com,youbrewmytea.com,youcouldtravel.com,youhadmeatgardening.com,youngandtheinvested.com,younghouselove.com,yourastrologyreading.com,yourcupofcake.com,yourfirstvisit.net,yourfreecareertest.com,yourfriendthenomad.com,yourguardianchef.com,yourguidesabroad.com,yourhomebasedmom.com,yourlifestylelibrary.com,yourmodernfamily.com,yourmotorguide.com,yoursoundmatters.com,yourteenmag.com,yourtherapysource.com,youshouldgrow.com,youvegotthismath.com,ypi.com,ytravelblog.com,yummiestfood.com,yummyaddiction.com,yummyhealthyeasy.com,yummytoddlerfood.com,yummytummyaarthi.com,yupitsvegan.com,yuzubakes.com##+js(rmnt, script, /__adblocker|html-load/)
 yaoimangaonline.com###text-28
 yaoimangaonline.com##+js(trusted-suppress-native-method, Document.prototype.createElement, '"script"', prevent, litespeed/js)
@@ -94481,7 +94481,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ads.betfair.com^
 ||ads.betweendigital.com^
 ||ads.bidspotter.co.uk^
-||ads.bizwd.net^$image,domain=shintokyo-shika.com
+||ads.bizwd.net^$image,domain=profesor-p.com
 ||ads.cavalier-romand.ch^
 ||ads.cc^$third-party
 ||ads.cdn.bndlapi.com^
@@ -95577,6 +95577,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ai3tu.com^$doc
 ||aiai-talk.com^$doc
 ||aiaitalk.com^$doc
+||aiamiam.com^$doc
+||aiamiiam.com^$doc
 ||aiaskjqrimnol.website^
 ||aibeautia1.jp^$doc
 ||aiclaude.jp^$all
@@ -96132,6 +96134,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ama-whatsapp.com^$doc
 ||amaenbo.jp^$doc
 ||amaerodactylon.com^
+||amaiamiam.com^$doc
 ||amalatusseh.com^
 ||amamdaugeoqll.website^
 ||amamorimo.com^$doc
@@ -103744,7 +103747,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||cdnu.porndoe.com/static/pop/slide-in/*.mp4
 ||cdnv.tpmedia.online^
 ||cdnvideo3.com^
-||cdnvip.chuoichientv.net^*.gif$domain=live11.chuoichientv.me|fhd-01.cctvsignal.xyz|lau06.bonglautv1.org|chuoichientv2.live
+||cdnvip.chuoichientv.net^*.gif$domain=live11.chuoichientv.me|fhd-01.cctvsignal.xyz|lau06.bonglautv1.org|chuoichientvplus.com
 ||cdnware.com^
 ||cdnware.io^
 ||cdnweb3.pages.dev^
@@ -104623,6 +104626,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||cl-997764a8.gcdn.co^
 ||cl.sexstories-all.com^
 ||cl0udh0st1ng.com^
+||cla-fando.com^$doc
 ||clabberscended.com^
 ||clacksgrudges.qpon^
 ||cladupius.com^
@@ -112872,6 +112876,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ejobvzrfdrcnc.space^
 ||ejoszizlusukf.site^
 ||ejozbzeymccax.website^
+||ejpjeip.com^$doc
 ||ejpypnxslomgz.site^
 ||ejqmzpbhebimq.website^
 ||ejretpiytkcna.website^$all
@@ -120650,6 +120655,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||hardwarezone.com.sg/js/hwz/hwz_gam_f.js
 ||hardwarezone.com.sg/js/sphmoverlay.js
 ||hardypistol.com^
+||hare-days.com^$doc
 ||hare.felix-schmid.de^
 ||hare.startupbootcamp.com.au^
 ||harenutreroofopsonia.cyou^
@@ -126551,6 +126557,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||jpiiastwrhiyd.online^
 ||jpisoprhajjyx.space^
 ||jpixwkrjebyht.online^
+||jpjeip.com^$doc
 ||jpktldryxvuzk.online^
 ||jpkwoyveladnt.online^
 ||jpmfsuoxmftku.site^
@@ -130550,6 +130557,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||lotochance-vip.com^$doc
 ||lotochance.hp.peraichi.com^$doc
 ||lotongmamonadowses.qpon^
+||lotosecond.com^$doc
 ||lotostics.com^$doc
 ||lotreal.com^
 ||lotritereavows.cfd^
@@ -130589,6 +130597,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||love7date.info^$all
 ||loveaholics.com^$doc
 ||loveaholics.com^$popup
+||lovean.jp^$doc
 ||lovecam.com.br^$third-party
 ||lovecatcher2025.com^$doc
 ||lovee-idol.tokyo^$doc
@@ -134903,6 +134912,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||neverveto.com^
 ||new-game-apk.com/wp-content/uploads/*/ads-*.jpg
 ||new-incoming.email^
+||new-platinum.tokyo^$doc
 ||new-pressroom.com^$all
 ||new-programmatic.com^
 ||new-split.com^
@@ -138972,6 +138982,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||pasaesqzsffvz.site^
 ||pasazer.com/_assets/js/ad-connect.js
 ||pasbstbovc.com^
+||pascal2417.com^$doc
 ||paservices.tech^
 ||pasfox.co^
 ||pashesdebcle.cfd^
@@ -140066,6 +140077,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||pjkmcprwdslfl.online^
 ||pjnzvzinwwnvn.site^
 ||pjoqdgncunzlk.online^
+||pjpjeip.com^$doc
 ||pjpvyafiviynd.space^
 ||pjqchcfwtw.com^
 ||pjrkspcllfpji.online^
@@ -151955,6 +151967,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||sunnyindication.com^
 ||sunnymeeting.pro^
 ||sunnyreception.com^
+||sunnys-day.net^$doc
 ||sunnysani.com/lb/$all
 ||suno.com/metrics/
 ||suno.com/monitoring
@@ -153246,6 +153259,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||tenmei-michibiki.com^$doc
 ||tennis.com/assets/js/libraries/render-adv.js
 ||tennisnewlins.com^
+||tennoito.jp^$doc
 ||tense080227.shop^
 ||tenseikaiun.com^$doc
 ||tenserrelents.com^
@@ -155771,6 +155785,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||tvhay.*/ads/popup-tt.js$~3p,script
 ||tvhays.top^*.gif$image,domain=phimchill.life
 ||tviqzqsrdvofl.website^
+||tvivu.com/api/channels/*/view
+||tvivu.com/api/t/view
 ||tvkygzrsdfycp.space^
 ||tvlhgokjy.com^
 ||tvlsiednsircj.online^
@@ -160111,6 +160127,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||wecast4k.xyz/blast.js
 ||wecdvioxnjuqd.space^
 ||wecima.click/static/js/adBlock.js
+||weclo-offer.online^$doc
 ||wecouldle.com^$popup
 ||wecvhi.ekftei2weudt.info^
 ||wecxnxinwnjfc.online^
@@ -163867,6 +163884,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||xree6ed5.xyz^
 ||xree6ed5.xyz^
 ||xrff-adguard.pro^
+||xrfg0dt.com^$doc
 ||xrghhenchuigi.com^
 ||xriilfnjxunjw.site^
 ||xrllratggofic.online^
@@ -165042,6 +165060,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||youporn.com/_xa/ads
 ||youporn.com^$script,subdocument,domain=youporn.com|youporngay.com
 ||youpornzz.com/*.gif
+||your-compass.jp^$doc
 ||your-connect.blue^$doc
 ||your-dates-tonight.com^$all
 ||your-local-dream.com^
@@ -165433,6 +165452,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ywyngovualyxq.website^
 ||ywzyhljazdsrx.space^
 ||yx-ads6.com^
+||yx5s6.com^$doc
 ||yxbzyppfgrhze.site^
 ||yxcruyhkddqkn.site^
 ||yxcxheuw.net^
